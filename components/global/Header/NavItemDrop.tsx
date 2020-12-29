@@ -1,4 +1,6 @@
 import React from "react";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function NavItemDrop({ name, dropRoutes, itemStyle }) {
   return (
@@ -11,7 +13,11 @@ export default function NavItemDrop({ name, dropRoutes, itemStyle }) {
           aria-expanded="true"
           className="font-medium"
         >
-          {name} <i className="ml-1 fa fa-angle-down" aria-hidden="true"></i>
+          {name}
+          <FontAwesomeIcon
+            className="-mr-1 ml-2 h-5 w-5 inline-block"
+            icon={faAngleDown}
+          />
         </button>
       </div>
       {/*

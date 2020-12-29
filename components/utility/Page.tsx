@@ -49,7 +49,6 @@ export default function Page({ title, desc, children }: PageProps) {
           content="/favicon/browserconfig.xml"
         />
         <meta name="theme-color" content="#ffffff" />
-        <script src="https://kit.fontawesome.com/7593f939e5.js"></script>
         {/* <meta property="og:image" content="" />
         <meta name="twitter:image" content="" /> */}
       </Head>
