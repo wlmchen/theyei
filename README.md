@@ -1,3 +1,3 @@
-# next-tailwind
+# yei-website-next
 
-Next.js starter site with Tailwind.
+YEI website (Next.js).

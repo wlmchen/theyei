@@ -7,7 +7,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "regal-blue": "#243c5a",
+        yei: {
+          primary: {
+            main: "#279361",
+            darker: "#208556",
+          },
+          secondary: {
+            brighter: "#113b47",
+            main: "#293236",
+            darkest: "#0d242b",
+            black: "#232323",
+          },
+        },
       },
     },
   },
