@@ -1,5 +1,5 @@
 import React from "react";
-import Page from "./../components/utility/Page";
+import Page from "../components/utility/Page";
 
 export default function test() {
   return (

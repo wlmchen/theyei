@@ -1,7 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
+import routes from "./../../../data/routes";
+import NavItem from "./NavItem";
 
 export default function Navbar() {
+  const currPath = useRouter().pathname;
+
   return (
     <nav className="bg-white shadow">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -66,36 +71,31 @@ export default function Navbar() {
               />
               <img
                 className="hidden lg:block h-8 w-auto"
-                src="img/logos/yeilogo-full.png"
+                src="/img/logos/yei-logo-full.png"
                 alt="YEI logo"
               />
             </div>
             <div className="hidden md:ml-6 md:flex md:space-x-8">
-              {/* Current: "border-yei-primary-main text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
-              <a
-                href="#"
-                className="border-yei-primary-main text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-              >
-                Dashboard
-              </a>
-              <a
-                href="#"
-                className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-              >
-                Team
-              </a>
-              <a
-                href="#"
-                className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-              >
-                Projects
-              </a>
-              <a
-                href="#"
-                className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-              >
-                Calendar
-              </a>
+              {routes.map((r) => {
+                if (r.dropRoutes) {
+                  return (
+                    <NavItem
+                      name={r.name}
+                      href={r.href}
+                      active={r.href == currPath}
+                      dropRoutes={r.dropRoutes}
+                    />
+                  );
+                }
+
+                return (
+                  <NavItem
+                    name={r.name}
+                    href={r.href}
+                    active={r.href == currPath}
+                  />
+                );
+              })}
             </div>
           </div>
           <div className="flex items-center">
