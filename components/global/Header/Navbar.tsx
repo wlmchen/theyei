@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -9,7 +10,7 @@ export default function Navbar() {
             <div className="-ml-2 mr-2 flex items-center md:hidden">
               {/* Mobile menu button */}
               <button
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-yei-primary-main"
                 aria-expanded="false"
               >
                 <span className="sr-only">Open main menu</span>
@@ -60,20 +61,20 @@ export default function Navbar() {
             <div className="flex-shrink-0 flex items-center">
               <img
                 className="block lg:hidden h-8 w-auto"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                src="https://tailwindui.com/img/logos/workflow-mark-yei-primary-main.svg"
                 alt="Workflow"
               />
               <img
                 className="hidden lg:block h-8 w-auto"
-                src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
-                alt="Workflow"
+                src="img/logos/yeilogo-full.png"
+                alt="YEI logo"
               />
             </div>
             <div className="hidden md:ml-6 md:flex md:space-x-8">
-              {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
+              {/* Current: "border-yei-primary-main text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
               <a
                 href="#"
-                className="border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                className="border-yei-primary-main text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               >
                 Dashboard
               </a>
@@ -101,7 +102,7 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <button
                 type="button"
-                className="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
               >
                 {/* Heroicon name: plus */}
                 <svg
@@ -121,7 +122,7 @@ export default function Navbar() {
               </button>
             </div>
             <div className="hidden md:ml-4 md:flex-shrink-0 md:flex md:items-center">
-              <button className="bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              <button className="bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main">
                 <span className="sr-only">View notifications</span>
                 {/* Heroicon name: bell */}
                 <svg
@@ -144,7 +145,7 @@ export default function Navbar() {
               <div className="ml-3 relative">
                 <div>
                   <button
-                    className="bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    className="bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
                     id="user-menu"
                     aria-haspopup="true"
                   >
@@ -206,10 +207,10 @@ export default function Navbar() {
   */}
       <div className="hidden md:hidden">
         <div className="pt-2 pb-3 space-y-1">
-          {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
+          {/* Current: "bg-indigo-50 border-yei-primary-main text-yei-primary-darker", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
           <a
             href="#"
-            className="bg-indigo-50 border-indigo-500 text-indigo-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6"
+            className="bg-indigo-50 border-yei-primary-main text-yei-primary-darker block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6"
           >
             Dashboard
           </a>
@@ -249,7 +250,7 @@ export default function Navbar() {
                 tom@example.com
               </div>
             </div>
-            <button className="ml-auto flex-shrink-0 bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            <button className="ml-auto flex-shrink-0 bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main">
               <span className="sr-only">View notifications</span>
               {/* Heroicon name: bell */}
               <svg
