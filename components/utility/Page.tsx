@@ -3,9 +3,7 @@ import Head from "next/head";
 import Navbar from "./../global/Header/Navbar";
 
 export default function Page({ title, desc, children }: PageProps) {
-  let pageTitle = title
-    ? title + " | Youth Economics Initiative (YEI)"
-    : "Youth Economics Initiative (YEI)";
+  let pageTitle = title ? title + " | Sitename" : "Sitename";
 
   return (
     <>
@@ -20,7 +18,7 @@ export default function Page({ title, desc, children }: PageProps) {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={desc} />
-        <link rel="icon" href="../public/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
         {/* <meta property="og:image" content="" />
         <meta name="twitter:image" content="" /> */}
       </Head>

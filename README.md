@@ -1,3 +1,3 @@
 # next-tailwind
 
-Next.js starter site with Tailwind and Sass configured.
+Next.js starter site with Tailwind.
