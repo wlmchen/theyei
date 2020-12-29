@@ -3,7 +3,7 @@ import Head from "next/head";
 import Navbar from "./../global/Header/Navbar";
 
 export default function Page({ title, desc, children }: PageProps) {
-  let pageTitle = title ? title + " | " : "";
+  let pageTitle = title ? title + " - " : "";
   pageTitle += "Youth Economics Initiative (YEI)";
 
   return (
