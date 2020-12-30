@@ -9,6 +9,10 @@ const routes = [
         href: "/current-clubs",
         name: "Current Clubs",
       },
+      {
+        href: "/register",
+        name: "Register",
+      },
     ],
   },
   {

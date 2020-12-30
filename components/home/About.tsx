@@ -1,19 +1,12 @@
 import React from "react";
 import GridPattern from "../utility/GridPattern";
 import Link from "next/link";
+import DoubleGridBg from './../utility/DoubleGridBg';
 
 export default function About() {
   return (
     <div className="relative bg-gray-50 overflow-hidden">
-      <div
-        className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
-        aria-hidden="true"
-      >
-        <div className="relative h-full max-w-7xl mx-auto">
-          <GridPattern className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2" />
-          <GridPattern className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2" />
-        </div>
-      </div>
+      <DoubleGridBg />
       <div className="relative pt-6 pb-16 sm:pb-24">
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
           <div className="text-center">

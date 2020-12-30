@@ -4,6 +4,7 @@ export default function GridPattern({
   className,
   width,
   height,
+  color,
 }: GridPatternProps) {
   return (
     <svg
@@ -31,7 +32,7 @@ export default function GridPattern({
             y={0}
             width={4}
             height={4}
-            className="text-gray-200"
+            className={color ? color : "text-gray-200"}
             fill="currentColor"
           />
         </pattern>
@@ -49,4 +50,5 @@ type GridPatternProps = {
   className?: string;
   width?: number;
   height?: number;
+  color?: string;
 };
