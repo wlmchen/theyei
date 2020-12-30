@@ -1,4 +1,6 @@
+import FeaturedOn from "../components/home/FeaturedOn";
 import Hero from "../components/home/Hero";
+import Intro from "../components/home/Intro";
 import Page from "../components/utility/Page";
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
       desc="Exploring economics. Empowering leaders. Official page for the Youth Economics Intitiative (YEI)."
     >
       <Hero />
+      <Intro />
+      <FeaturedOn />
     </Page>
   );
 }

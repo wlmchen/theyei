@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import routes from "../../../data/routes";
 import { useRouter } from "next/router";
 import NavItem from "./NavItem";
@@ -10,15 +10,27 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
 export default function Navbar() {
-  const [navOpen, setNavOpen] = useState(false); // for mobile dropdown
-  const toggleNav = () => {
-    setNavOpen(!navOpen);
+  const mobileMenu = useRef(null);
+  const [navOpen, setNavOpen] = useState(false); // for mobile
+
+  const handleClick = (e) => {
+    if (e.target.classList.contains("toggle")) return;
+    if (!mobileMenu.current.contains(e.target)) {
+      setNavOpen(false);
+    }
   };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClick);
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+    };
+  }, []);
 
   const currPath = useRouter().pathname;
 
   return (
-    <nav className="z-10 w-screen bg-white shadow fixed">
+    <nav className="z-50 w-screen bg-white shadow fixed">
       <div className="container">
         <div className="flex justify-between h-16">
           <Link href="/">
@@ -34,18 +46,18 @@ export default function Navbar() {
             <div className="-ml-2 mr-2 flex items-center lg:hidden">
               {/* Mobile menu button */}
               <button
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 "
+                className="toggle inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 "
                 aria-expanded="false"
-                onClick={toggleNav}
+                onClick={() => setNavOpen(!navOpen)}
               >
                 <span className="sr-only">Open main menu</span>
                 <FontAwesomeIcon
                   icon={faBars}
-                  className={`${navOpen ? "hidden" : "block"} h-6 w-6`}
+                  className={`${navOpen ? "hidden" : "block"} toggle h-6 w-6`}
                 />
                 <FontAwesomeIcon
                   icon={faTimes}
-                  className={`${navOpen ? "block" : "hidden"} h-6 w-6`}
+                  className={`${navOpen ? "block" : "hidden"} toggle h-6 w-6`}
                 />
               </button>
             </div>
@@ -83,9 +95,10 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+
       {/* Mobile menu */}
       <div className={`${navOpen ? "block" : "hidden"} lg:hidden`}>
-        <div className="pt-2 pb-3 space-y-1 shadow-lg">
+        <div ref={mobileMenu} className="pt-2 pb-3 space-y-1 shadow-lg">
           {routes.map((r) => (
             <MobileNavItem
               key={r.name}
