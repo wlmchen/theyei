@@ -13,13 +13,13 @@ export default function Hero() {
       }}
     >
       <div className="container relative sm:pb-12 sm:pt-9 md:pt-6 xl:pt-0">
-        <main className="mt-16 sm:mt-24">
+        <main className="mt-5 md:mt-20">
           <div className="mx-auto max-w-7xl">
             <div className="lg:grid lg:grid-cols-12">
               <div className="sm:mx-auto lg:mx-0 sm:text-center md:max-w-3xl lg:col-span-9 lg:text-left lg:flex">
                 <div>
                   <Link href="/people/team#hiring">
-                    <a className="inline-flex items-center text-white bg-yei-secondary-main rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
+                    <a className="inline-flex shadow-sm items-center text-white bg-yei-secondary-main rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
                       <span className="px-3 py-0.5 text-white text-sm font-semibold leading-5 uppercase tracking-wide bg-yei-primary-darker rounded-full">
                         We're hiring
                       </span>

@@ -137,6 +137,7 @@ export default function Footer() {
               },
             ].map((link) => (
               <a
+                key={link.href}
                 target="_blank"
                 href={link.href}
                 className="trans-300 text-gray-400 hover:text-gray-300"
