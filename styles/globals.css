@@ -18,6 +18,10 @@
   @apply transition ease-in-out duration-300;
 }
 
+input {
+  @apply placeholder-gray-400;
+}
+
 /*-------------------------------*/
 
 * {

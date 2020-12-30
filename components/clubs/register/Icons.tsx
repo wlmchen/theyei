@@ -3,14 +3,13 @@ import React from "react";
 const activeStyles =
   " trans-150 text-yei-primary-main group-hover:text-yei-primary-main flex-shrink-0 -ml-1 mr-3 h-6 w-6 ";
 const defaultStyles = " flex-shrink-0 -ml-1 mr-3 h-6 w-6 text-gray-400 ";
-const notDisabledStyles = " trans-150 group-hover:text-gray-500 ";
+const hoverStyles = " trans-150 group-hover:text-gray-500 ";
 
 export function ContactIcon({ active, disabled }: IconProps) {
   return (
     <svg
       className={
-        (active ? activeStyles : defaultStyles) +
-        (disabled ? "" : notDisabledStyles)
+        (active ? activeStyles : defaultStyles) + (disabled ? "" : hoverStyles)
       }
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
@@ -32,8 +31,7 @@ export function ClubIcon({ active, disabled }: IconProps) {
   return (
     <svg
       className={
-        (active ? activeStyles : defaultStyles) +
-        (disabled ? "" : notDisabledStyles)
+        (active ? activeStyles : defaultStyles) + (disabled ? "" : hoverStyles)
       }
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
@@ -55,8 +53,7 @@ export function MoreIcon({ active, disabled }: IconProps) {
   return (
     <svg
       className={
-        (active ? activeStyles : defaultStyles) +
-        (disabled ? "" : notDisabledStyles)
+        (active ? activeStyles : defaultStyles) + (disabled ? "" : hoverStyles)
       }
       xmlns="http://www.w3.org/2000/svg"
       fill="none"

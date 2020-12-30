@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Contact from "./Contact";
+import Contact from "./Form1Contact";
 import { ClubIcon, ContactIcon, MoreIcon } from "./Icons";
-import More from "./More";
-import ClubInfo from "./ClubInfo";
+import More from "./Form3More";
+import ClubInfo from "./Form2ClubInfo";
 import Link from "next/link";
 
 export default function Application() {
@@ -50,7 +50,6 @@ export default function Application() {
               {currPage === 2 && <More />}
             </div>
             <div className="shadow sm:rounded-md sm:overflow-hidden">
-              <div className="bg-white py-6 px-4 space-y-6 sm:p-6"></div>
               <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
                 {currPage < 2 && (
                   <button className="bg-yei-primary-main border border-transparent rounded-md shadow-sm py-2 px-4 inline-flex justify-center text-sm font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main">
