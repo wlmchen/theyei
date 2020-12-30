@@ -17,14 +17,12 @@ export default function Application() {
             { title: "More About You", icon: MoreIcon },
           ].map((navItem, index) => {
             let active = currPage == index;
-            let disabled = index > currPage;
             let styles =
-              "w-full disabled:cursor-not-allowed cursor-pointer trans-150 group rounded-md px-3 py-2 flex items-center text-md font-medium ";
+              "w-full cursor-pointer trans-150 group rounded-md px-3 py-2 flex items-center text-md font-medium ";
             if (active)
               styles +=
                 "bg-gray-50 text-yei-primary-darker hover:text-yei-primary-darker hover:bg-gray-100";
-            else if (disabled) styles += "text-gray-900";
-            else styles += " hover:text-gray-900 hover:bg-gray-50";
+            else styles += "text-gray-800 hover:text-gray-900 hover:bg-gray-50";
 
             return (
               <button
@@ -32,9 +30,8 @@ export default function Application() {
                 onClick={() => setCurrPage(index)}
                 className={styles}
                 aria-current="page"
-                disabled={disabled}
               >
-                <navItem.icon active={active} disabled={disabled} />
+                <navItem.icon active={active} />
                 <span className="truncate">{navItem.title}</span>
               </button>
             );
