@@ -2,6 +2,7 @@ import FeaturedOn from "../components/home/FeaturedOn";
 import Hero from "../components/home/Hero";
 import Intro from "../components/home/Intro";
 import Page from "../components/utility/Page";
+import About from "./../components/home/About";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Intro />
       <FeaturedOn />
+      <About />
     </Page>
   );
 }

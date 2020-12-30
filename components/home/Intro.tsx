@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import GridPattern from "../utility/GridPattern";
 
 export default function Intro() {
   return (
@@ -16,14 +17,14 @@ export default function Intro() {
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
           <div className="relative pt-6 px-4 sm:px-6 lg:px-8"></div>
-          <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:px-8 xl:mt-20">
+          <main className="z-20 relative mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:px-8 xl:mt-20">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-5xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl">
+              <h1 className="tracking-tight font-bold text-gray-900 text-5xl md:text-6xl">
                 <span className="block xl:inline">
                   We're not just a collective of economics clubs.
                 </span>
               </h1>
-              <p className="mt-3 text-xl text-gray-500 sm:mt-5 sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
+              <p className="mt-3 text-gray-500 sm:mt-5 sm:max-w-xl sm:mx-auto md:mt-5 text-xl md:text-2xl lg:mx-0">
                 By promoting cross-collaboration and friendly competition, we
                 open up the ever growing field of economics to students in a
                 fast-paced world.

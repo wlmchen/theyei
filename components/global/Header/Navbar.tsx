@@ -87,7 +87,9 @@ export default function Navbar() {
                       icon={faPlus}
                       className="-ml-1 mr-2 h-3 w-3"
                     />
+                    {/* <OpenForm> */}
                     <span>Register a Club</span>
+                    {/* </OpenForm> */}
                   </button>
                 </div>
               </div>
