@@ -7,6 +7,8 @@ import MobileNavItem from "./MobileNavItem";
 import { faPlus, faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import Link from "next/link";
+
 export default function Navbar() {
   const [navOpen, setNavOpen] = useState(false); // for mobile dropdown
   const toggleNav = () => {
@@ -16,9 +18,18 @@ export default function Navbar() {
   const currPath = useRouter().pathname;
 
   return (
-    <nav className="bg-white shadow">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="z-10 w-screen bg-white shadow fixed">
+      <div className="container">
         <div className="flex justify-between h-16">
+          <Link href="/">
+            <a className="flex-shrink-0 flex items-center">
+              <img
+                className="block h-9 w-auto"
+                src="/img/logos/yei-logo-full.png"
+                alt="YEI logo"
+              />
+            </a>
+          </Link>
           <div className="flex">
             <div className="-ml-2 mr-2 flex items-center lg:hidden">
               {/* Mobile menu button */}
@@ -38,13 +49,7 @@ export default function Navbar() {
                 />
               </button>
             </div>
-            <div className="flex-shrink-0 flex items-center">
-              <img
-                className="block h-9 w-auto"
-                src="/img/logos/yei-logo-full.png"
-                alt="YEI logo"
-              />
-            </div>
+
             <div className="hidden lg:ml-6 lg:flex lg:space-x-6 xl:space-x-8">
               {routes.map((r) => (
                 <NavItem
@@ -60,24 +65,27 @@ export default function Navbar() {
                   }
                 />
               ))}
-            </div>
-          </div>
-          <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <button
-                type="button"
-                className="trans-300 relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker"
-              >
-                <FontAwesomeIcon icon={faPlus} className="-ml-1 mr-2 h-3 w-3" />
-                <span>Register a Club</span>
-              </button>
+              <div className="flex items-center">
+                <div className="flex-shrink-0">
+                  <button
+                    type="button"
+                    className="trans-300 relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker"
+                  >
+                    <FontAwesomeIcon
+                      icon={faPlus}
+                      className="-ml-1 mr-2 h-3 w-3"
+                    />
+                    <span>Register a Club</span>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       {/* Mobile menu */}
       <div className={`${navOpen ? "block" : "hidden"} lg:hidden`}>
-        <div className="pt-2 pb-3 space-y-1">
+        <div className="pt-2 pb-3 space-y-1 shadow-lg">
           {routes.map((r) => (
             <MobileNavItem
               key={r.name}
@@ -90,6 +98,15 @@ export default function Navbar() {
               }
             />
           ))}
+          <div className="flex items-center mx-4 py-1">
+            <button
+              type="button"
+              className="trans-300 justify-center w-full inline-flex items-center px-4 py-2 border border-transparent text-md font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker"
+            >
+              <FontAwesomeIcon icon={faPlus} className="-ml-1 mr-2 h-3 w-3" />
+              <span>Register a Club</span>
+            </button>
+          </div>
         </div>
       </div>
     </nav>

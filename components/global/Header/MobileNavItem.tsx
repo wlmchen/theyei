@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
@@ -20,19 +20,18 @@ export default function MobileNavItem({
   const navItemStyle = `trans-150 flex justify-items-stretch items-center pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6 ${
     active && !expanded ? activeStyles : defaultStyles
   }`;
-  
+
   if (dropRoutes) {
     return (
       <>
-        <div
-          onClick={toggle}
-          className={navItemStyle}
-        >
+        <div onClick={toggle} className={navItemStyle}>
           <Link href={href}>
             <a>{name}</a>
           </Link>
           <FontAwesomeIcon
-            className={`trans-150 ml-auto h-5 w-5 mr-3 inline-block ${expanded ? "transform rotate-180" : "transform rotate-0"}`}
+            className={`trans-150 ml-auto h-5 w-5 mr-4 inline-block ${
+              expanded ? "transform rotate-180" : "transform rotate-0"
+            }`}
             style={{ marginTop: "-0.1rem" }}
             icon={faAngleDown}
           />
@@ -54,7 +53,7 @@ export default function MobileNavItem({
       </>
     );
   }
-  
+
   return (
     <Link href={href}>
       <a className={navItemStyle}>{name}</a>
@@ -68,8 +67,8 @@ function NestedItem({ href, name, active }) {
     "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700";
   const navItemStyle = `trans-300 block pl-8 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6 ${
     active ? activeStyles : defaultStyles
-    }`;
-  
+  }`;
+
   return (
     <Link href={href}>
       <a className={navItemStyle} role="menuitem">
