@@ -66,7 +66,7 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <button
                 type="button"
-                className="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker "
+                className="trans-300 relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker "
               >
                 <FontAwesomeIcon icon={faPlus} className="-ml-1 mr-2 h-3 w-3" />
                 <span>Register a Club</span>
@@ -84,6 +84,7 @@ export default function Navbar() {
               name={r.name}
               href={r.href}
               dropRoutes={r.dropRoutes}
+              currPath={currPath}
               active={
                 r.dropRoutes ? currPath.startsWith(r.href) : r.href == currPath
               }

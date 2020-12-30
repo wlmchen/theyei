@@ -1,10 +1,11 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "./../global/Header/Navbar";
+import Navbar from "../global/Header/Navbar";
 
-export default function Page({ title, desc, children }: PageProps) {
-  let pageTitle = title ? title + " - " : "";
-  pageTitle += "Youth Economics Initiative (YEI)";
+export default function Page({ fullTitle, title, desc, children }: PageProps) {
+  let pageTitle = fullTitle
+    ? fullTitle
+    : title + " | Youth Economics Initiative (YEI)";
 
   return (
     <>
@@ -59,6 +60,7 @@ export default function Page({ title, desc, children }: PageProps) {
 }
 
 type PageProps = {
+  fullTitle?: string;
   title?: string;
   desc?: string;
   children?: React.ReactNode;

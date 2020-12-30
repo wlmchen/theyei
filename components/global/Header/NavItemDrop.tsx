@@ -32,7 +32,7 @@ export default function NavItemDrop({
           type="button"
           id="options-menu"
           aria-haspopup="true"
-          aria-expanded="true"
+          aria-expanded={open}
           className="font-medium"
         >
           {name}
@@ -43,20 +43,12 @@ export default function NavItemDrop({
           />
         </button>
       </div>
-      {/*
-    Dropdown panel, show/hide based on dropdown state.
-
-    Entering: "transition ease-out duration-100"
-      From: "transform opacity-0 scale-95"
-      To: "transform opacity-100 scale-100"
-    Leaving: "transition ease-in duration-75"
-      From: "transform opacity-100 scale-100"
-      To: "transform opacity-0 scale-95" */}
-
       <div
         className={`${
-          open ? "block" : "hidden"
-        } origin-top-right bg-white absolute right-0 top-11 mt-4 w-48 rounded-md shadow-lg`}
+          open
+            ? "pointer-events-auto transform opacity-100 scale-100"
+            : "pointer-events-none transform opacity-0 scale-95"
+        } origin-top-right trans-150 bg-white absolute right-0 top-10 mt-4 w-48 rounded-md shadow-lg`}
       >
         <div
           className="py-1"
@@ -68,6 +60,7 @@ export default function NavItemDrop({
             let fullHref = href + (r.href == "/" ? "" : r.href);
             return (
               <DropdownMenu
+                key={fullHref}
                 href={fullHref}
                 name={r.name}
                 active={fullHref == currPath}
@@ -84,11 +77,9 @@ function DropdownMenu({ href, name, active }) {
   const activeStyles = "bg-indigo-50 border-yei-primary-main text-green-900";
   const defaultStyles =
     "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700";
-  const [navItemStyle, _] = useState(
-    `block px-4 py-2 text-lg border-l-4 text-base font-medium ${
-      active ? activeStyles : defaultStyles
-    }`
-  );
+  const navItemStyle = `trans-300 block px-4 py-2 text-lg border-l-4 text-base font-medium ${
+    active ? activeStyles : defaultStyles
+  }`;
   return (
     <Link href={href}>
       <a className={navItemStyle} role="menuitem">
