@@ -1,14 +1,17 @@
 import React from "react";
 
 const activeStyles =
-  "trans-150 text-yei-primary-main group-hover:text-yei-primary-main flex-shrink-0 -ml-1 mr-3 h-6 w-6";
-const defaultStyles =
-  "trans-150 text-gray-400 group-hover:text-gray-500 flex-shrink-0 -ml-1 mr-3 h-6 w-6";
+  " trans-150 text-yei-primary-main group-hover:text-yei-primary-main flex-shrink-0 -ml-1 mr-3 h-6 w-6 ";
+const defaultStyles = " flex-shrink-0 -ml-1 mr-3 h-6 w-6 text-gray-400 ";
+const notDisabledStyles = " trans-150 group-hover:text-gray-500 ";
 
-export function ContactIcon({ active }: IconProps) {
+export function ContactIcon({ active, disabled }: IconProps) {
   return (
     <svg
-      className={active ? activeStyles : defaultStyles}
+      className={
+        (active ? activeStyles : defaultStyles) +
+        (disabled ? "" : notDisabledStyles)
+      }
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
@@ -25,10 +28,13 @@ export function ContactIcon({ active }: IconProps) {
   );
 }
 
-export function ClubIcon({ active }: IconProps) {
+export function ClubIcon({ active, disabled }: IconProps) {
   return (
     <svg
-      className={active ? activeStyles : defaultStyles}
+      className={
+        (active ? activeStyles : defaultStyles) +
+        (disabled ? "" : notDisabledStyles)
+      }
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
@@ -45,10 +51,13 @@ export function ClubIcon({ active }: IconProps) {
   );
 }
 
-export function MoreIcon({ active }: IconProps) {
+export function MoreIcon({ active, disabled }: IconProps) {
   return (
     <svg
-      className={active ? activeStyles : defaultStyles}
+      className={
+        (active ? activeStyles : defaultStyles) +
+        (disabled ? "" : notDisabledStyles)
+      }
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
@@ -67,4 +76,5 @@ export function MoreIcon({ active }: IconProps) {
 
 type IconProps = {
   active?: boolean;
+  disabled?: boolean;
 };
