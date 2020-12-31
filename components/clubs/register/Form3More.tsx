@@ -1,7 +1,7 @@
 import React from "react";
 import { Field, ErrorMessage } from "formik";
 
-export default function More({ isSubmitting }) {
+export default function More({ isSubmitting, submitBottomBar }) {
   return (
     <div id="more" className="shadow sm:rounded-md sm:overflow-hidden">
       <div className="bg-white py-6 px-4 space-y-6 sm:p-6">
@@ -59,7 +59,6 @@ export default function More({ isSubmitting }) {
                 name="ECs"
                 rows={3}
                 className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
-  
               />
               <ErrorMessage
                 className="formik-error"
@@ -72,13 +71,7 @@ export default function More({ isSubmitting }) {
       </div>
       <div className="shadow sm:rounded-md sm:overflow-hidden">
         <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
-          <button
-            type="submit"
-            disabled={isSubmitting}
-            className="text-lg bg-yei-primary-main border border-transparent rounded-md shadow-sm py-2 px-4 inline-flex justify-center font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
-          >
-            Submit
-          </button>
+          {submitBottomBar}
         </div>
       </div>
     </div>

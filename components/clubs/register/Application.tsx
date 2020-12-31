@@ -7,7 +7,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import Link from "next/link";
-import FocusError from './FocusError';
+import FocusError from "./FocusError";
 
 export default function Application() {
   const [currPage, setCurrPage] = useState(0);
@@ -84,10 +84,7 @@ export default function Application() {
               values.econCoursework
             );
             data.append("Extracurriculars", values.ECs);
-            data.append(
-              "_cc",
-              "masonwang025@gmail.com"
-            );
+            data.append("_cc", "masonwang025@gmail.com");
 
             fetch("https://formsubmit.co/ajax/masonwang0025@gmail.com", {
               method: "POST",
@@ -104,13 +101,30 @@ export default function Application() {
               <div className="flex flex-col space-y-6">
                 <Contact />
                 <ClubInfo />
-                <More isSubmitting={isSubmitting} />
+                <More
+                  isSubmitting={isSubmitting}
+                  submitBottomBar={
+                    !submitted ? (
+                      <div className="text-right">
+                        <button
+                          type="submit"
+                          disabled={isSubmitting}
+                          className="text-lg bg-yei-primary-main border border-transparent rounded-md shadow-sm py-2 px-4 inline-flex justify-center font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    ) : (
+                      <SuccessAlert />
+                    )
+                  }
+                />
               </div>
               <FocusError />
             </Form>
           )}
         </Formik>
-        {submitted && <SuccessAlert />}
+        
       </div>
     </div>
   );
@@ -120,7 +134,7 @@ const SuccessAlert = () => {
   const [visible, setVisible] = useState(true);
   return (
     <div className={visible ? "block" : "hidden"}>
-      <div className="rounded-md bg-green-50 p-4">
+      <div className="text-left rounded-md bg-green-50 p-4">
         <div className="flex">
           <div className="flex-shrink-0">
             {/* Heroicon name: check-circle */}
