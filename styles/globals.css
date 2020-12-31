@@ -22,6 +22,10 @@ input {
   @apply placeholder-gray-400;
 }
 
+.formik-error {
+  @apply text-red-500 font-bold;
+}
+
 /*-------------------------------*/
 
 * {

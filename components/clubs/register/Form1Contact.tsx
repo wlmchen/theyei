@@ -1,8 +1,9 @@
 import React from "react";
+import { Field, ErrorMessage } from "formik";
 
 export default function Contact() {
   return (
-    <div className="shadow sm:rounded-md sm:overflow-hidden">
+    <div id="contact" className="shadow sm:rounded-md sm:overflow-hidden">
       <div className="bg-white py-6 px-4 space-y-6 sm:p-6">
         <div>
           <h3 className="text-2xl leading-6 font-medium text-gray-900">
@@ -16,47 +17,62 @@ export default function Contact() {
         <div className="grid grid-cols-6 gap-6">
           <div className="col-span-6 sm:col-span-3">
             <label
-              htmlFor="first_name"
+              htmlFor="fName"
               className="block text-lg font-medium text-gray-700"
             >
               First name
             </label>
-            <input
+            <Field
               type="text"
-              name="first_name"
-              id="first_name"
+              name="fName"
+              id="fName"
               autoComplete="off"
               className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
+            />
+            <ErrorMessage
+              className="formik-error"
+              component="div"
+              name="fName"
             />
           </div>
           <div className="col-span-6 sm:col-span-3">
             <label
-              htmlFor="last_name"
+              htmlFor="lName"
               className="block text-lg font-medium text-gray-700"
             >
               Last name
             </label>
-            <input
+            <Field
               type="text"
-              name="last_name"
-              id="last_name"
+              name="lName"
+              id="lName"
               autoComplete="off"
               className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
+            />
+            <ErrorMessage
+              className="formik-error"
+              component="div"
+              name="lName"
             />
           </div>
           <div className="col-span-6 sm:col-span-4">
             <label
-              htmlFor="email_address"
+              htmlFor="email"
               className="block text-lg font-medium text-gray-700"
             >
               Email address
             </label>
-            <input
-              type="text"
-              name="email_address"
-              id="email_address"
+            <Field
+              type="email"
+              name="email"
+              id="email"
               autoComplete="off"
               className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
+            />
+            <ErrorMessage
+              className="formik-error"
+              component="div"
+              name="email"
             />
             <p className="mt-2 text-sm text-gray-500">
               We will use this address to get in contact once your application

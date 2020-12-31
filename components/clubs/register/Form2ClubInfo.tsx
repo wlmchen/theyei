@@ -1,8 +1,9 @@
 import React from "react";
+import { Field, ErrorMessage } from "formik";
 
 export default function ClubInfo() {
   return (
-    <div className="shadow sm:rounded-md sm:overflow-hidden">
+    <div id="clubinfo" className="shadow sm:rounded-md sm:overflow-hidden">
       <div className="bg-white py-6 px-4 space-y-6 sm:p-6">
         <div>
           <h3 className="text-2xl leading-6 font-medium text-gray-900">
@@ -18,38 +19,45 @@ export default function ClubInfo() {
               </legend>
               <div className="mt-4 space-y-4">
                 <div className="flex items-center">
-                  <input
-                    id="preexisting_club"
-                    name="club_type"
+                  <Field
+                    id="preexisting"
+                    name="clubStatus"
                     type="radio"
+                    value="preexisting"
                     className="focus:ring-yei-primary-main h-5 w-5 text-yei-primary-main border-gray-300"
                   />
-                  <label htmlFor="preexisting_club" className="ml-3">
+                  <label htmlFor="preexisting" className="ml-3">
                     <span className="block text-lg text-gray-700">
                       We're a pre-existing club
                     </span>
                   </label>
                 </div>
                 <div className="flex items-center">
-                  <input
-                    id="new_club"
-                    name="club_type"
+                  <Field
+                    id="new"
+                    name="clubStatus"
                     type="radio"
+                    value="new"
                     className="focus:ring-yei-primary-main h-5 w-5 text-yei-primary-main border-gray-300"
                   />
-                  <label htmlFor="new_club" className="ml-3">
+                  <label htmlFor="new" className="ml-3">
                     <span className="block text-lg text-gray-700">
                       We're starting a new club
                     </span>
                   </label>
                 </div>
+                <ErrorMessage
+                  className="formik-error"
+                  component="div"
+                  name="clubStatus"
+                />
               </div>
             </fieldset>
           </div>
 
           <div className="col-span-3">
             <label
-              htmlFor="club_more_info"
+              htmlFor="clubInfo"
               className="block text-xl font-medium text-gray-700"
             >
               We'll also need some info about other officers to get started.
@@ -60,12 +68,17 @@ export default function ClubInfo() {
               <b>Club Advisor</b>.
             </p>
             <div className="mt-1">
-              <textarea
-                id="club_more_info"
-                name="club_more_info"
+              <Field
+                component="textarea"
+                id="clubInfo"
+                name="clubInfo"
                 rows={3}
                 className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
-                defaultValue={""}
+              />
+              <ErrorMessage
+                className="formik-error"
+                component="div"
+                name="clubInfo"
               />
             </div>
             <p className="mt-2 text-sm text-gray-500">
@@ -82,12 +95,17 @@ export default function ClubInfo() {
               >
                 What school will the club be in?
               </label>
-              <input
+              <Field
                 type="text"
                 name="school"
                 id="school"
                 autoComplete="off"
                 className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
+              />
+              <ErrorMessage
+                className="formik-error"
+                component="div"
+                name="school"
               />
             </div>
             <div className="col-span-6">
@@ -95,17 +113,22 @@ export default function ClubInfo() {
                 Where is the school located?
               </p>
               <label
-                htmlFor="school_address"
+                htmlFor="address"
                 className="block text-sm font-medium text-gray-700"
               >
                 Street address
               </label>
-              <input
+              <Field
                 type="text"
-                name="school_address"
-                id="school_address"
+                name="address"
+                id="address"
                 autoComplete="off"
                 className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm"
+              />
+              <ErrorMessage
+                className="formik-error"
+                component="div"
+                name="address"
               />
             </div>
             <div className="col-span-6 sm:col-span-6 lg:col-span-2">
@@ -115,12 +138,17 @@ export default function ClubInfo() {
               >
                 City
               </label>
-              <input
+              <Field
                 type="text"
                 name="city"
                 id="city"
                 autoComplete="off"
                 className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm"
+              />
+              <ErrorMessage
+                className="formik-error"
+                component="div"
+                name="city"
               />
             </div>
             <div className="col-span-6 sm:col-span-3 lg:col-span-2">
@@ -130,12 +158,17 @@ export default function ClubInfo() {
               >
                 State / Province
               </label>
-              <input
+              <Field
                 type="text"
                 name="state"
                 id="state"
                 autoComplete="off"
                 className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm"
+              />
+              <ErrorMessage
+                className="formik-error"
+                component="div"
+                name="state"
               />
               <p className="mt-2 text-sm text-gray-500">
                 Specify country if international.
@@ -143,17 +176,22 @@ export default function ClubInfo() {
             </div>
             <div className="col-span-6 sm:col-span-3 lg:col-span-2">
               <label
-                htmlFor="postal_code"
+                htmlFor="zip"
                 className="block text-sm font-medium text-gray-700"
               >
                 ZIP / Postal
               </label>
-              <input
+              <Field
                 type="text"
-                name="postal_code"
-                id="postal_code"
+                name="zip"
+                id="zip"
                 autoComplete="off"
                 className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm"
+              />
+              <ErrorMessage
+                className="formik-error"
+                component="div"
+                name="zip"
               />
             </div>
           </div>

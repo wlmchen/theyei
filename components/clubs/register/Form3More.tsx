@@ -1,8 +1,9 @@
 import React from "react";
+import { Field, ErrorMessage } from "formik";
 
-export default function More() {
+export default function More({ isSubmitting }) {
   return (
-    <div className="shadow sm:rounded-md sm:overflow-hidden">
+    <div id="more" className="shadow sm:rounded-md sm:overflow-hidden">
       <div className="bg-white py-6 px-4 space-y-6 sm:p-6">
         <div>
           <h3 className="text-2xl leading-6 font-medium text-gray-900">
@@ -15,7 +16,7 @@ export default function More() {
         <div className="grid grid-cols-3 gap-6">
           <div className="col-span-3">
             <label
-              htmlFor="econ_coursework"
+              htmlFor="econCoursework"
               className="block text-xl font-medium text-gray-700"
             >
               What economics related coursework have you completed?
@@ -25,12 +26,17 @@ export default function More() {
               test scores as well.
             </p>
             <div className="mt-1">
-              <textarea
-                id="econ_coursework"
-                name="econ_coursework"
+              <Field
+                component="textarea"
+                id="econCoursework"
+                name="econCoursework"
                 rows={3}
                 className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
-                defaultValue={""}
+              />
+              <ErrorMessage
+                className="formik-error"
+                component="div"
+                name="econCoursework"
               />
             </div>
           </div>
@@ -38,7 +44,7 @@ export default function More() {
         <div className="grid grid-cols-3 gap-6">
           <div className="col-span-3">
             <label
-              htmlFor="extracurriculars"
+              htmlFor="ECs"
               className="block text-xl font-medium text-gray-700"
             >
               What activities do you participate in outside of school?
@@ -47,12 +53,18 @@ export default function More() {
               1000 characters maximum. Include any relevant experiences as well.
             </p>
             <div className="mt-1">
-              <textarea
-                id="extracurriculars"
-                name="extracurriculars"
+              <Field
+                component="textarea"
+                id="ECs"
+                name="ECs"
                 rows={3}
                 className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
-                defaultValue={""}
+  
+              />
+              <ErrorMessage
+                className="formik-error"
+                component="div"
+                name="ECs"
               />
             </div>
           </div>
@@ -62,7 +74,8 @@ export default function More() {
         <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
           <button
             type="submit"
-            className="bg-yei-primary-main border border-transparent rounded-md shadow-sm py-2 px-4 inline-flex justify-center text-sm font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
+            disabled={isSubmitting}
+            className="text-lg bg-yei-primary-main border border-transparent rounded-md shadow-sm py-2 px-4 inline-flex justify-center font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
           >
             Submit
           </button>
