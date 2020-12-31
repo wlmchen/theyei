@@ -85,6 +85,8 @@ export default function Application() {
             );
             data.append("Extracurriculars", values.ECs);
             data.append("_cc", "masonwang025@gmail.com");
+            data.append("_replyto", values.email);
+            data.append("_subject", "New EconClub Application Submission");
 
             fetch("https://formsubmit.co/ajax/masonwang0025@gmail.com", {
               method: "POST",
@@ -124,7 +126,6 @@ export default function Application() {
             </Form>
           )}
         </Formik>
-        
       </div>
     </div>
   );
