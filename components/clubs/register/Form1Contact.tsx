@@ -55,7 +55,7 @@ export default function Contact() {
               type="text"
               name="email_address"
               id="email_address"
-              autoComplete="email"
+              autoComplete="off"
               className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
             />
             <p className="mt-2 text-sm text-gray-500">
