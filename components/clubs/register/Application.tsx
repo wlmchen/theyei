@@ -17,10 +17,9 @@ export default function Application() {
   const form3 = useRef(null);
 
   const handleClick = (e) => {
-    if (form1.current.contains(document.activeElement)) setCurrPage(0);
-    else if (form2.current.contains(document.activeElement)) setCurrPage(1);
-    else if (form3.current.contains(document.activeElement)) setCurrPage(2);
-    else setCurrPage(-1);
+    [form1, form2, form3].map((form, i) => {
+      if (form.current.contains(document.activeElement)) setCurrPage(i);
+    });
   };
 
   useEffect(() => {

@@ -5,7 +5,7 @@ export default function ClubInfo() {
   return (
     <div
       id="clubinfo"
-      className="shadow focus-within:border-yei-primary-main border-transparent border-4  sm:rounded-md sm:overflow-hidden"
+      className="trans-150 shadow focus-within:border-yei-primary-main border-transparent border-4  sm:rounded-md sm:overflow-hidden"
     >
       <div className=" bg-white py-6 px-4 space-y-6 sm:p-6">
         <div>
