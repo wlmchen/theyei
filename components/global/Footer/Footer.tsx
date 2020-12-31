@@ -33,31 +33,14 @@ export default function Footer() {
                 />
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-                  Clubs
-                </h3>
-                <ul className="mt-4 space-y-4">
-                  <li>
-                    <a
-                      href="#"
-                      className="text-base text-gray-300 hover:text-white"
-                    >
-                      Register a Club
-                    </a>
-                  </li>
-                  {[
+                <Column
+                  title="Clubs"
+                  links={[
+                    { href: "/clubs/register", name: "Register a Club" },
                     { href: "/clubs/current-clubs", name: "Current Clubs" },
                     { href: "/clubs", name: "EconClubs Info" },
-                  ].map((link) => (
-                    <li key={link.href}>
-                      <Link href={link.href}>
-                        <a className="text-base text-gray-300 hover:text-white">
-                          {link.name}
-                        </a>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+                  ]}
+                />
               </div>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
