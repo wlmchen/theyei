@@ -3,8 +3,11 @@ import { Field, ErrorMessage } from "formik";
 
 export default function Contact() {
   return (
-    <div id="contact" className="shadow sm:rounded-md sm:overflow-hidden">
-      <div className="bg-white py-6 px-4 space-y-6 sm:p-6">
+    <div
+      id="contact"
+      className="shadow sm:rounded-md sm:overflow-hidden focus-within:border-yei-primary-main border-transparent border-4 "
+    >
+      <div className="bg-white  py-6 px-4 space-y-6 sm:p-6">
         <div>
           <h3 className="text-2xl leading-6 font-medium text-gray-900">
             Contact

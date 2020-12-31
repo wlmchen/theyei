@@ -1,10 +1,13 @@
 import React from "react";
 import { Field, ErrorMessage } from "formik";
 
-export default function More({ isSubmitting, submitBottomBar }) {
+export default function More({ submitBottomBar }) {
   return (
-    <div id="more" className="shadow sm:rounded-md sm:overflow-hidden">
-      <div className="bg-white py-6 px-4 space-y-6 sm:p-6">
+    <div
+      id="more"
+      className="shadow rounded-md sm:overflow-hidden focus-within:border-yei-primary-main border-transparent border-4 "
+    >
+      <div className="bg-white  py-6 px-4 space-y-6 sm:p-6">
         <div>
           <h3 className="text-2xl leading-6 font-medium text-gray-900">
             More About You

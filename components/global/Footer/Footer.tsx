@@ -9,7 +9,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Column from "./Column";
-import Link from "next/link";
 
 export default function Footer() {
   return (

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Contact from "./Form1Contact";
 import { ClubIcon, ContactIcon, MoreIcon } from "./Icons";
 import More from "./Form3More";
@@ -12,17 +12,33 @@ import FocusError from "./FocusError";
 export default function Application() {
   const [currPage, setCurrPage] = useState(0);
   const [submitted, setSubmitted] = useState(false);
+  const form1 = useRef(null);
+  const form2 = useRef(null);
+  const form3 = useRef(null);
+
+  const handleClick = (e) => {
+    if (form1.current.contains(document.activeElement)) setCurrPage(0);
+    else if (form2.current.contains(document.activeElement)) setCurrPage(1);
+    else if (form3.current.contains(document.activeElement)) setCurrPage(2);
+    else setCurrPage(-1);
+  };
+
+  useEffect(() => {
+    [form1, form2, form3].map((form) => {
+      form.current.onclick = handleClick;
+    });
+  }, []);
 
   return (
     <div className="lg:grid lg:grid-cols-12 lg:gap-x-5 container pt-6 pb-14">
       <aside className="pb-6 pt-1 sm:py-6 px-2 sm:px-6 lg:py-0 lg:px-0 lg:col-span-3 relative">
-        <nav className="space-y-1 lg:sticky lg:top-20">
+        <nav className="space-y-1 lg:sticky  lg:top-20">
           {[
             { title: "Contact", icon: ContactIcon, href: "#contact" },
             { title: "Club Information", icon: ClubIcon, href: "#clubinfo" },
             { title: "More About You", icon: MoreIcon, href: "#more" },
           ].map((navItem, index) => {
-            let active = false; // currPage == index;
+            let active = currPage == index;
             let styles =
               "my-1 w-full cursor-pointer trans-150 group rounded-md px-3 py-2 flex items-center text-md font-medium ";
             if (active)
@@ -41,8 +57,10 @@ export default function Application() {
                   className={styles}
                   aria-current="page"
                 >
-                  <navItem.icon active={false} />
-                  <span className="truncate">{navItem.title}</span>
+                  <navItem.icon active={active} />
+                  <span className={`truncate ${active ? "font-bold" : ""}`}>
+                    {navItem.title}
+                  </span>
                 </span>
               </AnchorLink>
             );
@@ -101,26 +119,31 @@ export default function Application() {
           {({ isSubmitting }) => (
             <Form autoComplete="off">
               <div className="flex flex-col space-y-6">
-                <Contact />
-                <ClubInfo />
-                <More
-                  isSubmitting={isSubmitting}
-                  submitBottomBar={
-                    !submitted ? (
-                      <div className="text-right">
-                        <button
-                          type="submit"
-                          disabled={isSubmitting}
-                          className="text-lg bg-yei-primary-main border border-transparent rounded-md shadow-sm py-2 px-4 inline-flex justify-center font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
-                        >
-                          Submit
-                        </button>
-                      </div>
-                    ) : (
-                      <SuccessAlert />
-                    )
-                  }
-                />
+                <div ref={form1}>
+                  <Contact />
+                </div>
+                <div ref={form2}>
+                  <ClubInfo />
+                </div>
+                <div ref={form3}>
+                  <More
+                    submitBottomBar={
+                      !submitted ? (
+                        <div className="text-right">
+                          <button
+                            type="submit"
+                            disabled={isSubmitting}
+                            className="text-lg bg-yei-primary-main border border-transparent rounded-md shadow-sm py-2 px-4 inline-flex justify-center font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
+                          >
+                            Submit
+                          </button>
+                        </div>
+                      ) : (
+                        <SuccessAlert />
+                      )
+                    }
+                  />
+                </div>
               </div>
               <FocusError />
             </Form>
