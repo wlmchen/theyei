@@ -10,7 +10,7 @@ import Link from "next/link";
 import FocusError from "./FocusError";
 
 export default function Application() {
-  const [currPage, setCurrPage] = useState(0);
+  const [currPage, setCurrPage] = useState(-1);
   const [submitted, setSubmitted] = useState(false);
   const form1 = useRef(null);
   const form2 = useRef(null);
