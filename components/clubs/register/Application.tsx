@@ -15,7 +15,7 @@ export default function Application() {
 
   return (
     <div className="lg:grid lg:grid-cols-12 lg:gap-x-5 container pt-6 pb-14">
-      <aside className="py-6 px-2 sm:px-6 lg:py-0 lg:px-0 lg:col-span-3 relative">
+      <aside className="pb-6 pt-1 sm:py-6 px-2 sm:px-6 lg:py-0 lg:px-0 lg:col-span-3 relative">
         <nav className="space-y-1 lg:sticky lg:top-20">
           {[
             { title: "Contact", icon: ContactIcon, href: "#contact" },
