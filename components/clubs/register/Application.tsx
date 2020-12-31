@@ -86,7 +86,7 @@ export default function Application() {
             data.append("Extracurriculars", values.ECs);
             data.append(
               "_cc",
-              "wanm4505@lgsstudent.org,masonwang025@gmail.com"
+              "masonwang025@gmail.com"
             );
 
             fetch("https://formsubmit.co/ajax/masonwang0025@gmail.com", {
