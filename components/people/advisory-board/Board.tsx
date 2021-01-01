@@ -8,7 +8,7 @@ export default function Board() {
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8">
         <ul className="space-y-12 sm:divide-y sm:divide-gray-200 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0">
           {advisoryBoard.map((advisor) => {
-            let key = advisor.name.replace(/[\W_]+/g, "-");
+            let key = advisor.name.replace(/[\W_]+/g, "-").toLowerCase();
             return (
               <Advisor
                 key={key}
