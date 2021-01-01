@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import GridPattern from "../utility/GridPattern";
 
 export default function Intro() {
   return (
@@ -56,7 +55,7 @@ export default function Intro() {
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full bg-gray-800"
           src="img/photos/lynbrook-lunch.png"
           alt="lynbrook YEI meeting"
         />

@@ -12,7 +12,7 @@ import Column from "./Column";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800" aria-labelledby="footerHeading">
+    <footer className="bg-gray-800 z-20 relative" aria-labelledby="footerHeading">
       <h2 id="footerHeading" className="sr-only">
         Footer
       </h2>
