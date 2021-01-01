@@ -1,17 +1,23 @@
-import React from "react";
-import Announcement from "./../../utility/Announcement";
+import React, { useState } from "react";
+import Announcement from "./Announcement";
 
 export default function Hero() {
+  const [visible, setVisible] = useState(true);
   return (
     <>
-      <Announcement
-        ctaHref="/people/apply"
-        smTitle="Join the YEI Leadership Team!"
-        title="The YEI is now recruiting multiple positions! Check our application page."
-      />
+      {visible && (
+        <Announcement
+          ctaHref="/people/apply"
+          setVisible={setVisible}
+          smTitle="Join the YEI Leadership Team!"
+          title="The YEI is now recruiting multiple positions! Check our application page."
+        />
+      )}
       <div
         style={{ backgroundImage: 'url("/img/page-bg/team-bg.png")' }}
-        className="bg-yei-secondary-main relative overflow-hidden bg-cover bg-center"
+        className={`bg-yei-secondary-main relative overflow-hidden bg-cover bg-center ${
+          visible ? "" : "pt-16"
+        }`}
       >
         <div className="z-10 relative container py-20 px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="text-center">
