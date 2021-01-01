@@ -23,7 +23,7 @@ export default function Advisor({ name, title, bio, imgSrc }) {
                 <p>{bio[0]}</p>
                 {bio.slice(1).map((p) => (
                   <p
-                    key={p}
+                    key={p.slice(0, 5)}
                     className={
                       showFull
                         ? "trans duration-1000 "
