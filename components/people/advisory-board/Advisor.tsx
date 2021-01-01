@@ -35,7 +35,7 @@ export default function Advisor({ name, title, bio, imgSrc }) {
                 ))}
                 {bio.length > 1 && (
                   <button
-                    className="underline text-gray-900"
+                    className="underline text-gray-900 font-medium"
                     onClick={() => setShowFull(!showFull)}
                   >
                     {showFull ? "[show less]" : "[show full bio]"}
