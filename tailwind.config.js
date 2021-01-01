@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         yei: {
           primary: {
+            gray: "#dce8e3",
             main: "#279361",
             darker: "#208556",
           },
