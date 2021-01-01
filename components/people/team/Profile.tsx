@@ -42,23 +42,26 @@ export default function Profile({
             <div>
               <ul className="flex pb-5">
                 {[
-                  { link: linkedin, icon: faLinkedin },
-                  { link: email, icon: faEnvelope },
-                  { link: github, icon: faGithub },
-                ].map(({ link, icon }) => (
-                  <>
-                    {link && (
+                  { href: linkedin, icon: faLinkedin, sr: "linkedin" },
+                  { href: email, icon: faEnvelope, sr: "github" },
+                  { href: github, icon: faGithub, sr: "email" },
+                ].map(({href, sr, icon}) => (
+                  <div key={sr + href}>
+                    {href && (
                       <li className="mr-1">
                         <a
                           target="_blank"
-                          href={link}
+                          href={href}
                           className="p-1.5 rounded-full inline-block  hover:bg-gray-300 bg-gray-200 text-yei-secondary-main hover:text-yei-secondary-main"
                         >
-                          <FontAwesomeIcon icon={icon} className="w-5 h-5" />
+                          <FontAwesomeIcon
+                            icon={icon}
+                            className="w-5 h-5"
+                          />
                         </a>
                       </li>
                     )}
-                  </>
+                  </div>
                 ))}
               </ul>
             </div>
