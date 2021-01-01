@@ -12,7 +12,7 @@ export default function Profile({
   github,
 }: ProfileProps) {
   return (
-    <li>
+    <li className="md:w-1/2 lg:w-1/3 my-8 px-4">
       <div className="space-y-6">
         <img
           className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
