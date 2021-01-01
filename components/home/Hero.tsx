@@ -23,9 +23,7 @@ export default function Hero() {
                       <span className="px-3 py-0.5 text-white text-sm font-semibold leading-5 uppercase tracking-wide bg-yei-primary-darker rounded-full">
                         We're hiring
                       </span>
-                      <span className="ml-4 text-base">
-                        Visit our application page
-                      </span>
+                      <span className="ml-4 text-base">Apply now</span>
 
                       <FontAwesomeIcon
                         icon={faAngleRight}
