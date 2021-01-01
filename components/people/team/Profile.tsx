@@ -21,7 +21,7 @@ export default function Profile({
         />
         <div className="space-y-2">
           <div className="text-lg leading-6 font-medium space-y-1">
-            <h3>{name}</h3>
+            <h3 className="text-xl">{name}</h3>
             <p className="text-yei-primary-darker">{position}</p>
           </div>
           <ul className="flex justify-center space-x-5">
