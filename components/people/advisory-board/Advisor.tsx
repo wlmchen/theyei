@@ -7,7 +7,7 @@ export default function Advisor({ name, title, bio, imgSrc }) {
       <div className="grid grid-cols-12 items-start gap-6 space-y-0">
         <div className="col-span-6 sm:col-span-3">
           <img
-            className="w-fill h-fill object-cover shadow-lg rounded-lg"
+            className="w-fill h-fill object-cover shadow-lg rounded-lg bg-gray-900"
             src={imgSrc}
             alt={name}
           />
