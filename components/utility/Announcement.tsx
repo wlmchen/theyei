@@ -71,8 +71,7 @@ export default function Announcement({
         </div>
       </div>
     );
-  else
-    return <div className={`bg-yei-primary-main pt-${pt ? pt : "16"}`}></div>;
+  else return <div className={`pt-${pt ? pt : "16"}`}></div>;
 }
 
 type AnnouncementProps = {
