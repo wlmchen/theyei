@@ -1,5 +1,4 @@
 import React from "react";
-import GridPattern from "../utility/GridPattern";
 import Link from "next/link";
 import DoubleGridBg from './../utility/DoubleGridBg';
 
