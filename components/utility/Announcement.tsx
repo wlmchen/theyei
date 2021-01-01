@@ -71,7 +71,7 @@ export default function Announcement({
         </div>
       </div>
     );
-  else return <div className={`pt-${pt ? pt : "16"} block bg-white`}>s</div>;
+  else return <div className={`bg-white pt-${pt ? pt : "16"}`}></div>;
 }
 
 type AnnouncementProps = {
