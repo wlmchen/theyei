@@ -24,7 +24,7 @@ export default function Hero() {
                         We're hiring
                       </span>
                       <span className="ml-4 text-base">
-                        Visit our team page
+                        Visit our application page
                       </span>
 
                       <FontAwesomeIcon
