@@ -24,6 +24,7 @@ module.exports = {
             main: "#293236",
             darkest: "#0d242b",
             black: "#232323",
+            blackVibrant: "#010915",
           },
         },
       },

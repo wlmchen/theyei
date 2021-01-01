@@ -5,7 +5,7 @@ export default function Hero() {
     <>
       <div
         style={{ backgroundImage: 'url("/img/page-bg/clubs-bg.png")' }}
-        className="bg-yei-secondary-main relative overflow-hidden bg-cover bg-center pt-16"
+        className="bg-yei-secondary-blackVibrant relative overflow-hidden bg-cover bg-center pt-16"
       >
         <div className="z-10 relative container py-20 px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="text-center">
