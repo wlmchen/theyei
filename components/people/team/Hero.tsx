@@ -24,7 +24,7 @@ export default function Hero() {
             <p className="mt-1 text-4xl font-bold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
               Meet Our Team
             </p>
-            <p className="max-w-xl mt-5 mx-auto text-3xl text-gray-300">
+            <p className="max-w-xl mt-5 mx-auto text-2xl sm:text-3xl text-gray-300">
               Get to know the people who make the magic happen.
             </p>
           </div>
