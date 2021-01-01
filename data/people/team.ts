@@ -73,12 +73,12 @@ const team = [
   {
     name: "Yiqin Huang",
     positions: ["Sponsorship Coordinator", "Grant Coordinator"],
-    linkedin: "www.linkedin.com/in/yiqin-huang-466391202",
+    linkedin: "https://www.linkedin.com/in/yiqin-huang-466391202",
   },
   {
     name: "Jessica Cheng",
     positions: ["Fundraising Coordinator"],
-    linkedin: "www.linkedin.com/in/jessica-cheng05",
+    linkedin: "https://www.linkedin.com/in/jessica-cheng05",
   },
   {
     name: "Sarah Zuo",

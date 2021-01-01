@@ -23,7 +23,7 @@ export default function Profile({
             />
           </div>
           <div className="flex-1 min-w-0 space-y-2">
-            <span className="absolute inset-0" aria-hidden="true" />
+            <span className="" aria-hidden="true" />
             <p className="text-2xl font-medium text-yei-secondary-main">
               {name}
             </p>
@@ -31,7 +31,9 @@ export default function Profile({
               {positions.map((pos) => (
                 <span
                   key={pos}
-                  className="whitespace-nowrap mx-0.5 my-0.5 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs sm:text-sm bg-gray-200 text-yei-secondary-main"
+                  className={`${
+                    pos.length > 23 ? "text-xs sm:text-sm" : "text-sm"
+                  } whitespace-nowrap mx-0.5 my-0.5 inline-flex items-center px-2.5 py-0.5 rounded-full bg-gray-200 text-yei-secondary-main`}
                 >
                   {pos}
                 </span>
@@ -39,40 +41,25 @@ export default function Profile({
             </div>
             <div>
               <ul className="flex pb-5">
-                <li className="mr-1">
-                  {linkedin && (
-                    <a
-                      target="_blank"
-                      href={linkedin}
-                      className="text-yei-secondary-main hover:text-yei-secondary-main"
-                    >
-                      <span className="sr-only">linkedin</span>
-                      <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5" />
-                    </a>
-                  )}
-                </li>
-                <li className="mr-1">
-                  <a
-                    target="_blank"
-                    href={`mailto:${email}`}
-                    className="text-yei-secondary-main hover:text-yei-secondary-main"
-                  >
-                    <span className="sr-only">email</span>
-                    <FontAwesomeIcon icon={faEnvelope} className="w-5 h-5" />
-                  </a>
-                </li>
-                {github && (
-                  <li>
-                    <a
-                      target="_blank"
-                      href={github}
-                      className="text-yei-secondary-main hover:text-yei-secondary-main"
-                    >
-                      <span className="sr-only">github</span>
-                      <FontAwesomeIcon icon={faGithub} className="w-5 h-5" />
-                    </a>
-                  </li>
-                )}
+                {[
+                  { link: linkedin, icon: faLinkedin },
+                  { link: email, icon: faEnvelope },
+                  { link: github, icon: faGithub },
+                ].map(({ link, icon }) => (
+                  <>
+                    {link && (
+                      <li className="mr-1">
+                        <a
+                          target="_blank"
+                          href={link}
+                          className="p-1.5 rounded-full inline-block  hover:bg-gray-300 bg-gray-200 text-yei-secondary-main hover:text-yei-secondary-main"
+                        >
+                          <FontAwesomeIcon icon={icon} className="w-5 h-5" />
+                        </a>
+                      </li>
+                    )}
+                  </>
+                ))}
               </ul>
             </div>
           </div>
