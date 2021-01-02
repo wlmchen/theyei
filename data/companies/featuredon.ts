@@ -1,4 +1,4 @@
-const featuredon = [
+const featuredOn = [
                 {
                   href:
                     "https://markets.businessinsider.com/news/stocks/youth-run-nonprofit-transforming-economics-and-financial-literacy-education-1029503063#",
@@ -29,4 +29,4 @@ const featuredon = [
                 },
 ]
               
-export default featuredon;
+export default featuredOn;
