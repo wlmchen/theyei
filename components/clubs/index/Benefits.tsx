@@ -14,17 +14,17 @@ export default function Benefits() {
   return (
     <div className="py-12 sm:pt-18 sm:pb-20 bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:pt-1">
-        <div className="lg:text-center">
+        <div>
           <h2 className="text-base text-yei-primary-darker font-semibold tracking-wide uppercase">
             Benefits
           </h2>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
             Why Join?
           </h2>
-          <p className="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
+          {/* <p className="mt-4 max-w-2xl text-xl text-gray-600">
             Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
             voluptatum cupiditate veritatis in accusamus quisquam.
-          </p>
+          </p> */}
         </div>
         <div className="mt-10">
           <dl className=" space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
