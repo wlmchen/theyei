@@ -8,7 +8,7 @@ export default function Chapter({ name, imgSrc, email, founding, primaryFounding
       <div className="space-y-4">
         <div className="overflow-hidden w-full h-auto shadow-lg rounded-lg">
           <img
-            className="bg-gray-800 object-cover transform transition ease-in-out duration-500 hover:scale-105 scale-100"
+            className="min-h-64 bg-gray-800 object-cover transform transition ease-in-out duration-500 hover:scale-105 scale-100"
             src={imgSrc}
             alt={name}
           />
