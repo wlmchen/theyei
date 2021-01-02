@@ -6,7 +6,7 @@ export default function Chapter({ name, imgSrc, email, founding, primaryFounding
   return (
     <li className="sm:w-1/2 md:w-1/3 lg:w-1/4 p-2 mb-2">
       <div className="space-y-4">
-        <div className="overflow-hidden w-full h-auto shadow-lg rounded-lg">
+        <div className="overflow-hidden w-full h-auto shadow-lg min-h-64 bg-gray-800 rounded-lg">
           <img
             className="min-h-64 bg-gray-800 object-cover transform transition ease-in-out duration-500 hover:scale-105 scale-100"
             src={imgSrc}
