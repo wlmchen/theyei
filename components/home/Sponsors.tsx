@@ -22,7 +22,7 @@ function Partners() {
       <div className="flow-root mt-8 md:mt-11 lg:mt-12">
         <div className="-mt-4 -ml-8 flex flex-wrap md:space-x-16 lg:space-x-32 sm:flex-row justify-center lg:-ml-4">
           {partners.map((p) => {
-            let key = p.name.replace(/[\W_]+/g, "-");
+            let key = p.name.replace(/[\W_]+/g, "-").toLowerCase();
             return (
               <div key={key} className="mt-4 ml-8 items-center flex">
                 <a href={p.link} target="_blank">
@@ -50,7 +50,7 @@ function Supporters() {
       <div className="flow-root mt-8 md:mt-11 lg:mt-12">
         <div className="-mt-4 -ml-8 flex flex-wrap md:space-x-16 lg:space-x-32 sm:flex-row justify-center lg:-ml-4">
           {supporters.map((s) => {
-            let key = s.name.replace(/[\W_]+/g, "-");
+            let key = s.name.replace(/[\W_]+/g, "-").toLowerCase();
             return (
               <div key={key} className="mt-4 ml-8 items-center flex">
                 <a href={s.link} target="_blank">
