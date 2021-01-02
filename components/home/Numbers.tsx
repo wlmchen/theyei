@@ -15,13 +15,13 @@ export default function Numbers() {
             Repellendus repellat laudantium.
           </p> */}
         </div>
-        <dl className="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
+        <dl className="sm:mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
           {[
             { desc: "Amazing group ​of young economists", val: 1 },
             { desc: "Current clubs", val: currentClubs.length },
             { desc: "Active student members", val: Math.floor((currentClubs.length * 47.3) / 25) * 25}
           ].map((n) => (
-            <div key={n.val} className="flex flex-col">
+            <div key={n.val} className="flex flex-col space-y-8 sm:space-y-0">
               <dt className="order-2 mt-2 text-xl leading-6 font-medium text-indigo-200">
                 ​{n.desc}
               </dt>
