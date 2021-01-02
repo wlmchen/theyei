@@ -1,4 +1,4 @@
-const featuredOn = [
+const featured = [
   {
     href:
       "https://markets.businessinsider.com/news/stocks/youth-run-nonprofit-transforming-economics-and-financial-literacy-education-1029503063#",
@@ -29,4 +29,4 @@ const featuredOn = [
   },
 ];
 
-export default featuredOn;
+export default featured;
