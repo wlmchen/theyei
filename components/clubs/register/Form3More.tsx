@@ -72,7 +72,7 @@ export default function More({ submitBottomBar }) {
           </div>
         </div>
       </div>
-      <div className="shadow sm:rounded-md sm:overflow-hidden">
+      <div className="sm:rounded-md sm:overflow-hidden">
         <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
           {submitBottomBar}
         </div>

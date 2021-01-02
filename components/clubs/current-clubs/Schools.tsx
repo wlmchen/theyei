@@ -9,7 +9,7 @@ export default function Schools() {
       <div className="mx-auto py-8 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-14">
         <div className="pb-8">
           <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl mb-4">
-            Current Clubs
+            YEI Current Clubs
           </h2>
           <p className="text-xl text-gray-600">
             View the YEI's {currentClubs.length} clubs. Want to join the list?
@@ -17,12 +17,6 @@ export default function Schools() {
             <Link href="/clubs">
               <a className="text-yei-secondary-main underline font-medium">
                 EconClubs overview page
-              </a>
-            </Link>{" "}
-            and register at the{" "}
-            <Link href="/clubs/register">
-              <a className="text-yei-secondary-main underline font-medium">
-                club registration page
               </a>
             </Link>
             .
