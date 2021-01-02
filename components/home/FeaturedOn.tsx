@@ -1,5 +1,5 @@
 import React from "react";
-import featuredon from "../../data/companies/featuredon";
+import featuredon from "../../data/companies/featuredOn";
 
 export default function FeaturedOn() {
   return (

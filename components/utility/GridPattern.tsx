@@ -32,7 +32,7 @@ export default function GridPattern({
             y={0}
             width={4}
             height={4}
-            className={(color ? "text-" + color : "text-gray-200")}
+            className={(color ? color : "text-gray-200")}
             fill="currentColor"
           />
         </pattern>

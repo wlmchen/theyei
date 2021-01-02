@@ -26,7 +26,7 @@ export default function Chapter({ name, imgSrc, email, founding, primaryFounding
             <p className="text-yei-primary-main">
               {region}{" "}
               <a
-                className="text-gray-500 text-sm"
+                className="text-gray-400 text-sm"
                 target="_blank"
                 href={"mailto:" + email}
               >

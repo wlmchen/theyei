@@ -4,7 +4,7 @@ import DoubleGridBg from "../../utility/DoubleGridBg";
 export default function Hero() {
   return (
     <div className="bg-yei-secondary-main relative pt-14 overflow-hidden">
-      <DoubleGridBg color="gray-700" />
+      <DoubleGridBg color="text-gray-700" />
       <div className="z-10 relative container py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-lg font-semibold text-yei-primary-main tracking-wide uppercase">
