@@ -8,7 +8,6 @@ import {
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
-import { resolveHref } from "next/dist/next-server/lib/router/router";
 
 export default function Benefits() {
   return (
