@@ -24,7 +24,7 @@ export default function Schools() {
         </div>
         <ul className="flex flex-col sm:flex-row flex-wrap">
           {currentClubs.map(({ name, email, founding, primaryFounding, region }) => {
-            let key = name.replace(/[\W_]+/g, "-").toLowerCase();
+            let key = name.replace(/[\W_]+/g, "-");
             return (
               <Chapter
                 key={key}
