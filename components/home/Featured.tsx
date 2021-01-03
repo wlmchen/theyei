@@ -14,6 +14,8 @@ export default function Featured() {
           href={href}
           imgTitle={imgTitle}
           dark={index % 2 == 0}
+          index={index}
+          length={featured.length}
         />
       ))}
     </>

@@ -4,7 +4,7 @@ import CountUpOnce from "../utility/CountUp";
 
 export default function Numbers() {
   return (
-    <div className="bg-yei-secondary-brighter">
+    <div className="relative z-30 bg-yei-secondary-brighter">
       <div className="max-w-7xl mx-auto py-14 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
@@ -19,7 +19,10 @@ export default function Numbers() {
           {[
             { desc: "Amazing group ​of young economists", val: 1 },
             { desc: "Current clubs", val: currentClubs.length },
-            { desc: "Active student members", val: Math.floor((currentClubs.length * 47.3) / 25) * 25}
+            {
+              desc: "Active student members",
+              val: Math.floor((currentClubs.length * 47.3) / 25) * 25,
+            },
           ].map((n) => (
             <div key={n.val} className="flex flex-col space-y-8 sm:space-y-0">
               <dt className="order-2 mt-2 text-xl leading-6 font-medium text-indigo-200">

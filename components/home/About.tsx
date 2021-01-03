@@ -4,7 +4,7 @@ import DoubleGridBg from './../utility/DoubleGridBg';
 
 export default function About() {
   return (
-    <div className="relative bg-gray-50 overflow-hidden">
+    <div className="relative z-30 bg-gray-50 overflow-hidden">
       <DoubleGridBg />
       <div className="relative pt-6 pb-16 sm:pb-24">
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
