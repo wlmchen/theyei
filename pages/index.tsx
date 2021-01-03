@@ -1,3 +1,4 @@
+import CTA from "../components/home/CTA";
 import Featured from "../components/home/Featured";
 import FeaturedOn from "../components/home/FeaturedOn";
 import Hero from "../components/home/Hero";
@@ -20,6 +21,7 @@ export default function Home() {
       <Numbers />
       <Featured />
       <Sponsors />
+      <CTA />
     </Page>
   );
 }
