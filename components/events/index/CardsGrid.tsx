@@ -7,7 +7,7 @@ export default function CardsGrid() {
     <div className="bg-white relative overflow-hidden pt-16">
       <div className="mx-auto py-8 px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-14">
         <div className="pb-8">
-          <h2 className="font-extrabold text-yei-secondary-brighter tracking-tight text-5xl mb-4">
+          <h2 className="font-extrabold tracking-tight text-5xl mb-4">
             Events
           </h2>
           <div className="text-gray-600 text-xl space-y-4">
