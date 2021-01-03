@@ -42,7 +42,7 @@ export default function CardsGrid() {
                   {href && (
                     <div className="inline-flex">
                       {href.startsWith("/") ? (
-                        <Link href="/clubs/register">
+                        <Link href={href}>
                           <a className="trans-300 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-secondary-brighter hover:bg-yei-secondary-darker">
                             {hrefText ? hrefText : "Learn more"}
                           </a>
@@ -50,6 +50,7 @@ export default function CardsGrid() {
                       ) : (
                         <a
                           target="_blank"
+                          href={href}
                           className="trans-300 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-secondary-brighter hover:bg-yei-secondary-darker"
                         >
                           {hrefText ? hrefText : "Learn more"}
@@ -60,7 +61,9 @@ export default function CardsGrid() {
                 </div>
                 <img
                   className={`absolute bottom-5 opacity-10 h-auto ${
-                    title === "EconTalks" ? "w-48 md:w-60 right-5" : "right-3 w-44 md:w-48"
+                    title === "EconTalks"
+                      ? "w-48 md:w-60 right-5"
+                      : "right-3 w-44 md:w-48"
                   }`}
                   src={`/img/logos/${imgTitle ? imgTitle : "yei"}.png`}
                   alt={title}
