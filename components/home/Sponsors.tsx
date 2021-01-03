@@ -5,7 +5,7 @@ import DoubleGridBg from "../utility/DoubleGridBg";
 
 export default function Sponsors() {
   return (
-    <div className="bg-gray-100 relative overflow-hidden">
+    <div className="bg-white relative overflow-hidden">
       <DoubleGridBg color="text-gray-600" />
       <div className="relative z-10 max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
         <Partners />

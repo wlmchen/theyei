@@ -1,6 +1,11 @@
 import React from "react";
 import events from "../../../data/content/events";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faExternalLinkAlt,
+  faArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function CardsGrid() {
   return (
@@ -29,7 +34,7 @@ export default function CardsGrid() {
         <div className="flex flex-wrap -my-2 md:-mb-2 mb-1 -mx-4">
           {events.map(({ title, content, href, hrefText, imgTitle }) => (
             <div key={title} className="w-full md:w-1/2 p-3">
-              <div className="rounded relative shadow trans-300 hover:shadow-md h-full p-6 bg-gray-100 space-y-4">
+              <div className="rounded relative shadow trans-300 h-full p-6 bg-gray-100 space-y-4">
                 <div className="relative z-10 h-full flex flex-col justify-between">
                   <div className="pb-4 space-y-2">
                     <h2 className="font-bold text-4xl text-yei-secondary-main">
@@ -44,7 +49,11 @@ export default function CardsGrid() {
                       {href.startsWith("/") ? (
                         <Link href={href}>
                           <a className="trans-300 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-secondary-brighter hover:bg-yei-secondary-darker">
-                            {hrefText ? hrefText : "Learn more"}
+                            {hrefText ? hrefText : "Learn more"}{" "}
+                            <FontAwesomeIcon
+                              icon={faArrowRight}
+                              className="ml-2 -mr-1 text-gray-500 w-4 h-4"
+                            />
                           </a>
                         </Link>
                       ) : (
@@ -53,18 +62,18 @@ export default function CardsGrid() {
                           href={href}
                           className="trans-300 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-secondary-brighter hover:bg-yei-secondary-darker"
                         >
-                          {hrefText ? hrefText : "Learn more"}
+                          {hrefText ? hrefText : "Learn more"}{" "}
+                          <FontAwesomeIcon
+                            icon={faExternalLinkAlt}
+                            className="ml-2 text-gray-500 w-4 h-4 -mr-1"
+                          />
                         </a>
                       )}
                     </div>
                   )}
                 </div>
                 <img
-                  className={`absolute bottom-5 opacity-10 h-auto ${
-                    title === "EconTalks"
-                      ? "w-48 md:w-60 right-5"
-                      : "right-3 w-44 md:w-48"
-                  }`}
+                  className="absolute bottom-5 opacity-10 h-auto right-3 w-44 md:w-48"
                   src={`/img/logos/${imgTitle ? imgTitle : "yei"}.png`}
                   alt={title}
                 />
