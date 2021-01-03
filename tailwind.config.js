@@ -22,6 +22,7 @@ module.exports = {
           secondary: {
             brighter: "#113b47",
             main: "#293236",
+            darker: "#0d303b",
             darkest: "#0d242b",
             black: "#232323",
             blackVibrant: "#010915",
