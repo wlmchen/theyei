@@ -16,14 +16,18 @@ export default function SpeakerGrid() {
               lectus sit pretium egestas vel mattis neque.
             </p> */}
           </div>
-          <ul className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl">
-            {speakers.map(({ name, occupation }) => {
+          <ul className="mx-auto justify-center flex flex-wrap flex-col sm:flex-row">
+            {speakers.map(({ name, occupation, vids, host, bio, date }) => {
               let key = name.replace(/[\W_]+/g, "-").toLowerCase();
               return (
                 <Speaker
                   key={key}
                   name={name}
                   occupation={occupation}
+                  vids={vids}
+                  bio={bio}
+                  date={date}
+                  host={host}
                   imgSrc={`/img/people/speakers/${key}.jpg`}
                 />
               );
