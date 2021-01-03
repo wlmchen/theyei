@@ -16,9 +16,9 @@ export default function Speaker({
     <li className="w-full md:w-1/2 lg:w-1/3 py-8 px-4 sm:px-8">
       <div className="space-y-6">
         <img
-          className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
+          className="bg-yei-secondary-main mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
           src={imgSrc}
-          alt=""
+          alt={name}
         />
         <div className="space-y-2">
           <div className="space-y-1">
