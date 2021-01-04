@@ -12,6 +12,7 @@ export default function FeaturedSection({
   dark,
   index,
   length,
+  Component
 }) {
   return (
     <Slant dark={dark} index={index} length={length}>
@@ -90,6 +91,9 @@ export default function FeaturedSection({
             </div>
           </div>
         </div>
+        {Component && <div className="max-w-7xl mx-auto px-4 sm:px-2 pt-24 pb-2 -mb-10 sm:-mb-8 lg:-mb-4 md:pt-12 xl:pb-6">
+          <Component />
+        </div>}
       </div>
     </Slant>
   );

@@ -1,3 +1,5 @@
+import SpeakerSlider from "../../components/home/SpeakerSlider";
+
 const featured = [
   {
     title: "EconBowl",
@@ -22,6 +24,7 @@ const featured = [
     href: "/events/econtalks",
     imgTitle: "econtalks",
     subtitle: "YEI Event",
+    Component: SpeakerSlider,
   },
   {
     title: "FLIP",

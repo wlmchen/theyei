@@ -5,7 +5,7 @@ import FeaturedSection from "./FeaturedSection";
 export default function Featured() {
   return (
     <>
-      {featured.map(({ subtitle, title, content, href, imgTitle }, index) => (
+      {featured.map(({ subtitle, title, content, href, imgTitle, Component }, index) => (
         <FeaturedSection
           key={title}
           title={title}
@@ -16,6 +16,7 @@ export default function Featured() {
           dark={index % 2 == 0}
           index={index}
           length={featured.length}
+          Component={Component}
         />
       ))}
     </>
