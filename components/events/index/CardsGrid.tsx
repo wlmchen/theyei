@@ -75,7 +75,7 @@ export default function CardsGrid() {
                       </a>
                     )
                   ) : (
-                    <>title</>
+                    <>{title}</>
                   )}
                 </h3>
                 <p className="mt-2 text-base text-gray-500">{content}</p>
