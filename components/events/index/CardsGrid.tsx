@@ -31,53 +31,70 @@ export default function CardsGrid() {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap -my-2 md:-mb-2 mb-1 -mx-4">
-          {events.map(({ title, content, href, hrefText, imgTitle }) => (
-            <div key={title} className="w-full md:w-1/2 p-3">
-              <div className="rounded relative shadow trans-300 h-full p-6 bg-gray-100 space-y-4">
-                <div className="relative z-10 h-full flex flex-col justify-between">
-                  <div className="pb-4 space-y-2">
-                    <h2 className="font-bold text-4xl text-yei-secondary-main">
-                      {title}
-                    </h2>
-                    <p className="text-gray-600 sm:text-xl text-lg">
-                      {content}
-                    </p>
-                  </div>
-                  {href && (
-                    <div className="inline-flex">
-                      {href.startsWith("/") ? (
-                        <Link href={href}>
-                          <a className="trans-300 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-secondary-brighter hover:bg-yei-secondary-darker">
-                            {hrefText ? hrefText : "Learn more"}{" "}
-                            <FontAwesomeIcon
-                              icon={faArrowRight}
-                              className="ml-2 -mr-1 text-gray-500 w-4 h-4"
-                            />
-                          </a>
-                        </Link>
-                      ) : (
-                        <a
-                          target="_blank"
-                          href={href}
-                          className="trans-300 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-secondary-brighter hover:bg-yei-secondary-darker"
-                        >
-                          {hrefText ? hrefText : "Learn more"}{" "}
-                          <FontAwesomeIcon
-                            icon={faExternalLinkAlt}
-                            className="ml-2 text-gray-500 w-4 h-4 -mr-1"
-                          />
-                        </a>
-                      )}
-                    </div>
-                  )}
-                </div>
-                <img
-                  className="absolute bottom-5 opacity-10 h-auto right-3 w-44 md:w-48"
-                  src={`/img/logos/${imgTitle ? imgTitle : "yei"}.png`}
-                  alt={title}
-                />
+        <div className="rounded-lg bg-gray-100 overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
+          {events.map(({ title, content, href }) => (
+            <div key={title} className=" bg-gray-50 relative group p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
+              <div>
+                <span className="rounded-lg inline-flex bg-green-50 text-green-700 ring-4 ring-white">
+                  {/* Heroicon name: calendar */}
+                  <svg
+                    className="h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    />
+                  </svg>
+                </span>
               </div>
+              <div className="mt-4">
+                <h3 className="text-2xl font-bold">
+                  {href ? (
+                    href.startsWith("/") ? (
+                      <Link href={href}>
+                        <a className="focus:outline-none">
+                          {/* Extend touch target to entire panel */}
+                          <span
+                            className="absolute inset-0"
+                            aria-hidden="true"
+                          />
+                          {title}
+                        </a>
+                      </Link>
+                    ) : (
+                      <a href={href} className="focus:outline-none">
+                        {/* Extend touch target to entire panel */}
+                        <span className="absolute inset-0" aria-hidden="true" />
+                        {title}
+                      </a>
+                    )
+                  ) : (
+                    <>title</>
+                  )}
+                </h3>
+                <p className="mt-2 text-base text-gray-500">{content}</p>
+              </div>
+              {href && (
+                <span
+                  className="pointer-events-none trans-300 absolute top-6 right-6 text-gray-300 group-hover:text-gray-400"
+                  aria-hidden="true"
+                >
+                  <svg
+                    className="h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+                  </svg>
+                </span>
+              )}
             </div>
           ))}
         </div>

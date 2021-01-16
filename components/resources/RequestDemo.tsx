@@ -67,7 +67,7 @@ export default function RequestDemo() {
                       name="name"
                       id="name"
                       autoComplete="off"
-                      placeHolder="Full name"
+                      placeholder="Full name"
                       className="block w-full shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm border-gray-300 rounded-md"
                     />
                     <ErrorMessage
@@ -85,7 +85,7 @@ export default function RequestDemo() {
                       name="email"
                       id="email"
                       autoComplete="off"
-                      placeHolder="Email"
+                      placeholder="Email"
                       className="block w-full shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm border-gray-300 rounded-md"
                     />
                     <ErrorMessage
@@ -104,7 +104,7 @@ export default function RequestDemo() {
                         name="school"
                         id="school"
                         autoComplete="off"
-                        placeHolder="School"
+                        placeholder="School"
                         className="block w-full shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm border-gray-300 rounded-md"
                       />
                       <ErrorMessage
@@ -122,7 +122,7 @@ export default function RequestDemo() {
                         name="grade"
                         id="grade"
                         autoComplete="off"
-                        placeHolder="Grade"
+                        placeholder="Grade"
                         className="block w-full shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm border-gray-300 rounded-md"
                       />
                       <ErrorMessage
@@ -139,7 +139,7 @@ export default function RequestDemo() {
                       <button
                         type="submit"
                         disabled={isSubmitting}
-                        className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-yei-primary-main hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
+                        className="trans-300 w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-yei-primary-main hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
                       >
                         Request a Demo
                       </button>
