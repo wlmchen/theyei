@@ -138,8 +138,10 @@ export default function Application() {
                           </button>
                         </div>
                       ) : (
-                        <SuccessAlert name="Application Submitted" desc="
-              Thank you for applying! We'll get back to you as soon as possible." />
+                        <SuccessAlert
+                          title="Application Submitted"
+                          desc="Thank you for applying! We'll get back to you as soon as possible."
+                        />
                       )
                     }
                   />
