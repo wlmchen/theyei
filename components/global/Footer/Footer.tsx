@@ -50,7 +50,7 @@ export default function Footer() {
                     { href: "/programs/earn", name: "FLIP" },
                     { href: "/programs/flip", name: "EARN" },
                     { href: "/resources", name: "Resources" },
-                    { href: "/team#hiring", name: "YEI Hiring" },
+                    { href: "/people/apply", name: "YEI Hiring" },
                   ]}
                 />
               </div>

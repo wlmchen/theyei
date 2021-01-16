@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../components/resources/Hero";
 import Page from "../components/utility/Page";
 
 export default function resources() {
@@ -7,7 +8,7 @@ export default function resources() {
       title="Resources"
       desc="Youth Economics Initiative (YEI) provides numerous high quality resources for both AP and IB curriculums."
     >
-      RESOURCELWJ
+      <Hero />
     </Page>
   );
 }
