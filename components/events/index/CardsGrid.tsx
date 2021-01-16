@@ -1,11 +1,6 @@
 import React from "react";
 import events from "../../../data/content/events";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faExternalLinkAlt,
-  faArrowRight,
-} from "@fortawesome/free-solid-svg-icons";
 
 export default function CardsGrid() {
   return (
