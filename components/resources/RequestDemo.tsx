@@ -154,7 +154,7 @@ export default function RequestDemo() {
       </div>
       <div className="px-4 py-6 bg-gray-50 border-t-2 border-gray-200 sm:px-10">
         <p className="text-sm leading-5 text-gray-500">
-          Get full access to over 60 weeks of resources by joining us as a{" "}
+          Get full access to over 60 weeks of resources (AP Macro, AP Micro, IB Economics, and financial literacy content) by joining us as a{" "}
           <Link href="/clubs/register">
             <a className="font-medium text-gray-900 hover:underline">
               YEI club
