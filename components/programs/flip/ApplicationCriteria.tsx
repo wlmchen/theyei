@@ -17,7 +17,15 @@ export default function ApplicationCriteria() {
           </h2>
           <p className="mt-2 text-lg text-gray-500">
             EconClub applications for FLIP are evaluated on the following
-            criteria.
+            criteria. Apply for FLIP with {" "}
+            <a
+              href="https://docs.google.com/forms/d/1bjyw2csfGtJRDt4UFgCU1eyrCIV_nKECSY4LNDfvSH4/viewform"
+              target="_blank"
+              className="underline font-semibold text-gray-600"
+            >
+              this form
+            </a>
+            .
           </p>
         </div>
         <dl className="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-4 lg:gap-8">

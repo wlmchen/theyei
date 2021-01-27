@@ -3,7 +3,8 @@ import ContentBlock from "../../components/programs/ContentBlock";
 import Hero from "../../components/programs/Hero";
 import Page from "../../components/utility/Page";
 import Link from "next/link";
-
+import Benefits from "../../components/programs/earn/Benefits";
+import GreatCandidate from "../../components/programs/earn/GreatCandidate";
 
 export default function earn() {
   return (
@@ -46,6 +47,8 @@ export default function earn() {
           .
         </p>
       </ContentBlock>
+      <Benefits />
+      <GreatCandidate />
     </Page>
   );
 }
