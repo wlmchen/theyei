@@ -28,7 +28,7 @@ export default function IB() {
             25+ Week IB Curriculum
           </h2>
           <p className="mt-4 text-lg text-gray-500">
-            B Economics! This in-depth curriculum covers microeconomics,
+            IB Economics! This in-depth curriculum covers microeconomics,
             macroeconomics, international trade, and development economics. Use
             our 20 IB slides to study and teach economics for the IB exam!
           </p>

@@ -15,7 +15,7 @@ export default function Advisor({ name, title, bio, imgSrc }) {
         <div className="col-span-12 sm:col-span-9">
           <div className="space-y-4">
             <div className="text-2xl sm:text-3xl font-medium space-y-1">
-              <h3 className="text-5xl font-bold mb-2">{name}</h3>
+              <h3 className="text-4xl font-bold mb-2">{name}</h3>
               <p className="text-yei-primary-main">{title}</p>
             </div>
             <div className="text-lg text-gray-500 ">

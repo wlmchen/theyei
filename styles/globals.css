@@ -33,7 +33,7 @@ input {
 }
 
 .formik-error {
-  @apply text-red-500 font-bold;
+  @apply text-red-500 font-bold mt-1;
 }
 
 /*-------------------------------*/

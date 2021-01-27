@@ -12,7 +12,7 @@ export default function Benefits() {
           <h2 className="text-base text-yei-primary-darker font-semibold tracking-wide uppercase">
             Benefits
           </h2>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Why Join?
           </h2>
           {/* <p className="mt-4 max-w-2xl text-xl text-gray-600">
