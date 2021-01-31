@@ -42,7 +42,7 @@ export default function earn() {
           If you do not have a YEI EconClub at your school, you may apply to
           start one{" "}
           <Link href="/clubs/register">
-            <a className="underline text-gray-800 font-semibold">here</a>
+            <a className="green-link">here</a>
           </Link>
           .
         </p>

@@ -17,7 +17,7 @@ export default function Curriculum() {
           retirement, interest, savings, investing, and insurance. Learn more on
           the{" "}
           <Link href="/resources">
-            <a className="underline text-gray-700 font-semibold">
+            <a className="green-link">
               resources page
             </a>
           </Link>

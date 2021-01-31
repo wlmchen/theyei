@@ -36,6 +36,10 @@ input {
   @apply text-red-500 font-bold mt-1;
 }
 
+.green-link {
+  @apply text-yei-primary-main hover:text-yei-primary-darker font-semibold;
+}
+
 /*-------------------------------*/
 
 body {

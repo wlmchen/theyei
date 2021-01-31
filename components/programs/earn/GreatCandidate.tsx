@@ -34,7 +34,7 @@ export default function GreatCandidate() {
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScJ2wmr5GuM_TSYCV-T2GiRQIXJ3UF5HvoeinJkikOZIe3YKA/viewform"
             target="_blank"
-            className="underline font-medium text-gray-600"
+            className="green-link"
           >
             this form
           </a>

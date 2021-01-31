@@ -21,7 +21,7 @@ export default function ApplicationCriteria() {
             <a
               href="https://docs.google.com/forms/d/1bjyw2csfGtJRDt4UFgCU1eyrCIV_nKECSY4LNDfvSH4/viewform"
               target="_blank"
-              className="underline font-semibold text-gray-600"
+              className="green-link"
             >
               this form
             </a>

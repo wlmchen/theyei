@@ -15,7 +15,7 @@ export default function Schools() {
             View the YEI's {currentClubs.length} clubs. Want to join the list?
             Learn more at our{" "}
             <Link href="/clubs">
-              <a className="text-yei-secondary-main underline font-medium">
+              <a className="green-link">
                 EconClubs overview page
               </a>
             </Link>
