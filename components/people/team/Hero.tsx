@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Announcement from "./Announcement";
+import Announcement from "../../utility/Announcement";
 
 export default function Hero() {
   const [visible, setVisible] = useState(true);

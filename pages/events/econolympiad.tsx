@@ -1,7 +1,10 @@
 import React from "react";
 import FAQs from "../../components/events/econolympiad/FAQs";
 import Hero from "../../components/events/econolympiad/Hero";
+import KeyDates from "../../components/events/econolympiad/KeyDates";
+import Prizes from "../../components/events/econolympiad/Prizes";
 import Page from "../../components/utility/Page";
+import FindTeams from './../../components/events/econolympiad/FindTeams';
 
 export default function econolympiad() {
   return (
@@ -10,6 +13,9 @@ export default function econolympiad() {
       desc="Youth Economics Initiative's (YEI) Flagship Competition, EconOlympiad, takes place every Spring.  Students compete in small teams to create comprehensive solutions and answer open ended questions. Exclusively available to YEI Members."
     >
       <Hero />
+      <KeyDates />
+      <FindTeams />
+      <Prizes />
       <FAQs />
     </Page>
   );
