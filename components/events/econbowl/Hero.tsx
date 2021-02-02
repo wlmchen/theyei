@@ -13,14 +13,18 @@ export default function Hero() {
           smTitle="EconBowl 2020-21 was a success!"
           title="EconBowl 2020-21 was a success! It took place on Nov. 8, 2020."
         >
-          <AnchorLink href="#recap" className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-yei-primary-main bg-white hover:bg-gray-100">
+          <AnchorLink
+            href="#recap"
+            offset={65}
+            className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-yei-primary-main bg-white hover:bg-gray-100"
+          >
             See Recap
           </AnchorLink>
         </Announcement>
       )}
       <div
-        className={`relative bg-gray-50 overflow-hidden ${
-          visible ? "" : "pt-12"
+        className={`relative bg-white overflow-hidden ${
+          visible ? "" : "pt-12 sm:pt-8"
         }`}
       >
         <div
@@ -94,14 +98,11 @@ export default function Hero() {
             </svg>
           </div>
         </div>
-        <div className="relative pt-6 pb-16 sm:pb-24">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6"></div>
-
+        <div className="relative pb-16 sm:pb-24">
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
             <div className="text-center">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="xl:inline">Econ</span>
-                <span className="text-yei-primary-main xl:inline">Bowl</span>
+                <img className="w-48 mx-auto" src="/img/logos/econbowl.png" alt="EconBowl"/>
               </h1>
               <div className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 <p>
@@ -115,7 +116,7 @@ export default function Hero() {
                   knowledge in a fast-paced environment. Compete for glory,
                   represent your high school, and win cash prizes!
                 </p>
-                <p className="mt-4 font-medium">
+                {/* <p className="mt-4 font-medium">
                   For contest details, please view the{" "}
                   <a
                     href="https://docs.google.com/document/d/1PsFf-NWwelRNSfVdKcW2rn-mTQvF39fIOiDQjzzx-kM/edit?usp=sharing"
@@ -125,25 +126,17 @@ export default function Hero() {
                     rulebook
                   </a>
                   .
-                </p>
+                </p> */}
               </div>
-              <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+              <div className="mt-5 max-w-md mx-auto flex justify-center md:mt-8">
                 <div className="rounded-md shadow">
                   <a
                     href="https://docs.google.com/document/d/1PsFf-NWwelRNSfVdKcW2rn-mTQvF39fIOiDQjzzx-kM/edit?usp=sharing"
                     target="_blank"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-primary-main hover:bg-yei-primary-darker md:py-4 md:text-lg md:px-10"
                   >
-                    Rulebook
+                    Contest Details
                   </a>
-                </div>
-                <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                  <AnchorLink
-                    href="#recap"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-yei-primary-main bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
-                  >
-                    20-21 Recap
-                  </AnchorLink>
                 </div>
               </div>
             </div>
