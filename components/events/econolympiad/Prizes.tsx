@@ -1,4 +1,5 @@
 import React from "react";
+import CountUpOnce from './../../utility/CountUp';
 
 export default function Prizes() {
   return (
@@ -20,7 +21,9 @@ export default function Prizes() {
                 1st
               </span>
             </dt>
-            <dd className="order-1 text-7xl font-extrabold text-white">$500</dd>
+            <dd className="order-1 text-7xl font-extrabold text-white">
+              $<CountUpOnce number={500} />
+            </dd>
           </div>
           <div className="flex flex-col mt-10 sm:mt-0 sm:order-1">
             <dt className="order-2 mt-3">
@@ -29,7 +32,7 @@ export default function Prizes() {
               </span>
             </dt>
             <dd className="order-1 text-6xl font-extrabold text-gray-200">
-              $400
+              $<CountUpOnce number={400} />
             </dd>
           </div>
           <div className="flex flex-col mt-10 sm:mt-0 sm:order-3">
@@ -39,7 +42,7 @@ export default function Prizes() {
               </span>
             </dt>
             <dd className="order-1 text-5xl font-extrabold text-gray-300">
-              $250
+              $<CountUpOnce number={250} />
             </dd>
           </div>
         </dl>

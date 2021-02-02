@@ -62,7 +62,9 @@ export default function Hero() {
             />
           </svg>
         </div>
-        <div className="relative pt-6 pb-16 sm:pb-24 lg:pb-32">
+        <div
+          className={`"relative pb-16 sm:pb-24 lg:pb-32  ${visible ? "" : "pt-12"}`}
+        >
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
@@ -98,7 +100,7 @@ export default function Hero() {
                     target="_blank"
                     className="mt-6 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
                   >
-                    Register
+                    Register Now
                     <FontAwesomeIcon
                       icon={faArrowRight}
                       className="-mr-1 ml-3 h-4 w-4 text-gray-200"
