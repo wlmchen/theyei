@@ -14,7 +14,7 @@ export default function Prizes() {
               Repellendus repellat laudantium.
             </p> */}
         </div>
-        <dl className="mt-10 text-center sm:max-w-3xl items-end sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
+        <dl className="mt-10 text-center sm:max-w-3xl items-center sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
           <div className="flex flex-col sm:order-2">
             <dt className="order-2 mt-3">
               <span className="inline-flex items-center px-5 py-1 rounded-full text-2xl font-medium bg-indigo-100 text-indigo-800">
