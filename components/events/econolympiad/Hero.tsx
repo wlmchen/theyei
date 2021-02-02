@@ -1,6 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React, { useState } from "react";
 import Announcement from "../../utility/Announcement";
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function Hero() {
   const [visible, setVisible] = useState(true);
@@ -79,7 +81,7 @@ export default function Hero() {
                     based competition to answer written questions & brainstorm
                     solutions for current economic issues!
                   </p>
-                  <p className="mt-8">
+                  <p className="mt-4">
                     Please note that EconOlympiad is an event exclusive to YEI
                     members. If your school is not yet a registered club, you
                     can sign up{" "}
@@ -89,6 +91,19 @@ export default function Hero() {
                     , and we’ll get in touch with you soon! You can sign up as
                     soon as you fill out the form.
                   </p>
+                </div>
+                <div>
+                  <a
+                    href="https://form.jotform.com/210067483876059"
+                    target="_blank"
+                    className="mt-6 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
+                  >
+                    Register
+                    <FontAwesomeIcon
+                      icon={faArrowRight}
+                      className="-mr-1 ml-3 h-4 w-4 text-gray-200"
+                    />
+                  </a>
                 </div>
               </div>
               <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
