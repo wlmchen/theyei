@@ -1,3 +1,3 @@
 # yei-website-next
 
-YEI website (Next.js).
+YEI website (built with Next.js and Tailwind).
