@@ -40,6 +40,14 @@ const advisoryBoard = [
     ],
   },
   {
+    name: "Kerry McDonald",
+    title: "Senior Education Fellow at FEE, Author",
+    bio: [
+      "Kerry McDonald is a Senior Education Fellow at FEE and author of Unschooled: Raising Curious, Well-Educated Children Outside the Conventional Classroom (Chicago Review Press, 2019). She is also an adjunct scholar at The Cato Institute and a regular Forbes contributor.", 
+      "Kerry's research interests include homeschooling and alternatives to school, self-directed learning, education entrepreneurship, parent empowerment, school choice, and family and child policy. Her articles have appeared at The Wall Street Journal, Newsweek, NPR, Education Next, Reason Magazine, City Journal, and Entrepreneur, among others. She has a master’s degree in education policy from Harvard University and a bachelor’s degree in economics from Bowdoin College."
+    ]
+  },
+  {
     name: "George Bian",
     title: "Co-founder & Former CEO of YEI, Student at MIT",
     bio: [
