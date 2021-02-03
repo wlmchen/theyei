@@ -27,7 +27,7 @@ export default function MobileNavItem({
     return (
       <>
         <div onClick={toggle} className={navItemStyle}>
-            <a>{name}</a>
+          {name}
           <FontAwesomeIcon
             className={`trans-150 ml-auto h-5 w-5 mr-4 inline-block ${
               expanded ? "transform rotate-180" : "transform rotate-0"
