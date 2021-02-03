@@ -173,7 +173,7 @@ const team = [
 
   {
     name: "Connor Park",
-    positions: ["Podcast Engineer"],
+    positions: ["Podcast Editor"],
     linkedin: "https://www.linkedin.com/in/geonu-park-0904031b8/",
   },
   {
@@ -198,7 +198,7 @@ const team = [
   },
   {
     name: "Soumil Voma",
-    positions: ["Regional Ambassador"],
+    positions: ["Marketing Specialist", "Regional Ambassador"],
     linkedin: "https://www.linkedin.com/in/soumil-voma-728a871bb/",
   },
   {
