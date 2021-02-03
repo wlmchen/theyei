@@ -91,6 +91,11 @@ const team = [
     linkedin: "https://www.linkedin.com/in/sruti-elangovan-51166a202/",
   },
   {
+    name: "Snehil Kakani",
+    positions: ["Graphic Designer"],
+    linkedin: "www.linkedin.com/in/snehilkakani",
+  },
+  {
     name: "Amy Zhou",
     positions: ["Marketing Specialist"],
     linkedin: "http://linkedin.com/in/amy-zhou-933536181/",
@@ -130,11 +135,15 @@ const team = [
     positions: ["Curriculum Designer", "Quality Control"],
     linkedin: "http://linkedin.com/in/sanjit-pingili-14b04a1aa/",
   },
-
   {
     name: "Alysa Xu",
     positions: ["Events Coordinator"],
     linkedin: "https://www.linkedin.com/in/alysa-xu-06bba21aa/",
+  },
+  {
+    name: "Audrey Sun",
+    positions: ["Events Coordinator"],
+    linkedin: "https://www.linkedin.com/in/audrey-sun-a14545129/",
   },
   {
     name: "Deeya Jain",
@@ -160,6 +169,12 @@ const team = [
     name: "Sahil Bhatia",
     positions: ["Accounting Manager"],
     linkedin: "https://www.linkedin.com/in/sahil-bhatia-2590481a6/ ",
+  },
+
+  {
+    name: "Connor Park",
+    positions: ["Podcast Engineer"],
+    linkedin: "https://www.linkedin.com/in/geonu-park-0904031b8/",
   },
   {
     name: "Mounica Policharla",
@@ -197,6 +212,21 @@ const team = [
     linkedin: "https://www.linkedin.com/in/martinakurchan/",
   },
   {
+    name: "Saad Umar",
+    positions: ["IB Curriculum Coordinator"],
+    linkedin: "https://www.linkedin.com/in/saad-umar-78b5201a7/ ",
+  },
+  {
+    name: "Vipra Bindal",
+    positions: ["FLIP Curriculum Manager"],
+    linkedin: "https://www.linkedin.com/in/vipra-bindal-6849a2204/ ",
+  },
+  {
+    name: "Manasvi Lodha",
+    positions: ["FLIP Curriculum Manager"],
+    linkedin: "https://www.linkedin.com/in/manasvi-lodha-994330184 ",
+  },
+  {
     name: "Faaris Zuberi",
     positions: ["FLIP Curriculum Designer"],
     linkedin: "https://www.linkedin.com/in/faaris-zuberi-4207a91b0/",
@@ -205,11 +235,6 @@ const team = [
     name: "Tarun Srivastava",
     positions: ["FLIP Curriculum Designer"],
     linkedin: "https://www.linkedin.com/in/tarun-srivastava-b9a7aa1a9/",
-  },
-  {
-    name: "Anand Singh",
-    positions: ["FLIP Partnership Manager"],
-    linkedin: "https://www.linkedin.com/in/anand-singh-321817135/",
   },
   {
     name: "Nevin Thombre",
