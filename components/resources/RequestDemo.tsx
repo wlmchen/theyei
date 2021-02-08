@@ -45,12 +45,12 @@ export default function RequestDemo() {
               data.append("Grade", values.grade);
               data.append(
                 "_cc",
-                "admin@theyei.org,neha@theyei.org,ian@theyei.org,henry@theyei.org,mason@theyei.org"
+                "admin@theyei.org,neha@theyei.org,ian@theyei.org,henry@theyei.org,expansion@theyei.org"
               );
               data.append("_replyto", values.email);
               data.append("_subject", "New Curriculum Demo Request");
 
-              fetch("https://formsubmit.co/ajax/expansion@theyei.org", {
+              fetch("https://formsubmit.co/ajax/mason@theyei.org", {
                 method: "POST",
                 mode: "no-cors",
                 body: data,

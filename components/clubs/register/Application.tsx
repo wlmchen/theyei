@@ -103,12 +103,12 @@ export default function Application() {
             data.append("Extracurriculars", values.ECs);
             data.append(
               "_cc",
-              "admin@theyei.org,neha@theyei.org,ian@theyei.org,henry@theyei.org,mason@theyei.org"
+              "admin@theyei.org,neha@theyei.org,ian@theyei.org,expansion@theyei.org,henry@theyei.org"
             );
             data.append("_replyto", values.email);
             data.append("_subject", "New EconClub Application Submission");
 
-            fetch("https://formsubmit.co/ajax/expansion@theyei.org", {
+            fetch("https://formsubmit.co/ajax/mason@theyei.org", {
               method: "POST",
               mode: "no-cors",
               body: data,
