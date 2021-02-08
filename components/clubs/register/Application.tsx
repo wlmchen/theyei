@@ -103,7 +103,7 @@ export default function Application() {
             data.append("Extracurriculars", values.ECs);
             data.append(
               "_cc",
-              "admin@theyei.org,neha@theyei.org,ian@theyei.org,henry@theyei.org"
+              "admin@theyei.org,neha@theyei.org,ian@theyei.org,henry@theyei.org,mason@theyei.org"
             );
             data.append("_replyto", values.email);
             data.append("_subject", "New EconClub Application Submission");
