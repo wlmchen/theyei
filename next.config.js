@@ -31,11 +31,11 @@ module.exports = {
       //   destination: "/programs/earn",
       //   permanent: true,
       // },
-      {
-        source: "/_error",
-        destination: "/",
-        permanent: true,
-      },
+      // {
+      //   source: "/_error",
+      //   destination: "/",
+      //   permanent: true,
+      // },
     ];
   },
 };
