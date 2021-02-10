@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React, { useState } from "react";
 import Announcement from "../../utility/Announcement";
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Hero() {
   const [visible, setVisible] = useState(true);
@@ -17,9 +17,7 @@ export default function Hero() {
         />
       )}
       <div className="relative bg-white overflow-hidden">
-        <div
-          aria-hidden="true"
-        >
+        <div aria-hidden="true">
           <svg
             className="absolute top-0 left-1/2 transform translate-x-64 -translate-y-8"
             width={640}

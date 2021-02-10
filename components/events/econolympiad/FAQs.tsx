@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
-import FAQCollapse from './../../utility/FAQCollapse';
+import FAQCollapse from "./../../utility/FAQCollapse";
 
 const questions = [
   {
@@ -45,6 +45,11 @@ const questions = [
       "Competitors will meet only on the first and third weeks to take the test and attend the award ceremony. The second week of EconBowl is asynchronous.",
   },
   {
+    q: "How is the final scores/ranking determined?",
+    a:
+      "Every team will take the Written FRQ (free response question) test and submit a video presentation. Your final scores are calculated by combining the two scores on a weighted scale. ",
+  },
+  {
     q: "What will I need?",
     a: "You will need a Zoom account, if you don’t already have one. ",
   },
@@ -60,14 +65,13 @@ const questions = [
           className="green-link"
         >
           events@theyei.org
-        </a>.
+        </a>
+        .
       </>
     ),
   },
 ];
 
 export default function FAQs() {
-  return (
-    <FAQCollapse questions={questions} />
-  );
+  return <FAQCollapse questions={questions} />;
 }

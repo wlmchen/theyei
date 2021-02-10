@@ -1,6 +1,7 @@
 import React from "react";
 import FAQs from "../../components/events/econolympiad/FAQs";
 import Hero from "../../components/events/econolympiad/Hero";
+import Info from "../../components/events/econolympiad/Info";
 import KeyDates from "../../components/events/econolympiad/KeyDates";
 import Prizes from "../../components/events/econolympiad/Prizes";
 import Page from "../../components/utility/Page";
@@ -14,6 +15,7 @@ export default function econolympiad() {
     >
       <Hero />
       <KeyDates />
+      <Info />
       <FindTeams />
       <Prizes />
       <FAQs />

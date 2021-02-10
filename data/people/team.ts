@@ -50,11 +50,6 @@ const team = [
     linkedin: "https://www.linkedin.com/in/pgasawa/",
   },
   {
-    name: "Rajvir Kohli",
-    positions: ["Executive Board Member", "Director of EARN"],
-    linkedin: "https://www.linkedin.com/in/rajvir-kohli-b207781a8/",
-  },
-  {
     name: "Charlotte Lau",
     positions: ["Executive Board Member", "Director of Multimedia"],
     linkedin: "https://www.linkedin.com/in/charlotte-lau-8b77421b2/",
@@ -161,11 +156,6 @@ const team = [
     linkedin: "https://www.linkedin.com/in/kavinshah-student/",
   },
   {
-    name: "Brook Chuang",
-    positions: ["Expansion Associate"],
-    linkedin: "https://www.linkedin.com/in/chuangbrook/",
-  },
-  {
     name: "Sahil Bhatia",
     positions: ["Accounting Manager"],
     linkedin: "https://www.linkedin.com/in/sahil-bhatia-2590481a6/ ",
@@ -240,6 +230,11 @@ const team = [
     name: "Nevin Thombre",
     positions: ["FLIP Partnership Manager"],
     linkedin: "https://www.linkedin.com/in/nevin-thombre-5154411a9/ ",
+  },
+  {
+    name: "Cynthia Lan",
+    positions: ["TikTok Creator"],
+    linkedin: "www.linkedin.com/in/cynthia-lan-0b845a203",
   },
 ];
 
