@@ -43,7 +43,7 @@ export default function Profile({
               <ul className="flex pb-5">
                 {[
                   { href: linkedin, icon: faLinkedin, sr: "linkedin" },
-                  { href: email, icon: faEnvelope, sr: "github" },
+                  { href: "mailto:" + email, icon: faEnvelope, sr: "github" },
                   { href: github, icon: faGithub, sr: "email" },
                 ].map(({href, sr, icon}) => (
                   <div key={sr + href}>
