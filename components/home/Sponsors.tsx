@@ -48,11 +48,11 @@ function Supporters() {
         Supporters
       </h2>
       <div className="flow-root mt-8 md:mt-11 lg:mt-12">
-        <div className="-mt-4 -ml-8 flex flex-wrap md:space-x-16 lg:space-x-32 sm:flex-row justify-center lg:-ml-4">
+        <div className="flex flex-wrap sm:flex-row justify-center">
           {supporters.map((s) => {
             let key = s.name.replace(/[\W_]+/g, "-").toLowerCase();
             return (
-              <div key={key} className="mt-4 ml-8 items-center flex">
+              <div key={key} className="mt-4 px-4 lg:px-8 items-center flex">
                 <a href={s.link} target="_blank">
                   <img
                     className="my-2 sm:my-0 w-36 h-auto lg:w-48 mx-auto"

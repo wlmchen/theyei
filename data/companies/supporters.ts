@@ -12,8 +12,8 @@ const supporters = [
     link: "https://magoosh.com/",
   },
   {
-    name: "Costco Wholesale",
-    link: "https://www.costco.com/",
+    name: "Smart and Final",
+    link: "https://www.smartandfinal.com/",
   },
   {
     name: "Walmart",
