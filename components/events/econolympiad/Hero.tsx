@@ -18,7 +18,6 @@ export default function Hero() {
       )}
       <div className="relative bg-white overflow-hidden">
         <div
-          className="hidden lg:block lg:absolute lg:inset-0"
           aria-hidden="true"
         >
           <svg
@@ -63,7 +62,9 @@ export default function Hero() {
           </svg>
         </div>
         <div
-          className={`"relative pb-16 sm:pb-24 lg:pb-32  ${visible ? "" : "pt-12"}`}
+          className={`"relative pb-16 sm:pb-24 lg:pb-32  ${
+            visible ? "" : "pt-12"
+          }`}
         >
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
@@ -96,7 +97,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <a
-                    href="https://form.jotform.com/210067483876059"
+                    href="http://bit.ly/econolyreg"
                     target="_blank"
                     className="mt-6 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
                   >
