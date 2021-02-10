@@ -7,10 +7,30 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: "/:slug",
-        destination: "/events/:slug",
+        source: "/econbowl",
+        destination: "/events/econbowl",
         permanent: true,
       },
+      {
+        source: "/econolympiad",
+        destination: "/events/econbowl",
+        permanent: true,
+      },
+      // {
+      //   source: "/econtalks",
+      //   destination: "/events/econbowl",
+      //   permanent: true,
+      // },
+      // {
+      //   source: "/flip",
+      //   destination: "/programs/flip",
+      //   permanent: true,
+      // },
+      // {
+      //   source: "/earn",
+      //   destination: "/programs/earn",
+      //   permanent: true,
+      // },
       {
         source: "/_error",
         destination: "/",
