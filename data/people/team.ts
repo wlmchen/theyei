@@ -50,6 +50,11 @@ const team = [
     linkedin: "https://www.linkedin.com/in/pgasawa/",
   },
   {
+    name: "Rajvir Kohli",
+    positions: ["Executive Board Member", "Director of EARN"],
+    linkedin: "https://www.linkedin.com/in/rajvir-kohli-b207781a8/",
+  },
+  {
     name: "Charlotte Lau",
     positions: ["Executive Board Member", "Director of Multimedia"],
     linkedin: "https://www.linkedin.com/in/charlotte-lau-8b77421b2/",
