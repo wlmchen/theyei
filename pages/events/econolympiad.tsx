@@ -5,7 +5,7 @@ import Info from "../../components/events/econolympiad/Info";
 import KeyDates from "../../components/events/econolympiad/KeyDates";
 import Prizes from "../../components/events/econolympiad/Prizes";
 import Page from "../../components/utility/Page";
-import FindTeams from './../../components/events/econolympiad/FindTeams';
+import Agenda from '../../components/events/econolympiad/Agenda';
 
 export default function econolympiad() {
   return (
@@ -16,7 +16,7 @@ export default function econolympiad() {
       <Hero />
       <KeyDates />
       <Info />
-      <FindTeams />
+      <Agenda />
       <Prizes />
       <FAQs />
     </Page>

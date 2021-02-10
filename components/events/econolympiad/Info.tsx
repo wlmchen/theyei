@@ -162,11 +162,51 @@ export default function Info() {
               <strong>Presentation:</strong> 10%
             </li>
           </ul>
+
+          <h2>Newly Piloted: A Way to Find Teams</h2>
           <p>
-            If you have any questions, message in the YEI Discord or email{" "}
-            <a href="mailto:events@theyei.org" target="_blank">
-              events@theyei.org
-            </a>.
+            If you don’t yet have a team but would still like to compete, hop
+            into our{" "}
+            <a href="https://discord.gg/RC588cv" target="_blank">
+              Discord server
+            </a>{" "}
+            and react to the “finding teams” message in the EconOlympiad
+            channel! You’ll receive a special role that will allow you to join a
+            channel specifically for team finding, where you will be able to
+            meet others who are looking for teammates as well.{" "}
+          </p>
+          <p>
+            If you are not able to give yourself the role via the above process
+            for some reason, please fill out{" "}
+            <a href="http://bit.ly/econolyteamfinder" target="_blank">
+              this form
+            </a>{" "}
+            so we can manually give you the role. Happy team finding!
+          </p>
+          <h2>Preparation</h2>
+          <p>
+            To prepare for EconOlympiad, we recommend you take our{" "}
+            <a
+              href="https://docs.google.com/document/d/1kQ1dADa9MEt26Nr97KWXYAlrt9inXgTMSRIg_BQP04U/edit?usp=sharing"
+              target="_blank"
+            >
+              practice test
+            </a>{" "}
+            and grade yourself with our{" "}
+            <a href="https://docs.google.com/document/d/1qeli5hQIogn8xT-na5oRmhuuz6KrrM0WvcRVqgEwsR0/edit?usp=sharing" target="_blank">test rubric</a>.
+          </p>
+          <p>
+            <strong>
+              If you have any questions, message in the{" "}
+              <a href="https://discord.gg/RC588cv" target="_blank">
+                YEI Discord
+              </a>
+              {" "}or email{" "}
+              <a href="mailto:events@theyei.org" target="_blank">
+                events@theyei.org
+              </a>
+              .
+            </strong>
           </p>
         </div>
       </div>
