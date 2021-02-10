@@ -93,7 +93,7 @@ const team = [
   {
     name: "Snehil Kakani",
     positions: ["Graphic Designer"],
-    linkedin: "www.linkedin.com/in/snehilkakani",
+    linkedin: "https://www.linkedin.com/in/snehilkakani",
   },
   {
     name: "Amy Zhou",
