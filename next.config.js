@@ -13,12 +13,12 @@ module.exports = {
       },
       {
         source: "/econolympiad",
-        destination: "/events/econbowl",
+        destination: "/events/econolympiad",
         permanent: true,
       },
       // {
       //   source: "/econtalks",
-      //   destination: "/events/econbowl",
+      //   destination: "/events/econtalks",
       //   permanent: true,
       // },
       // {
