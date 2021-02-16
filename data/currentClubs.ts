@@ -246,6 +246,30 @@ const clubs = [
     email: "othsyei@gmail.com",
     region: "Texas",
   },
+  {
+    name: "Meadowbrook High School",
+    region: "Virginia",
+  },
+  {
+    name: "Milton Academy",
+    region: "Massachusetts",
+  },
+  {
+    name: "Santa Monica High School",
+    region: "Norcal",
+  },
+  {
+    name: "Bridgewater-Raritan Regional High School",
+    region: "New Jersey",
+  },
+  {
+    name: "American Academy in Tbilisi",
+    region: "Tbilisi, The Republic of Georgia",
+  },
+  {
+    name: "Santa Teresa High School",
+    region: "Norcal",
+  },
 ];
 
 export default clubs;
