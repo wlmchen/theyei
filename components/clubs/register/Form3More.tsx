@@ -1,7 +1,7 @@
 import React from "react";
 import { Field, ErrorMessage } from "formik";
 
-export default function More({ submitBottomBar }) {
+export default function More(props) {
   return (
     <div
       id="more"
@@ -74,7 +74,7 @@ export default function More({ submitBottomBar }) {
       </div>
       <div className="sm:rounded-md sm:overflow-hidden">
         <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
-          {submitBottomBar}
+          {props.children}
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Field, ErrorMessage } from "formik";
 
-export default function ClubInfo() {
+export default function ClubInfo(props) {
   return (
     <div
       id="clubinfo"
@@ -58,37 +58,40 @@ export default function ClubInfo() {
             </fieldset>
           </div>
 
-          <div className="col-span-3">
-            <label
-              htmlFor="clubInfo"
-              className="block text-xl font-medium text-gray-700"
-            >
-              We'll also need some info about other officers to get started.
-              Let's get their <b>names, emails, grade levels, and positions.</b>
-            </label>
-            <p className="text-lg my-2 text-gray-500">
-              Include at least a <b>Vice President, Treasurer, </b> and your{" "}
-              <b>Club Advisor</b>.
-            </p>
-            <div className="mt-1">
-              <Field
-                component="textarea"
-                id="clubInfo"
-                name="clubInfo"
-                rows={3}
-                className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
-              />
-              <ErrorMessage
-                className="formik-error"
-                component="div"
-                name="clubInfo"
-              />
+          {props.isStudent && (
+            <div className="col-span-3">
+              <label
+                htmlFor="clubInfo"
+                className="block text-xl font-medium text-gray-700"
+              >
+                We'll also need some info about other officers to get started.
+                Let's get their{" "}
+                <b>names, emails, grade levels, and positions.</b>
+              </label>
+              <p className="text-lg my-2 text-gray-500">
+                Include at least a <b>Vice President, Treasurer, </b> and your{" "}
+                <b>Club Advisor</b>.
+              </p>
+              <div className="mt-1">
+                <Field
+                  component="textarea"
+                  id="clubInfo"
+                  name="clubInfo"
+                  rows={3}
+                  className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
+                />
+                <ErrorMessage
+                  className="formik-error"
+                  component="div"
+                  name="clubInfo"
+                />
+              </div>
+              <p className="mt-2 text-sm text-gray-500">
+                Note: clubs will be allowed to operate without an advisor
+                temporarily due to the circumstances surround COVID-19.
+              </p>
             </div>
-            <p className="mt-2 text-sm text-gray-500">
-              Note: clubs will be allowed to operate without an advisor
-              temporarily due to the circumstances surround COVID-19.
-            </p>
-          </div>
+          )}
 
           <div className="col-span-3 grid grid-cols-6 gap-6">
             <div className="col-span-6">
@@ -200,6 +203,13 @@ export default function ClubInfo() {
           </div>
         </div>
       </div>
+      {!props.isStudent && (
+        <div className="sm:rounded-md sm:overflow-hidden">
+          <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">
+            {props.children}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
