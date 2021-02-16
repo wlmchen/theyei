@@ -34,7 +34,7 @@ export default function More(props) {
                 id="econCoursework"
                 name="econCoursework"
                 rows={3}
-                className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
+                className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full  border-gray-300 rounded-md"
               />
               <ErrorMessage
                 className="formik-error"
@@ -61,7 +61,7 @@ export default function More(props) {
                 id="ECs"
                 name="ECs"
                 rows={3}
-                className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
+                className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full  border-gray-300 rounded-md"
               />
               <ErrorMessage
                 className="formik-error"

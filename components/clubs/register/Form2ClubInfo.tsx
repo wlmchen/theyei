@@ -78,7 +78,7 @@ export default function ClubInfo(props) {
                   id="clubInfo"
                   name="clubInfo"
                   rows={3}
-                  className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full sm:text-sm border-gray-300 rounded-md"
+                  className="shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main mt-1 block w-full  border-gray-300 rounded-md"
                 />
                 <ErrorMessage
                   className="formik-error"
@@ -106,7 +106,7 @@ export default function ClubInfo(props) {
                 name="school"
                 id="school"
                 autoComplete="off"
-                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
+                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main "
               />
               <ErrorMessage
                 className="formik-error"
@@ -129,7 +129,7 @@ export default function ClubInfo(props) {
                 name="address"
                 id="address"
                 autoComplete="off"
-                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm"
+                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main "
               />
               <ErrorMessage
                 className="formik-error"
@@ -149,7 +149,7 @@ export default function ClubInfo(props) {
                 name="city"
                 id="city"
                 autoComplete="off"
-                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm"
+                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main "
               />
               <ErrorMessage
                 className="formik-error"
@@ -169,7 +169,7 @@ export default function ClubInfo(props) {
                 name="state"
                 id="state"
                 autoComplete="off"
-                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm"
+                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main "
               />
               <ErrorMessage
                 className="formik-error"
@@ -192,7 +192,7 @@ export default function ClubInfo(props) {
                 name="zip"
                 id="zip"
                 autoComplete="off"
-                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm"
+                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main "
               />
               <ErrorMessage
                 className="formik-error"
