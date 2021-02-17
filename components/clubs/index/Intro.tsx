@@ -11,8 +11,8 @@ export default function Intro() {
             YEI EconClubs is the premier high school economics club program for
             students who want to supercharge their economics journey. Whether
             you're a student hoping to start a new economics club or already
-            have an existing club, YEI will provide you with all of the
-            resources and support for your club to thrive.
+            have an existing club, YEI give you the resources to focus less
+            on the logistics and more on the economics.
           </div>
         </div>
       </div>
