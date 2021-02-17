@@ -18,7 +18,7 @@ const benefits = [
   {
     title: "Network",
     content:
-      "Take advantage of the Youth Economics Initiative's network of leaders, creators, and entrepreneurs. You'll meet Nobel Laureates, business leaders, and top professors while forming connections with like-minded students passionate about economics.",
+      "Take advantage of the Youth Economics Initiative's network of leaders, creators, and entrepreneurs. You'll meet Nobel Laureates, business leaders, and top professors while forming connections with like-minded students who are passionate about economics.",
     href: "/events/econtalks",
     ctaText: "Our Professional Network",
     icon: faGlobe,
