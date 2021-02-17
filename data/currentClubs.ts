@@ -268,7 +268,7 @@ const clubs = [
   },
   {
     name: "Santa Teresa High School",
-    region: "Norcal",
+    region: "Socal",
   },
 ];
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Field, ErrorMessage } from "formik";
 
-export default function Contact() {
+export default function Contact({isStudent}) {
   return (
     <div
       id="contact"
@@ -13,7 +13,7 @@ export default function Contact() {
             Contact
           </h3>
           <p className="mt-1 text-lg text-gray-500">
-            The chapter president / representative should be filling out this
+            The {isStudent ? "chapter president / representative" : "faculty advisor/teacher"} should be filling out this
             form.
           </p>
         </div>
