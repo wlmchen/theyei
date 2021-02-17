@@ -180,7 +180,7 @@ export default function Application() {
               <Form autoComplete="off">
                 <div className="flex flex-col space-y-6">
                   <div ref={form1}>
-                    <Contact />
+                    <Contact isStudent={isStudent} />
                   </div>
                   <div ref={form2}>
                     <ClubInfo isStudent={isStudent}>
