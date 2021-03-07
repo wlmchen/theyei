@@ -1,8 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import React, { useState } from "react";
 import Announcement from "../../utility/Announcement";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Register from "./Register";
 
 export default function Hero() {
   const [visible, setVisible] = useState(true);
@@ -94,17 +93,7 @@ export default function Hero() {
                   </p>
                 </div>
                 <div>
-                  <a
-                    href="http://bit.ly/econolyreg"
-                    target="_blank"
-                    className="mt-6 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
-                  >
-                    Register Now
-                    <FontAwesomeIcon
-                      icon={faArrowRight}
-                      className="-mr-1 ml-3 h-4 w-4 text-gray-200"
-                    />
-                  </a>
+                  <Register />
                 </div>
               </div>
               <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
