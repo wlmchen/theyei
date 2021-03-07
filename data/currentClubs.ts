@@ -1,7 +1,7 @@
 const clubs = [
   {
     name: "Saratoga High School",
-    email: "henryweng2003@gmail.com",
+    email: "henryweng03@gmail.com",
     region: "Norcal",
     founding: true,
     primaryFounding: true,
