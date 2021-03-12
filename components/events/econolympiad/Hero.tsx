@@ -89,7 +89,7 @@ export default function Hero() {
                       <a className="green-link">here</a>
                     </Link>
                     , and we’ll get in touch with you soon! You can sign up as
-                    soon as you fill out the form.
+                    soon as you fill out the form. Registration deadline is <strong>3/31</strong>.
                   </p>
                 </div>
                 <div>
