@@ -84,7 +84,7 @@ export default function Hero() {
                   <p className="mt-4">
                     Please note that EconOlympiad is an event exclusive to YEI
                     members. If your school is not yet a registered club, you
-                    can sign up{" "}
+                    can register your club{" "}
                     <Link href="/clubs/register">
                       <a className="green-link">here</a>
                     </Link>
