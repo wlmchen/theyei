@@ -11,7 +11,7 @@ const ceremonySchedule = [
   { time: "9am - 10:15", title: "Award Ceremony" },
   { time: "9:15", title: "Q&A with the Judges" },
   { time: "9:45", title: "Awards" },
-  { time: "12:15", title: "End of Award Ceremony" },
+  { time: "10:15", title: "End of Award Ceremony" },
 ];
 
 export default function Agenda() {
