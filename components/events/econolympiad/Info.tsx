@@ -156,7 +156,7 @@ export default function Info() {
               <strong>Evidence:</strong> 20%
             </li>
             <li>
-              <strong>Reasoning:</strong> 50%
+              <strong>Reasoning:</strong> 60%
             </li>
             <li>
               <strong>Presentation:</strong> 10%
