@@ -34,6 +34,7 @@ export default function RequestDemo() {
               email: "",
               school: "",
               grade: "",
+              hearAboutUs: "",
             }}
             validationSchema={RequestDemoSchema}
             onSubmit={(values, { setSubmitting, resetForm }) => {
@@ -43,6 +44,7 @@ export default function RequestDemo() {
               data.append("Email", values.email);
               data.append("School", values.school);
               data.append("Grade", values.grade);
+              data.append("How did you hear about us?", values.hearAboutUs);
               data.append(
                 "_cc",
                 "admin@theyei.org,neha@theyei.org,ian@theyei.org,henry@theyei.org,expansion@theyei.org"
@@ -139,8 +141,29 @@ export default function RequestDemo() {
                     </div>
                   </div>
                   <div>
+                    <label htmlFor="hearAboutUs" className="sr-only">
+                      How did you hear about us?
+                    </label>
+                    <Field
+                      type="text"
+                      name="hearAboutUs"
+                      id="hearAboutUs"
+                      autoComplete="off"
+                      placeholder="How did you hear about us?"
+                      className="block w-full shadow-sm focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-sm border-gray-300 rounded-md"
+                    />
+                    <ErrorMessage
+                      className="formik-error text-sm"
+                      component="div"
+                      name="hearAboutUs"
+                    />
+                  </div>
+                  <div>
                     {submitted ? (
-                        <SuccessAlert title="Demo Requested" desc="Thank you for submitting! We'll get back to you as soon as possible." />
+                      <SuccessAlert
+                        title="Demo Requested"
+                        desc="Thank you for submitting! We'll get back to you as soon as possible."
+                      />
                     ) : (
                       <button
                         type="submit"
@@ -160,7 +183,8 @@ export default function RequestDemo() {
       </div>
       <div className="px-4 py-6 bg-gray-50 border-t-2 border-gray-200 sm:px-10">
         <p className="text-sm leading-5 text-gray-500">
-          Get full access to over 60 weeks of resources (AP Macro, AP Micro, IB Economics, and financial literacy content) by joining us as a{" "}
+          Get full access to over 60 weeks of resources (AP Macro, AP Micro, IB
+          Economics, and financial literacy content) by joining us as a{" "}
           <Link href="/clubs/register">
             <a className="font-medium text-gray-900 hover:underline">
               YEI club
@@ -178,4 +202,5 @@ const RequestDemoSchema = Yup.object().shape({
   email: Yup.string().email("Invalid email.").required("Email required."),
   school: Yup.string().required("School name is required."),
   grade: Yup.string().required("Required."),
+  hearAboutUs: Yup.string().required("Required."),
 });
