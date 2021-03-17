@@ -13,8 +13,11 @@ export default function Contact({isStudent}) {
             Contact
           </h3>
           <p className="mt-1 text-lg text-gray-500">
-            The {isStudent ? "chapter president / representative" : "faculty advisor/teacher"} should be filling out this
-            form.
+            The{" "}
+            {isStudent
+              ? "chapter president / representative"
+              : "faculty advisor/teacher"}{" "}
+            should be filling out this form.
           </p>
         </div>
         <div className="grid grid-cols-6 gap-6">
@@ -81,6 +84,26 @@ export default function Contact({isStudent}) {
               We will use this address to get in contact once your application
               is approved.
             </p>
+          </div>
+          <div className="col-span-6">
+            <label
+              htmlFor="hearAboutUs"
+              className="block text-lg font-medium text-gray-700"
+            >
+              How did you hear about us?
+            </label>
+            <Field
+              type="text"
+              name="hearAboutUs"
+              id="hearAboutUs"
+              autoComplete="off"
+              className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
+            />
+            <ErrorMessage
+              className="formik-error"
+              component="div"
+              name="hearAboutUs"
+            />
           </div>
         </div>
       </div>

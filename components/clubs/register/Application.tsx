@@ -119,6 +119,7 @@ export default function Application() {
             initialValues={{
               fName: "",
               lName: "",
+              hearAboutUs: "",
               email: "",
               clubStatus: "",
               clubInfo: "",
@@ -139,6 +140,7 @@ export default function Application() {
               data.append("Submission Type", isStudent ? "STUDENT" : "TEACHER");
               data.append("Full Name", `${values.fName} ${values.lName}`);
               data.append("Email", values.email);
+              data.append("How did you hear about us?", values.hearAboutUs);
               data.append("Club Type", values.clubStatus);
               if (isStudent)
                 data.append("Info About the Club", values.clubInfo);
@@ -239,6 +241,7 @@ const StudentApplicationSchema = Yup.object().shape({
     .max(50, "Name too long.")
     .required("First name required."),
   lName: Yup.string().max(50, "Name too long.").required("Last name required."),
+  hearAboutUs: Yup.string().required("This field is required."),
   email: Yup.string().email("Invalid email.").required("Email required."),
   clubStatus: Yup.string().required("This field is required."),
   clubInfo: Yup.string().required("This field is required."),
@@ -258,6 +261,7 @@ const TeacherApplicationSchema = Yup.object().shape({
     .max(50, "Name too long.")
     .required("First name required."),
   lName: Yup.string().max(50, "Name too long.").required("Last name required."),
+  hearAboutUs: Yup.string().required("This field is required."),
   email: Yup.string().email("Invalid email.").required("Email required."),
   clubStatus: Yup.string().required("This field is required."),
   school: Yup.string().required("School name is required."),
