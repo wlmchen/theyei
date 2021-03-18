@@ -8,7 +8,7 @@ const frqSchedule = [
 ];
 
 const ceremonySchedule = [
-  { time: "9am - 10:15", title: "Award Ceremony" },
+  { time: "9 am", title: "Award Ceremony" },
   { time: "9:15", title: "Q&A with the Judges" },
   { time: "9:45", title: "Awards" },
   { time: "10:15", title: "End of Award Ceremony" },
@@ -37,7 +37,7 @@ export default function Agenda() {
             </div>
           </div>
           <p className="text-base mt-4 ml-1 text-gray-500">
-            All listed times are in PST.
+            All listed times are in PDT.
           </p>
         </div>
       </div>

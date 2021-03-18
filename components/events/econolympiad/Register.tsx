@@ -50,7 +50,8 @@ export default function Register() {
               role="listbox"
               aria-labelledby="listbox-label"
               aria-activedescendant="listbox-item-3"
-              className="bg-white max-h-40 rounded-md py-1 text-base overflow-auto focus:outline-none sm:text-md"
+              style={{zIndex: 49}}
+              className="bg-white max-h-40 relative rounded-md py-1 text-base overflow-auto focus:outline-none sm:text-md"
             >
               {links.map(({ name, href }) => {
                 const active = name === selectedName;
@@ -105,7 +106,7 @@ export default function Register() {
         <a
           href={selectedLink}
           target="_blank"
-          className="mt-3 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
+          className="mt-3 inline-flex items-center justify-center z-0 text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
         >
           Register
           <FontAwesomeIcon
@@ -115,7 +116,7 @@ export default function Register() {
         </a>
       ) : (
         <div
-          className="mt-3 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-darker"
+          className="mt-3 inline-flex items-center justify-center z-0 text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-darker"
         >
           Register
           <FontAwesomeIcon

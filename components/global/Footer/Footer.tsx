@@ -47,8 +47,8 @@ export default function Footer() {
                 <Column
                   title="Programs"
                   links={[
-                    { href: "/programs/earn", name: "FLIP" },
-                    { href: "/programs/flip", name: "EARN" },
+                    { href: "/programs/flip", name: "FLIP" },
+                    { href: "/programs/earn", name: "EARN" },
                     { href: "/resources", name: "Resources" },
                     { href: "/people/apply", name: "YEI Hiring" },
                   ]}

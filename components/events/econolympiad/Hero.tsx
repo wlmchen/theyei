@@ -68,7 +68,7 @@ export default function Hero() {
               <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
                 <h1>
                   <span className="block text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
-                    Coming soon
+                    YEI Event
                   </span>
                   <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
                     <span className="text-gray-900">Econ</span>
@@ -89,7 +89,8 @@ export default function Hero() {
                       <a className="green-link">here</a>
                     </Link>
                     , and we’ll get in touch with you soon! You can sign up as
-                    soon as you fill out the form. Registration deadline is <strong>3/31</strong>.
+                    soon as you fill out the form. Registration deadline is{" "}
+                    <strong>3/29</strong>.
                   </p>
                 </div>
                 <div>
@@ -146,16 +147,22 @@ export default function Hero() {
                     <span className="sr-only">
                       Watch our video to learn more
                     </span>
-                    <p className="py-28 text-white text-3xl font-bold uppercase">
-                      Video coming soon!
-                    </p>
                     {/* <img
-                    className="w-full"
-                    src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                    alt=""
-                  /> */}
-                    <div
-                      className="absolute inset-0 w-full h-full flex items-center justify-center"
+                      className="w-full"
+                      src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                      alt=""
+                    /> */}
+
+                    <iframe
+                      className="w-full h-64 sm:h-72 lg:h-64"
+                      src="https://www.youtube.com/embed/p7jT9Wl5xGw"
+                      frameBorder={0}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+
+                    {/* <div
+                      className="absolute w-full h-full flex items-center justify-center"
                       aria-hidden="true"
                     >
                       <svg
@@ -172,7 +179,7 @@ export default function Hero() {
                         />
                         <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
                       </svg>
-                    </div>
+                    </div> */}
                   </button>
                 </div>
               </div>
