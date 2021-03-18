@@ -18,7 +18,7 @@ export default function Register() {
             onClick={() => setOpen(!open)}
             aria-expanded="true"
             aria-labelledby="listbox-label"
-            className="bg-white relative w-full border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none  sm:text-md"
+            className="bg-white relative w-full border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-pointer focus:outline-none  sm:text-md"
           >
             <span className="block truncate">{selectedName}</span>
             <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
@@ -59,7 +59,7 @@ export default function Register() {
                     key={name}
                     id="listbox-option-0"
                     role="option"
-                    className="hover:cursor-pointer text-gray-900 cursor-default select-none  focus:outline-none  relative py-2 pl-3 pr-9"
+                    className={"cursor-pointer hover:bg-gray-100 trans-150 text-gray-900 select-none  focus:outline-none  relative py-2 pl-3 pr-9 " + (active ? "bg-gray-100" : "")}
                     onClick={() => {
                       setName(name);
                       setLink(href);
