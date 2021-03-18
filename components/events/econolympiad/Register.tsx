@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import links from "../../../data/content/econOlympiadRegistration";
-import { link } from "fs";
 
 export default function Register() {
   const [open, setOpen] = useState(false);
@@ -19,7 +18,7 @@ export default function Register() {
             onClick={() => setOpen(!open)}
             aria-expanded="true"
             aria-labelledby="listbox-label"
-            className="bg-white relative w-full border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none  sm:text-sm"
+            className="bg-white relative w-full border border-gray-300 rounded-md shadow-sm pl-3 pr-10 py-2 text-left cursor-default focus:outline-none  sm:text-md"
           >
             <span className="block truncate">{selectedName}</span>
             <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
@@ -51,7 +50,7 @@ export default function Register() {
               role="listbox"
               aria-labelledby="listbox-label"
               aria-activedescendant="listbox-item-3"
-              className="bg-white max-h-40 rounded-md py-1 text-base overflow-auto focus:outline-none sm:text-sm"
+              className="bg-white max-h-40 rounded-md py-1 text-base overflow-auto focus:outline-none sm:text-md"
             >
               {links.map(({ name, href }) => {
                 const active = name === selectedName;
