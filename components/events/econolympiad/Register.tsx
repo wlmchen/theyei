@@ -5,13 +5,13 @@ import links from "../../../data/content/econOlympiadRegistration";
 
 export default function Register() {
   const [open, setOpen] = useState(false);
-  const [selectedName, setName] = useState("Select school to register");
-  const [selectedLink, setLink] = useState("");
+  const [selectedName, setName] = useState(links[0].name);
+  const [selectedLink, setLink] = useState(links[0].href);
 
   return (
     <div className="mt-6 relative " style={{ zIndex: 49 }}>
       <div>
-        <div className="mt-1 relative">
+        <div className="mt-1 relative focus:outline-none">
           <button
             type="button"
             aria-haspopup="listbox"
@@ -43,14 +43,14 @@ export default function Register() {
               open
                 ? "opacity-100 pointer-events-auto"
                 : "opacity-0 pointer-events-none"
-            } absolute mt-1 w-full rounded-md bg-white shadow-lg trans-150`}
+            } absolute mt-1 w-full rounded-md bg-white shadow-lg trans-150 focus:outline-none`}
           >
             <ul
               tabIndex={-1}
               role="listbox"
               aria-labelledby="listbox-label"
               aria-activedescendant="listbox-item-3"
-              style={{zIndex: 49}}
+              style={{ zIndex: 49 }}
               className="bg-white max-h-40 relative rounded-md py-1 text-base overflow-auto focus:outline-none sm:text-md"
             >
               {links.map(({ name, href }) => {
@@ -60,7 +60,10 @@ export default function Register() {
                     key={name}
                     id="listbox-option-0"
                     role="option"
-                    className={"cursor-pointer hover:bg-gray-100 trans-150 text-gray-900 select-none  focus:outline-none  relative py-2 pl-3 pr-9 " + (active ? "bg-gray-100" : "")}
+                    className={
+                      "cursor-pointer hover:bg-gray-100 trans-150 text-gray-900  focus:outline-none  relative py-2 pl-3 pr-9 " +
+                      (active ? "bg-gray-100" : "")
+                    }
                     onClick={() => {
                       setName(name);
                       setLink(href);
@@ -101,30 +104,20 @@ export default function Register() {
           </div>
         </div>
       </div>
-
-      {selectedLink ? (
-        <a
-          href={selectedLink}
-          target="_blank"
-          className="mt-3 inline-flex items-center justify-center z-0 text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
-        >
-          Register
-          <FontAwesomeIcon
-            icon={faArrowRight}
-            className="-mr-1 ml-3 h-4 w-4 text-gray-200"
-          />
-        </a>
-      ) : (
-        <div
-          className="mt-3 inline-flex items-center justify-center z-0 text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-darker"
-        >
-          Register
-          <FontAwesomeIcon
-            icon={faArrowRight}
-            className="-mr-1 ml-3 h-4 w-4 text-gray-200"
-          />
-        </div>
-      )}
+      <div className="mt-2 text-sm text-gray-500">
+        If your school is a YEI chapter, please select it in the dropdown.
+      </div>
+      <a
+        href={selectedLink}
+        target="_blank"
+        className="mt-3 inline-flex items-center justify-center z-0 text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
+      >
+        Register
+        <FontAwesomeIcon
+          icon={faArrowRight}
+          className="-mr-1 ml-3 h-4 w-4 text-gray-200"
+        />
+      </a>
     </div>
   );
 }

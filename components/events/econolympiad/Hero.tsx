@@ -82,9 +82,8 @@ export default function Hero() {
                     solutions for current economic issues!
                   </p>
                   <p className="mt-4">
-                    Please note that EconOlympiad is an event exclusive to YEI
-                    members. If your school is not yet a registered club, you
-                    can register your club{" "}
+                    EconOlympiad is open to everyone, not just YEI members! If
+                    you want to become a YEI member, you can register your club{" "}
                     <Link href="/clubs/register">
                       <a className="green-link">here</a>
                     </Link>

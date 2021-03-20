@@ -30,8 +30,8 @@ const questions = [
     q: "Do I actually have to be part of a YEI chapter to compete?",
     a: (
       <>
-        Yes. Unlike EconBowl, EconOlympiad is exclusive to YEI members. You may
-        register for EconOlympiad as soon as you fill out the{" "}
+        No, EconOlympiad is open to everyone! If you would like to become a YEI
+        chapter, you can fill out the{" "}
         <Link href="/clubs/register">
           <a className="green-link">club registration form </a>
         </Link>
