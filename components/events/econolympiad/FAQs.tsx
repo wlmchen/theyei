@@ -24,7 +24,7 @@ const questions = [
   {
     q: "Who can participate?",
     a:
-      "Anyone in middle or high school can participate. This includes international students, middle schoolers, and high schoolers.",
+      "Anyone in middle or high school can participate. This includes all international students!",
   },
   {
     q: "Do I actually have to be part of a YEI chapter to compete?",
