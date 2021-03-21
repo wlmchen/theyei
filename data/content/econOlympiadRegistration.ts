@@ -1,5 +1,5 @@
 const links = [
-  { name: "Register without a club (default)", href: "http://bit.ly/econolyreg" },
+  { name: "Register without a club or individually", href: "http://bit.ly/econolyreg" },
   {
     name: "Allen High School",
     href: "https://forms.gle/fMgqvDfmjSBnof699",

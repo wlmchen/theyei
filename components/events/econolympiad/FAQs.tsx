@@ -7,7 +7,7 @@ const questions = [
     q: "Is this a team or individual competition?",
     a: (
       <>
-        This is a team competition. Each team must have 3 or 4 members. If you
+        This is a team competition. Each team must have 1 to 4 members. If you
         haven’t found a team yet but would still like to compete, fill out{" "}
         <a
           target="_blank"
@@ -24,7 +24,7 @@ const questions = [
   {
     q: "Who can participate?",
     a:
-      "Anyone from YEI member chapters can participate. This includes international students, middle schoolers, and high schoolers.",
+      "Anyone in middle or high school can participate. This includes international students, middle schoolers, and high schoolers.",
   },
   {
     q: "Do I actually have to be part of a YEI chapter to compete?",
