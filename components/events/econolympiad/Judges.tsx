@@ -10,7 +10,7 @@ export default function Judges() {
           Judges
         </h2>
         <div className="mt-6 pt-5 text-gray-600 text-xl pb-1">
-          <ul className="mx-auto justify-center flex flex-wrap flex-col sm:flex-row">
+          <ul className="mx-auto flex flex-wrap flex-col sm:flex-row">
             {judges.map(({ name, bio }) => {
               let key = name.replace(/[\W_]+/g, "-").toLowerCase();
               return (
