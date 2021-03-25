@@ -20,10 +20,10 @@ function Partners() {
     <>
       <h2 className="text-5xl text-center font-bold text-gray-900">Partners</h2>
       <div className="flow-root mt-8 md:mt-11 lg:mt-12">
-        <div className="sm:mb-4 -mt-4 mx-auto items-center flex">
+        <div className="sm:mb-8 -mt-4 mx-auto items-center flex">
           <a href="https://sayweee.com/" target="_blank" className="mx-auto">
             <img
-              className="my-4 sm:my-0 w-44 h-auto lg:w-56 mx-auto"
+              className="my-4 sm:my-0 w-44 sm:w-56 h-auto lg:w-60 mx-auto"
               src={`/img/logos/other/partners/sayweee.png`}
               alt="sayweee"
             />
