@@ -16,10 +16,10 @@ export default function econolympiad() {
     >
       <Hero />
       <KeyDates />
-      <Info />
-      <Agenda />
       <Judges />
       <Prizes />
+      <Info />
+      <Agenda />
       <FAQs />
     </Page>
   );
