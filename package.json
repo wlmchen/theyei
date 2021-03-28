@@ -20,6 +20,7 @@
     "autoprefixer": "^10.1.0",
     "formik": "^2.2.6",
     "next": "10.0.4",
+    "nextjs-redirect": "^5.0.2",
     "postcss": "^8.2.1",
     "react": "17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
