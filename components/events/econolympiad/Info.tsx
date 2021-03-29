@@ -193,19 +193,37 @@ export default function Info() {
               practice test
             </a>{" "}
             and grade yourself with our{" "}
-            <a href="https://docs.google.com/document/d/1qeli5hQIogn8xT-na5oRmhuuz6KrrM0WvcRVqgEwsR0/edit?usp=sharing" target="_blank">test rubric</a>.
+            <a
+              href="https://docs.google.com/document/d/1qeli5hQIogn8xT-na5oRmhuuz6KrrM0WvcRVqgEwsR0/edit?usp=sharing"
+              target="_blank"
+            >
+              test rubric
+            </a>
+            .
           </p>
           <p>
             <strong>
               If you have any questions, message in the{" "}
               <a href="https://discord.gg/RC588cv" target="_blank">
                 YEI Discord
-              </a>
-              {" "}or email{" "}
+              </a>{" "}
+              or email{" "}
               <a href="mailto:events@theyei.org" target="_blank">
                 events@theyei.org
               </a>
               .
+            </strong>
+          </p>
+          <h2>Demo</h2>
+          <p>
+            <strong>
+              <a
+                href="https://www.youtube.com/watch?v=D3kCOzwKZws"
+                target="_blank"
+              >
+                This{" "}
+              </a>
+              is a demonstration of what the test platform will look like.
             </strong>
           </p>
         </div>
