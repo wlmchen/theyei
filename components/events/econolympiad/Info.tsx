@@ -221,8 +221,8 @@ export default function Info() {
                 href="https://www.youtube.com/watch?v=D3kCOzwKZws"
                 target="_blank"
               >
-                This{" "}
-              </a>
+                This
+              </a>{" "}
               is a demonstration of what the test platform will look like.
             </strong>
           </p>
