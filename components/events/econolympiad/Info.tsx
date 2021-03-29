@@ -139,6 +139,17 @@ export default function Info() {
               will result in disqualification.
             </strong>
           </p>
+          <p>
+            <strong>
+              <a
+                href="https://www.youtube.com/watch?v=D3kCOzwKZws"
+                target="_blank"
+              >
+                This
+              </a>{" "}
+              is a demonstration of what the test platform will look like.
+            </strong>
+          </p>
           <h2>Presentation Round</h2>
           <p>
             The presentation prompt will be released after all teams have
@@ -162,6 +173,17 @@ export default function Info() {
               <strong>Presentation:</strong> 10%
             </li>
           </ul>
+          <p>
+            <strong>
+              <a
+                href="https://www.youtube.com/watch?v=YY7iVpZ7JIg"
+                target="_blank"
+              >
+                Here's
+              </a>{" "}
+              a sample presentation!
+            </strong>
+          </p>
 
           <h2>Newly Piloted: A Way to Find Teams</h2>
           <p>
@@ -212,18 +234,6 @@ export default function Info() {
                 events@theyei.org
               </a>
               .
-            </strong>
-          </p>
-          <h2>Demo</h2>
-          <p>
-            <strong>
-              <a
-                href="https://www.youtube.com/watch?v=D3kCOzwKZws"
-                target="_blank"
-              >
-                This
-              </a>{" "}
-              is a demonstration of what the test platform will look like.
             </strong>
           </p>
         </div>
