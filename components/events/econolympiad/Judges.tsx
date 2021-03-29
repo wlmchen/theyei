@@ -5,7 +5,7 @@ import judges from "../../../data/people/econOlyJudges";
 export default function Judges() {
   return (
     <div className="bg-white">
-      <div className="max-w-7xl mx-auto py-12 px-4 divide-y-2 divide-gray-200 sm:py-20 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto pt-12 px-4 divide-y-2 divide-gray-200 sm:pt-20 sm:pb-8 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           Judges
         </h2>
