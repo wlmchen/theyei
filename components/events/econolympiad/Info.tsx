@@ -152,14 +152,25 @@ export default function Info() {
           </p>
           <h2>Presentation Round</h2>
           <p>
-            The presentation prompt will be released after all teams have
-            completed the written portion. Competitors will have one week to
-            create a presentation up to 10 minutes long. In the presentation,
-            you and your team will research the prompt, take a position, provide
-            evidence, and use reasoning to answer the prompt. After the video is
-            uploaded, it will be scored. The rubric is as follows:
+            Competitors will have one week to create a presentation up to 10
+            minutes long. In the presentation, you and your team will research
+            the prompt, take a position, provide evidence, and use reasoning to
+            answer the prompt. After the video is uploaded, it will be scored.
+          </p>
+          <p>
+            <strong>
+              <a
+                href="https://docs.google.com/document/d/1ZNH7nnZgaMKCbW5oR9e3eIqMUK5bUhPdg2j8gz5C1Nk/edit?usp=sharing"
+                target="_blank"
+              >
+                Presentation Prompt:
+              </a>
+            </strong>{" "}
+            Describe your team’s ideal system of healthcare. Explain a feasible
+            way to implement it in the United States.
           </p>
           <ul>
+            The rubric is as follows:
             <li>
               <strong>Thesis:</strong> 10%
             </li>
@@ -174,14 +185,24 @@ export default function Info() {
             </li>
           </ul>
           <p>
+            <a
+              href="https://www.youtube.com/watch?v=YY7iVpZ7JIg"
+              target="_blank"
+            >
+              Here's
+            </a>{" "}
+            a sample presentation.
+          </p>
+
+          <p>
             <strong>
+              Submit your presentation{" "}
               <a
-                href="https://www.youtube.com/watch?v=YY7iVpZ7JIg"
                 target="_blank"
+                href="https://www.flexiquiz.com/SC/N/c76b3b38-2f84-470c-8a02-8941421fd940"
               >
-                Here's
-              </a>{" "}
-              a sample presentation!
+                here
+              </a>.
             </strong>
           </p>
 
