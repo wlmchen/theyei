@@ -156,8 +156,16 @@ export default function Info() {
             completed the written portion. Competitors will have one week to
             create a presentation up to 10 minutes long. In the presentation,
             you and your team will research the prompt, take a position, provide
-            evidence, and use reasoning to answer the prompt. After the video is
-            uploaded, it will be scored. The rubric is as follows:
+            evidence, and use reasoning to answer the prompt. 
+            <strong>
+              <a
+                href="https://docs.google.com/document/d/1ZNH7nnZgaMKCbW5oR9e3eIqMUK5bUhPdg2j8gz5C1Nk/edit#heading=h.8h0plbci13sg"
+                target="_blank"
+              >
+                Here
+              </a>{" "}
+            </strong> is the information for this year's presentation: 
+            After the video is uploaded, it will be scored. The rubric is as follows:
           </p>
           <ul>
             <li>
