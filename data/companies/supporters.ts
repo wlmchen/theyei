@@ -1,5 +1,9 @@
 const supporters = [
   {
+    name: "SayWeee",
+    link: "https://sayweee.com/",
+  },
+  {
     name: "Wen and Yung Family Foundation",
     link: "https://wenyungff.weebly.com",
   },
@@ -26,6 +30,10 @@ const supporters = [
   {
     name: "Chipotle",
     link: "https://chipotle.com/",
+  },
+  {
+    name: "Google",
+    link: "https://ads.google.com/home/",
   },
 ];
 

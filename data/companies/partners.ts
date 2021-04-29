@@ -11,6 +11,14 @@ const partners = [
     name: "Cash Club",
     link: "https://www.cashclubcorp.info/",
   },
+  {
+    name: "FTE",
+    link: "https://www.fte.org/",
+  },
+  {
+    name: "FEE",
+    link: "https://fee.org/",
+  },
 ];
 
 export default partners;

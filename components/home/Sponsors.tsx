@@ -19,24 +19,15 @@ function Partners() {
   return (
     <>
       <h2 className="text-5xl text-center font-bold text-gray-900">Partners</h2>
-      <div className="flow-root mt-8 md:mt-11 lg:mt-12">
-        <div className="sm:mb-8 -mt-4 mx-auto items-center flex">
-          <a href="https://sayweee.com/" target="_blank" className="mx-auto">
-            <img
-              className="my-4 sm:my-0 w-44 sm:w-56 h-auto lg:w-60 mx-auto"
-              src={`/img/logos/other/partners/sayweee.png`}
-              alt="sayweee"
-            />
-          </a>
-        </div>
-        <div className="-mt-8 sm:-mt-4 -ml-8 flex flex-wrap md:space-x-16 lg:space-x-32 sm:flex-row justify-center lg:-ml-4">
+      <div className="flow-root mt-4 md:mt-6 lg:mt-8">
+        <div className="flex flex-wrap sm:flex-row justify-center">
           {partners.map((p) => {
             let key = p.name.replace(/[\W_]+/g, "-").toLowerCase();
             return (
-              <div key={key} className="mt-4 ml-8 items-center flex">
+              <div key={key} className="mt-4 px-4 pt-6 lg:px-8 items-center flex">
                 <a href={p.link} target="_blank">
                   <img
-                    className="my-4 sm:my-0 w-36 h-auto lg:w-48 mx-auto"
+                    className="my-2 sm:my-0 w-36 h-auto lg:w-48 mx-auto"
                     src={`/img/logos/other/partners/${key}.png`}
                     alt={p.name}
                   />
