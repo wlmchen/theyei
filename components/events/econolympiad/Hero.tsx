@@ -11,8 +11,8 @@ export default function Hero() {
       {visible && (
         <Announcement
           setVisible={setVisible}
-          smTitle="Stay tuned for more info!"
-          title="Stay tuned for more sample tests, speakers, judges, rules, and more!"
+          smTitle="EconOlympiad took place in April 2021!"
+          title="EconOlympiad took place in April 2021!"
         />
       )}
       <div className="relative bg-white overflow-hidden">
