@@ -24,7 +24,7 @@ const routes = [
         href: "/advisory-board",
         name: "Advisory Board",
       },
-      { href: "/apply", name: "Apply" },
+      { href: "/apply", name: "Join our Team" },
     ],
   },
   {

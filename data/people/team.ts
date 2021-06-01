@@ -50,11 +50,6 @@ const team = [
     linkedin: "https://www.linkedin.com/in/pgasawa/",
   },
   {
-    name: "Rajvir Kohli",
-    positions: ["Executive Board Member", "Director of EARN"],
-    linkedin: "https://www.linkedin.com/in/rajvir-kohli-b207781a8/",
-  },
-  {
     name: "Charlotte Lau",
     positions: ["Executive Board Member", "Director of Multimedia"],
     linkedin: "https://www.linkedin.com/in/charlotte-lau-8b77421b2/",
@@ -76,9 +71,19 @@ const team = [
     linkedin: "https://www.linkedin.com/in/yiqin-huang-466391202",
   },
   {
+    name: "Ryan Feng",
+    positions: ["Sponsorship Coordinator", "Grant Coordinator"],
+    linkedin: "https://www.linkedin.com/in/ryan-feng-849980207",
+  },
+  {
     name: "Jessica Cheng",
-    positions: ["Fundraising Coordinator"],
+    positions: ["Fundraising Coordinator", "Event Coordinator"],
     linkedin: "https://www.linkedin.com/in/jessica-cheng05",
+  },
+  {
+    name: "Isabell Kossar",
+    positions: ["Accounting Manager", "Leadership Associate"],
+    linkedin: "https://www.linkedin.com/in/isabell-kossar-09884b212",
   },
   {
     name: "Sarah Zuo",
@@ -94,6 +99,11 @@ const team = [
     name: "Snehil Kakani",
     positions: ["Graphic Designer"],
     linkedin: "https://www.linkedin.com/in/snehilkakani",
+  },
+  {
+    name: "Satvik Shreesha",
+    positions: ["Graphic Designer"],
+    linkedin: "https://www.linkedin.com/in/satvik-shreesha-b3815a207/",
   },
   {
     name: "Amy Zhou",
@@ -124,6 +134,16 @@ const team = [
     name: "Helena Su",
     positions: ["Curriculum Designer"],
     linkedin: "https://www.linkedin.com/in/helena-su-063965193",
+  },
+  {
+    name: "Frank Xiao",
+    positions: ["Testing Developer"],
+    linkedin: "https://www.linkedin.com/in/frank-xiao-6a746520b/",
+  },
+  {
+    name: "Siddharth Mehta",
+    positions: ["Testing Developer"],
+    linkedin: "https://www.linkedin.com/in/siddharth-mehta-935b4a1aa/",
   },
   {
     name: "Albert Ye",
@@ -182,14 +202,14 @@ const team = [
     linkedin: "https://www.linkedin.com/in/karissa-ning-b743ab1bb/",
   },
   {
-    name: "Danny Shao",
-    positions: ["Regional Ambassador", "Regional Director"],
-    linkedin: "https://www.linkedin.com/in/danny-shao-5b84261b1/ ",
-  },
-  {
     name: "Sneha Patibandla",
     positions: ["Regional Ambassador"],
     linkedin: "https://www.linkedin.com/in/sneha-patibandla-1529731b1/",
+  },
+  {
+    name: "Zahid Ahmed",
+    positions: ["Regional Ambassador"],
+    linkedin: "https://www.linkedin.com/in/zahid-ahmed-7779461b3",
   },
   {
     name: "Soumil Voma",
@@ -235,6 +255,16 @@ const team = [
     name: "Nevin Thombre",
     positions: ["FLIP Partnership Manager"],
     linkedin: "https://www.linkedin.com/in/nevin-thombre-5154411a9/ ",
+  },
+  {
+    name: "Vaishu Enduri",
+    positions: ["FLIP Partnership Manager"],
+    linkedin: "https://www.linkedin.com/in/vaishu-enduri",
+  },
+  {
+    name: "Vanessa Lin",
+    positions: ["FLIP Partnership Manager", "Expansion Associate"],
+    linkedin: "https://www.linkedin.com/in/vanessa-lin-20105/ ",
   },
   {
     name: "Cynthia Lan",
