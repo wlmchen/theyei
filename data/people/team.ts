@@ -21,11 +21,6 @@ const team = [
     linkedin: "https://www.linkedin.com/in/cheryl-wu-ba12801b1/",
   },
   {
-    name: "Darion Phan",
-    positions: ["Executive Board Member", "VP of Resources"],
-    linkedin: "https://www.linkedin.com/in/darion-phan/",
-  },
-  {
     name: "Andy Chen",
     positions: ["Executive Board Member", "VP of Clubs"],
     linkedin: "https://www.linkedin.com/in/andy-chen-82ba6b1a9/",
@@ -59,6 +54,11 @@ const team = [
     positions: ["Director of Technology"],
     linkedin: "https://www.linkedin.com/in/mason-wang/",
     github: "http://github.com/MasonWang025",
+  },
+  {
+    name: "Albert Ye",
+    positions: ["VP of Resources"],
+    linkedin: "https://www.linkedin.com/in/albert-ye-587aa81a2/ ",
   },
   {
     name: "June Wang",
@@ -146,11 +146,6 @@ const team = [
     linkedin: "https://www.linkedin.com/in/siddharth-mehta-935b4a1aa/",
   },
   {
-    name: "Albert Ye",
-    positions: ["Assistant Testing Developer"],
-    linkedin: "https://www.linkedin.com/in/albert-ye-587aa81a2/ ",
-  },
-  {
     name: "Sanjit Pingili",
     positions: ["Curriculum Designer", "Quality Control"],
     linkedin: "http://linkedin.com/in/sanjit-pingili-14b04a1aa/",
@@ -180,12 +175,6 @@ const team = [
     positions: ["Leadership Associate"],
     linkedin: "https://www.linkedin.com/in/kavinshah-student/",
   },
-  {
-    name: "Sahil Bhatia",
-    positions: ["Accounting Manager"],
-    linkedin: "https://www.linkedin.com/in/sahil-bhatia-2590481a6/ ",
-  },
-
   {
     name: "Connor Park",
     positions: ["Podcast Editor"],
@@ -220,11 +209,6 @@ const team = [
     name: "Neha Basu",
     positions: ["Expansion Associate"],
     linkedin: "https://www.linkedin.com/in/nehabasu1/",
-  },
-  {
-    name: "Martina Kurchan",
-    positions: ["Regional Ambassador"],
-    linkedin: "https://www.linkedin.com/in/martinakurchan/",
   },
   {
     name: "Saad Umar",
