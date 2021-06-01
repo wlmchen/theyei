@@ -1,4 +1,5 @@
 import React from "react";
+import RecapPodium from "./RecapPodium";
 
 export default function Recap() {
   return (
@@ -39,7 +40,8 @@ export default function Recap() {
                 Professor White’s talk on Anti-Trust
               </a>{" "}
             </p>
-            <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
+            <RecapPodium />
+            <div className="sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <a
                   href="https://youtu.be/IEzR36fxQ58"
