@@ -270,6 +270,26 @@ const clubs = [
     name: "Santa Teresa High School",
     region: "Socal",
   },
+  {
+    name: "Doral Academy Preparatory",
+    region: "Florida",
+  },
+  {
+    name: "Hankuk Academy of Foreign Studies",
+    region: "South Korea",
+  },
+  {
+    name: "Najd National Schools",
+    region: "Saudi Arabia",
+  },
+  {
+    name: "Los Altos High School",
+    region: "Norcal",
+  },
+  {
+    name: "Alameda High Economics Club",
+    region: "Norcal",
+  },
 ];
 
 export default clubs;
