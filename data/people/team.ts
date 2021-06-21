@@ -40,11 +40,6 @@ const team = [
     positions: ["Executive Board Member", "Director of Expansion"],
   },
   {
-    name: "Parth Asawa",
-    positions: ["Executive Board Member", "Director of FLIP"],
-    linkedin: "https://www.linkedin.com/in/pgasawa/",
-  },
-  {
     name: "Charlotte Lau",
     positions: ["Executive Board Member", "Director of Multimedia"],
     linkedin: "https://www.linkedin.com/in/charlotte-lau-8b77421b2/",
@@ -216,6 +211,11 @@ const team = [
     linkedin: "https://www.linkedin.com/in/saad-umar-78b5201a7/ ",
   },
   {
+    name: "Faaris Zuberi",
+    positions: ["VP of FLIP"],
+    linkedin: "https://www.linkedin.com/in/faaris-zuberi-4207a91b0/",
+  },
+  {
     name: "Vipra Bindal",
     positions: ["FLIP Curriculum Manager"],
     linkedin: "https://www.linkedin.com/in/vipra-bindal-6849a2204/ ",
@@ -224,11 +224,6 @@ const team = [
     name: "Manasvi Lodha",
     positions: ["FLIP Curriculum Manager"],
     linkedin: "https://www.linkedin.com/in/manasvi-lodha-994330184 ",
-  },
-  {
-    name: "Faaris Zuberi",
-    positions: ["FLIP Curriculum Designer"],
-    linkedin: "https://www.linkedin.com/in/faaris-zuberi-4207a91b0/",
   },
   {
     name: "Tarun Srivastava",

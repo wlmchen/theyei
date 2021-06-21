@@ -1,5 +1,12 @@
 const advisoryBoard = [
   {
+    name: "Henry Weng",
+    title: "Co-founder & Former CEO of YEI, Student at Stanford University",
+    bio: [
+      "Henry Weng is an incoming freshman at Stanford University studying Economics and Computer Science. He currently serves as Youth Economics Initiative’s chairman. As a high school student, Henry co-founded YEI, serving as its CFO from 2018 to 2020 and its CEO from 2020 to 2021. Henry was also the founder and president of the Saratoga High School Economics Club, was ranked 4th nationally in FBLA economics, and worked as a Bank of America Student Leader.",
+    ],
+  },
+  {
     name: "Glenn Hubbard",
     title:
       "Dean Emeritus at Columbia Business School, Fmr. Chair of the Council of Economic Advisors",
@@ -43,9 +50,9 @@ const advisoryBoard = [
     name: "Kerry McDonald",
     title: "Senior Education Fellow at FEE, Author",
     bio: [
-      "Kerry McDonald is a Senior Education Fellow at FEE and author of Unschooled: Raising Curious, Well-Educated Children Outside the Conventional Classroom (Chicago Review Press, 2019). She is also an adjunct scholar at The Cato Institute and a regular Forbes contributor.", 
-      "Kerry's research interests include homeschooling and alternatives to school, self-directed learning, education entrepreneurship, parent empowerment, school choice, and family and child policy. Her articles have appeared at The Wall Street Journal, Newsweek, NPR, Education Next, Reason Magazine, City Journal, and Entrepreneur, among others. She has a master’s degree in education policy from Harvard University and a bachelor’s degree in economics from Bowdoin College."
-    ]
+      "Kerry McDonald is a Senior Education Fellow at FEE and author of Unschooled: Raising Curious, Well-Educated Children Outside the Conventional Classroom (Chicago Review Press, 2019). She is also an adjunct scholar at The Cato Institute and a regular Forbes contributor.",
+      "Kerry's research interests include homeschooling and alternatives to school, self-directed learning, education entrepreneurship, parent empowerment, school choice, and family and child policy. Her articles have appeared at The Wall Street Journal, Newsweek, NPR, Education Next, Reason Magazine, City Journal, and Entrepreneur, among others. She has a master’s degree in education policy from Harvard University and a bachelor’s degree in economics from Bowdoin College.",
+    ],
   },
   {
     name: "George Bian",
