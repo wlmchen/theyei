@@ -1,11 +1,5 @@
 const team = [
   {
-    name: "Henry Weng",
-    positions: ["Co-founder", "CEO", "Co-Chairman"],
-    linkedin: "https://www.linkedin.com/in/henry-weng/",
-    email: "admin@theyei.org",
-  },
-  {
     name: "Ian Chen",
     positions: ["Co-founder", "COO", "President", "Co-Chairman"],
     linkedin: "https://www.linkedin.com/in/iandchen/",
