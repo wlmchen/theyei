@@ -1,7 +1,7 @@
 const team = [
   {
     name: "Ian Chen",
-    positions: ["Co-founder", "COO", "President", "Co-Chairman"],
+    positions: ["Co-founder", "CEO", "Co-Chairman"],
     linkedin: "https://www.linkedin.com/in/iandchen/",
   },
   {
