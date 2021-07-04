@@ -3,7 +3,7 @@ const advisoryBoard = [
     name: "Henry Weng (Chair)",
     title: "Co-founder & Former CEO of YEI, Student at Stanford University",
     bio: [
-      "Henry Weng is an incoming freshman at Stanford University studying Economics and Computer Science. He currently serves as Youth Economics Initiative’s chairman. As a high school student, Henry co-founded YEI, serving as its CFO from 2018 to 2020 and its CEO from 2020 to 2021. Henry was also the founder and president of the Saratoga High School Economics Club, was ranked 4th nationally in FBLA economics, and worked as a Bank of America Student Leader.",
+      "Henry Weng is an incoming freshman at Stanford University studying Economics and Computer Science. He currently serves as Youth Economics Initiative’s chairman. As a high school student, Henry co-founded YEI, serving as its CFO from 2018 to 2020 and its CEO from 2020 to 2021. Henry also founded YEI's first-ever club, the Saratoga High School Economics Club; was ranked 4th nationally in FBLA economics; and worked as a Bank of America Student Leader.",
     ],
   },
   {
@@ -58,7 +58,7 @@ const advisoryBoard = [
     name: "George Bian",
     title: "Co-founder & Former CEO of YEI, Student at MIT",
     bio: [
-      "George Bian is a first-year student at Massachusetts Institute of Technology, studying Computer Science, Economics, and Management. He graduated from Saratoga High School in 2020 and was the former co-founder and CEO of YEI from 2018 until 2020. George was also the ASB Student Body President at Saratoga High School, was ranked 5th in Economics at FBLA Nationals, and worked as a Bank of America Student Leader.",
+      "George Bian is an incoming sophomore at the Massachusetts Institute of Technology studying Computer Science, Economics, and Management. He graduated from Saratoga High School in 2020 and was the former co-founder and CEO of YEI from 2018 until 2020. George was also the ASB Student Body President at Saratoga High School, was ranked 5th in Economics at FBLA Nationals, and worked as a Bank of America Student Leader.",
     ],
   },
 ];
