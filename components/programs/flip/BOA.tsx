@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function BOA() {
   return (
@@ -16,5 +16,5 @@ export default function BOA() {
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react'
 
 const qualities = [
   {
-    title: "Skillset",
+    title: 'Skillset',
     content:
-      "We’re looking for students with the skills necessary to take on challenging research positions and internships.",
+      'We’re looking for students with the skills necessary to take on challenging research positions and internships.',
   },
   {
-    title: "Drive",
+    title: 'Drive',
     content:
-      "Do you push yourself out of your comfort zone? Are you willing to work hard and take on challenges?",
+      'Do you push yourself out of your comfort zone? Are you willing to work hard and take on challenges?',
   },
   {
-    title: "Collaboration",
+    title: 'Collaboration',
     content:
-      "Research assistants and interns often work in group environments. Do you work well with others? Are you a team player?",
+      'Research assistants and interns often work in group environments. Do you work well with others? Are you a team player?',
   },
-];
+]
 
 export default function GreatCandidate() {
   return (
@@ -30,7 +30,7 @@ export default function GreatCandidate() {
         </p>
         <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
           EARN applications are evaluated on the following criteria. Apply for
-          EARN with{" "}
+          EARN with{' '}
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScJ2wmr5GuM_TSYCV-T2GiRQIXJ3UF5HvoeinJkikOZIe3YKA/viewform"
             target="_blank"
@@ -49,7 +49,9 @@ export default function GreatCandidate() {
                     <div>
                       <span className="inline-flex items-center justify-center p-3 bg-yei-primary-main rounded-md shadow-lg">
                         {/* Heroicon name: cloud-upload */}
-                        <h1 className="font-extrabold text-xl text-white w-7">{index + 1}</h1>
+                        <h1 className="font-extrabold text-xl text-white w-7">
+                          {index + 1}
+                        </h1>
                       </span>
                     </div>
                     <h3 className="mt-6 text-xl font-bold text-gray-900 tracking-tight">
@@ -64,5 +66,5 @@ export default function GreatCandidate() {
         </div>
       </div>
     </div>
-  );
+  )
 }

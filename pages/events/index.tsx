@@ -1,6 +1,6 @@
-import React from "react";
-import CardsGrid from "../../components/events/index/CardsGrid";
-import Page from "../../components/utility/Page";
+import React from 'react'
+import CardsGrid from '../../components/events/index/CardsGrid'
+import Page from '../../components/utility/Page'
 
 export default function events() {
   return (
@@ -10,5 +10,5 @@ export default function events() {
     >
       <CardsGrid />
     </Page>
-  );
+  )
 }

@@ -1,10 +1,13 @@
-import Link from "next/link";
-import React from "react";
-import RequestDemo from "./RequestDemo";
+import Link from 'next/link'
+import React from 'react'
+import RequestDemo from './RequestDemo'
 
 export default function Hero() {
   return (
-    <div style={{backgroundImage: 'url("/img/page-bg/resources-bg.png'}} className="bg-cover relative bg-yei-secondary-brighter overflow-hidden pt-8">
+    <div
+      style={{ backgroundImage: 'url("/img/page-bg/resources-bg.png' }}
+      className="bg-cover relative bg-yei-secondary-brighter overflow-hidden pt-8"
+    >
       <div className="relative pt-6 pb-16 sm:pb-24">
         <main className="mt-16 sm:mt-24">
           <div className="mx-auto max-w-7xl">
@@ -26,10 +29,13 @@ export default function Hero() {
                     clubs gain access to our comprehensive courses that allow
                     them the frictionless ability to teach their members and
                     begin exploring. All you need is a willingness to explore
-                    and a <Link href="/clubs/register">
-                        <a className="underline text-gray-200">YEI EconClub Charter</a>
-                    </Link> and you're on your way to a
-                    successful Economics Club.
+                    and a{' '}
+                    <Link href="/clubs/register">
+                      <a className="underline text-gray-200">
+                        YEI EconClub Charter
+                      </a>
+                    </Link>{' '}
+                    and you're on your way to a successful Economics Club.
                   </p>
                 </div>
               </div>
@@ -41,5 +47,5 @@ export default function Hero() {
         </main>
       </div>
     </div>
-  );
+  )
 }

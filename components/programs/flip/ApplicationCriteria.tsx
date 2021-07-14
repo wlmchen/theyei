@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
 const appCriteria = [
-  "History of club excellence",
-  "Club involvement with YEI activities",
-  "Experience with service and tutoring",
-  "Club volunteer capacity",
-];
+  'History of club excellence',
+  'Club involvement with YEI activities',
+  'Experience with service and tutoring',
+  'Club volunteer capacity',
+]
 
 export default function ApplicationCriteria() {
   return (
@@ -17,7 +17,7 @@ export default function ApplicationCriteria() {
           </h2>
           <p className="mt-2 text-lg text-gray-500">
             EconClub applications for FLIP are evaluated on the following
-            criteria. Apply for FLIP with {" "}
+            criteria. Apply for FLIP with{' '}
             <a
               href="https://docs.google.com/forms/d/1bjyw2csfGtJRDt4UFgCU1eyrCIV_nKECSY4LNDfvSH4/viewform"
               target="_blank"
@@ -49,5 +49,5 @@ export default function ApplicationCriteria() {
         </dl>
       </div>
     </div>
-  );
+  )
 }

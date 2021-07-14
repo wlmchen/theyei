@@ -1,5 +1,5 @@
-import React from "react";
-import RecapPodium from "./RecapPodium";
+import React from 'react'
+import RecapPodium from './RecapPodium'
 
 export default function Recap() {
   return (
@@ -12,7 +12,7 @@ export default function Recap() {
               <span className="text-yei-primary-main xl:inline">Recap</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 font-medium sm:text-xl md:mt-5  md:max-w-3xl">
-              Thank you to our 330+ competitors and proctors!{" "}
+              Thank you to our 330+ competitors and proctors!{' '}
             </p>
             <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
               On November 8th, 2020 with around 100 teams and over 330
@@ -23,22 +23,22 @@ export default function Recap() {
               EconOlympiad (spring 2021) and EconBowl next year (fall 2021)
             </p>
             <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
-              Recordings:{" "}
+              Recordings:{' '}
               <a
                 href="https://www.youtube.com/watch?v=Z5sD0Jushjs&t=4995s"
                 className="green-link"
                 target="_blank"
               >
                 QuizBowl recording
-              </a>{" "}
-              ∙{" "}
+              </a>{' '}
+              ∙{' '}
               <a
                 href=" https://youtu.be/aemfNr-o8d4"
                 className="green-link"
                 target="_blank"
               >
                 Professor White’s talk on Anti-Trust
-              </a>{" "}
+              </a>{' '}
             </p>
             <RecapPodium />
             <div className="sm:flex sm:justify-center lg:justify-start">
@@ -63,5 +63,5 @@ export default function Recap() {
         </div>
       </main>
     </div>
-  );
+  )
 }

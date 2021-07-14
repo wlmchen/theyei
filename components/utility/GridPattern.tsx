@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function GridPattern({
   className,
@@ -11,7 +11,7 @@ export default function GridPattern({
       className={
         className
           ? className
-          : "absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
+          : 'absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2'
       }
       width={width ? width : 404}
       height={height ? height : 784}
@@ -32,7 +32,7 @@ export default function GridPattern({
             y={0}
             width={4}
             height={4}
-            className={(color ? color : "text-gray-200")}
+            className={color ? color : 'text-gray-200'}
             fill="currentColor"
           />
         </pattern>
@@ -43,12 +43,12 @@ export default function GridPattern({
         fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
       />
     </svg>
-  );
+  )
 }
 
 type GridPatternProps = {
-  className?: string;
-  width?: number;
-  height?: number;
-  color?: string;
-};
+  className?: string
+  width?: number
+  height?: number
+  color?: string
+}

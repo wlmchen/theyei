@@ -1,7 +1,7 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function Profile({
   name,
@@ -32,7 +32,7 @@ export default function Profile({
                 <span
                   key={pos}
                   className={`${
-                    pos.length > 23 ? "text-xs sm:text-sm" : "text-sm"
+                    pos.length > 23 ? 'text-xs sm:text-sm' : 'text-sm'
                   } whitespace-nowrap mx-0.5 my-0.5 inline-flex items-center px-2.5 py-0.5 rounded-full bg-gray-200 text-yei-secondary-main`}
                 >
                   {pos}
@@ -42,10 +42,10 @@ export default function Profile({
             <div>
               <ul className="flex pb-5">
                 {[
-                  { href: linkedin, icon: faLinkedin, sr: "linkedin" },
-                  { href: "mailto:" + email, icon: faEnvelope, sr: "github" },
-                  { href: github, icon: faGithub, sr: "email" },
-                ].map(({href, sr, icon}) => (
+                  { href: linkedin, icon: faLinkedin, sr: 'linkedin' },
+                  { href: 'mailto:' + email, icon: faEnvelope, sr: 'github' },
+                  { href: github, icon: faGithub, sr: 'email' },
+                ].map(({ href, sr, icon }) => (
                   <div key={sr + href}>
                     {href && (
                       <li className="mr-1">
@@ -54,10 +54,7 @@ export default function Profile({
                           href={href}
                           className="p-1.5 rounded-full inline-block  hover:bg-gray-300 bg-gray-200 text-yei-secondary-main hover:text-yei-secondary-main"
                         >
-                          <FontAwesomeIcon
-                            icon={icon}
-                            className="w-5 h-5"
-                          />
+                          <FontAwesomeIcon icon={icon} className="w-5 h-5" />
                         </a>
                       </li>
                     )}
@@ -69,14 +66,14 @@ export default function Profile({
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 type ProfileProps = {
-  name: string;
-  positions: string[];
-  imgSrc: string;
-  email: string;
-  linkedin: string;
-  github?: string;
-};
+  name: string
+  positions: string[]
+  imgSrc: string
+  email: string
+  linkedin: string
+  github?: string
+}

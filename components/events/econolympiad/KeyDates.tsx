@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 /**
  * : 
@@ -8,7 +8,7 @@ import React from "react";
  */
 const reasons = [
   {
-    title: "April 3rd",
+    title: 'April 3rd',
     content: (
       <>
         <b>FRQ test (synchronous).</b> We'll update this page with practice FRQ
@@ -17,7 +17,7 @@ const reasons = [
     ),
   },
   {
-    title: "April 3rd-9th",
+    title: 'April 3rd-9th',
     content: (
       <>
         <b>Prepare video presentations.</b> Prompts are released right after the
@@ -26,14 +26,14 @@ const reasons = [
     ),
   },
   {
-    title: "April 17th",
+    title: 'April 17th',
     content: (
       <>
         <b>Award ceremony (synchronous).</b> See cash prizes below!
       </>
     ),
   },
-];
+]
 
 export default function KeyDates() {
   return (
@@ -83,5 +83,5 @@ export default function KeyDates() {
         </div>
       </div>
     </div>
-  );
+  )
 }

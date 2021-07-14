@@ -1,6 +1,6 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLinkSquareAlt } from "@fortawesome/free-solid-svg-icons";
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons'
 
 export default function Chapter({
   name,
@@ -26,19 +26,19 @@ export default function Chapter({
             {founding && (
               <div className="mt-0.5 mb-1">
                 <span className="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                  {primaryFounding ? "Primary " : ""}Founding Club
+                  {primaryFounding ? 'Primary ' : ''}Founding Club
                 </span>
               </div>
             )}
             <p className="text-yei-primary-main">
-              {region}{" "}
+              {region}{' '}
               {email && (
                 <a
                   className="text-gray-400 text-sm whitespace-nowrap"
                   target="_blank"
-                  href={"mailto:" + email}
+                  href={'mailto:' + email}
                 >
-                  (<u>contact</u>{" "}
+                  (<u>contact</u>{' '}
                   <FontAwesomeIcon
                     className="h-2 w-2 inline"
                     icon={faExternalLinkSquareAlt}
@@ -51,5 +51,5 @@ export default function Chapter({
         </div>
       </div>
     </li>
-  );
+  )
 }

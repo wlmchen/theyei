@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import * as Yup from "yup";
-import Link from "next/link";
-import FocusError from "../utility/FocusError";
-import SuccessAlert from "../utility/SuccessAlert"
+import React, { useState } from 'react'
+import { Formik, Form, Field, ErrorMessage } from 'formik'
+import * as Yup from 'yup'
+import Link from 'next/link'
+import FocusError from '../utility/FocusError'
+import SuccessAlert from '../utility/SuccessAlert'
 
 export default function RequestDemo() {
-  const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState(false)
 
   return (
     <div className="bg-white sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
@@ -30,37 +30,37 @@ export default function RequestDemo() {
         <div className="mt-6">
           <Formik
             initialValues={{
-              name: "",
-              email: "",
-              school: "",
-              grade: "",
-              hearAboutUs: "",
+              name: '',
+              email: '',
+              school: '',
+              grade: '',
+              hearAboutUs: '',
             }}
             validationSchema={RequestDemoSchema}
             onSubmit={(values, { setSubmitting, resetForm }) => {
-              let data = new FormData();
+              let data = new FormData()
 
-              data.append("Full Name", values.name);
-              data.append("Email", values.email);
-              data.append("School", values.school);
-              data.append("Grade", values.grade);
-              data.append("How did you hear about us?", values.hearAboutUs);
+              data.append('Full Name', values.name)
+              data.append('Email', values.email)
+              data.append('School', values.school)
+              data.append('Grade', values.grade)
+              data.append('How did you hear about us?', values.hearAboutUs)
               data.append(
-                "_cc",
-                "admin@theyei.org,neha@theyei.org,ian@theyei.org,henry@theyei.org,expansion@theyei.org"
-              );
-              data.append("_replyto", values.email);
-              data.append("_subject", "New Curriculum Demo Request");
+                '_cc',
+                'admin@theyei.org,neha@theyei.org,ian@theyei.org,henry@theyei.org,expansion@theyei.org'
+              )
+              data.append('_replyto', values.email)
+              data.append('_subject', 'New Curriculum Demo Request')
 
-              fetch("https://formsubmit.co/ajax/masonwang0025@gmail.com", {
-                method: "POST",
-                mode: "no-cors",
+              fetch('https://formsubmit.co/ajax/masonwang0025@gmail.com', {
+                method: 'POST',
+                mode: 'no-cors',
                 body: data,
-              });
+              })
 
-              resetForm({});
-              setSubmitting(false);
-              setSubmitted(true);
+              resetForm({})
+              setSubmitting(false)
+              setSubmitted(true)
             }}
           >
             {({ isSubmitting }) => (
@@ -184,7 +184,7 @@ export default function RequestDemo() {
       <div className="px-4 py-6 bg-gray-50 border-t-2 border-gray-200 sm:px-10">
         <p className="text-sm leading-5 text-gray-500">
           Get full access to over 60 weeks of resources (AP Macro, AP Micro, IB
-          Economics, and financial literacy content) by joining us as a{" "}
+          Economics, and financial literacy content) by joining us as a{' '}
           <Link href="/clubs/register">
             <a className="font-medium text-gray-900 hover:underline">
               YEI club
@@ -194,13 +194,13 @@ export default function RequestDemo() {
         </p>
       </div>
     </div>
-  );
+  )
 }
 
 const RequestDemoSchema = Yup.object().shape({
-  name: Yup.string().max(50, "Name too long.").required("Name required."),
-  email: Yup.string().email("Invalid email.").required("Email required."),
-  school: Yup.string().required("School name is required."),
-  grade: Yup.string().required("Required."),
-  hearAboutUs: Yup.string().required("Required."),
-});
+  name: Yup.string().max(50, 'Name too long.').required('Name required.'),
+  email: Yup.string().email('Invalid email.').required('Email required.'),
+  school: Yup.string().required('School name is required.'),
+  grade: Yup.string().required('Required.'),
+  hearAboutUs: Yup.string().required('Required.'),
+})

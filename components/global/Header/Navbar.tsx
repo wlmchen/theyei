@@ -1,33 +1,33 @@
-import React, { useRef, useState, useEffect } from "react";
-import routes from "../../../data/routes";
-import { useRouter } from "next/router";
-import NavItem from "./NavItem";
-import MobileNavItem from "./MobileNavItem";
+import React, { useRef, useState, useEffect } from 'react'
+import routes from '../../../data/routes'
+import { useRouter } from 'next/router'
+import NavItem from './NavItem'
+import MobileNavItem from './MobileNavItem'
 
-import { faPlus, faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus, faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import Link from "next/link";
+import Link from 'next/link'
 
 export default function Navbar() {
-  const mobileMenu = useRef(null);
-  const [navOpen, setNavOpen] = useState(false); // for mobile
+  const mobileMenu = useRef(null)
+  const [navOpen, setNavOpen] = useState(false) // for mobile
 
   const handleClick = (e) => {
-    if (e.target.classList.contains("toggle")) return;
+    if (e.target.classList.contains('toggle')) return
     if (!mobileMenu.current.contains(e.target)) {
-      setNavOpen(false);
+      setNavOpen(false)
     }
-  };
+  }
 
   useEffect(() => {
-    document.addEventListener("mousedown", handleClick);
+    document.addEventListener('mousedown', handleClick)
     return () => {
-      document.removeEventListener("mousedown", handleClick);
-    };
-  }, []);
+      document.removeEventListener('mousedown', handleClick)
+    }
+  }, [])
 
-  const currPath = useRouter().pathname;
+  const currPath = useRouter().pathname
 
   return (
     <nav className="z-50 w-screen bg-white shadow fixed">
@@ -53,11 +53,11 @@ export default function Navbar() {
                 <span className="sr-only">Open main menu</span>
                 <FontAwesomeIcon
                   icon={faBars}
-                  className={`${navOpen ? "hidden" : "block"} toggle h-6 w-6`}
+                  className={`${navOpen ? 'hidden' : 'block'} toggle h-6 w-6`}
                 />
                 <FontAwesomeIcon
                   icon={faTimes}
-                  className={`${navOpen ? "block" : "hidden"} toggle h-6 w-6`}
+                  className={`${navOpen ? 'block' : 'hidden'} toggle h-6 w-6`}
                 />
               </button>
             </div>
@@ -99,7 +99,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile menu */}
-      <div className={`${navOpen ? "block" : "hidden"} lg:hidden`}>
+      <div className={`${navOpen ? 'block' : 'hidden'} lg:hidden`}>
         <div ref={mobileMenu} className="pt-2 pb-3 space-y-1 shadow-lg">
           {routes.map((r) => (
             <MobileNavItem
@@ -124,5 +124,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-  );
+  )
 }

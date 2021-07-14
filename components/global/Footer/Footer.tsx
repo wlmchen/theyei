@@ -1,18 +1,21 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faPaypal,
   faFacebook,
   faDiscord,
   faInstagram,
   faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import Column from "./Column";
+} from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import Column from './Column'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 z-20 relative" aria-labelledby="footerHeading">
+    <footer
+      className="bg-gray-800 z-20 relative"
+      aria-labelledby="footerHeading"
+    >
       <h2 id="footerHeading" className="sr-only">
         Footer
       </h2>
@@ -24,10 +27,10 @@ export default function Footer() {
                 <Column
                   title="Events"
                   links={[
-                    { href: "/events/econbowl", name: "EconBowl" },
-                    { href: "/events/econolympiad", name: "EconOlympiad" },
-                    { href: "/events/econtalks", name: "EconTalks" },
-                    { href: "/events", name: "All Events" },
+                    { href: '/events/econbowl', name: 'EconBowl' },
+                    { href: '/events/econolympiad', name: 'EconOlympiad' },
+                    { href: '/events/econtalks', name: 'EconTalks' },
+                    { href: '/events', name: 'All Events' },
                   ]}
                 />
               </div>
@@ -35,9 +38,9 @@ export default function Footer() {
                 <Column
                   title="Clubs"
                   links={[
-                    { href: "/clubs/register", name: "Register a Club" },
-                    { href: "/clubs/current-clubs", name: "Current Clubs" },
-                    { href: "/clubs", name: "EconClubs Info" },
+                    { href: '/clubs/register', name: 'Register a Club' },
+                    { href: '/clubs/current-clubs', name: 'Current Clubs' },
+                    { href: '/clubs', name: 'EconClubs Info' },
                   ]}
                 />
               </div>
@@ -47,10 +50,10 @@ export default function Footer() {
                 <Column
                   title="Programs"
                   links={[
-                    { href: "/programs/flip", name: "FLIP" },
-                    { href: "/programs/earn", name: "EARN" },
-                    { href: "/resources", name: "Resources" },
-                    { href: "/people/apply", name: "YEI Hiring" },
+                    { href: '/programs/flip', name: 'FLIP' },
+                    { href: '/programs/earn', name: 'EARN' },
+                    { href: '/resources', name: 'Resources' },
+                    { href: '/people/apply', name: 'YEI Hiring' },
                   ]}
                 />
               </div>
@@ -93,29 +96,29 @@ export default function Footer() {
           <div className="flex space-x-6 md:order-2">
             {[
               {
-                name: "Email",
+                name: 'Email',
                 icon: faEnvelope,
-                href: "mailto:admin@theyei.org",
+                href: 'mailto:admin@theyei.org',
               },
               {
-                name: "Facebook",
+                name: 'Facebook',
                 icon: faFacebook,
-                href: "https://www.facebook.com/youtheconomicsinitiative/",
+                href: 'https://www.facebook.com/youtheconomicsinitiative/',
               },
               {
-                name: "Instagram",
+                name: 'Instagram',
                 icon: faInstagram,
-                href: "https://www.instagram.com/the.yei/",
+                href: 'https://www.instagram.com/the.yei/',
               },
               {
-                name: "Discord",
+                name: 'Discord',
                 icon: faDiscord,
-                href: "https://discord.gg/RC588cv",
+                href: 'https://discord.gg/RC588cv',
               },
               {
-                name: "Linkedin",
+                name: 'Linkedin',
                 icon: faLinkedin,
-                href: "https://www.linkedin.com/company/31421051",
+                href: 'https://www.linkedin.com/company/31421051',
               },
             ].map((link) => (
               <a
@@ -135,5 +138,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
+  )
 }

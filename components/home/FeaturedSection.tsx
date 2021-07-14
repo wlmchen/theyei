@@ -1,7 +1,7 @@
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
-import React from "react";
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Link from 'next/link'
+import React from 'react'
 
 export default function FeaturedSection({
   subtitle,
@@ -12,14 +12,14 @@ export default function FeaturedSection({
   dark,
   index,
   length,
-  Component
+  Component,
 }) {
   return (
     <Slant dark={dark} index={index} length={length}>
       <div
         className={`relative ${
-          dark ? "bg-gray-800" : "bg-gray-100"
-        } pt-10 pb-6 ${imgTitle ? "sm:pt-14 sm:pb-6" : "sm:py-0 sm:pb-8"} z-20`}
+          dark ? 'bg-gray-800' : 'bg-gray-100'
+        } pt-10 pb-6 ${imgTitle ? 'sm:pt-14 sm:pb-6' : 'sm:py-0 sm:pb-8'} z-20`}
       >
         <div className="container relative flex flex-col md:flex-row">
           {imgTitle && (
@@ -40,29 +40,29 @@ export default function FeaturedSection({
           )}
           <div
             className={`relative px-4 py-12 sm:px-6 lg:px-8 lg:py-16  ${
-              dark ? "md:order-3" : "md:order-0"
+              dark ? 'md:order-3' : 'md:order-0'
             }`}
           >
             <div
-              className={`flex-shrink-0 ${dark && imgTitle ? "md:pl-10" : ""}`}
+              className={`flex-shrink-0 ${dark && imgTitle ? 'md:pl-10' : ''}`}
             >
               <h2
                 className={`text-base font-semibold uppercase tracking-wider mb-1  ${
-                  dark ? "text-gray-300" : "text-gray-600"
+                  dark ? 'text-gray-300' : 'text-gray-600'
                 }`}
               >
                 {subtitle}
               </h2>
               <p
                 className={`mt-2  ${
-                  dark ? "text-white" : "text-yei-secondary-brighter"
+                  dark ? 'text-white' : 'text-yei-secondary-brighter'
                 } text-5xl font-extrabold tracking-tight sm:text-6xl`}
               >
                 {title}
               </p>
               <p
                 className={`mt-3 text-lg sm:text-xl  ${
-                  dark ? "text-gray-300" : "text-gray-600"
+                  dark ? 'text-gray-300' : 'text-gray-600'
                 }`}
               >
                 {content}
@@ -73,15 +73,15 @@ export default function FeaturedSection({
                     <a
                       className={`inline-flex items-center justify-center px-5 py-3 border border-transparent text-md font-medium rounded-md ${
                         dark
-                          ? "text-gray-900 bg-white hover:bg-gray-50"
-                          : "text-white bg-yei-secondary-darker hover:bg-yei-secondary-darkest"
+                          ? 'text-gray-900 bg-white hover:bg-gray-50'
+                          : 'text-white bg-yei-secondary-darker hover:bg-yei-secondary-darkest'
                       } trans-300`}
                     >
                       Learn More
                       <FontAwesomeIcon
                         icon={faArrowRight}
                         className={`-mr-1 ml-3 h-4 w-4 ${
-                          dark ? "text-gray-400" : "text-gray-300"
+                          dark ? 'text-gray-400' : 'text-gray-300'
                         }`}
                       />
                     </a>
@@ -91,21 +91,23 @@ export default function FeaturedSection({
             </div>
           </div>
         </div>
-        {Component && <div className="max-w-7xl mx-auto px-4 sm:px-2 pt-24 pb-2 -mb-10 sm:-mb-8 lg:-mb-4 md:pt-12 xl:pb-6">
-          <Component />
-        </div>}
+        {Component && (
+          <div className="max-w-7xl mx-auto px-4 sm:px-2 pt-24 pb-2 -mb-10 sm:-mb-8 lg:-mb-4 md:pt-12 xl:pb-6">
+            <Component />
+          </div>
+        )}
       </div>
     </Slant>
-  );
+  )
 }
 
 function Slant({ children, dark, index, length }) {
-  let z = length - index;
+  let z = length - index
   return (
     <>
       <div
         className={`relative ${
-          dark ? "bg-gray-800" : "bg-gray-100"
+          dark ? 'bg-gray-800' : 'bg-gray-100'
         } h-48 -mt-48 3xl:hidden`}
         style={{ zIndex: z }}
       ></div>
@@ -113,11 +115,11 @@ function Slant({ children, dark, index, length }) {
       {z > 1 && (
         <div
           className={`relative ${
-            dark ? "bg-gray-800 slant-up-left" : "bg-gray-100 slant-up-right"
+            dark ? 'bg-gray-800 slant-up-left' : 'bg-gray-100 slant-up-right'
           } h-64 -mt-36 3xl:hidden`}
           style={{ zIndex: z }}
         ></div>
       )}
     </>
-  );
+  )
 }

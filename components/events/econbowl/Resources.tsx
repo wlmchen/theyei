@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function Resources() {
   return (
@@ -9,17 +9,17 @@ export default function Resources() {
         </h2>
         <div className="mt-6 pt-5 text-gray-600 text-xl">
           <p>
-            Take our{" "}
+            Take our{' '}
             <a
               href="https://docs.google.com/document/d/1ad3zJGWHnOFBCEzOVY3OZL6N3R4I4t79rmFC5PtCoXs/edit?usp=sharing"
               className="green-link"
               target="_blank"
             >
               practice tests
-            </a>{" "}
+            </a>{' '}
             (3 total practice sets) to prepare for the competition. For more
             resources, we’d suggest the YEI curriculum, other AP prep material,
-            or{" "}
+            or{' '}
             <a
               href="https://www.councilforeconed.org/national-economics-challenge/sample-tests-2/"
               className="green-link"
@@ -32,5 +32,5 @@ export default function Resources() {
         </div>
       </div>
     </div>
-  );
+  )
 }

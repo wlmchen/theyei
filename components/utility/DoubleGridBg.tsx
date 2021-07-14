@@ -1,13 +1,13 @@
-import React from "react";
-import GridPattern from "./GridPattern";
+import React from 'react'
+import GridPattern from './GridPattern'
 
 export default function DoubleGridBg({ color, showSm }: DoubleGridBgProps) {
   return (
     <div
       className={
         showSm
-          ? "block absolute inset-y-0 h-full w-full"
-          : "hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
+          ? 'block absolute inset-y-0 h-full w-full'
+          : 'hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full'
       }
       aria-hidden="true"
     >
@@ -22,10 +22,10 @@ export default function DoubleGridBg({ color, showSm }: DoubleGridBgProps) {
         />
       </div>
     </div>
-  );
+  )
 }
 
 type DoubleGridBgProps = {
-  color?: string;
-  showSm?: boolean;
-};
+  color?: string
+  showSm?: boolean
+}

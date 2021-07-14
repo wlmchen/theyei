@@ -1,5 +1,5 @@
-import React from "react";
-import featured from "../../data/companies/featured";
+import React from 'react'
+import featured from '../../data/companies/featured'
 
 export default function FeaturedOn() {
   return (
@@ -33,5 +33,5 @@ export default function FeaturedOn() {
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react'
 
 const reasons = [
   {
-    title: "Efficient",
+    title: 'Efficient',
     content:
-      "Think of EARN like a common application for economics internships. Instead of cold emailing hundreds of professors and companies, EARN applicants apply to dozens of internships at once through a single application.",
+      'Think of EARN like a common application for economics internships. Instead of cold emailing hundreds of professors and companies, EARN applicants apply to dozens of internships at once through a single application.',
   },
   {
-    title: "Real-world experience",
+    title: 'Real-world experience',
     content:
-      "EARN is one of the only programs that offer high schoolers the opportunity to gain real-world work experience, whether that’s assisting a professor with research at a world-class university or working as an intern at a top company.",
+      'EARN is one of the only programs that offer high schoolers the opportunity to gain real-world work experience, whether that’s assisting a professor with research at a world-class university or working as an intern at a top company.',
   },
   {
-    title: "Community",
+    title: 'Community',
     content:
-      "By joining the EARN program, you’ll become part of a curated community of highly motivated economics students. EARN members will have the opportunity to expand their network by connecting with fellow economics enthusiasts, researchers, and interns.",
+      'By joining the EARN program, you’ll become part of a curated community of highly motivated economics students. EARN members will have the opportunity to expand their network by connecting with fellow economics enthusiasts, researchers, and interns.',
   },
-];
+]
 
 export default function benefits() {
   return (
@@ -30,9 +30,8 @@ export default function benefits() {
             Program Benefits
           </p>
           <p className="mt-4 text-lg text-gray-500">
-            EARN provides economics students with opportunities to
-            real-world experiences as well as access to a valuable
-            community.
+            EARN provides economics students with opportunities to real-world
+            experiences as well as access to a valuable community.
           </p>
         </div>
         <div className="mt-12 lg:mt-0 lg:col-span-2">
@@ -67,5 +66,5 @@ export default function benefits() {
         </div>
       </div>
     </div>
-  );
+  )
 }

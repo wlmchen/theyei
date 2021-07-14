@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import links from "../../../data/content/econOlympiadRegistration";
+import React, { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import links from '../../../data/content/econOlympiadRegistration'
 
 export default function Register() {
-  const [open, setOpen] = useState(false);
-  const [selectedName, setName] = useState(links[0].name);
-  const [selectedLink, setLink] = useState(links[0].href);
+  const [open, setOpen] = useState(false)
+  const [selectedName, setName] = useState(links[0].name)
+  const [selectedLink, setLink] = useState(links[0].href)
 
   return (
     <div className="mt-6 relative " style={{ zIndex: 49 }}>
@@ -41,8 +41,8 @@ export default function Register() {
           <div
             className={`${
               open
-                ? "opacity-100 pointer-events-auto"
-                : "opacity-0 pointer-events-none"
+                ? 'opacity-100 pointer-events-auto'
+                : 'opacity-0 pointer-events-none'
             } absolute mt-1 w-full rounded-md bg-white shadow-lg trans-150 focus:outline-none`}
           >
             <ul
@@ -54,25 +54,25 @@ export default function Register() {
               className="bg-white max-h-40 relative rounded-md py-1 text-base overflow-auto focus:outline-none sm:text-md"
             >
               {links.map(({ name, href }) => {
-                const active = name === selectedName;
+                const active = name === selectedName
                 return (
                   <li
                     key={name}
                     id="listbox-option-0"
                     role="option"
                     className={
-                      "cursor-pointer hover:bg-gray-100 trans-150 text-gray-900  focus:outline-none  relative py-2 pl-3 pr-9 " +
-                      (active ? "bg-gray-100" : "")
+                      'cursor-pointer hover:bg-gray-100 trans-150 text-gray-900  focus:outline-none  relative py-2 pl-3 pr-9 ' +
+                      (active ? 'bg-gray-100' : '')
                     }
                     onClick={() => {
-                      setName(name);
-                      setLink(href);
-                      setOpen(false);
+                      setName(name)
+                      setLink(href)
+                      setOpen(false)
                     }}
                   >
                     <span
                       className={`${
-                        active ? "font-semibold" : "font-normal"
+                        active ? 'font-semibold' : 'font-normal'
                       } block truncate`}
                     >
                       {name}
@@ -97,7 +97,7 @@ export default function Register() {
                       </span>
                     )}
                   </li>
-                );
+                )
               })}
               {/* More items... */}
             </ul>
@@ -119,5 +119,5 @@ export default function Register() {
         />
       </a>
     </div>
-  );
+  )
 }

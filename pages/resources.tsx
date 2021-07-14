@@ -1,7 +1,7 @@
-import React from "react";
-import Demos from "../components/resources/Demos";
-import Hero from "../components/resources/Hero";
-import Page from "../components/utility/Page";
+import React from 'react'
+import Demos from '../components/resources/Demos'
+import Hero from '../components/resources/Hero'
+import Page from '../components/utility/Page'
 
 export default function resources() {
   return (
@@ -12,5 +12,5 @@ export default function resources() {
       <Hero />
       <Demos />
     </Page>
-  );
+  )
 }

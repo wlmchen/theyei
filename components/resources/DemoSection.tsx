@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function DemoSection({
   title,
@@ -6,14 +6,12 @@ export default function DemoSection({
   ctaBtn,
   imgUrl,
   darkerBg,
-  imgLink
+  imgLink,
 }: DemoSectionProps) {
   return (
-    <div className={`relative py-24 ${darkerBg ? "bg-gray-100" : "bg-white"}`}>
+    <div className={`relative py-24 ${darkerBg ? 'bg-gray-100' : 'bg-white'}`}>
       <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-        <div
-          className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"
-        >
+        <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
           <div>
             <div>
               <span className="h-12 w-12 rounded-md flex items-center justify-center bg-yei-primary-main">
@@ -45,24 +43,24 @@ export default function DemoSection({
         <div className="mt-12 sm:mt-16 lg:mt-0">
           <div className="px-4 md:px-8 lg:px-0 lg:m-0 lg:relative lg:h-full">
             <a href={imgLink} target="_blank">
-                <img
-                  className="w-full rounded-xl bg-yei-secondary-main shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src={imgUrl}
-                  alt={title}
-                />
+              <img
+                className="w-full rounded-xl bg-yei-secondary-main shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                src={imgUrl}
+                alt={title}
+              />
             </a>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 type DemoSectionProps = {
-  title: string;
-  content: string;
-  ctaBtn?: any;
-  imgUrl?: string;
-  darkerBg?: boolean;
-  imgLink?: string;
-};
+  title: string
+  content: string
+  ctaBtn?: any
+  imgUrl?: string
+  darkerBg?: boolean
+  imgLink?: string
+}

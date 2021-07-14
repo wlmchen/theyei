@@ -1,6 +1,6 @@
-import React from "react";
-import Steps from "./Steps";
-import DoubleGridBg from "./../../utility/DoubleGridBg";
+import React from 'react'
+import Steps from './Steps'
+import DoubleGridBg from './../../utility/DoubleGridBg'
 
 export default function Hero() {
   return (
@@ -24,10 +24,15 @@ export default function Hero() {
               <p className="mt-3 text-lg text-gray-800 sm:mt-5 sm:text-xl">
                 Passionate about what we do? Want to join an international team
                 of leaders, creators, and economics enthusiasts? Learn how to
-                apply in the{" "}
-                <a target="_blank" className="underline font-bold text-yei-secondary-brighter" href="https://docs.google.com/document/d/1VBmep4hRFlc_m34zoB3PrCpR41UnlAKgH2r-k3FBrAM/edit">
+                apply in the{' '}
+                <a
+                  target="_blank"
+                  className="underline font-bold text-yei-secondary-brighter"
+                  href="https://docs.google.com/document/d/1VBmep4hRFlc_m34zoB3PrCpR41UnlAKgH2r-k3FBrAM/edit"
+                >
                   YEI application packet
-                </a>.
+                </a>
+                .
               </p>
               <p className="mt-3 text-base text-gray-800 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 Knowledge of economics isn’t required for every position, and
@@ -42,5 +47,5 @@ export default function Hero() {
         </main>
       </div>
     </div>
-  );
+  )
 }

@@ -1,5 +1,5 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link'
+import React from 'react'
 
 export default function Curriculum() {
   return (
@@ -15,15 +15,13 @@ export default function Curriculum() {
           FLIP curriculum has approximately 30 hours worth of content and covers
           topics such as budgeting, loans, credit and debit cards, 401(k),
           retirement, interest, savings, investing, and insurance. Learn more on
-          the{" "}
+          the{' '}
           <Link href="/resources">
-            <a className="green-link">
-              resources page
-            </a>
+            <a className="green-link">resources page</a>
           </Link>
           .
         </div>
       </div>
     </div>
-  );
+  )
 }

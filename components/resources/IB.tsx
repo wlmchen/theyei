@@ -1,5 +1,5 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link'
+import React from 'react'
 
 export default function IB() {
   return (
@@ -54,7 +54,7 @@ export default function IB() {
               <div className="ml-3 flex-1 md:flex md:justify-between">
                 <p className="text-sm text-blue-700">
                   This curriculum is coming soon! Get full access immediately
-                  after it's released by joining us as a{" "}
+                  after it's released by joining us as a{' '}
                   <Link href="/clubs/register">
                     <a className="font-semibold text-blue-900">YEI club.</a>
                   </Link>
@@ -65,5 +65,5 @@ export default function IB() {
         </div>
       </div>
     </div>
-  );
+  )
 }

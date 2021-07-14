@@ -1,6 +1,6 @@
-import React from "react";
-import Judge from "./Judge";
-import judges from "../../../data/people/econOlyJudges";
+import React from 'react'
+import Judge from './Judge'
+import judges from '../../../data/people/econOlyJudges'
 
 export default function Judges() {
   return (
@@ -12,7 +12,7 @@ export default function Judges() {
         <div className="mt-6 pt-5 text-gray-600 text-xl pb-1">
           <ul className="mx-auto flex flex-wrap flex-col sm:flex-row">
             {judges.map(({ name, bio }) => {
-              let key = name.replace(/[\W_]+/g, "-").toLowerCase();
+              let key = name.replace(/[\W_]+/g, '-').toLowerCase()
               return (
                 <Judge
                   key={key}
@@ -20,11 +20,11 @@ export default function Judges() {
                   bio={bio}
                   imgSrc={`/img/people/econolyjudges/${key}.jpg`}
                 />
-              );
+              )
             })}
           </ul>
         </div>
       </div>
     </div>
-  );
+  )
 }

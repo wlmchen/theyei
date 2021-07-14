@@ -1,10 +1,10 @@
-import Link from "next/link";
-import React, { useState } from "react";
-import Announcement from "../../utility/Announcement";
-import Register from "./Register";
+import Link from 'next/link'
+import React, { useState } from 'react'
+import Announcement from '../../utility/Announcement'
+import Register from './Register'
 
 export default function Hero() {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(true)
 
   return (
     <>
@@ -60,7 +60,7 @@ export default function Hero() {
         </div>
         <div
           className={`"relative pb-16 sm:pb-24 lg:pb-32  ${
-            visible ? "" : "pt-12"
+            visible ? '' : 'pt-12'
           }`}
         >
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
@@ -83,12 +83,12 @@ export default function Hero() {
                   </p>
                   <p className="mt-4">
                     EconOlympiad is open to everyone, not just YEI members! If
-                    you want to become a YEI member, you can register your club{" "}
+                    you want to become a YEI member, you can register your club{' '}
                     <Link href="/clubs/register">
                       <a className="green-link">here</a>
                     </Link>
                     , and we’ll get in touch with you soon! You can sign up as
-                    soon as you fill out the form. Registration deadline is{" "}
+                    soon as you fill out the form. Registration deadline is{' '}
                     <strong>3/31</strong>.
                   </p>
                 </div>
@@ -187,5 +187,5 @@ export default function Hero() {
         </div>
       </div>
     </>
-  );
+  )
 }

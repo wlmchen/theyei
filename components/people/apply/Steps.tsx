@@ -1,6 +1,11 @@
-import React from "react";
-import { faCheck, faCopy, faEnvelope, faPen } from "@fortawesome/free-solid-svg-icons";
-import Step from "./Step";
+import React from 'react'
+import {
+  faCheck,
+  faCopy,
+  faEnvelope,
+  faPen,
+} from '@fortawesome/free-solid-svg-icons'
+import Step from './Step'
 
 export default function Steps() {
   return (
@@ -8,7 +13,7 @@ export default function Steps() {
       <ul>
         <Step icon={faCopy}>
           <p className="text-xl text-gray-500">
-            Read the{" "}
+            Read the{' '}
             <a
               target="_blank"
               href="https://docs.google.com/document/d/1VBmep4hRFlc_m34zoB3PrCpR41UnlAKgH2r-k3FBrAM/edit"
@@ -20,7 +25,7 @@ export default function Steps() {
         </Step>
         <Step icon={faPen}>
           <p className="text-xl text-gray-500">
-            Fill out the{" "}
+            Fill out the{' '}
             <a
               target="_blank"
               href="https://docs.google.com/forms/d/e/1FAIpQLScuBLgcJLqseYxchYfhy94rr7GMuGDoT4vxaOcbrV7HQ8eDtw/viewform"
@@ -32,14 +37,14 @@ export default function Steps() {
         </Step>
         <Step icon={faEnvelope}>
           <p className="text-xl text-gray-500">
-            Email{" "}
+            Email{' '}
             <a
               target="_blank"
               href="mailto:recruiting@theyei.org"
               className="font-medium text-gray-900"
             >
               recruiting@theyei.org
-            </a>{" "}
+            </a>{' '}
             stating you have submitted an application
           </p>
         </Step>
@@ -55,5 +60,5 @@ export default function Steps() {
         considered in a final decision.
       </p>
     </div>
-  );
+  )
 }

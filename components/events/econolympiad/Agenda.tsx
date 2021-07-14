@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react'
 
 const frqSchedule = [
-  { time: "9 am", title: "Opening Ceremony" },
-  { time: "9:45", title: "Taking the Test" },
-  { time: "11:00", title: "Speaker Seminar" },
-  { time: "11:30 - 12", title: "Closing Remarks" },
-];
+  { time: '9 am', title: 'Opening Ceremony' },
+  { time: '9:45', title: 'Taking the Test' },
+  { time: '11:00', title: 'Speaker Seminar' },
+  { time: '11:30 - 12', title: 'Closing Remarks' },
+]
 
 const ceremonySchedule = [
-  { time: "9 am", title: "Award Ceremony" },
-  { time: "9:15", title: "Q&A with the Judges" },
-  { time: "9:45", title: "Awards" },
-  { time: "10:15", title: "End of Award Ceremony" },
-];
+  { time: '9 am', title: 'Award Ceremony' },
+  { time: '9:15', title: 'Q&A with the Judges' },
+  { time: '9:45', title: 'Awards' },
+  { time: '10:15', title: 'End of Award Ceremony' },
+]
 
 export default function Agenda() {
   return (
@@ -42,7 +42,7 @@ export default function Agenda() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 function ScheduleTable({ schedule, title }) {
@@ -74,7 +74,10 @@ function ScheduleTable({ schedule, title }) {
                 </thead>
                 <tbody>
                   {schedule.map(({ time, title }, index) => (
-                    <tr key={title} className={index % 2 === 0 ? "bg-white" : "bg-gray-100"}>
+                    <tr
+                      key={title}
+                      className={index % 2 === 0 ? 'bg-white' : 'bg-gray-100'}
+                    >
                       <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                         {time}
                       </td>
@@ -90,5 +93,5 @@ function ScheduleTable({ schedule, title }) {
         </div>
       </div>
     </div>
-  );
+  )
 }

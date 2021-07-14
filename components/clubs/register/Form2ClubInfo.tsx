@@ -1,5 +1,5 @@
-import React from "react";
-import { Field, ErrorMessage } from "formik";
+import React from 'react'
+import { Field, ErrorMessage } from 'formik'
 
 export default function ClubInfo(props) {
   return (
@@ -65,11 +65,11 @@ export default function ClubInfo(props) {
                 className="block text-xl font-medium text-gray-700"
               >
                 We'll also need some info about other officers to get started.
-                Let's get their{" "}
+                Let's get their{' '}
                 <b>names, emails, grade levels, and positions.</b>
               </label>
               <p className="text-lg my-2 text-gray-500">
-                Include at least a <b>Vice President, Treasurer, </b> and your{" "}
+                Include at least a <b>Vice President, Treasurer, </b> and your{' '}
                 <b>Club Advisor</b>.
               </p>
               <div className="mt-1">
@@ -211,5 +211,5 @@ export default function ClubInfo(props) {
         </div>
       )}
     </div>
-  );
+  )
 }

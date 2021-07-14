@@ -1,7 +1,7 @@
-import React from "react";
-import Hero from "../../components/events/econtalks/Hero";
-import SpeakerGrid from "../../components/events/econtalks/SpeakerGrid";
-import Page from "../../components/utility/Page";
+import React from 'react'
+import Hero from '../../components/events/econtalks/Hero'
+import SpeakerGrid from '../../components/events/econtalks/SpeakerGrid'
+import Page from '../../components/utility/Page'
 
 export default function econtalks() {
   return (
@@ -12,5 +12,5 @@ export default function econtalks() {
       <Hero />
       <SpeakerGrid />
     </Page>
-  );
+  )
 }

@@ -1,7 +1,7 @@
-import React from "react";
-import Link from "next/link";
-import currentClubs from "../../../data/currentClubs";
-import Chapter from "./Chapter";
+import React from 'react'
+import Link from 'next/link'
+import currentClubs from '../../../data/currentClubs'
+import Chapter from './Chapter'
 
 export default function Schools() {
   return (
@@ -13,32 +13,32 @@ export default function Schools() {
           </h2>
           <p className="text-xl text-gray-600">
             View the YEI's {currentClubs.length} clubs. Want to join the list?
-            Learn more at our{" "}
+            Learn more at our{' '}
             <Link href="/clubs">
-              <a className="green-link">
-                EconClubs overview page
-              </a>
+              <a className="green-link">EconClubs overview page</a>
             </Link>
             .
           </p>
         </div>
         <ul className="flex flex-col sm:flex-row flex-wrap">
-          {currentClubs.map(({ name, email, founding, primaryFounding, region }) => {
-            let key = name.replace(/[\W_]+/g, "-").toLowerCase();
-            return (
-              <Chapter
-                key={key}
-                imgSrc={`/img/clubs/current-clubs/${key}.jpg`}
-                name={name}
-                email={email}
-                founding={founding}
-                primaryFounding={primaryFounding}
-                region={region}
-              />
-            );
-          })}
+          {currentClubs.map(
+            ({ name, email, founding, primaryFounding, region }) => {
+              let key = name.replace(/[\W_]+/g, '-').toLowerCase()
+              return (
+                <Chapter
+                  key={key}
+                  imgSrc={`/img/clubs/current-clubs/${key}.jpg`}
+                  name={name}
+                  email={email}
+                  founding={founding}
+                  primaryFounding={primaryFounding}
+                  region={region}
+                />
+              )
+            }
+          )}
         </ul>
       </div>
     </div>
-  );
+  )
 }

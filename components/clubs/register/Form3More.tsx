@@ -1,5 +1,5 @@
-import React from "react";
-import { Field, ErrorMessage } from "formik";
+import React from 'react'
+import { Field, ErrorMessage } from 'formik'
 
 export default function More(props) {
   return (
@@ -78,5 +78,5 @@ export default function More(props) {
         </div>
       </div>
     </div>
-  );
+  )
 }

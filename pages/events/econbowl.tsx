@@ -1,11 +1,11 @@
-import React from "react";
-import Hero from "../../components/events/econbowl/Hero";
-import Prizes from "../../components/events/econbowl/Prizes";
-import Recap from "../../components/events/econbowl/Recap";
-import Speaker from "../../components/events/econbowl/Speaker";
-import FAQs from "../../components/events/econbowl/FAQs";
-import Page from "../../components/utility/Page";
-import Resources from './../../components/events/econbowl/Resources';
+import React from 'react'
+import Hero from '../../components/events/econbowl/Hero'
+import Prizes from '../../components/events/econbowl/Prizes'
+import Recap from '../../components/events/econbowl/Recap'
+import Speaker from '../../components/events/econbowl/Speaker'
+import FAQs from '../../components/events/econbowl/FAQs'
+import Page from '../../components/utility/Page'
+import Resources from './../../components/events/econbowl/Resources'
 
 export default function econbowl() {
   return (
@@ -20,5 +20,5 @@ export default function econbowl() {
       <Prizes />
       <FAQs />
     </Page>
-  );
+  )
 }

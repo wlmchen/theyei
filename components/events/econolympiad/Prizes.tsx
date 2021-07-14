@@ -1,5 +1,5 @@
-import React from "react";
-import CountUpOnce from './../../utility/CountUp';
+import React from 'react'
+import CountUpOnce from './../../utility/CountUp'
 
 export default function Prizes() {
   return (
@@ -48,5 +48,5 @@ export default function Prizes() {
         </dl>
       </div>
     </div>
-  );
+  )
 }

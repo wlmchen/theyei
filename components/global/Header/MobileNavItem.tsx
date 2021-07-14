@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import Link from "next/link";
+import React, { useState } from 'react'
+import Link from 'next/link'
 
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function MobileNavItem({
   name,
@@ -11,17 +11,17 @@ export default function MobileNavItem({
   currPath,
   dropRoutes,
 }: MobileNavItemProps) {
-  const [expanded, setExpanded] = useState(active); // for collapsable
-  const toggle = () => setExpanded(!expanded);
+  const [expanded, setExpanded] = useState(active) // for collapsable
+  const toggle = () => setExpanded(!expanded)
 
-  const activeStyles = "bg-indigo-50 border-yei-primary-main text-gray-900";
+  const activeStyles = 'bg-indigo-50 border-yei-primary-main text-gray-900'
   const defaultStyles =
-    "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700";
+    'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
   const navItemStyle = `trans-150 flex justify-items-stretch items-center pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6 ${
     (dropRoutes && active && !expanded) || (!dropRoutes && active)
       ? activeStyles
       : defaultStyles
-  }`;
+  }`
 
   if (dropRoutes) {
     return (
@@ -30,16 +30,16 @@ export default function MobileNavItem({
           {name}
           <FontAwesomeIcon
             className={`trans-150 ml-auto h-5 w-5 mr-4 inline-block ${
-              expanded ? "transform rotate-180" : "transform rotate-0"
+              expanded ? 'transform rotate-180' : 'transform rotate-0'
             }`}
-            style={{ marginTop: "-0.1rem" }}
+            style={{ marginTop: '-0.1rem' }}
             icon={faAngleDown}
           />
         </div>
 
-        <div className={expanded ? "block" : "hidden"}>
+        <div className={expanded ? 'block' : 'hidden'}>
           {dropRoutes.map((r) => {
-            let fullHref = href + (r.href == "/" ? "" : r.href);
+            let fullHref = href + (r.href == '/' ? '' : r.href)
             return (
               <NestedItem
                 key={fullHref}
@@ -47,27 +47,27 @@ export default function MobileNavItem({
                 name={r.name}
                 active={fullHref == currPath}
               />
-            );
+            )
           })}
         </div>
       </>
-    );
+    )
   }
 
   return (
     <Link href={href}>
       <a className={navItemStyle}>{name}</a>
     </Link>
-  );
+  )
 }
 
 function NestedItem({ href, name, active }) {
-  const activeStyles = "bg-indigo-50 border-yei-primary-main text-green-900";
+  const activeStyles = 'bg-indigo-50 border-yei-primary-main text-green-900'
   const defaultStyles =
-    "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700";
+    'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
   const navItemStyle = `trans-300 block pl-8 pr-4 py-2 border-l-4 text-base font-medium sm:pr-6 ${
     active ? activeStyles : defaultStyles
-  }`;
+  }`
 
   return (
     <Link href={href}>
@@ -75,13 +75,13 @@ function NestedItem({ href, name, active }) {
         {name}
       </a>
     </Link>
-  );
+  )
 }
 
 type MobileNavItemProps = {
-  name: string;
-  href: string;
-  active: boolean;
-  currPath: string;
-  dropRoutes?: any;
-};
+  name: string
+  href: string
+  active: boolean
+  currPath: string
+  dropRoutes?: any
+}

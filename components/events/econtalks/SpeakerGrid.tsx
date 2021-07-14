@@ -1,6 +1,6 @@
-import React from "react";
-import speakers from "../../../data/people/speakers";
-import Speaker from "./Speaker";
+import React from 'react'
+import speakers from '../../../data/people/speakers'
+import Speaker from './Speaker'
 
 export default function SpeakerGrid() {
   return (
@@ -18,7 +18,7 @@ export default function SpeakerGrid() {
           </div>
           <ul className="mx-auto justify-center flex flex-wrap flex-col sm:flex-row">
             {speakers.map(({ name, occupation, vids, host, bio, date }) => {
-              let key = name.replace(/[\W_]+/g, "-").toLowerCase();
+              let key = name.replace(/[\W_]+/g, '-').toLowerCase()
               return (
                 <Speaker
                   key={key}
@@ -30,11 +30,11 @@ export default function SpeakerGrid() {
                   host={host}
                   imgSrc={`/img/people/speakers/${key}.jpg`}
                 />
-              );
+              )
             })}
           </ul>
         </div>
       </div>
     </div>
-  );
+  )
 }

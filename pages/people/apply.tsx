@@ -1,6 +1,6 @@
-import React, {useEffect} from "react";
-import Hero from "../../components/people/apply/Hero";
-import Page from "../../components/utility/Page";
+import React, { useEffect } from 'react'
+import Hero from '../../components/people/apply/Hero'
+import Page from '../../components/utility/Page'
 
 export default function apply() {
   useEffect(() => {
@@ -13,5 +13,5 @@ export default function apply() {
     >
       <Hero />
     </Page>
-  );
+  )
 }

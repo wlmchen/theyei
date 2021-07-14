@@ -1,5 +1,5 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link'
+import React from 'react'
 
 export default function Intro() {
   return (
@@ -61,5 +61,5 @@ export default function Intro() {
         />
       </div>
     </div>
-  );
+  )
 }

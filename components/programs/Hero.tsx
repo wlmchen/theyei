@@ -1,5 +1,5 @@
-import React from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default function Hero({ programName, desc, applyLink }) {
   return (
@@ -18,7 +18,7 @@ export default function Hero({ programName, desc, applyLink }) {
                 />
                 <div
                   className="absolute inset-0 bg-yei-secondary-main"
-                  style={{ mixBlendMode: "multiply" }}
+                  style={{ mixBlendMode: 'multiply' }}
                 />
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
@@ -33,9 +33,7 @@ export default function Hero({ programName, desc, applyLink }) {
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
                     <a
-                      href={
-                        applyLink
-                      }
+                      href={applyLink}
                       target="_blank"
                       className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-green-700 bg-white hover:bg-green-50 sm:px-8"
                     >
@@ -57,5 +55,5 @@ export default function Hero({ programName, desc, applyLink }) {
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,10 +1,10 @@
-import React from "react";
-import ContentBlock from "../../components/programs/ContentBlock";
-import Hero from "../../components/programs/Hero";
-import Page from "../../components/utility/Page";
-import Link from "next/link";
-import Benefits from "../../components/programs/earn/Benefits";
-import GreatCandidate from "../../components/programs/earn/GreatCandidate";
+import React from 'react'
+import ContentBlock from '../../components/programs/ContentBlock'
+import Hero from '../../components/programs/Hero'
+import Page from '../../components/utility/Page'
+import Link from 'next/link'
+import Benefits from '../../components/programs/earn/Benefits'
+import GreatCandidate from '../../components/programs/earn/GreatCandidate'
 
 export default function earn() {
   return (
@@ -40,7 +40,7 @@ export default function earn() {
           Note that being accepted to EARN does not guarantee an internship
           position. All EARN applicants must be affiliated with a YEI EconClub.
           If you do not have a YEI EconClub at your school, you may apply to
-          start one{" "}
+          start one{' '}
           <Link href="/clubs/register">
             <a className="green-link">here</a>
           </Link>
@@ -50,5 +50,5 @@ export default function earn() {
       <Benefits />
       <GreatCandidate />
     </Page>
-  );
+  )
 }

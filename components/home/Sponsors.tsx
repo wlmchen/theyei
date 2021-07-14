@@ -1,7 +1,7 @@
-import React from "react";
-import partners from "../../data/companies/partners";
-import supporters from "../../data/companies/supporters";
-import DoubleGridBg from "../utility/DoubleGridBg";
+import React from 'react'
+import partners from '../../data/companies/partners'
+import supporters from '../../data/companies/supporters'
+import DoubleGridBg from '../utility/DoubleGridBg'
 
 export default function Sponsors() {
   return (
@@ -12,7 +12,7 @@ export default function Sponsors() {
         <Supporters />
       </div>
     </div>
-  );
+  )
 }
 
 function Partners() {
@@ -22,9 +22,12 @@ function Partners() {
       <div className="flow-root mt-4 md:mt-6 lg:mt-8">
         <div className="flex flex-wrap sm:flex-row justify-center">
           {partners.map((p) => {
-            let key = p.name.replace(/[\W_]+/g, "-").toLowerCase();
+            let key = p.name.replace(/[\W_]+/g, '-').toLowerCase()
             return (
-              <div key={key} className="mt-4 px-4 pt-6 lg:px-8 items-center flex">
+              <div
+                key={key}
+                className="mt-4 px-4 pt-6 lg:px-8 items-center flex"
+              >
                 <a href={p.link} target="_blank">
                   <img
                     className="my-2 sm:my-0 w-36 h-auto lg:w-48 mx-auto"
@@ -33,12 +36,12 @@ function Partners() {
                   />
                 </a>
               </div>
-            );
+            )
           })}
         </div>
       </div>
     </>
-  );
+  )
 }
 
 function Supporters() {
@@ -50,7 +53,7 @@ function Supporters() {
       <div className="flow-root mt-8 md:mt-11 lg:mt-12">
         <div className="flex flex-wrap sm:flex-row justify-center">
           {supporters.map((s) => {
-            let key = s.name.replace(/[\W_]+/g, "-").toLowerCase();
+            let key = s.name.replace(/[\W_]+/g, '-').toLowerCase()
             return (
               <div key={key} className="mt-4 px-4 lg:px-8 items-center flex">
                 <a href={s.link} target="_blank">
@@ -61,10 +64,10 @@ function Supporters() {
                   />
                 </a>
               </div>
-            );
+            )
           })}
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,8 +1,8 @@
-import React from "react";
-import FLIP from "./FLIP";
-import IB from "./IB";
-import Macro from "./Macro";
-import Micro from "./Micro";
+import React from 'react'
+import FLIP from './FLIP'
+import IB from './IB'
+import Macro from './Macro'
+import Micro from './Micro'
 
 export default function Demos() {
   return (
@@ -12,5 +12,5 @@ export default function Demos() {
       <IB />
       <FLIP />
     </div>
-  );
+  )
 }

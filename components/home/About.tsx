@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import DoubleGridBg from './../utility/DoubleGridBg';
+import React from 'react'
+import Link from 'next/link'
+import DoubleGridBg from './../utility/DoubleGridBg'
 
 export default function About() {
   return (
@@ -19,7 +19,7 @@ export default function About() {
               <b>
                 EconClubs is YEI’s signature program and is designed to help
                 students launch economics clubs at their own schools.
-              </b>{" "}
+              </b>{' '}
               Every YEI EconClub is provided with our custom-designed AP/IB
               curriculum, mentorship from our global leadership team, exclusive
               access to certain YEI events, YEI brand recognition, and support
@@ -46,5 +46,5 @@ export default function About() {
         </main>
       </div>
     </div>
-  );
+  )
 }

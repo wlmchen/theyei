@@ -1,6 +1,6 @@
-import React from "react";
-import events from "../../../data/content/events";
-import Link from "next/link";
+import React from 'react'
+import events from '../../../data/content/events'
+import Link from 'next/link'
 
 export default function CardsGrid() {
   return (
@@ -30,7 +30,7 @@ export default function CardsGrid() {
           {events.map(({ title, content, href }) => (
             <div
               key={title}
-                className=" bg-gray-100 relative group p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500"
+              className=" bg-gray-100 relative group p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500"
             >
               <div>
                 <span className="rounded-lg inline-flex bg-green-50 text-green-700 ring-4 ring-white">
@@ -54,7 +54,7 @@ export default function CardsGrid() {
               <div className="mt-4">
                 <h3 className="text-2xl font-bold">
                   {href ? (
-                    href.startsWith("/") ? (
+                    href.startsWith('/') ? (
                       <Link href={href}>
                         <a className="focus:outline-none">
                           {/* Extend touch target to entire panel */}
@@ -98,5 +98,5 @@ export default function CardsGrid() {
         </div>
       </div>
     </div>
-  );
+  )
 }

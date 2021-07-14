@@ -1,5 +1,5 @@
-import React from "react";
-import BOA from "./flip/BOA";
+import React from 'react'
+import BOA from './flip/BOA'
 
 export default function ContentBlock({
   subtitle,
@@ -72,13 +72,13 @@ export default function ContentBlock({
         {boa && <BOA />}
       </div>
     </div>
-  );
+  )
 }
 
 type ContentBlockProps = {
-  subtitle: string;
-  title: string;
-  children: any;
-  imgSrc: string;
-  boa?: any;
-};
+  subtitle: string
+  title: string
+  children: any
+  imgSrc: string
+  boa?: any
+}

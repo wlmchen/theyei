@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
 export default function Column({ title, links }) {
   return (
@@ -19,5 +19,5 @@ export default function Column({ title, links }) {
         ))}
       </ul>
     </>
-  );
+  )
 }

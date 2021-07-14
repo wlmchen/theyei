@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import Announcement from "../../utility/Announcement";
+import React, { useState } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Announcement from '../../utility/Announcement'
 
 export default function Hero() {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(true)
 
   return (
     <>
@@ -24,7 +24,7 @@ export default function Hero() {
       )}
       <div
         className={`relative bg-white overflow-hidden ${
-          visible ? "" : "pt-12 sm:pt-8"
+          visible ? '' : 'pt-12 sm:pt-8'
         }`}
       >
         <div
@@ -102,7 +102,11 @@ export default function Hero() {
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
             <div className="text-center">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <img className="w-48 mx-auto" src="/img/logos/econbowl.png" alt="EconBowl"/>
+                <img
+                  className="w-48 mx-auto"
+                  src="/img/logos/econbowl.png"
+                  alt="EconBowl"
+                />
               </h1>
               <div className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 <p>
@@ -144,5 +148,5 @@ export default function Hero() {
         </div>
       </div>
     </>
-  );
+  )
 }

@@ -1,13 +1,13 @@
-import CTA from "../components/home/CTA";
-import Featured from "../components/home/Featured";
-import FeaturedOn from "../components/home/FeaturedOn";
-import Hero from "../components/home/Hero";
-import Hiring from "../components/home/Hiring";
-import Intro from "../components/home/Intro";
-import Numbers from "../components/home/Numbers";
-import Sponsors from "../components/home/Sponsors";
-import Page from "../components/utility/Page";
-import About from "./../components/home/About";
+import CTA from '../components/home/CTA'
+import Featured from '../components/home/Featured'
+import FeaturedOn from '../components/home/FeaturedOn'
+import Hero from '../components/home/Hero'
+import Hiring from '../components/home/Hiring'
+import Intro from '../components/home/Intro'
+import Numbers from '../components/home/Numbers'
+import Sponsors from '../components/home/Sponsors'
+import Page from '../components/utility/Page'
+import About from './../components/home/About'
 
 export default function Home() {
   return (
@@ -25,5 +25,5 @@ export default function Home() {
       <Sponsors />
       <CTA />
     </Page>
-  );
+  )
 }

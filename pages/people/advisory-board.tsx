@@ -1,7 +1,7 @@
-import React from "react";
-import Hero from "../../components/people/advisory-board/Hero";
-import Page from "../../components/utility/Page";
-import Board from "./../../components/people/advisory-board/Board";
+import React from 'react'
+import Hero from '../../components/people/advisory-board/Hero'
+import Page from '../../components/utility/Page'
+import Board from './../../components/people/advisory-board/Board'
 
 export default function advisoryboard() {
   return (
@@ -12,5 +12,5 @@ export default function advisoryboard() {
       <Hero />
       <Board />
     </Page>
-  );
+  )
 }

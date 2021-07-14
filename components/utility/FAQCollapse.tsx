@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 
 export default function FAQCollapse({ questions }) {
   return (
@@ -16,18 +16,18 @@ export default function FAQCollapse({ questions }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 function Question({ q, a }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false)
   return (
     <div className="pt-6">
       <dt className="text-lg">
         {/* Expand/collapse question button */}
         <button
           onClick={() => {
-            setOpen(!open);
+            setOpen(!open)
           }}
           className="text-left w-full flex justify-between items-start text-gray-400"
         >
@@ -35,7 +35,7 @@ function Question({ q, a }) {
           <span className="ml-6 h-7 flex items-center">
             <svg
               className={`${
-                open ? "-rotate-180" : "rotate-0"
+                open ? '-rotate-180' : 'rotate-0'
               } h-6 w-6 transform trans-150`}
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -53,9 +53,9 @@ function Question({ q, a }) {
           </span>
         </button>
       </dt>
-      <dd className={`mt-2 pr-12 ${open ? "block" : "hidden"}`}>
+      <dd className={`mt-2 pr-12 ${open ? 'block' : 'hidden'}`}>
         <p className="text-base text-gray-500">{a}</p>
       </dd>
     </div>
-  );
+  )
 }

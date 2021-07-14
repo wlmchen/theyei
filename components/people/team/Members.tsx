@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-import team from "../../../data/people/team";
-import Profile from "./Profile";
+import team from '../../../data/people/team'
+import Profile from './Profile'
 
 export default function Members() {
   return (
@@ -10,7 +10,7 @@ export default function Members() {
         <div className="space-y-12">
           <ul className="mx-auto flex md:flex-wrap align-middle justify-center flex-col md:flex-row lg:max-w-7xl">
             {team.map((member: any) => {
-              let key = member.name.replace(/\s+/g, "-").toLowerCase();
+              let key = member.name.replace(/\s+/g, '-').toLowerCase()
               return (
                 <Profile
                   key={key}
@@ -22,14 +22,14 @@ export default function Members() {
                   email={
                     member.email
                       ? member.email
-                      : `${member.name.split(" ")[0].toLowerCase()}@theyei.org`
+                      : `${member.name.split(' ')[0].toLowerCase()}@theyei.org`
                   }
                 />
-              );
+              )
             })}
           </ul>
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import Announcement from "../../utility/Announcement";
+import React, { useState } from 'react'
+import Announcement from '../../utility/Announcement'
 
 export default function Hero() {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(true)
   return (
     <>
       {visible && (
@@ -16,7 +16,7 @@ export default function Hero() {
       <div
         style={{ backgroundImage: 'url("/img/page-bg/team-bg.png")' }}
         className={`bg-yei-secondary-main relative overflow-hidden bg-cover bg-center ${
-          visible ? "" : "pt-16"
+          visible ? '' : 'pt-16'
         }`}
       >
         <div className="z-10 relative container py-20 px-4 sm:py-24 sm:px-6 lg:px-8">
@@ -31,5 +31,5 @@ export default function Hero() {
         </div>
       </div>
     </>
-  );
+  )
 }

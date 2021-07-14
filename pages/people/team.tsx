@@ -1,7 +1,7 @@
-import React from "react";
-import Hero from "../../components/people/team/Hero";
-import Page from "../../components/utility/Page";
-import Members from "./../../components/people/team/Members";
+import React from 'react'
+import Hero from '../../components/people/team/Hero'
+import Page from '../../components/utility/Page'
+import Members from './../../components/people/team/Members'
 
 export default function team() {
   return (
@@ -12,5 +12,5 @@ export default function team() {
       <Hero />
       <Members />
     </Page>
-  );
+  )
 }

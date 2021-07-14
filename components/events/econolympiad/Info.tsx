@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function Info() {
   return (
@@ -133,7 +133,7 @@ export default function Info() {
             questions is worth 10 points for a total of 40 points. Parts of each
             question may be weighed differently. This portion of the test will
             be taken through a testing software. The questions will be a mix of
-            microeconomics and macroeconomics.{" "}
+            microeconomics and macroeconomics.{' '}
             <strong>
               Any usage of outside materials during this portion of the test
               will result in disqualification.
@@ -146,7 +146,7 @@ export default function Info() {
                 target="_blank"
               >
                 This
-              </a>{" "}
+              </a>{' '}
               is a demonstration of what the test platform will look like.
             </strong>
           </p>
@@ -165,7 +165,7 @@ export default function Info() {
               >
                 Presentation Prompt:
               </a>
-            </strong>{" "}
+            </strong>{' '}
             Describe your team’s ideal system of healthcare. Explain a feasible
             way to implement it in the United States.
           </p>
@@ -190,52 +190,53 @@ export default function Info() {
               target="_blank"
             >
               Here's
-            </a>{" "}
+            </a>{' '}
             a sample presentation.
           </p>
 
           <p>
             <strong>
-              Submit your presentation{" "}
+              Submit your presentation{' '}
               <a
                 target="_blank"
                 href="https://www.flexiquiz.com/SC/N/c76b3b38-2f84-470c-8a02-8941421fd940"
               >
                 here
-              </a>.
+              </a>
+              .
             </strong>
           </p>
 
           <h2>Newly Piloted: A Way to Find Teams</h2>
           <p>
             If you don’t yet have a team but would still like to compete, hop
-            into our{" "}
+            into our{' '}
             <a href="https://discord.gg/RC588cv" target="_blank">
               Discord server
-            </a>{" "}
+            </a>{' '}
             and react to the “finding teams” message in the EconOlympiad
             channel! You’ll receive a special role that will allow you to join a
             channel specifically for team finding, where you will be able to
-            meet others who are looking for teammates as well.{" "}
+            meet others who are looking for teammates as well.{' '}
           </p>
           <p>
             If you are not able to give yourself the role via the above process
-            for some reason, please fill out{" "}
+            for some reason, please fill out{' '}
             <a href="http://bit.ly/econolyteamfinder" target="_blank">
               this form
-            </a>{" "}
+            </a>{' '}
             so we can manually give you the role. Happy team finding!
           </p>
           <h2>Preparation</h2>
           <p>
-            To prepare for EconOlympiad, we recommend you take our{" "}
+            To prepare for EconOlympiad, we recommend you take our{' '}
             <a
               href="https://docs.google.com/document/d/1kQ1dADa9MEt26Nr97KWXYAlrt9inXgTMSRIg_BQP04U/edit?usp=sharing"
               target="_blank"
             >
               practice test
-            </a>{" "}
-            and grade yourself with our{" "}
+            </a>{' '}
+            and grade yourself with our{' '}
             <a
               href="https://docs.google.com/document/d/1qeli5hQIogn8xT-na5oRmhuuz6KrrM0WvcRVqgEwsR0/edit?usp=sharing"
               target="_blank"
@@ -246,11 +247,11 @@ export default function Info() {
           </p>
           <p>
             <strong>
-              If you have any questions, message in the{" "}
+              If you have any questions, message in the{' '}
               <a href="https://discord.gg/RC588cv" target="_blank">
                 YEI Discord
-              </a>{" "}
-              or email{" "}
+              </a>{' '}
+              or email{' '}
               <a href="mailto:events@theyei.org" target="_blank">
                 events@theyei.org
               </a>
@@ -260,5 +261,5 @@ export default function Info() {
         </div>
       </div>
     </div>
-  );
+  )
 }

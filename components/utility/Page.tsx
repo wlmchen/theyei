@@ -1,14 +1,14 @@
-import React from "react";
-import Head from "next/head";
-import Navbar from "../global/Header/Navbar";
-import Footer from "../global/Footer/Footer";
+import React from 'react'
+import Head from 'next/head'
+import Navbar from '../global/Header/Navbar'
+import Footer from '../global/Footer/Footer'
 
-import { GA_TRACKING_ID } from "./gtag";
+import { GA_TRACKING_ID } from './gtag'
 
 export default function Page({ fullTitle, title, desc, children }: PageProps) {
   let pageTitle = fullTitle
     ? fullTitle
-    : title + " | Youth Economics Initiative (YEI)";
+    : title + ' | Youth Economics Initiative (YEI)'
 
   return (
     <>
@@ -79,12 +79,12 @@ export default function Page({ fullTitle, title, desc, children }: PageProps) {
       {children}
       <Footer />
     </>
-  );
+  )
 }
 
 type PageProps = {
-  fullTitle?: string;
-  title?: string;
-  desc?: string;
-  children?: React.ReactNode;
-};
+  fullTitle?: string
+  title?: string
+  desc?: string
+  children?: React.ReactNode
+}

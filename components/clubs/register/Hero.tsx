@@ -1,5 +1,5 @@
-import React from "react";
-import DoubleGridBg from "../../utility/DoubleGridBg";
+import React from 'react'
+import DoubleGridBg from '../../utility/DoubleGridBg'
 
 export default function Hero() {
   return (
@@ -14,11 +14,12 @@ export default function Hero() {
             Register a Club
           </p>
           <p className="max-w-xl mt-5 mx-auto text-2xl text-gray-400">
-            Starting a Youth Economics Initiative club is easy. Whether you already have a pre-existing club or are founding a new one, you can get started now
-            by filling out the application below!
+            Starting a Youth Economics Initiative club is easy. Whether you
+            already have a pre-existing club or are founding a new one, you can
+            get started now by filling out the application below!
           </p>
         </div>
       </div>
     </div>
-  );
+  )
 }

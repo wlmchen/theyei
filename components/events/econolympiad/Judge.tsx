@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 
 export default function Judge({ name, imgSrc, bio }) {
   return (
@@ -17,11 +17,11 @@ export default function Judge({ name, imgSrc, bio }) {
         </div>
       </div>
     </li>
-  );
+  )
 }
 
 function Truncate({ str, n }) {
-  const [showFull, setShowFull] = useState(false);
+  const [showFull, setShowFull] = useState(false)
 
   return str.length > n && !showFull ? (
     <span>
@@ -30,7 +30,7 @@ function Truncate({ str, n }) {
       <span>
         <button
           onClick={() => {
-            setShowFull(true);
+            setShowFull(true)
           }}
           className="underline font-semibold text-gray-700"
         >
@@ -47,7 +47,7 @@ function Truncate({ str, n }) {
           <span>
             <button
               onClick={() => {
-                setShowFull(false);
+                setShowFull(false)
               }}
               className="underline font-semibold text-gray-700"
             >
@@ -57,5 +57,5 @@ function Truncate({ str, n }) {
         </span>
       )}
     </span>
-  );
+  )
 }

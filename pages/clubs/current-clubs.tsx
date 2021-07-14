@@ -1,6 +1,6 @@
-import React from "react";
-import Schools from "../../components/clubs/current-clubs/Schools";
-import Page from "../../components/utility/Page";
+import React from 'react'
+import Schools from '../../components/clubs/current-clubs/Schools'
+import Page from '../../components/utility/Page'
 
 export default function currentclubs() {
   return (
@@ -10,5 +10,5 @@ export default function currentclubs() {
     >
       <Schools />
     </Page>
-  );
+  )
 }

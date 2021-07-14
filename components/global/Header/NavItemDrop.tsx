@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from "react";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
+import React, { useState, useRef, useEffect } from 'react'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Link from 'next/link'
 
 export default function NavItemDrop({
   name,
@@ -10,20 +10,20 @@ export default function NavItemDrop({
   itemStyle,
   currPath,
 }) {
-  const node = useRef(null);
-  const [open, setOpen] = useState(false);
+  const node = useRef(null)
+  const [open, setOpen] = useState(false)
 
   const handleClick = (e) => {
-    if (node.current.contains(e.target)) setOpen(true);
-    else setOpen(false);
-  };
+    if (node.current.contains(e.target)) setOpen(true)
+    else setOpen(false)
+  }
 
   useEffect(() => {
-    document.addEventListener("mousedown", handleClick);
+    document.addEventListener('mousedown', handleClick)
     return () => {
-      document.removeEventListener("mousedown", handleClick);
-    };
-  }, []);
+      document.removeEventListener('mousedown', handleClick)
+    }
+  }, [])
 
   return (
     <div className={`${itemStyle} relative inline-block text-left`} ref={node}>
@@ -38,7 +38,7 @@ export default function NavItemDrop({
           {name}
           <FontAwesomeIcon
             className="-mr-1 ml-1 h-5 w-5 inline-block"
-            style={{ marginTop: "-0.1rem" }}
+            style={{ marginTop: '-0.1rem' }}
             icon={faAngleDown}
           />
         </button>
@@ -46,8 +46,8 @@ export default function NavItemDrop({
       <div
         className={`${
           open
-            ? "pointer-events-auto transform opacity-100 scale-100"
-            : "pointer-events-none transform opacity-0 scale-95"
+            ? 'pointer-events-auto transform opacity-100 scale-100'
+            : 'pointer-events-none transform opacity-0 scale-95'
         } origin-top-right trans-150 bg-white absolute right-0 top-10 mt-4 w-48 rounded-md shadow-lg`}
       >
         <div
@@ -57,7 +57,7 @@ export default function NavItemDrop({
           aria-labelledby="options-menu"
         >
           {dropRoutes.map((r) => {
-            let fullHref = href + (r.href == "/" ? "" : r.href);
+            let fullHref = href + (r.href == '/' ? '' : r.href)
             return (
               <DropdownMenu
                 key={fullHref}
@@ -65,26 +65,26 @@ export default function NavItemDrop({
                 name={r.name}
                 active={fullHref == currPath}
               />
-            );
+            )
           })}
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 function DropdownMenu({ href, name, active }) {
-  const activeStyles = "bg-gray-100 border-yei-primary-main text-gray-900";
+  const activeStyles = 'bg-gray-100 border-yei-primary-main text-gray-900'
   const defaultStyles =
-    "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700";
+    'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
   const navItemStyle = `trans-300 block px-4 py-2 text-lg border-l-4 text-base font-medium ${
     active ? activeStyles : defaultStyles
-  }`;
+  }`
   return (
     <Link href={href}>
       <a className={navItemStyle} role="menuitem">
         {name}
       </a>
     </Link>
-  );
+  )
 }

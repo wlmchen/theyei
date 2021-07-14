@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function Speaker() {
   return (
@@ -31,12 +31,14 @@ export default function Speaker() {
                   />
                 </div>
                 <div className="mt-6 text-xl text-white">
-                  <h1 className="text-3xl sm:text-4xl tracking-tight font-black">About the Speaker</h1>
+                  <h1 className="text-3xl sm:text-4xl tracking-tight font-black">
+                    About the Speaker
+                  </h1>
                   <p className="mt-3">
-                    Our speaker for EconBowl is{" "}
+                    Our speaker for EconBowl is{' '}
                     <b>Professor Lawrence White from NYU Stern</b> (the New York
                     University Leonard N. Stern School of Business).
-                  </p>{" "}
+                  </p>{' '}
                   <p className="mt-3">
                     He received his Ph.D. in Economics from Harvard University
                     and now holds the Robert Kavesh Professorship in Economics.
@@ -51,5 +53,5 @@ export default function Speaker() {
         </div>
       </div>
     </div>
-  );
+  )
 }

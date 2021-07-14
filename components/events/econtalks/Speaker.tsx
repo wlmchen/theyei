@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import React, { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 
 export default function Speaker({
   name,
@@ -37,7 +37,7 @@ export default function Speaker({
                   key={v}
                   className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 hover:text-green-900 trans-300 text-green-700"
                 >
-                  <FontAwesomeIcon icon={faYoutube} className="h-4 w-4 mr-2" />{" "}
+                  <FontAwesomeIcon icon={faYoutube} className="h-4 w-4 mr-2" />{' '}
                   View Talk
                 </a>
               ))}
@@ -45,7 +45,10 @@ export default function Speaker({
           )}
           {host && (
             <span className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-100 text-gray-600">
-              <FontAwesomeIcon icon={faGraduationCap} className="h-4 w-4 mr-2" />{" "}
+              <FontAwesomeIcon
+                icon={faGraduationCap}
+                className="h-4 w-4 mr-2"
+              />{' '}
               Hosted by {host}
             </span>
           )}
@@ -55,11 +58,11 @@ export default function Speaker({
         </div>
       </div>
     </li>
-  );
+  )
 }
 
 function Truncate({ str, n }) {
-  const [showFull, setShowFull] = useState(false);
+  const [showFull, setShowFull] = useState(false)
 
   return str.length > n && !showFull ? (
     <span>
@@ -68,7 +71,7 @@ function Truncate({ str, n }) {
       <span>
         <button
           onClick={() => {
-            setShowFull(true);
+            setShowFull(true)
           }}
           className="underline font-semibold text-gray-700"
         >
@@ -85,7 +88,7 @@ function Truncate({ str, n }) {
           <span>
             <button
               onClick={() => {
-                setShowFull(false);
+                setShowFull(false)
               }}
               className="underline font-semibold text-gray-700"
             >
@@ -95,5 +98,5 @@ function Truncate({ str, n }) {
         </span>
       )}
     </span>
-  );
+  )
 }

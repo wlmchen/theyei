@@ -1,11 +1,11 @@
-import React from "react";
-import Hero from "../../components/programs/Hero";
-import Page from "../../components/utility/Page";
-import ContentBlock from "./../../components/programs/ContentBlock";
-import Link from "next/link";
-import ApplicationCriteria from './../../components/programs/flip/ApplicationCriteria';
-import Curriculum from "../../components/programs/flip/Curriculum";
-import BOA from './../../components/programs/flip/BOA';
+import React from 'react'
+import Hero from '../../components/programs/Hero'
+import Page from '../../components/utility/Page'
+import ContentBlock from './../../components/programs/ContentBlock'
+import Link from 'next/link'
+import ApplicationCriteria from './../../components/programs/flip/ApplicationCriteria'
+import Curriculum from '../../components/programs/flip/Curriculum'
+import BOA from './../../components/programs/flip/BOA'
 
 export default function flip() {
   return (
@@ -41,7 +41,7 @@ export default function flip() {
         <p>
           In order to ensure we are delivering high-quality workshops,
           participation in FLIP is limited to YEI EconClubs. If you do not have
-          a YEI EconClub at your school, you may apply to start one{" "}
+          a YEI EconClub at your school, you may apply to start one{' '}
           <Link href="/clubs/register">
             <a className="green-link">here</a>
           </Link>
@@ -51,5 +51,5 @@ export default function flip() {
       <ApplicationCriteria />
       <Curriculum />
     </Page>
-  );
+  )
 }

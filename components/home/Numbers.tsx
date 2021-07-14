@@ -1,6 +1,6 @@
-import React from "react";
-import currentClubs from "../../data/currentClubs";
-import CountUpOnce from "../utility/CountUp";
+import React from 'react'
+import currentClubs from '../../data/currentClubs'
+import CountUpOnce from '../utility/CountUp'
 
 export default function Numbers() {
   return (
@@ -17,10 +17,10 @@ export default function Numbers() {
         </div>
         <dl className="sm:mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
           {[
-            { desc: "Amazing group ​of young economists", val: 1 },
-            { desc: "Current clubs", val: currentClubs.length },
+            { desc: 'Amazing group ​of young economists', val: 1 },
+            { desc: 'Current clubs', val: currentClubs.length },
             {
-              desc: "Active student members",
+              desc: 'Active student members',
               val: Math.floor((currentClubs.length * 47.3) / 25) * 25,
             },
           ].map((n) => (
@@ -36,5 +36,5 @@ export default function Numbers() {
         </dl>
       </div>
     </div>
-  );
+  )
 }

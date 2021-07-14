@@ -1,6 +1,6 @@
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react'
 
 export default function SlideItem({ name, imgSrc, date, occupation, vid }) {
   return (
@@ -33,5 +33,5 @@ export default function SlideItem({ name, imgSrc, date, occupation, vid }) {
         )}
       </div>
     </div>
-  );
+  )
 }

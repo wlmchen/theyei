@@ -1,20 +1,20 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from 'react'
 
 export default function DemoCtaBtn({ btnTitle, links }) {
-  const node = useRef(null);
-  const [open, setOpen] = useState(false);
+  const node = useRef(null)
+  const [open, setOpen] = useState(false)
 
   const handleClick = (e) => {
-    if (node.current.contains(e.target)) setOpen(true);
-    else setOpen(false);
-  };
+    if (node.current.contains(e.target)) setOpen(true)
+    else setOpen(false)
+  }
 
   useEffect(() => {
-    document.addEventListener("mousedown", handleClick);
+    document.addEventListener('mousedown', handleClick)
     return () => {
-      document.removeEventListener("mousedown", handleClick);
-    };
-  }, []);
+      document.removeEventListener('mousedown', handleClick)
+    }
+  }, [])
 
   return (
     <div ref={node} className="relative inline-block text-left">
@@ -48,8 +48,8 @@ export default function DemoCtaBtn({ btnTitle, links }) {
       <div
         className={`${
           open
-            ? "pointer-events-auto opacity-100 scale-100"
-            : "pointer-events-none opacity-0 scale-95"
+            ? 'pointer-events-auto opacity-100 scale-100'
+            : 'pointer-events-none opacity-0 scale-95'
         } origin-top-right z-30 absolute trans-150 right-0 mt-2 w-32 rounded-md shadow-lg bg-white`}
       >
         <div
@@ -72,5 +72,5 @@ export default function DemoCtaBtn({ btnTitle, links }) {
         </div>
       </div>
     </div>
-  );
+  )
 }

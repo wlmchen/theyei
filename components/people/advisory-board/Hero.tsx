@@ -1,5 +1,5 @@
-import React from "react";
-import DoubleGridBg from "../../utility/DoubleGridBg";
+import React from 'react'
+import DoubleGridBg from '../../utility/DoubleGridBg'
 
 export default function Hero() {
   return (
@@ -13,5 +13,5 @@ export default function Hero() {
         </div>
       </div>
     </div>
-  );
+  )
 }

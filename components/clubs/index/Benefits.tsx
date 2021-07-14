@@ -1,8 +1,8 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import Link from "next/link";
-import benefits from "../../../data/content/clubBenefits";
+import Link from 'next/link'
+import benefits from '../../../data/content/clubBenefits'
 
 export default function Benefits() {
   return (
@@ -41,7 +41,7 @@ export default function Benefits() {
                     </div>
                   </div>
                   <div>
-                    {reason.href.startsWith("/") ? (
+                    {reason.href.startsWith('/') ? (
                       <Link href={reason.href}>
                         <a className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-md font-medium rounded text-green-700 bg-gray-200 ">
                           {reason.ctaText}
@@ -64,5 +64,5 @@ export default function Benefits() {
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,46 +1,46 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react'
 
-import Link from "next/link";
-import { faArrowRight, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from 'next/link'
+import { faArrowRight, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Hiring() {
-  const [showModal, setShowModal] = useState(false);
-  const [openModal, setOpenModal] = useState(false);
-  const [deleteModal, setDeleteModal] = useState(false);
+  const [showModal, setShowModal] = useState(false)
+  const [openModal, setOpenModal] = useState(false)
+  const [deleteModal, setDeleteModal] = useState(false)
   useEffect(() => {
-    if (localStorage.getItem("hideHiringModal") === "yes") {
-      setDeleteModal(true);
-    } else if (localStorage.getItem("hideHiringModal") === null) {
-      localStorage.setItem("hideHiringModal", "no");
+    if (localStorage.getItem('hideHiringModal') === 'yes') {
+      setDeleteModal(true)
+    } else if (localStorage.getItem('hideHiringModal') === null) {
+      localStorage.setItem('hideHiringModal', 'no')
     }
-    setTimeout(() => setShowModal(true), 5000);
-  }, []);
+    setTimeout(() => setShowModal(true), 5000)
+  }, [])
 
   const handleClick = () => {
-    setOpenModal(true);
-  };
+    setOpenModal(true)
+  }
 
   const handleDelete = () => {
-    setDeleteModal(true);
-    localStorage.setItem("hideHiringModal", "yes");
-  };
+    setDeleteModal(true)
+    localStorage.setItem('hideHiringModal', 'yes')
+  }
 
   return (
     <>
       {!deleteModal ? (
         <button
           className={`fixed bottom-4 right-4 z-50 max-w-xs ${
-            openModal ? "cursor-auto" : "cursor-pointer"
+            openModal ? 'cursor-auto' : 'cursor-pointer'
           }`}
           onClick={handleClick}
         >
           <div
             className={`relative w-full rounded-xl rounded-br-none px-5 hiring-modal-transition overflow-hidden ${
               openModal
-                ? "bg-white shadow-xl py-5 max-h-96"
-                : "bg-yei-primary-main shadow-xlGreen cursor-pointer hover:bg-yei-primary-lighter py-2 max-h-12"
-            } ${showModal ? "block slide-in-from-right" : "hidden"}`}
+                ? 'bg-white shadow-xl py-5 max-h-96'
+                : 'bg-yei-primary-main shadow-xlGreen cursor-pointer hover:bg-yei-primary-lighter py-2 max-h-12'
+            } ${showModal ? 'block slide-in-from-right' : 'hidden'}`}
           >
             {openModal ? (
               <div
@@ -53,11 +53,11 @@ export default function Hiring() {
                 />
               </div>
             ) : (
-              ""
+              ''
             )}
             <h3
               className={`text-lg font-semibold mb-2 ${
-                openModal ? "text-black" : "text-white"
+                openModal ? 'text-black' : 'text-white'
               }`}
             >
               Guess what? We're hiring!
@@ -80,8 +80,8 @@ export default function Hiring() {
           </div>
         </button>
       ) : (
-        ""
+        ''
       )}
     </>
-  );
+  )
 }

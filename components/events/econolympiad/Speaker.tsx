@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default function Speaker() {
   return (
@@ -35,12 +35,12 @@ export default function Speaker() {
                     About the Speaker
                   </h1>
                   <p className="mt-3">
-                    Our speaker for EconOlympiad is{" "}
+                    Our speaker for EconOlympiad is{' '}
                     <b>
                       Professor Dix-Carneiro, Assistant Professor of Economics
                       at Duke University.
                     </b>
-                  </p>{" "}
+                  </p>{' '}
                   <p className="mt-3">
                     Professor Dix-Carneiro received his Ph.D. in economics from
                     Princeton University and has his work published in the
@@ -55,5 +55,5 @@ export default function Speaker() {
         </div>
       </div>
     </div>
-  );
+  )
 }
