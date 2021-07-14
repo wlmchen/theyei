@@ -40,6 +40,26 @@ input {
   @apply text-yei-primary-main hover:text-yei-primary-darker font-semibold;
 }
 
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.hiring-modal-transition {
+  transition: max-height 0.6s, padding 0.6s, background 0.6s;
+}
+
+.slide-in-from-right {
+  animation: slideInFromRight ease-in-out;
+  animation-duration: 0.5s;
+}
+
 /*-------------------------------*/
 
 body {

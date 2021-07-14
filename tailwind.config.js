@@ -14,8 +14,9 @@ module.exports = {
     extend: {
       colors: {
         yei: {
-          primary: {
+          primary: {  
             gray: "#dce8e3",
+            lighter: "#3bbf82",
             main: "#279361",
             darker: "#208556",
           },
@@ -28,6 +29,9 @@ module.exports = {
             blackVibrant: "#010915",
           },
         },
+      },
+      boxShadow: {
+        xlGreen: "0 20px 25px -5px #27936166, 0 10px 10px -5px #27936133",
       },
     },
   },
