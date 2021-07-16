@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Hiring() {
   const [showModal, setShowModal] = useState(false)
-  const [openModal, setOpenModal] = useState(false)
+  const [hideAway, setHideAway] = useState(false)
   const [deleteModal, setDeleteModal] = useState(false)
   useEffect(() => {
     if (localStorage.getItem('hideHiringModal') === 'yes') {
@@ -17,32 +17,22 @@ export default function Hiring() {
     setTimeout(() => setShowModal(true), 5000)
   }, [])
 
-  const handleClick = () => {
-    setOpenModal(true)
-  }
-
   const handleDelete = () => {
-    setDeleteModal(true)
+    setHideAway(true)
+    setTimeout(() => setDeleteModal(true), 1500)
     localStorage.setItem('hideHiringModal', 'yes')
   }
 
   return (
     <>
       {!deleteModal ? (
-        <button
-          className={`fixed bottom-4 right-4 z-50 max-w-xs ${
-            openModal ? 'cursor-auto' : 'cursor-pointer'
-          }`}
-          onClick={handleClick}
-        >
-          <div
-            className={`relative w-full rounded-xl rounded-br-none px-5 hiring-modal-transition overflow-hidden ${
-              openModal
-                ? 'bg-white shadow-xl py-5 max-h-96'
-                : 'bg-yei-primary-main shadow-xlGreen cursor-pointer hover:bg-yei-primary-lighter py-2 max-h-12'
-            } ${showModal ? 'block slide-in-from-right' : 'hidden'}`}
-          >
-            {openModal ? (
+        <div>
+          <button className={`fixed-center z-50 max-w-xs`}>
+            <div
+              className={`relative w-full rounded-xl p-5 hiring-modal-transition overflow-hidden bg-white shadow-2xl max-h-96 ${
+                showModal ? 'block slide-in-from-top' : 'hidden'
+              } ${hideAway ? 'slide-out-from-top' : ''}`}
+            >
               <div
                 className="absolute top-2 right-2 z-30 cursor-pointer"
                 onClick={handleDelete}
@@ -52,33 +42,32 @@ export default function Hiring() {
                   className="h-4 w-4 text-gray-300"
                 />
               </div>
-            ) : (
-              ''
-            )}
-            <h3
-              className={`text-lg font-semibold mb-2 ${
-                openModal ? 'text-black' : 'text-white'
-              }`}
-            >
-              Guess what? We're hiring!
-            </h3>
-            <div>
-              <p className="text-gray-400 mb-4">
-                Passionate about what we do? Want to join an international team
-                of leaders, creators, and economics enthusiasts?
-              </p>
-              <Link href="/people/apply">
-                <div className="w-full trans-300 bg-yei-primary-main border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-yei-primary-darker focus:outline-none cursor-pointer">
-                  Apply Now!
-                  <FontAwesomeIcon
-                    icon={faArrowRight}
-                    className={`-mr-1 ml-3 h-4 w-4`}
-                  />
-                </div>
-              </Link>
+              <h3 className={`text-lg font-semibold mb-2 text-black`}>
+                Guess what? We're hiring!
+              </h3>
+              <div>
+                <p className="text-gray-400 mb-4">
+                  Passionate about what we do? Want to join an international
+                  team of leaders, creators, and economics enthusiasts?
+                </p>
+                <Link href="/people/apply">
+                  <div className="w-full trans-300 bg-yei-primary-main border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-yei-primary-darker focus:outline-none cursor-pointer">
+                    Apply Now!
+                    <FontAwesomeIcon
+                      icon={faArrowRight}
+                      className={`-mr-1 ml-3 h-4 w-4`}
+                    />
+                  </div>
+                </Link>
+              </div>
             </div>
-          </div>
-        </button>
+          </button>
+          <div
+            className={`hiring-bg-overlay ${
+              showModal ? 'block fade-in' : 'hidden'
+            } ${hideAway ? 'fade-out' : ''}`}
+          ></div>
+        </div>
       ) : (
         ''
       )}
