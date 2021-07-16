@@ -244,6 +244,12 @@ const team = [
     positions: ['TikTok Creator'],
     linkedin: 'www.linkedin.com/in/cynthia-lan-0b845a203',
   },
+  {
+    name: 'Brayden Wright',
+    positions: ['Web Developer'],
+    linkedin: 'https://www.linkedin.com/in/braydentw/',
+    github: 'https://github.com/BraydenTW',
+  },
 ]
 
 export default team
