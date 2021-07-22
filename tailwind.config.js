@@ -16,6 +16,8 @@ module.exports = {
         yei: {
           primary: {
             gray: '#dce8e3',
+            trans: '#27936144',
+            transDarker: '#27936166',
             lighter: '#3bbf82',
             main: '#279361',
             darker: '#208556',

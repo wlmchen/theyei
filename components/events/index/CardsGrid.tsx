@@ -1,6 +1,7 @@
 import React from 'react'
 import events from '../../../data/content/events'
 import Link from 'next/link'
+import Cards from './Cards'
 
 export default function CardsGrid() {
   return (
@@ -26,6 +27,7 @@ export default function CardsGrid() {
             </p>
           </div>
         </div>
+        <Cards />
         <div className="rounded-lg bg-gray-300 overflow-hidden shadow divide-y divide-gray-300 sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
           {events.map(({ title, content, href }) => (
             <div
