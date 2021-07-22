@@ -5,7 +5,6 @@ import ContentBlock from './../../components/programs/ContentBlock'
 import Link from 'next/link'
 import ApplicationCriteria from './../../components/programs/flip/ApplicationCriteria'
 import Curriculum from '../../components/programs/flip/Curriculum'
-import BOA from './../../components/programs/flip/BOA'
 
 export default function flip() {
   return (
