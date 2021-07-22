@@ -1,5 +1,5 @@
 import React from 'react'
-import BOA from './flip/BOA'
+import Partners from './flip/Partners'
 
 export default function ContentBlock({
   subtitle,
@@ -11,7 +11,10 @@ export default function ContentBlock({
   return (
     <div id="learn-more" className="bg-white overflow-hidden sm:pt-4">
       <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
+        <div
+          className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen"
+          style={{ zIndex: -10 }}
+        ></div>
         <div className="mx-auto text-base max-w-prose lg:max-w-none relative z-20">
           <h2 className="text-base text-yei-primary-main font-semibold tracking-wide uppercase">
             {subtitle}
@@ -69,7 +72,7 @@ export default function ContentBlock({
             </div>
           </div>
         </div>
-        {boa && <BOA />}
+        {boa && <Partners />}
       </div>
     </div>
   )
