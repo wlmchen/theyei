@@ -250,6 +250,11 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/braydentw/',
     github: 'https://github.com/BraydenTW',
   },
+  {
+    name: 'Tanish Chheda',
+    positions: ['IB Curriculum Developer'],
+    linkedin: 'https://www.linkedin.com/in/tanish-chheda/',
+  },
 ]
 
 export default team
