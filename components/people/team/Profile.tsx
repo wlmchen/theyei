@@ -17,7 +17,7 @@ export default function Profile({
         <div className="space-x-2 sm:space-x-4 relative flex items-center space-x-3 ">
           <div className="flex-shrink-0">
             <img
-              className="h-28 w-28 sm:h-32 sm:w-32 rounded-full bg-gray-900"
+              className="h-20 w-20 sm:h-32 sm:w-32 rounded-full bg-gray-900"
               src={imgSrc}
               alt={name}
             />
@@ -32,7 +32,7 @@ export default function Profile({
                 <span
                   key={pos}
                   className={`${
-                    pos.length > 23 ? 'text-xs sm:text-sm' : 'text-sm'
+                    pos.length > 23 ? 'text-xs' : 'text-sm'
                   } whitespace-nowrap mx-0.5 my-0.5 inline-flex items-center px-2.5 py-0.5 rounded-full bg-gray-200 text-yei-secondary-main`}
                 >
                   {pos}
@@ -40,7 +40,7 @@ export default function Profile({
               ))}
             </div>
             <div>
-              <ul className="flex pb-5">
+              <ul className="flex">
                 {[
                   { href: linkedin, icon: faLinkedin, sr: 'linkedin' },
                   { href: 'mailto:' + email, icon: faEnvelope, sr: 'github' },
