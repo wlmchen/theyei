@@ -248,47 +248,83 @@ const clubs = [
   },
   {
     name: 'Meadowbrook High School',
+    email: 'seansummers21.ss@gmail.com',
     region: 'Virginia',
   },
   {
     name: 'Milton Academy',
+    email: 'isabella_kanczuk23@milton.edu',
     region: 'Massachusetts',
   },
   {
     name: 'Santa Monica High School',
+    email: 'cecebarikhan@gmail.com',
     region: 'Norcal',
   },
   {
     name: 'Bridgewater-Raritan Regional High School',
+    email: 'bhuvaneshprabakar2022@gmail.com',
     region: 'New Jersey',
   },
   {
+    name: 'Mount Lebanon High School',
+    email: 'ybotre36@mtlstudents.net',
+    region: 'Pennsylvania',
+  },
+  {
     name: 'American Academy in Tbilisi',
+    email: 'lkharabadze@aat.ge',
     region: 'Tbilisi, The Republic of Georgia',
   },
   {
     name: 'Santa Teresa High School',
+    email: 'sunchaeyeon5348@students.esuhsd.org',
     region: 'Socal',
   },
   {
     name: 'Doral Academy Preparatory',
+    email: 'miriamtrujillo2004@gmail.com',
     region: 'Florida',
   },
   {
     name: 'Hankuk Academy of Foreign Studies',
+    email: 'justinjeon88@naver.com',
     region: 'South Korea',
   },
   {
     name: 'Najd National Schools',
+    email: 'yaseralbaker3@gmail.com',
     region: 'Saudi Arabia',
   },
   {
     name: 'Los Altos High School',
+    email: 'alvin4.xiao@gmail.com',
     region: 'Norcal',
   },
   {
     name: 'Alameda High Economics Club',
+    email: 'ahseconclub@gmail.com',
     region: 'Norcal',
+  },
+  {
+    name: 'Blue Valley West High School',
+    email: 'aitha.shashank@yahoo.com',
+    region: 'Kansas',
+  },
+  {
+    name: 'Del Norte High School',
+    email: 'its.alicia.ji@gmail.com',
+    region: 'Socal',
+  },
+  {
+    name: 'Garodia International Centre for Learning Mumbai',
+    email: 'tanishchheda12@gmail.com',
+    region: 'India',
+  },
+  {
+    name: 'Allen D. Nease High School',
+    email: 'sanyahshah@gmail.com',
+    region: 'Florida',
   },
 ]
 
