@@ -35,6 +35,16 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/faaris-zuberi-4207a91b0/',
   },
   {
+    name: 'Sarah Zuo',
+    positions: ['Executive Board Member', 'Director of Multimedia'],
+    linkedin: 'https://www.linkedin.com/in/sarah-zuo-aa71971ba/',
+  },
+  {
+    name: 'Neha Basu',
+    positions: ['Executive Board Member', 'Director of Expansion'],
+    linkedin: 'https://www.linkedin.com/in/nehabasu1/',
+  },
+  {
     name: 'Marcus Kuo',
     positions: ['Executive Board Member', 'Chief of Staff'],
     linkedin: 'https://www.linkedin.com/in/marcus-kuo-b9a4281aa/',
@@ -52,24 +62,19 @@ const team = [
     github: 'https://github.com/BraydenTW',
   },
   {
-    name: 'June Wang',
-    positions: ['Grant Coordinator'],
-    linkedin: 'https://www.linkedin.com/in/june-w/',
+    name: 'Saavi Kumar',
+    positions: ['Team Ambassador'],
+    linkedin: 'https://www.linkedin.com/in/saavi-kumar-59ba43195'
   },
   {
     name: 'Yiqin Huang',
-    positions: ['Sponsorship and Grant Coordinators'],
+    positions: ['Sponsorship and Grant Coordinator'],
     linkedin: 'https://www.linkedin.com/in/yiqin-huang-466391202',
   },
   {
     name: 'Ryan Feng',
-    positions: ['Sponsorship and Grant Coordinators'],
+    positions: ['Sponsorship and Grant Coordinator'],
     linkedin: 'https://www.linkedin.com/in/ryan-feng-849980207',
-  },
-  {
-    name: 'Sarah Zuo',
-    positions: ['Executive Board Member', 'Director of Multimedia'],
-    linkedin: 'https://www.linkedin.com/in/sarah-zuo-aa71971ba/',
   },
   {
     name: 'Sruti Elangovan',
@@ -95,6 +100,11 @@ const team = [
     name: 'Soumil Voma',
     positions: ['Marketing Specialist', 'Regional Ambassador'],
     linkedin: 'https://www.linkedin.com/in/soumil-voma-728a871bb/',
+  },
+  {
+    name: 'Aditya Karala',
+    positions: ['Google Ads Manager'],
+    linkedin: 'https://www.linkedin.com/in/aditya-kakarla-9729bb218/',
   },
   {
     name: 'Connor Park',
@@ -182,6 +192,11 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/isabell-kossar-09884b212',
   },
   {
+    name: 'Andrew Zhou',
+    positions: ['Sponsorship and Grant Coordinator', 'Community Manager'],
+    linkedin: 'https://www.linkedin.com/in/andrew-zhou-7b34b7207/'
+  },
+  {
     name: 'Mounica Policharla',
     positions: ['Regional Ambassador', 'Regional Director'],
     linkedin: 'https://www.linkedin.com/in/mounica-policharla-3308ab1ab/',
@@ -192,29 +207,14 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/karissa-ning-b743ab1bb/',
   },
   {
-    name: 'Neha Basu',
-    positions: ['Executive Board Member', 'Director of Expansion'],
-    linkedin: 'https://www.linkedin.com/in/nehabasu1/',
-  },
-  {
     name: 'Sneha Patibandla',
     positions: ['Regional Ambassador'],
     linkedin: 'https://www.linkedin.com/in/sneha-patibandla-1529731b1/',
   },
   {
-    name: 'Zahid Ahmed',
-    positions: ['Regional Ambassador'],
-    linkedin: 'https://www.linkedin.com/in/zahid-ahmed-7779461b3',
-  },
-  {
     name: 'Vipra Bindal',
     positions: ['FLIP Curriculum Manager'],
     linkedin: 'https://www.linkedin.com/in/vipra-bindal-6849a2204/ ',
-  },
-  {
-    name: 'Manasvi Lodha',
-    positions: ['FLIP Curriculum Manager'],
-    linkedin: 'https://www.linkedin.com/in/manasvi-lodha-994330184 ',
   },
   {
     name: 'Vaishu Enduri',

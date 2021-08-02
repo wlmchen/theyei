@@ -17,7 +17,7 @@ export default function Profile({
         <div className="space-x-2 sm:space-x-4 relative flex items-center space-x-3 ">
           <div className="flex-shrink-0">
             <img
-              className="h-20 w-20 sm:h-32 sm:w-32 rounded-full bg-gray-900"
+              className="h-20 w-20 sm:h-32 sm:w-32 rounded-full bg-gray-900 object-cover"
               src={imgSrc}
               alt={name}
             />

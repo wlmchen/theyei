@@ -17,6 +17,14 @@ const partners = [
     name: 'Start Now Press',
     img: '/img/logos/other/snp.png',
   },
+  {
+    name: 'Council for Economic Education',
+    img: '/img/logos/other/cfee.png',
+  },
+  {
+    name: 'California Council on Economic Education',
+    img: '/img/logos/other/ccoee.png',
+  },
 ]
 
 export default function Partners() {
@@ -27,9 +35,11 @@ export default function Partners() {
           <h2 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Developed in Partnership With
           </h2>
-          <div className="mt-5 mx-auto w-full max-w-2xl flex items-center justify-center flex-wrap">
-            {partners.map(({ name, img }) => {
-              return <img src={img} className="h-10 m-5" alt={name} />
+          <div className="mt-5 mx-auto w-full max-w-4xl flex items-center justify-center flex-wrap">
+            {partners.map(({ name, img }, index) => {
+              return (
+                <img key={index} src={img} className="w-52 m-5" alt={name} />
+              )
             })}
           </div>
         </div>
