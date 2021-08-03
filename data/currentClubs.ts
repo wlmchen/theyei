@@ -326,6 +326,21 @@ const clubs = [
     email: 'sanyahshah@gmail.com',
     region: 'Florida',
   },
+  {
+    name: 'Livermore High School',
+    email: 'kwood@lvjusd.org',
+    region: 'NorCal',
+  },
+  {
+    name: 'Thomas Jefferson High School for Science and Tech',
+    email: 'azhou2200@gmail.com',
+    region: 'Virginia',
+  },
+  {
+    name: 'Colonial Forge High School',
+    email: 'sunkara.yashaswi@gmail.com',
+    region: 'Virginia',
+  },
 ]
 
 export default clubs
