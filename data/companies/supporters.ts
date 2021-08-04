@@ -31,10 +31,6 @@ const supporters = [
     name: 'Chipotle',
     link: 'https://chipotle.com/',
   },
-  {
-    name: 'Google',
-    link: 'https://ads.google.com/home/',
-  },
 ]
 
 export default supporters
