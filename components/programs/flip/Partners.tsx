@@ -17,14 +17,6 @@ const partners = [
     name: 'Start Now Press',
     img: '/img/logos/other/snp.png',
   },
-  {
-    name: 'Council for Economic Education',
-    img: '/img/logos/other/cfee.png',
-  },
-  {
-    name: 'California Council on Economic Education',
-    img: '/img/logos/other/ccoee.png',
-  },
 ]
 
 export default function Partners() {
