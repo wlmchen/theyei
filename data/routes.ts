@@ -41,12 +41,8 @@ const routes = [
     ],
   },
   {
-    href: '/programs',
-    name: 'Programs',
-    dropRoutes: [
-      { href: '/flip', name: 'FLIP' },
-      { href: '/earn', name: 'EARN' },
-    ],
+    href: '/flip',
+    name: 'FLIP',
   },
   { href: '/resources', name: 'Resources' },
 ]
