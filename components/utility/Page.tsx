@@ -58,14 +58,16 @@ export default function Page({ fullTitle, title, desc, children }: PageProps) {
         {/* google analytics */}
 
         {/* Global Site Tag (gtag.js) - Google Analytics */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YW8JSK5NL6" />
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW8JSK5NL6" />
+        <script>
+          function gtag() {
+            window.dataLayer.push(arguments);
+          }
+          
+          gtag('js', new Date());
 
-  gtag('config', 'G-YW8JSK5NL6');
-</script>
+          gtag('config', 'G-YW8JSK5NL6');
+        </script>
 
         <script
           dangerouslySetInnerHTML={{
