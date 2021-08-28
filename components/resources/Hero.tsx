@@ -32,10 +32,10 @@ export default function Hero() {
                     and a{' '}
                     <Link href="/clubs/register">
                       <a className="underline text-gray-200">
-                        YEI EconClub Charter
+                        YEI EconClub
                       </a>
                     </Link>{' '}
-                    and you're on your way to a successful Economics Club.
+                    and you're on your way to a successful economics club.
                   </p>
                 </div>
               </div>
