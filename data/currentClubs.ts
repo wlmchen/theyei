@@ -2,14 +2,14 @@ const clubs = [
   {
     name: 'Saratoga High School',
     email: 'henryweng03@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
     primaryFounding: true,
   },
   {
     name: 'Lynbrook High School',
     email: 'ian@theyei.org',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
     primaryFounding: true,
   },
@@ -22,13 +22,13 @@ const clubs = [
   {
     name: 'Harker School',
     email: '21arushis@students.harker.org',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
   },
   {
     name: 'Monta Vista High School',
     email: 'maggieyy7@gmail.com ',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
   },
   {
@@ -46,19 +46,19 @@ const clubs = [
   {
     name: 'Joaquin Miller Middle School',
     email: 'yzhoucalvin@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
   },
   {
     name: 'American High School',
-    email: 'sathwik.eshwar05@gmail.com',
-    region: 'Norcal',
+    email: 'jcheng3537@gmail.com',
+    region: 'NorCal',
     founding: true,
   },
   {
     name: 'Chaparral High School',
     email: 'rkshishodia4@gmail.com',
-    region: 'Socal',
+    region: 'SoCal',
     founding: true,
   },
   {
@@ -106,31 +106,31 @@ const clubs = [
   {
     name: 'Redwood Middle School',
     email: 'cheryl@theyei.org',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
   },
   {
     name: 'Palo Alto High School',
     email: 'mh33653@pausd.us',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
   },
   {
     name: 'Homestead High School',
     email: 'andraaliu@gmail.com\n',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
   },
   {
     name: 'El Camino Fundamental High School',
     email: 'marinjanedolan@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
   },
   {
     name: 'Menlo High School',
     email: 'connor.yu@menloschool.org',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
   },
   {
@@ -142,7 +142,7 @@ const clubs = [
   {
     name: 'Leigh High School',
     email: 'jhatanmay2005@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
     founding: true,
   },
   {
@@ -184,22 +184,22 @@ const clubs = [
   {
     name: 'Archbishop Mitty High School',
     email: 'anirudhlahiri314@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
   },
   {
     name: 'Cupertino High School',
     email: 'alysaxu10295@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
   },
   {
     name: 'Dublin High School',
     email: 'forevergrace.15@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
   },
   {
     name: 'Viewpoint School',
     email: 'j.yang22@viewpoint.org',
-    region: 'Socal',
+    region: 'SoCal',
   },
   {
     name: 'Frisco Heritage High School',
@@ -214,7 +214,7 @@ const clubs = [
   {
     name: 'Dougherty Valley High School',
     email: 'ishaanbansal1001@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
   },
   {
     name: 'Skyline High School',
@@ -259,7 +259,7 @@ const clubs = [
   {
     name: 'Santa Monica High School',
     email: 'cecebarikhan@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
   },
   {
     name: 'Bridgewater-Raritan Regional High School',
@@ -279,7 +279,7 @@ const clubs = [
   {
     name: 'Santa Teresa High School',
     email: 'sunchaeyeon5348@students.esuhsd.org',
-    region: 'Socal',
+    region: 'SoCal',
   },
   {
     name: 'Doral Academy Preparatory',
@@ -299,12 +299,12 @@ const clubs = [
   {
     name: 'Los Altos High School',
     email: 'alvin4.xiao@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
   },
   {
     name: 'Alameda High Economics Club',
     email: 'ahseconclub@gmail.com',
-    region: 'Norcal',
+    region: 'NorCal',
   },
   {
     name: 'Blue Valley West High School',
@@ -314,7 +314,7 @@ const clubs = [
   {
     name: 'Del Norte High School',
     email: 'its.alicia.ji@gmail.com',
-    region: 'Socal',
+    region: 'SoCal',
   },
   {
     name: 'Garodia International Centre for Learning Mumbai',
@@ -340,6 +340,51 @@ const clubs = [
     name: 'Colonial Forge High School',
     email: 'sunkara.yashaswi@gmail.com',
     region: 'Virginia',
+  },
+  {
+    name: 'Sunbeam School Bhagwanpur',
+    email: 'aveeshmehrotra123@gmail.com',
+    region: 'India',
+  },
+  {
+    name: 'American University of Central Asia',
+    email: 'mamadjanova_d@auca.kg',
+    region: 'Kyrgyzstan',
+  },
+  {
+    name: 'Mt. Hebron High School',
+    email: 'saniya.mahate@gmail.com',
+    region: 'Maryland',
+  },
+  {
+    name: 'Al Ain Juniors School',
+    email: 'noufalthanduthiyil@gmail.com',
+    region: 'VirgIndiainia',
+  },
+  {
+    name: 'The Henrietta Barnett School',
+    email: 'sanjana1301@gmail.com',
+    region: 'London',
+  },
+  {
+    name: 'Edwin O. Smith High School',
+    email: 'soccer.gabas@gmail.com',
+    region: 'Connecticut',
+  },
+  {
+    name: 'Stratford High School',
+    email: 'wangcad000@mysbisd.org',
+    region: 'Texas',
+  },
+  {
+    name: 'Horace Mann School',
+    email: 'braden_queen@horacemann.org',
+    region: 'New York',
+  },
+  {
+    name: 'West Ranch High School',
+    email: 'allisonh330@gmail.com',
+    region: 'SoCal',
   },
 ]
 
