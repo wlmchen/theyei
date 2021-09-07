@@ -359,7 +359,7 @@ const clubs = [
   {
     name: 'Al Ain Juniors School',
     email: 'noufalthanduthiyil@gmail.com',
-    region: 'VirgIndiainia',
+    region: 'India',
   },
   {
     name: 'The Henrietta Barnett School',
