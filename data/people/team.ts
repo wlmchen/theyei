@@ -50,21 +50,15 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/marcus-kuo-b9a4281aa/',
   },
   {
-    name: 'Mason Wang',
-    positions: ['Director of Technology'],
-    linkedin: 'https://www.linkedin.com/in/mason-wang/',
-    github: 'http://github.com/MasonWang025',
-  },
-  {
     name: 'Brayden Wright',
-    positions: ['Web Developer'],
+    positions: ['Executive Board Member, Director of Technology'],
     linkedin: 'https://www.linkedin.com/in/braydentw/',
     github: 'https://github.com/BraydenTW',
   },
   {
     name: 'Saavi Kumar',
     positions: ['Team Ambassador'],
-    linkedin: 'https://www.linkedin.com/in/saavi-kumar-59ba43195'
+    linkedin: 'https://www.linkedin.com/in/saavi-kumar-59ba43195',
   },
   {
     name: 'Yiqin Huang',
@@ -194,7 +188,7 @@ const team = [
   {
     name: 'Andrew Zhou',
     positions: ['Sponsorship and Grant Coordinator', 'Community Manager'],
-    linkedin: 'https://www.linkedin.com/in/andrew-zhou-7b34b7207/'
+    linkedin: 'https://www.linkedin.com/in/andrew-zhou-7b34b7207/',
   },
   {
     name: 'Mounica Policharla',
