@@ -5,16 +5,16 @@ import { faArrowRight, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Hiring() {
-  const [showModal, setShowModal] = useState(false)
+  const [showModal, setShowModal] = useState(true)
   const [hideAway, setHideAway] = useState(false)
   const [deleteModal, setDeleteModal] = useState(false)
   useEffect(() => {
-    if (localStorage.getItem('hideHiringModal') === 'yes') {
-      setDeleteModal(true)
-    } else if (localStorage.getItem('hideHiringModal') === null) {
-      localStorage.setItem('hideHiringModal', 'no')
-    }
-    setTimeout(() => setShowModal(true), 5000)
+    // if (localStorage.getItem('hideHiringModal') === 'yes') {
+    //   setDeleteModal(true)
+    // } else if (localStorage.getItem('hideHiringModal') === null) {
+    //   localStorage.setItem('hideHiringModal', 'no')
+    // }
+    // setTimeout(() => setShowModal(true), 1000)
   }, [])
 
   const handleDelete = () => {
@@ -27,7 +27,7 @@ export default function Hiring() {
     <>
       {!deleteModal ? (
         <div>
-          <button className={`fixed-center z-50 max-w-xs`}>
+          <button className={`fixed-center z-50 w-full max-w-xs`}>
             <div
               className={`relative w-full rounded-xl p-5 hiring-modal-transition overflow-hidden bg-white shadow-2xl max-h-96 ${
                 showModal ? 'block slide-in-from-top' : 'hidden'
