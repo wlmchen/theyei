@@ -1,10 +1,10 @@
 import React from 'react'
-import Hero from '../../components/programs/Hero'
-import Page from '../../components/utility/Page'
-import ContentBlock from './../../components/programs/ContentBlock'
+import Hero from '../components/programs/Hero'
+import Page from '../components/utility/Page'
+import ContentBlock from '../components/programs/ContentBlock'
 import Link from 'next/link'
-import ApplicationCriteria from './../../components/programs/flip/ApplicationCriteria'
-import Curriculum from '../../components/programs/flip/Curriculum'
+import ApplicationCriteria from '../components/programs/flip/ApplicationCriteria'
+import Curriculum from '../components/programs/flip/Curriculum'
 
 export default function flip() {
   return (
