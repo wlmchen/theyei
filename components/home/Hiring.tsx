@@ -5,16 +5,16 @@ import { faArrowRight, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Hiring() {
-  const [showModal, setShowModal] = useState(true)
+  const [showModal, setShowModal] = useState(false)
   const [hideAway, setHideAway] = useState(false)
   const [deleteModal, setDeleteModal] = useState(false)
   useEffect(() => {
-    // if (localStorage.getItem('hideHiringModal') === 'yes') {
-    //   setDeleteModal(true)
-    // } else if (localStorage.getItem('hideHiringModal') === null) {
-    //   localStorage.setItem('hideHiringModal', 'no')
-    // }
-    // setTimeout(() => setShowModal(true), 1000)
+    if (localStorage.getItem('hideHiringModal') === 'yes') {
+       setDeleteModal(true)
+    } else if (localStorage.getItem('hideHiringModal') === null) {
+       localStorage.setItem('hideHiringModal', 'no')
+    }
+    setTimeout(() => setShowModal(true), 5000)
   }, [])
 
   const handleDelete = () => {
