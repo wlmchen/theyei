@@ -8,6 +8,14 @@ const partners = [
     link: 'https://bettermoneyhabits.bankofamerica.com/',
   },
   {
+    name: 'California Council on Economic Education',
+    link: 'https://ccee.org',
+  },
+  {
+    name: 'Council on Economic Education',
+    link: 'https://councilforeconed.org',
+  },
+  {
     name: 'Cash Club',
     link: 'https://www.cashclubcorp.info/',
   },
