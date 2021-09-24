@@ -16,16 +16,14 @@ export default function FeaturedOn() {
                   key={link.href}
                   className="mt-4 ml-8 flex flex-grow flex-shrink-0 justify-center lg:flex-grow-0 lg:ml-4"
                 >
-                  <a href={link.href} target="_blank">
-                    <img
-                      className="h-12 lg:h-14"
-                      src={link.imgURL}
-                      alt={link.alt}
-                      style={{
-                        filter: `grayscale(100%) brightness(${link.brightness})`,
-                      }}
-                    />
-                  </a>
+                  <img
+                    className="h-12 lg:h-14"
+                    src={link.imgURL}
+                    alt={link.alt}
+                    style={{
+                      filter: `grayscale(100%) brightness(${link.brightness})`,
+                    }}
+                  />
                 </div>
               ))}
             </div>
