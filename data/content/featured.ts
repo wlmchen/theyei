@@ -30,7 +30,7 @@ const featured = [
     title: 'FLIP',
     content:
       'YEI’s Financial Literacy Introduction Program (FLIP) is the service arm of our organization.  Through FLIP, our members are empowered to educate their community on Financial Literacy with our comprehensive curriculum and support network.',
-    href: '/programs/flip',
+    href: '/flip',
     imgTitle: 'flip',
     subtitle: 'YEI Program',
   },
