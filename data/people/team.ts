@@ -172,7 +172,7 @@ const team = [
   },
   {
     name: 'Jessica Cheng',
-    positions: ['Fundraising Coordinator', 'Event Coordinator'],
+    positions: ['Event Coordinator'],
     linkedin: 'https://www.linkedin.com/in/jessica-cheng05',
   },
   {
