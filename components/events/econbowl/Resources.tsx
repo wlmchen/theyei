@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Resources() {
   return (
-    <div className="bg-white">
-      <div className="max-w-7xl mx-auto pt-12 px-4 divide-y-2 divide-gray-200 sm:pt-20 sm:px-6 lg:px-8">
+    <div className="bg-gray-200">
+      <div className="max-w-7xl mx-auto py-12 px-4 divide-y-2 divide-gray-200 sm:py-20 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-black tracking-tight text-gray-900 sm:text-4xl">
           Preparation Resources
         </h2>
@@ -28,6 +28,14 @@ export default function Resources() {
               National Economics Challenge sample tests
             </a>
             .
+          </p>
+          <br />
+          <p>
+            If you have any questions, message in the YEI Discord, or email{' '}
+            <a href="mailto:events@theyei.org" className="green-link">
+              events@theyei.org
+            </a>
+            !
           </p>
         </div>
       </div>

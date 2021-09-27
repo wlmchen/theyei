@@ -6,6 +6,10 @@ import Speaker from '../../components/events/econbowl/Speaker'
 import FAQs from '../../components/events/econbowl/FAQs'
 import Page from '../../components/utility/Page'
 import Resources from './../../components/events/econbowl/Resources'
+import WhatsNew from './../../components/events/econbowl/WhatsNew'
+import Structure from './../../components/events/econbowl/Structure'
+import Info from '../../components/events/econbowl/Info'
+import Schedule from '../../components/events/econbowl/Schedule'
 
 export default function econbowl() {
   return (
@@ -14,10 +18,14 @@ export default function econbowl() {
       desc="Youth Economics Initiative's (YEI) Fall Competition, students compete in teams of 3 or 4 for a $1500 Prize Pool.  Competition consists of a Written Exam and Quiz Bowl Rounds. Presented with the Wen & Yung Family Foundation."
     >
       <Hero />
-      <Recap />
-      <Resources />
-      <Speaker />
+      <WhatsNew />
+      {/* <Recap /> */}
+      <Structure />
+      <Info />
+      {/* <Speaker /> */}
+      <Schedule />
       <Prizes />
+      <Resources />
       <FAQs />
     </Page>
   )

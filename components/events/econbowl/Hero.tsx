@@ -7,7 +7,7 @@ export default function Hero() {
 
   return (
     <>
-      {visible && (
+      {/* {visible && (
         <Announcement
           setVisible={setVisible}
           smTitle="EconBowl 2020-21 was a success!"
@@ -21,7 +21,7 @@ export default function Hero() {
             See Recap
           </AnchorLink>
         </Announcement>
-      )}
+      )} */}
       <div
         className={`relative bg-white overflow-hidden ${
           visible ? '' : 'pt-12 sm:pt-8'

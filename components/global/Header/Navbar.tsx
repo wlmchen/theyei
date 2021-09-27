@@ -81,6 +81,7 @@ export default function Navbar() {
                 <div className="flex-shrink-0">
                   <Link href="/clubs/register">
                     <a
+                      type="button"
                       className="trans-300 relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker"
                     >
                       <FontAwesomeIcon

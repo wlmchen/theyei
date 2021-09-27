@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
 import * as gtag from '../components/utility/gtag'
@@ -16,7 +16,6 @@ const App = ({ Component, pageProps }: AppProps) => {
       router.events.off('routeChangeComplete', handleRouteChange)
     }
   }, [router.events])
-
   return <Component {...pageProps} />
 }
 
