@@ -15,7 +15,7 @@ const writtenRound = [
   },
   {
     id: 2,
-    name: 'The induvidual round',
+    name: 'The individual round',
     description:
       'For the individual round, each competitor will also have 1 hour to finish 50 questions. No discussion or collaboration is permitted, and each person must submit their own test.',
     icon: UserIcon,
@@ -94,12 +94,6 @@ export default function Structure() {
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
               The Written Round
             </h3>
-            <p className="mt-3 text-lg text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              minima sequi recusandae, porro maiores officia assumenda aliquam
-              laborum ab aliquid veritatis impedit odit adipisci optio iste
-              blanditiis facere. Totam, velit.
-            </p>
 
             <dl className="mt-10 space-y-10">
               {writtenRound.map((item) => (
@@ -170,11 +164,6 @@ export default function Structure() {
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
                 The QuizBowl
               </h3>
-              <p className="mt-3 text-lg text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                ex obcaecati natus eligendi delectus, cum deleniti sunt in
-                labore nihil quod quibusdam expedita nemo.
-              </p>
 
               <dl className="mt-10 space-y-10">
                 {quizBowl.map((item) => (

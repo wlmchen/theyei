@@ -111,7 +111,7 @@ export default function Hero() {
               <div className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 <p>
                   The Youth Economics Initiative is proud to present our
-                  flagship program, EconBowl 2020-2021, in collaboration with
+                  flagship program, EconBowl 2021, in collaboration with
                   the Wen & Yung Family Foundation!
                 </p>
                 <p className="mt-4">

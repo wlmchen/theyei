@@ -3,8 +3,7 @@ import { CheckIcon } from '@heroicons/react/outline'
 const details = [
   {
     name: 'Date',
-    description:
-      'Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.',
+    description: 'November 13th, 2021',
   },
   {
     name: 'Times',

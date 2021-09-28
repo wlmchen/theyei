@@ -40,7 +40,7 @@ export default function Prizes() {
         </svg>
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-gray-800 sm:text-4xl">
-            Cash Prizes (Induvidual)
+            Cash Prizes (Individual)
           </h2>
           {/* <p className="mt-3 text-xl text-green-200 sm:mt-4">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
