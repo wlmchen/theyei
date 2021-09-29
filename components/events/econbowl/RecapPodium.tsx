@@ -23,10 +23,10 @@ const people = [
 
 export default function RecapPodium() {
   return (
-    <div className="py-8 flex flex-col w-full overflow-x-scroll">
+    <div className="pt-8 pb-2 mb-4 flex flex-col w-auto h-auto overflow-x-auto overflow-y-visible">
       <h1 className="mb-3 text-xl font-medium">2nd Annual EconBowl Podium</h1>
-      <div className="-my-2 sm:-mx-6 lg:-mx-8">
-        <div className="py-2 align-middle inline-block sm:px-6 lg:px-8">
+      <div className="">
+        <div className="align-middle inline-block">
           <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
             <table className="min-w-full divide-y divide-gray-200">
               <thead className="bg-yei-primary-main text-center lg:text-left text-white">
