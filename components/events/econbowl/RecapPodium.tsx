@@ -23,7 +23,7 @@ const people = [
 
 export default function RecapPodium() {
   return (
-    <div className="py-8 flex flex-col">
+    <div className="py-8 flex flex-col w-full overflow-x-scroll">
       <h1 className="mb-3 text-xl font-medium">2nd Annual EconBowl Podium</h1>
       <div className="-my-2 sm:-mx-6 lg:-mx-8">
         <div className="py-2 align-middle inline-block sm:px-6 lg:px-8">
