@@ -15,6 +15,18 @@ const questions = [
     a: 'Nope! Everyone is welcome.',
   },
   {
+    q: 'Can I compete in both the individual and team track?',
+    a: 'Absolutely'
+  },
+  {
+    q: 'How many people can be on a team?',
+    a: '3 - 4 students'
+  },
+  {
+    q: 'Who is this competition open to?',
+    a: 'Any middle or high school student around the world'
+  },
+  {
     q: 'What is the cost to sign up?',
     a: 'EconBowl is absolutely FREE to compete in. ',
   },
