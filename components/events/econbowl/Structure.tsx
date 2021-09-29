@@ -194,7 +194,7 @@ export default function Structure() {
             </div>
           </div>
         </div>
-        <div className="mt-5 max-w-md mx-auto flex justify-center md:mt-8">
+        <div className="sm:mt-5 mt-10 max-w-md mx-auto flex justify-center md:mt-8">
                 <div className="rounded-md shadow">
                   <a
                     href="https://docs.google.com/document/d/1PsFf-NWwelRNSfVdKcW2rn-mTQvF39fIOiDQjzzx-kM/edit?usp=sharing"
