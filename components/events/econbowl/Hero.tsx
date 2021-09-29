@@ -132,17 +132,6 @@ export default function Hero() {
                   .
                 </p> */}
               </div>
-              <div className="mt-5 max-w-md mx-auto flex justify-center md:mt-8">
-                <div className="rounded-md shadow">
-                  <a
-                    href="https://docs.google.com/document/d/1PsFf-NWwelRNSfVdKcW2rn-mTQvF39fIOiDQjzzx-kM/edit?usp=sharing"
-                    target="_blank"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-primary-main hover:bg-yei-primary-darker md:py-4 md:text-lg md:px-10"
-                  >
-                    Contest Details
-                  </a>
-                </div>
-              </div>
               <div className="opacity-30 text-center mt-10 pt-10 border-t border-black max-w-sm m-auto flex items-center justify-center flex-col">
                 <p className="uppercase text-sm text-black font-black tracking-widest">
                   Presented By
