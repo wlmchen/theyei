@@ -19,7 +19,6 @@ export default function econbowl() {
     >
       <Hero />
       <WhatsNew />
-      {/* <Recap /> */}
       <Structure />
       <Info />
       {/* <Speaker /> */}
@@ -27,6 +26,7 @@ export default function econbowl() {
       <Prizes />
       <Resources />
       <FAQs />
+      <Recap />
     </Page>
   )
 }
