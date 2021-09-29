@@ -164,7 +164,7 @@ export default function Structure() {
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
                 The QuizBowl
               </h3>
-              <p className="mt-2 text-sm text-gray-500 font-bold">(Only for Team Track)</p>
+              <p className="mt-2 text-sm text-gray-400 font-bold">(Only for Team Track)</p>
 
               <dl className="mt-10 space-y-10">
                 {quizBowl.map((item) => (
