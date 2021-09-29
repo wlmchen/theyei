@@ -56,7 +56,7 @@ export default function FeaturedSection({
               <p
                 className={`mt-2  ${
                   dark ? 'text-white' : 'text-yei-secondary-brighter'
-                } text-5xl font-extrabold tracking-tight sm:text-6xl`}
+                } text-4xl sm:text-5xl font-extrabold tracking-tight sm:text-6xl`}
               >
                 {title}
               </p>
