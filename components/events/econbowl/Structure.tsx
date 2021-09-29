@@ -8,16 +8,16 @@ import {
 const writtenRound = [
   {
     id: 1,
-    name: 'The team round',
+    name: 'Team Track',
     description:
-      'For the team round, competitors will have 1 hour to collaboratively complete 50 questions. Each team will submit only one exam.',
+      'For the team tracks, competitors will have 1 hour to collaboratively complete 50 questions. Each team will submit only one exam.',
     icon: UserGroupIcon,
   },
   {
     id: 2,
-    name: 'The individual round',
+    name: 'Individual Track',
     description:
-      'For the individual round, each competitor will also have 1 hour to finish 50 questions. No discussion or collaboration is permitted, and each person must submit their own test.',
+      'For the individual track, each competitor will also have 1 hour to finish 50 questions. No discussion or collaboration is permitted, and each person must submit their own test.',
     icon: UserIcon,
   },
 ]
@@ -164,6 +164,7 @@ export default function Structure() {
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
                 The QuizBowl
               </h3>
+              <p className="text-sm text-gray-600 font-bold">(Only for Team Track)</p>
 
               <dl className="mt-10 space-y-10">
                 {quizBowl.map((item) => (
