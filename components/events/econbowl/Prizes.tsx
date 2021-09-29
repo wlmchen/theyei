@@ -38,7 +38,7 @@ export default function Prizes() {
             fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"
           />
         </svg>
-      <div className="max-w-7xl mx-auto py-6 px-4 sm:pb-16 sm:px-6 lg:px-8 lg:pb-20">
+      <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold text-gray-800 sm:text-4xl">
             Cash Prizes (Team)
@@ -81,7 +81,7 @@ export default function Prizes() {
           </div>
         </dl>
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-extrabold text-gray-800 sm:text-4xl">
+          <h2 className="text-3xl font-extrabold text-gray-800 sm:text-4xl mt-16">
             Cash Prizes (Individual)
           </h2>
           {/* <p className="mt-3 text-xl text-green-200 sm:mt-4">
