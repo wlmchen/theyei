@@ -32,7 +32,7 @@ const questions = [
   },
   {
     q: 'When does registration close?',
-    a: 'Registration will close on November 1st at 11:59pm PDT. ',
+    a: 'Registration will close on November 10th at 11:59pm PST. ',
   },
   {
     q: 'Will it be online?',
