@@ -5,9 +5,7 @@ export default function Hero() {
   return (
     <>
       <div
-        className={`relative bg-white overflow-hidden ${
-          visible ? '' : 'pt-12 sm:pt-8'
-        }`}
+        className='relative bg-white overflow-hidden'
       >
         <div
           className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
