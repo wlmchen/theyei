@@ -15,12 +15,7 @@ export default function Recap() {
               Thank you to our 330+ competitors and proctors!{' '}
             </p>
             <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
-              On November 8th, 2020 with around 100 teams and over 330
-              competitors applied their economic knowledge and competed
-              virtually for the chance to become the 2nd Annual Econbowl
-              Champion and earn cash prizes. It was amazing to see such passion
-              for economics from all across the world. We hope to see you there
-              EconOlympiad (spring 2021) and EconBowl next year (fall 2021)
+              On November 8th, 2020, over 330 competitors (nearly 100 teams!) applied their economic knowledge and competed virtually for the chance to earn cash prizes and become Champions of the 2nd Annual Econbowl. It was amazing to see such passion for economics from all across the world. Whether this is your first time hearing about EconBowl, or if you’re already a seasoned competitor, we look forward to seeing you this November!
             </p>
             <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
               Recordings:{' '}
