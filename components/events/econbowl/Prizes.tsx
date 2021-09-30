@@ -56,7 +56,7 @@ export default function Prizes() {
                 </span>
               </dt>
               <dd className="text-7xl lg:text-8xl font-semibold text-green-600">
-                $<CountUpOnce number={750} />
+                $<CountUpOnce number={1000} />
               </dd>
             </div>
             <div className="flex flex-col mt-10 md:mt-0 sm:order-1">
@@ -66,7 +66,7 @@ export default function Prizes() {
                 </span>
               </dt>
               <dd className="text-6xl lg:text-7xl font-semibold text-green-700">
-                $<CountUpOnce number={400} />
+                $<CountUpOnce number={750} />
               </dd>
             </div>
             <div className="flex flex-col mt-10 md:mt-0 sm:order-3">
@@ -76,7 +76,7 @@ export default function Prizes() {
                 </span>
               </dt>
               <dd className="order-1 text-5xl lg:text-6xl font-semibold text-green-800">
-                $<CountUpOnce number={200} />
+                $<CountUpOnce number={500} />
               </dd>
             </div>
           </dl>
@@ -97,7 +97,7 @@ export default function Prizes() {
                 </span>
               </dt>
               <dd className="text-7xl lg:text-8xl font-semibold text-green-600">
-                $<CountUpOnce number={500} />
+                $<CountUpOnce number={250} />
               </dd>
             </div>
             <div className="flex flex-col mt-10 md:mt-0 sm:order-1">
@@ -107,7 +107,7 @@ export default function Prizes() {
                 </span>
               </dt>
               <dd className="text-6xl lg:text-7xl font-semibold text-green-700">
-                $<CountUpOnce number={250} />
+                $<CountUpOnce number={175} />
               </dd>
             </div>
             <div className="flex flex-col mt-10 md:mt-0 sm:order-3">
@@ -117,7 +117,7 @@ export default function Prizes() {
                 </span>
               </dt>
               <dd className="order-1 text-5xl lg:text-6xl font-semibold text-green-800">
-                $<CountUpOnce number={125} />
+                $<CountUpOnce number={100} />
               </dd>
             </div>
           </dl>
