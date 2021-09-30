@@ -1,27 +1,9 @@
 import React, { useState } from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Announcement from '../../utility/Announcement'
 
 export default function Hero() {
-  const [visible, setVisible] = useState(true)
 
   return (
     <>
-      {visible && (
-        <Announcement
-          setVisible={setVisible}
-          smTitle="EconBowl 2020-21 was a success!"
-          title="EconBowl 2020-21 was a success! It took place on Nov. 8, 2020."
-        >
-          <AnchorLink
-            href="#recap"
-            offset={65}
-            className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-yei-primary-main bg-white hover:bg-gray-100"
-          >
-            See Recap
-          </AnchorLink>
-        </Announcement>
-      )}
       <div
         className={`relative bg-white overflow-hidden ${
           visible ? '' : 'pt-12 sm:pt-8'
