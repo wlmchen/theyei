@@ -26,21 +26,14 @@ const quizBowl = [
     id: 1,
     name: 'The top 4 teams',
     description:
-      "It's a battle for the top! The top 4 teams from the previoud round will finish off their opponents a quiz bowl competition.",
+      "It's a battle for the top! The top 4 teams from the previous round will finish off their opponents in a quiz bowl competition.",
     icon: UserGroupIcon,
   },
   {
     id: 2,
-    name: '19 questions',
-    description:
-      'It consists of 19 questions, split into non-calculation and calculation problems.',
-    icon: QuestionMarkCircleIcon,
-  },
-  {
-    id: 3,
     name: 'Who will win?',
     description:
-      'The person with the most questions correct after 19 questions are exhausted wins.',
+      'The team with the most questions correct after 19 questions are exhausted, wins!',
     icon: StarIcon,
   },
 ]
