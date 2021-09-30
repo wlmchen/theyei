@@ -24,7 +24,7 @@ const teamSchedule = [
     description: 'Arawrds Ceremony',
   },
   {
-    time: '1:00 - 2:25 pm',
+    time: '1:00 - 2:30 pm',
     description: 'QuizBowl & Award Ceremony',
   },
 ]
