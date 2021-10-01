@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 
 export default function Hero() {
-
   return (
     <>
-      <div
-        className='relative bg-white overflow-hidden'
-      >
+      <div className="relative bg-white overflow-hidden">
         <div
           className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
           aria-hidden="true"
@@ -78,7 +75,7 @@ export default function Hero() {
             </svg>
           </div>
         </div>
-        <div className="pt-10 relative pb-8 sm:pb-12">
+        <div className="py-10 relative pb-8 sm:pb-12">
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
             <div className="text-center">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -91,8 +88,8 @@ export default function Hero() {
               <div className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 <p>
                   The Youth Economics Initiative is proud to present our
-                  flagship program, EconBowl 2021, in collaboration with
-                  the Wen & Yung Family Foundation!
+                  flagship program, EconBowl 2021, in collaboration with the Wen
+                  & Yung Family Foundation!
                 </p>
                 <p className="mt-4">
                   This competition offers high schoolers the chance to compete
@@ -100,6 +97,17 @@ export default function Hero() {
                   knowledge in a fast-paced environment. Compete for glory,
                   represent your high school, and win cash prizes!
                 </p>
+                <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
+                  Registration for both the Team and Individual Track will close
+                  on November 10, 2021 at 11:59 PST (UTC−8). The competition
+                  will be held on November 13, 2021
+                </p>
+                <a
+                  href="https://form.jotform.com/212418764280153"
+                  className="mt-6 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bg-yei-primary-main cursor-pointer"
+                >
+                  Register!
+                </a>
                 {/* <p className="mt-4 font-medium">
                   For contest details, please view the{" "}
                   <a
@@ -111,16 +119,6 @@ export default function Hero() {
                   </a>
                   .
                 </p> */}
-              </div>
-              <div className="opacity-30 text-center mt-10 pt-10 border-t border-black max-w-sm m-auto flex items-center justify-center flex-col">
-                <p className="uppercase text-sm text-black font-black tracking-widest">
-                  Presented By
-                </p>
-                <img
-                  style={{ filter: 'invert(1)' }}
-                  src="/img/logos/other/wen-and-yung-family-foundation.png"
-                  width="100"
-                />
               </div>
             </div>
           </main>
