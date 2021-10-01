@@ -10,6 +10,7 @@ import WhatsNew from './../../components/events/econbowl/WhatsNew'
 import Structure from './../../components/events/econbowl/Structure'
 import Info from '../../components/events/econbowl/Info'
 import Schedule from '../../components/events/econbowl/Schedule'
+import Sponsors from '../../components/events/econbowl/Sponsors'
 
 export default function econbowl() {
   return (
@@ -25,6 +26,7 @@ export default function econbowl() {
       <Schedule />
       <Prizes />
       <Resources />
+      <Sponsors />
       <FAQs />
       <Recap />
     </Page>
