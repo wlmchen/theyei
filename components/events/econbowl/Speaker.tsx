@@ -44,7 +44,7 @@ export default function Speaker() {
                     and now holds the Robert Kavesh Professorship in Economics.
                     His primary research interests are financial regulation,
                     antitrust, and applied macroeconomics. He will come talk
-                    with us at the end of the written round.
+                    with us at the end of the written track.
                   </p>
                 </div>
               </div>

@@ -10,7 +10,14 @@ export default function WhatsNew() {
             What's New?
           </p>
           <p className="max-w-3xl mt-5 mx-auto text-xl text-gray-500">
-            In a step-up from the past two years, two different competition tracks are now open to EconBowl competitors: Team & Individual. Please keep in mind that you have the option of participating in the team track, the individual track, or both! To ensure that all competitors are on a level playing field, teams will only be competing against individuals. Seperate prize pools, which are now larger than ever, have been established for each track!
+            In a step-up from the past two years, two different competition
+            tracks are now open to EconBowl competitors: Team & Individual.
+            Please keep in mind that you have the option of participating in the
+            team track, the individual track, or both! To ensure that all
+            competitors are on a level playing field, teams will only be
+            competing against teams, and individuals against individuals.
+            Separate prize pools, which are now larger than ever, have been
+            established for each track!
           </p>
         </div>
       </div>

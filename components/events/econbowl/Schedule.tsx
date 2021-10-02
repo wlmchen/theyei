@@ -21,7 +21,7 @@ const teamSchedule = [
   },
   {
     time: '12:00 pm',
-    description: 'Arawrds Ceremony',
+    description: 'Awards Ceremony',
   },
   {
     time: '1:00 - 2:30 pm',
@@ -43,11 +43,11 @@ const individualSchedule = [
   },
   {
     time: '6:40 pm',
-    description: 'Finish test, transition to break',
+    description: 'Finish test',
   },
   {
     time: '7:00 pm',
-    description: 'Award Ceremony',
+    description: 'Awards Ceremony',
   },
   {
     time: '7:15 pm',
@@ -58,7 +58,7 @@ const individualSchedule = [
 export default function Schedule() {
   return (
     <div className="max-w-xl w-full m-auto py-16 px-4">
-      <h3 className="text-xl font-bold">Team Round (11/13)</h3>
+      <h3 className="text-xl font-bold">Team Track (11/13)</h3>
       <div className="max-w-xl w-full m-auto flex flex-col mb-10 mt-4">
         <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
@@ -100,7 +100,7 @@ export default function Schedule() {
           </div>
         </div>
       </div>
-      <h3 className="text-xl font-bold">Individual Round (11/13)</h3>
+      <h3 className="text-xl font-bold">Individual Track (11/13)</h3>
       <div className="flex flex-col mt-4">
         <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">

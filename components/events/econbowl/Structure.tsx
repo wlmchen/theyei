@@ -26,7 +26,7 @@ const quizBowl = [
     id: 1,
     name: 'The top 4 teams',
     description:
-      "It's a battle for the top! The top 4 teams from the previous round will finish off their opponents in a quiz bowl competition.",
+      "It's a battle for the top! The top 4 teams from the previous track will finish off their opponents in a quiz bowl competition.",
     icon: UserGroupIcon,
   },
   {
@@ -157,7 +157,9 @@ export default function Structure() {
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
                 The QuizBowl
               </h3>
-              <p className="mt-2 text-sm text-gray-400 font-bold">(Only for Team Track)</p>
+              <p className="mt-2 text-sm text-gray-400 font-bold">
+                (Only for Team Track)
+              </p>
 
               <dl className="mt-10 space-y-10">
                 {quizBowl.map((item) => (
@@ -189,16 +191,16 @@ export default function Structure() {
           </div>
         </div>
         <div className="mt-5 max-w-md mx-auto flex justify-center md:mt-14">
-                <div className="rounded-md shadow">
-                  <a
-                    href="https://docs.google.com/document/d/1PsFf-NWwelRNSfVdKcW2rn-mTQvF39fIOiDQjzzx-kM/edit?usp=sharing"
-                    target="_blank"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-primary-main hover:bg-yei-primary-darker md:py-4 md:text-lg md:px-10"
-                  >
-                    Contest Details
-                  </a>
-                </div>
-              </div>
+          <div className="rounded-md shadow">
+            <a
+              href="https://docs.google.com/document/d/1PsFf-NWwelRNSfVdKcW2rn-mTQvF39fIOiDQjzzx-kM/edit?usp=sharing"
+              target="_blank"
+              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-primary-main hover:bg-yei-primary-darker md:py-4 md:text-lg md:px-10"
+            >
+              Contest Details
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   )

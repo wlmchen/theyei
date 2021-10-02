@@ -16,15 +16,15 @@ const questions = [
   },
   {
     q: 'Can I compete in both the individual and team track?',
-    a: 'Absolutely'
+    a: 'Absolutely',
   },
   {
     q: 'How many people can be on a team?',
-    a: '3 - 4 students'
+    a: '3 - 4 students',
   },
   {
     q: 'Who is this competition open to?',
-    a: 'Any middle or high school student around the world'
+    a: 'Any middle or high school student around the world',
   },
   {
     q: 'What is the cost to sign up?',
@@ -40,7 +40,7 @@ const questions = [
   },
   {
     q: 'What do I need to compete?',
-    a: "You'll need internet connection and Zoom installed on your computer (with a Zoom account). For the QuizBowl round, you'll need headphones/earbuds, and we suggest you also have a second device (e.g. phone).",
+    a: "You'll need internet connection and Zoom installed on your computer (with a Zoom account). For the QuizBowl track, you'll need headphones/earbuds, and we suggest you also have a second device (e.g. phone).",
   },
   {
     q: 'Do I have to have a zoom account to join?',
