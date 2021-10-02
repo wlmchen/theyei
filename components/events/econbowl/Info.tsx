@@ -9,9 +9,9 @@ const details = [
     name: 'Times',
     description: (
       <ul>
-        <li>9:00am - 12:00pm PST, Team Round, Written</li>
-        <li>1:00pm - 2:30pm PST, Team Round, QuizBowl</li>
-        <li>5:00pm - 7:15pm PST, Individual Round</li>
+        <li>9:00am - 12:00pm PST, Team Track, Written</li>
+        <li>1:00pm - 2:30pm PST, Team Track, QuizBowl</li>
+        <li>5:00pm - 7:15pm PST, Individual Track</li>
       </ul>
     ),
   },
