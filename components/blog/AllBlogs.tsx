@@ -25,7 +25,6 @@ export default function AllBlogs() {
 
   useEffect(() => {
     axios.get(mediumUrl).then((data) => {
-      console.log(data)
       data.data.items.forEach((article: any) => {
         setBlogs(prevBlogs => [
           ...prevBlogs,

@@ -45,7 +45,6 @@ export default function blog() {
       return
     };
     axios.get(mediumUrl).then((data) => {
-      console.log(blogTitle)
       data.data.items.forEach((article: any) => {
         if (StringToSlug(article.title) === blogTitle) {
           setBlog(
