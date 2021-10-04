@@ -34,17 +34,21 @@ const routes = [
       { href: '/', name: 'Overview' },
       { href: '/econbowl', name: 'EconBowl' },
       { href: '/econolympiad', name: 'EconOlympiad' },
-      {
-        href: '/econtalks',
-        name: 'EconTalks',
-      },
+      { href: '/econtalks', name: 'EconTalks' },
     ],
   },
   {
     href: '/flip',
     name: 'FLIP',
   },
-  { href: '/resources', name: 'Resources' },
+  { 
+    href: '/resources', 
+    name: 'Resources' 
+  },
+  {
+    href: '/blog',
+    name: 'Blog',
+  },
 ]
 
 export default routes

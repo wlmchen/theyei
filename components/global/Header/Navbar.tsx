@@ -71,7 +71,7 @@ export default function Navbar() {
                   currPath={currPath}
                   dropRoutes={r.dropRoutes}
                   active={
-                    r.dropRoutes
+                    r.href !== '/'
                       ? currPath.startsWith(r.href)
                       : r.href == currPath
                   }
@@ -109,7 +109,9 @@ export default function Navbar() {
               dropRoutes={r.dropRoutes}
               currPath={currPath}
               active={
-                r.dropRoutes ? currPath.startsWith(r.href) : r.href == currPath
+                r.href !== '/'
+                  ? currPath.startsWith(r.href)
+                  : r.href == currPath
               }
             />
           ))}
