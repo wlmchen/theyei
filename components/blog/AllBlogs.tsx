@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 
 export default function AllBlogs() {
+  const [loaded, setLoaded]= useState(false)
   const [blogs, setBlogs] = useState([])
 
   function GetDate(date: String) {
@@ -42,6 +43,8 @@ export default function AllBlogs() {
           }
         ]);
       });
+    }).then(() => {
+      setLoaded(true);
     })
   }, [])
 
@@ -64,9 +67,54 @@ export default function AllBlogs() {
             for a list of articles on modern economics issues. 
           </p>
         </div>
-        <div className="mx-auto grid gap-5 lg:max-w-none">
+        
+        <div className="mx-auto space-y-5 lg:max-w-none">
+          {!loaded && 
+          <div>
+            <div className="animate-pulse mb-5 flex flex-col rounded-lg border border-gray-200 shadow-md hover:shadow-lg">
+              <div className="flex-1 p-6 flex flex-col justify-between">
+                <div className="flex-1">
+                  <div className="bg-gray-200 text-sm font-medium text-yei-primary-darker w-20 h-3 rounded-sm"></div>
+                  <div className="bg-gray-200 block mt-2 text-xl font-semibold text-gray-900 w-44 mt-2 h-5 rounded-sm"></div>
+                  <div className="items-center bg-gray-200 truncate mt-3 text-base text-gray-500 mt-5 h-4 rounded-sm"></div>
+                </div>
+                <div className="mt-6 flex items-center">
+                  <div className="flex-shrink-0">
+                      <div className="h-10 w-10 bg-gray-200 rounded-full"></div>
+                  </div>
+                  <div className="ml-3">
+                    <p className="text-sm font-medium text-gray-900">
+                      <div className="bg-gray-200 h-3.5 w-36 sm:w-80 rounded-sm"></div>
+                    </p>
+                    <div className="mt-2 h-3.5 w-28 sm:w-40 flex space-x-1 bg-gray-200 text-sm text-gray-500 rounded-sm"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="animate-pulse flex flex-col rounded-lg border border-gray-200 shadow-md hover:shadow-lg">
+              <div className="flex-1 p-6 flex flex-col justify-between">
+                <div className="flex-1">
+                  <div className="bg-gray-200 text-sm font-medium text-yei-primary-darker w-20 h-3 rounded-sm"></div>
+                  <div className="bg-gray-200 block mt-2 text-xl font-semibold text-gray-900 w-44 mt-2 h-5 rounded-sm"></div>
+                  <div className="items-center bg-gray-200 truncate mt-3 text-base text-gray-500 mt-5 h-4 rounded-sm"></div>
+                </div>
+                <div className="mt-6 flex items-center">
+                  <div className="flex-shrink-0">
+                      <div className="h-10 w-10 bg-gray-200 rounded-full"></div>
+                  </div>
+                  <div className="ml-3">
+                    <p className="text-sm font-medium text-gray-900">
+                      <div className="bg-gray-200 h-3.5 w-36 sm:w-80 rounded-sm max-w-full"></div>
+                    </p>
+                    <div className="mt-2 h-3.5 w-28 sm:w-40 flex space-x-1 bg-gray-200 text-sm text-gray-500 rounded-sm"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          }
           {blogs.map((post) => (
-            <div key={post.title} className="flex flex-col rounded-lg border border-gray-200 shadow-md hover:shadow-lg overflow-hidden">
+            <div key={post.title} className="flex flex-col rounded-lg border border-gray-200 shadow-md hover:shadow-lg">
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-yei-primary-darker">
