@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../global/Header/Navbar'
 import Footer from '../global/Footer/Footer'
+import Head from 'next/head'
 
 import { GA_TRACKING_ID } from './gtag'
 
