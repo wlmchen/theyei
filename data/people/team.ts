@@ -35,6 +35,11 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/faaris-zuberi-4207a91b0/',
   },
   {
+    name: 'Jessica Cheng',
+    positions: ['VP of Events'],
+    linkedin: 'https://www.linkedin.com/in/jessica-cheng05',
+  },
+  {
     name: 'Sarah Zuo',
     positions: ['Executive Board Member', 'Director of Multimedia'],
     linkedin: 'https://www.linkedin.com/in/sarah-zuo-aa71971ba/',
@@ -54,6 +59,12 @@ const team = [
     positions: ['Executive Board Member', 'Director of Technology'],
     linkedin: 'https://www.linkedin.com/in/braydentw/',
     github: 'https://github.com/BraydenTW',
+  },
+  {
+    name: 'Ananth Kashyap',
+    positions: ['Web Developer'],
+    linkedin: 'https://www.linkedin.com/in/ananth-kashyap-88b996209/',
+    github: 'https://github.com/AAkashyap1',
   },
   {
     name: 'Saavi Kumar',
@@ -169,11 +180,6 @@ const team = [
     name: 'Audrey Sun',
     positions: ['Event Coordinator'],
     linkedin: 'https://www.linkedin.com/in/audrey-sun-a14545129/',
-  },
-  {
-    name: 'Jessica Cheng',
-    positions: ['Event Coordinator'],
-    linkedin: 'https://www.linkedin.com/in/jessica-cheng05',
   },
   {
     name: 'Kavin Shah',
