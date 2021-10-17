@@ -35,6 +35,7 @@ const routes = [
       { href: '/econbowl', name: 'EconBowl' },
       { href: '/econolympiad', name: 'EconOlympiad' },
       { href: '/econtalks', name: 'EconTalks' },
+      { href: '/econbowl-prep', name: 'EconBowl Prep' },
     ],
   },
   {
