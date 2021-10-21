@@ -31,7 +31,7 @@ const team = [
   },
   {
     name: 'Faaris Zuberi',
-    positions: ['Executive Board Member', 'VP of FLIP'],
+    positions: ['Executive Board Member', 'Executive Director of FLIP'],
     linkedin: 'https://www.linkedin.com/in/faaris-zuberi-4207a91b0/',
   },
   {
