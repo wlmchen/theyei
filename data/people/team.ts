@@ -21,7 +21,7 @@ const team = [
   },
   {
     name: 'Cheryl Wu',
-    positions: ['Executive Board Member', 'VP of Events'],
+    positions: ['Executive Board Member', 'COO', "Co-Chairman"],
     linkedin: 'https://www.linkedin.com/in/cheryl-wu-ba12801b1/',
   },
   {
@@ -36,7 +36,7 @@ const team = [
   },
   {
     name: 'Jessica Cheng',
-    positions: ['VP of Events'],
+    positions: ['Executive Board Member', 'VP of Events'],
     linkedin: 'https://www.linkedin.com/in/jessica-cheng05',
   },
   {
