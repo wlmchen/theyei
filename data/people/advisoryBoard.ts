@@ -58,7 +58,7 @@ const advisoryBoard = [
     name: 'George Bian',
     title: 'Co-founder & Former CEO of YEI, Student at MIT',
     bio: [
-      'George Bian is an incoming sophomore at the Massachusetts Institute of Technology studying Computer Science, Economics, and Management. He graduated from Saratoga High School in 2020 and was the former co-founder and CEO of YEI from 2018 until 2020. George was also the ASB Student Body President at Saratoga High School, was ranked 5th in Economics at FBLA Nationals, and worked as a Bank of America Student Leader.',
+      'George Bian is an sophomore at the Massachusetts Institute of Technology studying Computer Science, Economics, and Management. He graduated from Saratoga High School in 2020 and was the former co-founder and CEO of YEI from 2018 until 2020. George was also the ASB Student Body President at Saratoga High School, was ranked 5th in Economics at FBLA Nationals, and worked as a Bank of America Student Leader.',
     ],
   },
 ]
