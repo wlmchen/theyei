@@ -114,8 +114,8 @@ export default function AllBlogs() {
           </div>
           }
           {blogs.map((post) => (
-            <div key={post.title} className="flex flex-col rounded-lg border border-gray-200 shadow-md hover:shadow-lg">
-              <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div key={post.title} className="flex flex-col ">
+              <div className="flex-1 bg-white p-6 flex flex-col justify-between rounded-lg border border-gray-200 shadow-md hover:shadow-lg">
                 <div className="flex-1">
                   <p className="text-sm font-medium text-yei-primary-darker">
                     Article
