@@ -31,6 +31,10 @@ const supporters = [
     name: 'Chipotle',
     link: 'https://chipotle.com/',
   },
+  {
+    name: 'Trading View',
+    link: 'https://www.tradingview.com/',
+  },
 ]
 
 export default supporters
