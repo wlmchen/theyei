@@ -1,12 +1,12 @@
-import React from 'react'
 import CountUpOnce from './../../utility/CountUp'
+import React from 'react'
 
 export default function Prizes() {
   return (
     <div className="bg-white">
       <div className="overflow-hidden relative max-w-7xl mx-auto py-6 px-4 sm:pb-16 sm:px-6 lg:px-8 lg:pb-20">
         <svg
-          className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
+          className="hidden xl:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
           width={404}
           height={784}
           fill="none"
@@ -58,6 +58,9 @@ export default function Prizes() {
               <dd className="text-7xl lg:text-8xl font-semibold text-green-600">
                 $<CountUpOnce number={1000} />
               </dd>
+              <span className="text-xs mt-2 italic text-gray-500">
+                + Lifetime TradingView premium account
+              </span>
             </div>
             <div className="flex flex-col mt-10 md:mt-0 sm:order-1">
               <dt className="order-2 mt-3">
@@ -89,7 +92,7 @@ export default function Prizes() {
               Repellendus repellat laudantium.
             </p> */}
           </div>
-          <dl className="mt-5 text-center md:max-w-3xl items-center md:mx-auto md:grid md:grid-cols-3 md:gap-8">
+          <dl className="mt-5 text-center md:max-w-4xl items-end md:mx-auto md:grid md:grid-cols-3 md:gap-8">
             <div className="flex flex-col sm:order-2">
               <dt className="order-2 mt-3">
                 <span className="inline-flex items-center px-5 py-1 rounded-full text-2xl font-medium bg-green-100 text-green-800">
@@ -99,6 +102,9 @@ export default function Prizes() {
               <dd className="text-7xl lg:text-8xl font-semibold text-green-600">
                 $<CountUpOnce number={250} />
               </dd>
+              <span className="text-xs mt-2 italic text-gray-500">
+                + Lifetime TradingView premium account
+              </span>
             </div>
             <div className="flex flex-col mt-10 md:mt-0 sm:order-1">
               <dt className="order-2 mt-3">
@@ -109,6 +115,9 @@ export default function Prizes() {
               <dd className="text-6xl lg:text-7xl font-semibold text-green-700">
                 $<CountUpOnce number={175} />
               </dd>
+              <span className="text-xs mt-2 italic text-gray-500">
+                + Lifetime TradingView premium account
+              </span>
             </div>
             <div className="flex flex-col mt-10 md:mt-0 sm:order-3">
               <dt className="order-2 mt-3">
