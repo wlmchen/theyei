@@ -103,7 +103,7 @@ export default function Hero() {
                   will be held on November 13, 2021
                 </p>
                 <a
-                  href="https://form.jotform.com/212418764280153"
+                  href="https://form.jotform.com/213135272600140"
                   className="mt-6 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bg-yei-primary-main cursor-pointer"
                 >
                   Register!
