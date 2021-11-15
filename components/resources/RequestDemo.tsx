@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
-import { Formik, Form, Field, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
-import Link from 'next/link'
+
+import { ErrorMessage, Field, Form, Formik } from 'formik'
+import React, { useState } from 'react'
+
 import FocusError from '../utility/FocusError'
+import Link from 'next/link'
 import SuccessAlert from '../utility/SuccessAlert'
 
 export default function RequestDemo() {
@@ -52,7 +54,7 @@ export default function RequestDemo() {
               data.append('_replyto', values.email)
               data.append('_subject', 'New Curriculum Demo Request')
 
-              fetch('https://formsubmit.co/ajax/masonwang0025@gmail.com', {
+              fetch('https://formsubmit.co/ajax/brayden45.dev@gmail.com', {
                 method: 'POST',
                 mode: 'no-cors',
                 body: data,
