@@ -1,12 +1,14 @@
-import React, { useEffect, useRef, useState } from 'react'
-import Contact from './Form1Contact'
-import { ClubIcon, ContactIcon, MoreIcon } from './Icons'
-import More from './Form3More'
-import ClubInfo from './Form2ClubInfo'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Formik, Form } from 'formik'
 import * as Yup from 'yup'
+
+import { ClubIcon, ContactIcon, MoreIcon } from './Icons'
+import { Form, Formik } from 'formik'
+import React, { useEffect, useRef, useState } from 'react'
+
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import ClubInfo from './Form2ClubInfo'
+import Contact from './Form1Contact'
 import FocusError from '../../utility/FocusError'
+import More from './Form3More'
 import SuccessAlert from '../../utility/SuccessAlert'
 
 export default function Application() {
@@ -167,7 +169,7 @@ export default function Application() {
                 })`
               )
 
-              fetch('https://formsubmit.co/ajax/masonwang0025@gmail.com', {
+              fetch('https://formsubmit.co/ajax/brayden45.dev@gmail.com', {
                 method: 'POST',
                 mode: 'no-cors',
                 body: data,
