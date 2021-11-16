@@ -302,7 +302,7 @@ const clubs = [
     region: 'NorCal',
   },
   {
-    name: 'Alameda High Economics Club',
+    name: 'Alameda High School',
     email: 'ahseconclub@gmail.com',
     region: 'NorCal',
   },
