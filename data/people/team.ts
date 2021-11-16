@@ -21,7 +21,7 @@ const team = [
   },
   {
     name: 'Cheryl Wu',
-    positions: ['Executive Board Member', 'COO', "Co-Chairman"],
+    positions: ['Executive Board Member', 'COO', 'Co-Chairman'],
     linkedin: 'https://www.linkedin.com/in/cheryl-wu-ba12801b1/',
   },
   {
@@ -115,6 +115,11 @@ const team = [
     name: 'Connor Park',
     positions: ['Podcast Editor'],
     linkedin: 'https://www.linkedin.com/in/geonu-park-0904031b8/',
+  },
+  {
+    name: 'Srithanya Satish',
+    positions: ['Blog Writer'],
+    linkedin: 'https://www.linkedin.com/in/srithanya-s-4494841bb',
   },
   {
     name: 'Saachi Kumar',
