@@ -47,7 +47,7 @@ export default function flip() {
           .
         </p>
         <p>
-          Check out FLIP's instagram page here{' '}
+          Check out FLIP's instagram page{' '}
           <a href="https://www.instagram.com/flip.yei/" className="green-link">here</a>
           .
         </p>
