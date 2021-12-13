@@ -8,11 +8,11 @@ export default function Benefits() {
   return (
     <div className="py-12 sm:pt-18 sm:pb-20 bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:pt-1">
-        <div>
-          <h2 className="text-base text-yei-primary-darker font-semibold tracking-wide uppercase">
+        <div className="flex justify-center grid">
+          <h2 className="text-center text-base text-yei-primary-darker font-semibold tracking-wide uppercase">
             Benefits
           </h2>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+          <h2 className="text-center text-3xl md:text-4xl font-bold text-gray-900">
             Why Join?
           </h2>
           {/* <p className="mt-4 max-w-2xl text-xl text-gray-600">
