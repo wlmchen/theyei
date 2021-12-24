@@ -21,7 +21,7 @@ const team = [
   },
   {
     name: 'Cheryl Wu',
-    positions: ['Executive Board Member', 'VP of Events'],
+    positions: ['Executive Board Member', 'COO', 'Co-Chairman'],
     linkedin: 'https://www.linkedin.com/in/cheryl-wu-ba12801b1/',
   },
   {
@@ -31,12 +31,12 @@ const team = [
   },
   {
     name: 'Faaris Zuberi',
-    positions: ['Executive Board Member', 'VP of FLIP'],
+    positions: ['Executive Board Member', 'Executive Director of FLIP'],
     linkedin: 'https://www.linkedin.com/in/faaris-zuberi-4207a91b0/',
   },
   {
     name: 'Jessica Cheng',
-    positions: ['VP of Events'],
+    positions: ['Executive Board Member', 'VP of Events'],
     linkedin: 'https://www.linkedin.com/in/jessica-cheng05',
   },
   {
@@ -117,6 +117,16 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/geonu-park-0904031b8/',
   },
   {
+    name: 'Srithanya Satish',
+    positions: ['Blog Writer'],
+    linkedin: 'https://www.linkedin.com/in/srithanya-s-4494841bb',
+  },
+  {
+    name: 'Caroline Wang',
+    positions: ['Social Media Manager', 'Graphic Designer'],
+    linkedin: 'https://www.linkedin.com/in/caroline--wang/',
+  },
+  {
     name: 'Saachi Kumar',
     positions: ['Curriculum Developer'],
     linkedin: 'https://www.linkedin.com/in/saachi-kumar/',
@@ -160,6 +170,11 @@ const team = [
     name: 'Tanish Chheda',
     positions: ['IB Curriculum Developer'],
     linkedin: 'https://www.linkedin.com/in/tanish-chheda/',
+  },
+  {
+    name: 'Fiona Lu',
+    positions: ['Testing Developer', 'Event Coordinator'],
+    linkedin: 'https://www.linkedin.com/in/fiona-lu-5a12201a8',
   },
   {
     name: 'Alysa Xu',
