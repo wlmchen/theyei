@@ -8,34 +8,51 @@ export default function Recap() {
         <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-              <span className="xl:inline">EB 2020 </span>
+              <span className="xl:inline">EB 2021 </span>
               <span className="text-yei-primary-main xl:inline">Recap</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 font-medium sm:text-xl md:mt-5  md:max-w-3xl">
-              Thank you to our 330+ competitors and proctors!{' '}
+              Thank you to our 310+ competitors and proctors!{' '}
             </p>
             <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
-              On November 8th, 2020, over 330 competitors (nearly 100 teams!) applied their economic knowledge and competed virtually for the chance to earn cash prizes and become Champions of the 2nd Annual Econbowl. It was amazing to see such passion for economics from all across the world. Whether this is your first time hearing about EconBowl, or if you’re already a seasoned competitor, we look forward to seeing you this November!
+              On November 13th, 2021, over 310 competitors applied their economic knowledge and competed virtually for the chance to earn cash prizes and become Champions of the 3rd Annual Econbowl. It was amazing to see such passion for economics from all across the world. Whether this is your first time hearing about EconBowl, or if you’re already a seasoned competitor, we look forward to seeing you next November!
             </p>
             <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
               Recordings:{' '}
               <a
-                href="https://www.youtube.com/watch?v=Z5sD0Jushjs&t=4995s"
+                href="https://www.youtube.com/watch?v=UIEt6PewgA8"
                 className="green-link"
                 target="_blank"
               >
-                QuizBowl recording
+                QuizBowl Round
               </a>{' '}
               ∙{' '}
               <a
-                href=" https://youtu.be/aemfNr-o8d4"
+                href="https://www.youtube.com/watch?v=calmVB8vgV4"
                 className="green-link"
                 target="_blank"
               >
-                Professor White’s talk on Anti-Trust
+                Team Round
+              </a>{' '}
+              ∙{' '}
+              <a
+                href="https://www.youtube.com/watch?v=n_HlLY12OJc"
+                className="green-link"
+                target="_blank"
+              >
+                Individual Track
+              </a>{' '}
+              ∙{' '}
+              <a
+                href="https://www.youtube.com/watch?v=CXR_bZm6Px8"
+                className="green-link"
+                target="_blank"
+              >
+                Speaker Seminar
               </a>{' '}
             </p>
             <RecapPodium />
+            {/*
             <div className="sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <a
@@ -47,6 +64,7 @@ export default function Recap() {
                 </a>
               </div>
             </div>
+            */} 
           </div>
         </div>
         <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
