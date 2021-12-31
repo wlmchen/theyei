@@ -14,8 +14,8 @@ export default function Speaker() {
               <div className="rounded-xl shadow-xl overflow-hidden lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
-                  src="/img/people/speakers/lawrence-white.jpg"
-                  alt="Lawrence White"
+                  src="/img/people/speakers/pascual-restrepo.jpg"
+                  alt="Pascual Restrepo"
                 />
               </div>
             </div>
@@ -35,16 +35,16 @@ export default function Speaker() {
                     About the Speaker
                   </h1>
                   <p className="mt-3">
-                    Our speaker for EconBowl is{' '}
-                    <b>Professor Lawrence White from NYU Stern</b> (the New York
-                    University Leonard N. Stern School of Business).
+                    The speaker for our Third Annual EconBowl is{' '}
+                    <b>Professor Pascual Restrepo</b> , 
+                    Assistant Professor of Economics at Boston University.
                   </p>{' '}
                   <p className="mt-3">
-                    He received his Ph.D. in Economics from Harvard University
-                    and now holds the Robert Kavesh Professorship in Economics.
-                    His primary research interests are financial regulation,
-                    antitrust, and applied macroeconomics. He will come talk
-                    with us at the end of the written round.
+                    Professor Restrepo received his Ph.D in economics from M.I.T., and his work has 
+                    been published in the American Economic Review and Journal of Political Economy, 
+                    among various others. His research focuses on the impact of technology on inequality, 
+                    labor markets, and growth, and his talk will specifically examine the impact of 
+                    automation on employment and the economy.
                   </p>
                 </div>
               </div>
