@@ -52,7 +52,7 @@ export default function Profile({
                         <a
                           target="_blank"
                           href={href}
-                          className="p-1.5 rounded-full inline-block  hover:bg-gray-300 bg-gray-200 text-yei-secondary-main hover:text-yei-secondary-main"
+                          className="flex justify-center items-center p-2 rounded-full inline-block w-7 h-7 hover:bg-gray-300 bg-gray-200 text-yei-secondary-main hover:text-yei-secondary-main"
                         >
                           <FontAwesomeIcon icon={icon} className="w-5 h-5" />
                         </a>
