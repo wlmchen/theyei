@@ -52,11 +52,10 @@ export default function Recap() {
               </a>{' '}
             </p>
             <RecapPodium />
-            {/*
             <div className="sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <a
-                  href="https://youtu.be/IEzR36fxQ58"
+                  href="https://www.youtube.com/watch?v=U8EAoBALZvc"
                   target="_blank"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-primary-main hover:bg-yei-primary-darker md:py-4 md:text-lg md:px-10"
                 >
@@ -64,7 +63,6 @@ export default function Recap() {
                 </a>
               </div>
             </div>
-            */} 
           </div>
         </div>
         <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
