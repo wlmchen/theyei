@@ -167,7 +167,7 @@ export default function Application() {
                 })`
               )
 
-              fetch('https://formsubmit.co/ajax/brayden@theyei.org', {
+              fetch('https://formsubmit.co/ajax/ab3308b6570d4ffe111661f129ec434a', {
                 method: 'POST',
                 mode: 'no-cors',
                 body: data,
