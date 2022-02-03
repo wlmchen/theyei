@@ -52,7 +52,7 @@ export default function RequestDemo() {
               data.append('_replyto', values.email)
               data.append('_subject', 'New Curriculum Demo Request')
 
-              fetch('https://formsubmit.co/ajax/masonwang0025@gmail.com', {
+              fetch('https://formsubmit.co/ajax/ab3308b6570d4ffe111661f129ec434a', {
                 method: 'POST',
                 mode: 'no-cors',
                 body: data,
