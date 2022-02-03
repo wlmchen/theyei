@@ -19,14 +19,14 @@ export default function Application() {
   const form3 = useRef(null)
 
   const handleClick = (e) => {
-    ;[form1, form2, form3].map((form, i) => {
+    [form1, form2, form3].map((form, i) => {
       if (form.current)
         if (form.current.contains(document.activeElement)) setCurrPage(i)
     })
   }
 
   useEffect(() => {
-    ;[form1, form2, form3].map((form) => {
+    [form1, form2, form3].map((form) => {
       if (form.current) form.current.onclick = handleClick
     })
   }, [])
@@ -167,7 +167,7 @@ export default function Application() {
                 })`
               )
 
-              fetch('https://formsubmit.co/ajax/masonwang0025@gmail.com', {
+              fetch('https://formsubmit.co/ajax/brayden@theyei.org', {
                 method: 'POST',
                 mode: 'no-cors',
                 body: data,
