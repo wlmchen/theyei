@@ -56,7 +56,7 @@ const team = [
   },
   {
     name: 'Brayden Wright',
-    positions: ['Executive Board Member', 'VP of Tech'],
+    positions: ['Executive Board Member', 'Director of Tech'],
     linkedin: 'https://www.linkedin.com/in/braydentw/',
     github: 'https://github.com/BraydenTW',
   },
