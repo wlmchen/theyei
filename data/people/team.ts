@@ -67,6 +67,11 @@ const team = [
     github: 'https://github.com/AAkashyap1',
   },
   {
+    name: 'Connor Park',
+    positions: ['Podcast Editor', 'Web Developer'],
+    linkedin: 'https://www.linkedin.com/in/geonu-park-0904031b8/',
+  },
+  {
     name: 'Saavi Kumar',
     positions: ['Team Ambassador'],
     linkedin: 'https://www.linkedin.com/in/saavi-kumar-59ba43195',
@@ -110,11 +115,6 @@ const team = [
     name: 'Aditya Karala',
     positions: ['Google Ads Manager'],
     linkedin: 'https://www.linkedin.com/in/aditya-kakarla-9729bb218/',
-  },
-  {
-    name: 'Connor Park',
-    positions: ['Podcast Editor'],
-    linkedin: 'https://www.linkedin.com/in/geonu-park-0904031b8/',
   },
   {
     name: 'Srithanya Satish',
