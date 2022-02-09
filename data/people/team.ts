@@ -85,7 +85,7 @@ const team: Member[] = [
     linkedin: 'https://www.linkedin.com/in/saavi-kumar-59ba43195',
   },
   {
-    name: 'Sudipta Rout,',
+    name: 'Sudipta Rout',
     positions: ['Team Ambassador', 'Sponsorship and Grant Coordinator'],
     linkedin: 'https://www.linkedin.com/in/sudiptar',
   },
