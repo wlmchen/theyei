@@ -1,4 +1,11 @@
-const team = [
+type Member = {
+  name: string,
+  positions: string[],
+  linkedin: string,
+  github?: string
+}
+
+const team: Member[] = [
   {
     name: 'Ian Chen',
     positions: ['Co-founder', 'CEO', 'Co-Chairman'],
