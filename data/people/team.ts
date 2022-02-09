@@ -70,6 +70,7 @@ const team = [
     name: 'Connor Park',
     positions: ['Podcast Editor', 'Web Developer'],
     linkedin: 'https://www.linkedin.com/in/geonu-park-0904031b8/',
+    github: 'github.com/geonupark1',
   },
   {
     name: 'Saavi Kumar',
