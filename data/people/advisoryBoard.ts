@@ -3,7 +3,7 @@ const advisoryBoard = [
     name: 'Henry Weng (Chair)',
     title: 'Co-founder & Former CEO of YEI, Student at Stanford University',
     bio: [
-      "Henry Weng is an incoming freshman at Stanford University studying Economics and Computer Science. He currently serves as Youth Economics Initiative’s chairman. As a high school student, Henry co-founded YEI, serving as its CFO from 2018 to 2020 and its CEO from 2020 to 2021. Henry also founded YEI's first-ever club, the Saratoga High School Economics Club; was ranked 4th nationally in FBLA economics; and worked as a Bank of America Student Leader.",
+      "Henry Weng is an student at Stanford University studying Economics and Computer Science. He currently serves as Youth Economics Initiative’s chairman. As a high school student, Henry co-founded YEI, serving as its CFO from 2018 to 2020 and its CEO from 2020 to 2021. Henry also founded YEI's first-ever club, the Saratoga High School Economics Club.",
     ],
   },
   {

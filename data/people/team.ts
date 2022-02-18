@@ -1,4 +1,11 @@
-const team = [
+type Member = {
+  name: string,
+  positions: string[],
+  linkedin: string,
+  github?: string
+}
+
+const team: Member[] = [
   {
     name: 'Ian Chen',
     positions: ['Co-founder', 'CEO', 'Co-Chairman'],
@@ -56,7 +63,7 @@ const team = [
   },
   {
     name: 'Brayden Wright',
-    positions: ['Executive Board Member', 'Director of Technology'],
+    positions: ['Executive Board Member', 'Director of Tech'],
     linkedin: 'https://www.linkedin.com/in/braydentw/',
     github: 'https://github.com/BraydenTW',
   },
@@ -67,9 +74,20 @@ const team = [
     github: 'https://github.com/AAkashyap1',
   },
   {
+    name: 'Connor Park',
+    positions: ['Podcast Editor', 'Web Developer'],
+    linkedin: 'https://www.linkedin.com/in/geonu-park-0904031b8/',
+    github: 'github.com/geonupark1',
+  },
+  {
     name: 'Saavi Kumar',
     positions: ['Team Ambassador'],
     linkedin: 'https://www.linkedin.com/in/saavi-kumar-59ba43195',
+  },
+  {
+    name: 'Sudipta Rout',
+    positions: ['Team Ambassador', 'Sponsorship and Grant Coordinator'],
+    linkedin: 'https://www.linkedin.com/in/sudiptar',
   },
   {
     name: 'Yiqin Huang',
@@ -110,11 +128,6 @@ const team = [
     name: 'Aditya Karala',
     positions: ['Google Ads Manager'],
     linkedin: 'https://www.linkedin.com/in/aditya-kakarla-9729bb218/',
-  },
-  {
-    name: 'Connor Park',
-    positions: ['Podcast Editor'],
-    linkedin: 'https://www.linkedin.com/in/geonu-park-0904031b8/',
   },
   {
     name: 'Srithanya Satish',
@@ -177,6 +190,11 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/fiona-lu-5a12201a8',
   },
   {
+    name: 'Aidan Zhou',
+    positions: ['Testing Developer'],
+    linkedin: 'https://www.linkedin.com/in/aidan-zhou-828282225/',
+  },
+  {
     name: 'Alysa Xu',
     positions: ['Event Coordinator'],
     linkedin: 'https://www.linkedin.com/in/alysa-xu-06bba21aa/',
@@ -195,6 +213,11 @@ const team = [
     name: 'Audrey Sun',
     positions: ['Event Coordinator'],
     linkedin: 'https://www.linkedin.com/in/audrey-sun-a14545129/',
+  },
+  {
+    name: 'Evangeline Lin',
+    positions: ['Event Coordinator'],
+    linkedin: 'https://www.linkedin.com/in/evangeline-lin-6b1bab224/',
   },
   {
     name: 'Kavin Shah',
@@ -241,6 +264,16 @@ const team = [
     positions: ['FLIP Partnership Manager', 'Expansion Associate'],
     linkedin: 'https://www.linkedin.com/in/vanessa-lin-20105/ ',
   },
+  {
+    name: 'Amaya Mahajan',
+    positions: ['FLIP Partnership Manager'],
+    linkedin: 'https://www.linkedin.com/in/amaya-mahajan-15229422a'
+  },
+  {
+    name: 'Lavanya Gupta',
+    positions: ['FLIP Partnership Manager'],
+    linkedin: 'https://www.linkedin.com/in/lavanya-gupta-a8236122'
+  }
 ]
 
 export default team
