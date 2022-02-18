@@ -27,8 +27,20 @@ export default function NavItem({
       />
     )
 
+  if (href.startsWith('https')) 
+    return (
+      <a 
+        href={href} 
+        target="_blank" 
+        rel="noreferrer"
+        className={navItemStyle}
+      >
+        {name}
+      </a>
+    )
+    
   return (
-    <Link href={href}>
+    <Link href={href} >
       <a className={navItemStyle}>{name}</a>
     </Link>
   )

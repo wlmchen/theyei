@@ -47,8 +47,8 @@ const routes = [
     name: 'Resources' 
   },
   {
-    href: '/blog',
-    name: 'Blog',
+    href: 'https://learn.theyei.org',
+    name: 'Learn',
   },
 ]
 
