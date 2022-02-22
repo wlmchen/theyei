@@ -1,20 +1,10 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
-import Announcement from '../../utility/Announcement'
 import Register from './Register'
 
 export default function Hero() {
-  const [visible, setVisible] = useState(true)
-
   return (
     <>
-      {visible && (
-        <Announcement
-          setVisible={setVisible}
-          smTitle="EconOlympiad took place in April 2021!"
-          title="EconOlympiad took place in April 2021!"
-        />
-      )}
       <div className="relative bg-white overflow-hidden">
         <div aria-hidden="true">
           <svg
@@ -59,9 +49,7 @@ export default function Hero() {
           </svg>
         </div>
         <div
-          className={`"relative pb-16 sm:pb-24 lg:pb-32  ${
-            visible ? '' : 'pt-12'
-          }`}
+          className="relative pb-16 sm:pb-24 lg:pb-32 pt-12"
         >
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
@@ -77,19 +65,18 @@ export default function Hero() {
                 </h1>
                 <div className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                   <p className="mt-3 ">
-                    Earn cash prizes while applying your knowledge in a team
-                    based competition to answer written questions & brainstorm
-                    solutions for current economic issues!
+                    Earn prestigious prizes, network with like minded peers, and learn from 
+                    engaging speakers while putting your knowledge of economics to the test.
+                     Cooperate in a team-based competition to unravel solutions to current 
+                     economic issues. 
                   </p>
                   <p className="mt-4">
-                    EconOlympiad is open to everyone, not just YEI members! If
-                    you want to become a YEI member, you can register your club{' '}
-                    <Link href="/clubs/register">
-                      <a className="green-link">here</a>
-                    </Link>
-                    , and we’ll get in touch with you soon! You can sign up as
-                    soon as you fill out the form. Registration deadline is{' '}
-                    <strong>3/31</strong>.
+                    Not convinced? Keep scrolling to learn more about what possibilities await!
+                  </p>
+                  <p className="mt-4">
+                    Interested? EconOlympiad is open to ALL middle and high school students!
+                    Register below by{' '}
+                    <strong>3/17</strong>.
                   </p>
                 </div>
                 <div>

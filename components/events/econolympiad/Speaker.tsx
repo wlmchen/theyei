@@ -14,7 +14,7 @@ export default function Speaker() {
               <div className="rounded-xl shadow-xl overflow-hidden lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
-                  src="/img/people/econolyjudges/professor-dix-carneiro.jpg"
+                  src="/img/people/speakers/michael-dinerstein.jpg"
                   alt="Professor Dix-Carneiro"
                 />
               </div>
@@ -35,18 +35,16 @@ export default function Speaker() {
                     About the Speaker
                   </h1>
                   <p className="mt-3">
-                    Our speaker for EconOlympiad is{' '}
+                    Our feature speaker for EconOlympiad is{' '}
                     <b>
-                      Professor Dix-Carneiro, Assistant Professor of Economics
-                      at Duke University.
+                      Michael Dinerstein, an Assistant Professor in the Kenneth C. Griffin Department
+                      of Economics at the University of Chicago
                     </b>
                   </p>{' '}
                   <p className="mt-3">
-                    Professor Dix-Carneiro received his Ph.D. in economics from
-                    Princeton University and has his work published in the
-                    Journal of Economics and American Economic Journal. His
-                    research specializes in international trade, labor markets,
-                    and economic development.
+                    Professor Dinerstein completed his Ph.D in economics at Stanford University, 
+                    and his work has been published in the American Economic Journal. His research primarily 
+                    concentrates on the economics of education, public economics, and industrial organization.
                   </p>
                 </div>
               </div>

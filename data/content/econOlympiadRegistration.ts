@@ -1,8 +1,9 @@
 const links = [
   {
     name: 'Register without a club or individually',
-    href: 'http://bit.ly/econolyreg',
+    href: 'https://form.jotform.com/220506194073147',
   },
+  /*
   {
     name: 'Allen High School',
     href: 'https://forms.gle/fMgqvDfmjSBnof699',
@@ -203,6 +204,7 @@ const links = [
     name: 'Westwood High School',
     href: 'https://forms.gle/5AixS8Ha7gqj7nqJA',
   },
+  */
 ]
 
 export default links

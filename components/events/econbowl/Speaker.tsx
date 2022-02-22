@@ -36,7 +36,7 @@ export default function Speaker() {
                   </h1>
                   <p className="mt-3">
                     The speaker for our Third Annual EconBowl is{' '}
-                    <b>Professor Pascual Restrepo</b> , 
+                    <b>Professor Pascual Restrepo</b>, 
                     Assistant Professor of Economics at Boston University.
                   </p>{' '}
                   <p className="mt-3">

@@ -110,114 +110,51 @@ export default function Info() {
         <div className="text-lg max-w-prose mx-auto">
           <h1>
             <span className="block text-base text-center text-yei-primary-main font-semibold tracking-wide uppercase">
-              EconOlympiad
+              Event Information
             </span>
             <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Event Information
+              What is EconOlympiad?
             </span>
           </h1>
           <p className="mt-8 text-xl text-gray-500 leading-8">
-            EconOlympiad is a two-part competition. The first part is a written
-            round in which you and your team will work together to answer four
-            multi-part, open-ended free response questions. The second part is a
-            presentation round. After taking the first part, the presentation
-            prompt will be released. The scores from both parts will be added
-            together to form your team’s final score.
+            EconOlympiad is a two-part competition focused on the application, not merely the 
+            knowledge, of economics. The first part is a presentation round in which you and 
+            your team will have three weeks to develop and submit a video that responds to one 
+            of the two provided prompts. The second part is a debate round. After completing 
+            the presentation, top teams will advance to a debate round. A prompt will be released, 
+            and teams will have one week to research and prepare. will compose your team’s 
+            final score.
+          </p>
+          <p className="mt-6 text-xl text-gray-500 leading-8">
+            Professors from the country’s top economics programs will serve as judges for both the 
+            presentation and debate rounds.
           </p>
         </div>
-        <div className="mt-6 prose prose-green prose-lg text-gray-500 mx-auto">
-          <h2>Written Round</h2>
-          <p>
-            The written portion will count for 50% of your final score. Teams
-            will have 45 minutes to answer the questions. Each of the four
-            questions is worth 10 points for a total of 40 points. Parts of each
-            question may be weighed differently. This portion of the test will
-            be taken through a testing software. The questions will be a mix of
-            microeconomics and macroeconomics.{' '}
-            <strong>
-              Any usage of outside materials during this portion of the test
-              will result in disqualification.
-            </strong>
-          </p>
-          <p>
-            <strong>
-              <a
-                href="https://www.youtube.com/watch?v=D3kCOzwKZws"
-                target="_blank"
-              >
-                This
-              </a>{' '}
-              is a demonstration of what the test platform will look like.
-            </strong>
-          </p>
+        <div className="mt-8 prose prose-green prose-lg text-gray-500 mx-auto">
           <h2>Presentation Round</h2>
           <p>
-            Competitors will have one week to create a presentation up to 10
-            minutes long. In the presentation, you and your team will research
-            the prompt, take a position, provide evidence, and use reasoning to
-            answer the prompt. After the video is uploaded, it will be scored.
+            Competitors will have up to one week to create their presentation up to 10 minutes in 
+            duration. There will be 2 prompts to choose from: one that focuses on Microeconomics 
+            and the other that concentrates on Macroeconomics concepts. Your group will have a 
+            chance to research the prompts, take a position, provide facts to support your argument, 
+            and use your reasoning to tie it all together. 
           </p>
+          <h2>Debate Round</h2>
           <p>
-            <strong>
-              <a
-                href="https://docs.google.com/document/d/1ZNH7nnZgaMKCbW5oR9e3eIqMUK5bUhPdg2j8gz5C1Nk/edit?usp=sharing"
-                target="_blank"
-              >
-                Presentation Prompt:
-              </a>
-            </strong>{' '}
-            Describe your team’s ideal system of healthcare. Explain a feasible
-            way to implement it in the United States.
-          </p>
-          <ul>
-            The rubric is as follows:
-            <li>
-              <strong>Thesis:</strong> 10%
-            </li>
-            <li>
-              <strong>Evidence:</strong> 20%
-            </li>
-            <li>
-              <strong>Reasoning:</strong> 60%
-            </li>
-            <li>
-              <strong>Presentation:</strong> 10%
-            </li>
-          </ul>
-          <p>
-            <a
-              href="https://www.youtube.com/watch?v=YY7iVpZ7JIg"
-              target="_blank"
-            >
-              Here's
-            </a>{' '}
-            a sample presentation.
+            Top teams will participate in a debate with a prompt different from previous choices, 
+            determining the final EconOlympiad winners.
           </p>
 
+          <h2>Team Matching: A New Way To Find Members</h2>
           <p>
-            <strong>
-              Submit your presentation{' '}
-              <a
-                target="_blank"
-                href="https://www.flexiquiz.com/SC/N/c76b3b38-2f84-470c-8a02-8941421fd940"
-              >
-                here
-              </a>
-              .
-            </strong>
-          </p>
-
-          <h2>Newly Piloted: A Way to Find Teams</h2>
-          <p>
-            If you don’t yet have a team but would still like to compete, hop
-            into our{' '}
+            Are you looking to join a team or would like some extra members to join yours?
+            Join our
             <a href="https://discord.gg/RC588cv" target="_blank">
               Discord server
             </a>{' '}
-            and react to the “finding teams” message in the EconOlympiad
-            channel! You’ll receive a special role that will allow you to join a
-            channel specifically for team finding, where you will be able to
-            meet others who are looking for teammates as well.{' '}
+            and react to the “finding teams” message in the “EconOlympiad” channel! Doing 
+            this will allow you to join a channel specifically for team finding, where you 
+            will be able to meet others who are looking for teammates as well.{' '}
           </p>
           <p>
             If you are not able to give yourself the role via the above process
@@ -226,37 +163,6 @@ export default function Info() {
               this form
             </a>{' '}
             so we can manually give you the role. Happy team finding!
-          </p>
-          <h2>Preparation</h2>
-          <p>
-            To prepare for EconOlympiad, we recommend you take our{' '}
-            <a
-              href="https://docs.google.com/document/d/1kQ1dADa9MEt26Nr97KWXYAlrt9inXgTMSRIg_BQP04U/edit?usp=sharing"
-              target="_blank"
-            >
-              practice test
-            </a>{' '}
-            and grade yourself with our{' '}
-            <a
-              href="https://docs.google.com/document/d/1qeli5hQIogn8xT-na5oRmhuuz6KrrM0WvcRVqgEwsR0/edit?usp=sharing"
-              target="_blank"
-            >
-              test rubric
-            </a>
-            .
-          </p>
-          <p>
-            <strong>
-              If you have any questions, message in the{' '}
-              <a href="https://discord.gg/RC588cv" target="_blank">
-                YEI Discord
-              </a>{' '}
-              or email{' '}
-              <a href="mailto:events@theyei.org" target="_blank">
-                events@theyei.org
-              </a>
-              .
-            </strong>
           </p>
         </div>
       </div>

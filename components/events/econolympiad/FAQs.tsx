@@ -43,12 +43,12 @@ const questions = [
     a: 'Competitors will meet only on the first and third weeks to take the test and attend the award ceremony. The second week of EconBowl is asynchronous.',
   },
   {
-    q: 'How is the final scores/ranking determined?',
-    a: 'Every team will take the Written FRQ (free response question) test and submit a video presentation. Your final scores are calculated by combining the two scores on a weighted scale. ',
+    q: 'How are final scores determined?',
+    a: 'Competitors will have three weeks to work on their video pitch presentation. For top teams, scores from this round will be combined with scores of the debate round to determine the EconOlympiad champions! Otherwise, scores from the presentation round will be used to determine rankings.',
   },
   {
     q: 'What will I need?',
-    a: 'You will need a Zoom account, if you don’t already have one. ',
+    a: 'You will need a Zoom account to attend the opening ceremony, debate round, and awards ceremony. A device capable of recording is required for creating the presentation.',
   },
   { q: 'What is the cost?', a: 'EconOlympiad is absolutely free to attend! ' },
   {

@@ -12,6 +12,7 @@ export default function Register() {
     <div className="mt-6 relative " style={{ zIndex: 49 }}>
       <div>
         <div className="mt-1 relative focus:outline-none">
+          {/*
           <button
             type="button"
             aria-haspopup="listbox"
@@ -22,7 +23,6 @@ export default function Register() {
           >
             <span className="block truncate">{selectedName}</span>
             <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
-              {/* Heroicon name: solid/selector */}
               <svg
                 className="h-5 w-5 text-gray-400"
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,6 @@ export default function Register() {
 
                     {active && (
                       <span className="text-green-600 absolute inset-y-0 right-0 flex items-center pr-4">
-                        {/* Heroicon name: solid/check */}
                         <svg
                           className="h-5 w-5"
                           xmlns="http://www.w3.org/2000/svg"
@@ -99,16 +98,15 @@ export default function Register() {
                   </li>
                 )
               })}
-              {/* More items... */}
             </ul>
           </div>
+          */}
         </div>
       </div>
-      <div className="mt-2 text-sm text-gray-500">
-        If your school is a YEI chapter, please select it in the dropdown.
-      </div>
+
+      <div className="mt-2" />
       <a
-        href={selectedLink}
+        href="https://form.jotform.com/220506194073147"
         target="_blank"
         className="mt-3 inline-flex items-center justify-center z-0 text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
       >

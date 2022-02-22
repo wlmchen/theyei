@@ -8,28 +8,37 @@ import React from 'react'
  */
 const reasons = [
   {
-    title: 'April 3rd',
+    title: 'March 19th',
     content: (
       <>
-        <b>FRQ test (synchronous).</b> We'll update this page with practice FRQ
-        exams soon.
+        <b>Opening ceremony & prompts released (synchronous).</b> Keep an eye out for 
+        the Zoom link, which will be sent via email.
       </>
     ),
   },
   {
-    title: 'April 3rd-9th',
+    title: 'March 20th - April 8th',
     content: (
       <>
-        <b>Prepare video presentations.</b> Prompts are released right after the
-        FRQ Test; submit by 11:59 pm PST on Friday (asynchronous).
+        <b>Prepare presentations (asynchronous).</b> Groups will have 20 days to research, 
+        collaborate, and record their presentations. Upload your video by 11:59pm PST on April 8th.
       </>
     ),
   },
   {
-    title: 'April 17th',
+    title: 'April 16th',
     content: (
       <>
-        <b>Award ceremony (synchronous).</b> See cash prizes below!
+        <b>Debate round qualifiers announced over social media.</b> 
+      </>
+    ),
+  },
+  {
+    title: 'April 23rd',
+    content: (
+      <>
+        <b>Debate round {'&'} awards ceremony (synchronous).</b> Qualifying teams will have the 
+        chance to debate each other on a new prompt. See cash prizes below!
       </>
     ),
   },
@@ -47,9 +56,9 @@ export default function KeyDates() {
             Key Dates
           </p>
           <p className="mt-4 text-lg text-gray-500">
-            The event spans a course of three weeks, from April 3rd to 17th.
-            Scores and feedback for all competitors will be released around a
-            week after the event.
+            The event spans from March 19th to April 23rd.
+            Scores and feedback for all competitors will be released shortly
+            after the event.
           </p>
         </div>
         <div className="mt-12 lg:mt-0 lg:col-span-2">

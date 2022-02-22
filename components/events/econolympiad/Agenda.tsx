@@ -1,17 +1,15 @@
 import React from 'react'
 
-const frqSchedule = [
-  { time: '9 am', title: 'Opening Ceremony' },
-  { time: '9:45', title: 'Taking the Test' },
-  { time: '11:00', title: 'Speaker Seminar' },
-  { time: '11:30 - 12', title: 'Closing Remarks' },
+const openingSchedule = [
+  { time: '9:30 am', title: 'Opening Ceremony' },
+  { time: '10:00 am - 11:00 am', title: 'Speaker Presentation' },
+  { time: '11:15 am', title: 'Raffle' },
+  { time: '11:30 am', title: 'Prompts Announced' },
 ]
 
 const ceremonySchedule = [
-  { time: '9 am', title: 'Award Ceremony' },
-  { time: '9:15', title: 'Q&A with the Judges' },
-  { time: '9:45', title: 'Awards' },
-  { time: '10:15', title: 'End of Award Ceremony' },
+  { time: '9:00 am - 10:00 am', title: 'Debate Round' },
+  { time: '4:00 pm - 5:00 pm', title: 'Awards Ceremony' },
 ]
 
 export default function Agenda() {
@@ -25,14 +23,14 @@ export default function Agenda() {
           <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
             <div className="md:w-1/2">
               <ScheduleTable
-                schedule={frqSchedule}
-                title="Written FRQ Testing (4/3)"
+                schedule={openingSchedule}
+                title="Opening Ceremony Schedule (3/19)"
               />
             </div>
             <div className="md:w-1/2">
               <ScheduleTable
                 schedule={ceremonySchedule}
-                title="Award Ceremony (4/17)"
+                title={`Debate Round & Awards Ceremony (4/23)`}
               />
             </div>
           </div>

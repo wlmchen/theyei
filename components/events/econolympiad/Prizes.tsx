@@ -22,7 +22,7 @@ export default function Prizes() {
               </span>
             </dt>
             <dd className="order-1 text-7xl font-extrabold text-white">
-              $<CountUpOnce number={500} />
+              $<CountUpOnce number={1000} />
             </dd>
           </div>
           <div className="flex flex-col mt-10 sm:mt-0 sm:order-1">
@@ -32,13 +32,23 @@ export default function Prizes() {
               </span>
             </dt>
             <dd className="order-1 text-6xl font-extrabold text-gray-200">
-              $<CountUpOnce number={400} />
+              $<CountUpOnce number={500} />
             </dd>
           </div>
           <div className="flex flex-col mt-10 sm:mt-0 sm:order-3">
             <dt className="order-2 mt-3">
               <span className="inline-flex items-center px-4 py-0.5 rounded-full text-md font-semibold bg-indigo-200 text-indigo-800">
                 3rd
+              </span>
+            </dt>
+            <dd className="order-1 text-5xl font-extrabold text-gray-300">
+              $<CountUpOnce number={400} />
+            </dd>
+          </div>
+          <div className="flex flex-col mt-10 sm:mt-0 col-start-2 sm:order-5">
+            <dt className="order-2 mt-3">
+              <span className="inline-flex items-center px-4 py-0.5 rounded-full text-md font-semibold bg-indigo-200 text-indigo-800">
+                4th {'&'} 5th
               </span>
             </dt>
             <dd className="order-1 text-5xl font-extrabold text-gray-300">
