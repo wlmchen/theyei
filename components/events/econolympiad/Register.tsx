@@ -9,7 +9,7 @@ export default function Register() {
   const [selectedLink, setLink] = useState(links[0].href)
 
   return (
-    <div className="mt-6 relative " style={{ zIndex: 49 }}>
+    <div className="mt-6 relative">
       <div>
         <div className="mt-1 relative focus:outline-none">
           {/*
@@ -108,7 +108,7 @@ export default function Register() {
       <a
         href="https://form.jotform.com/220506194073147"
         target="_blank"
-        className="mt-3 inline-flex items-center justify-center z-0 text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
+        className="mt-3 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
       >
         Register
         <FontAwesomeIcon
