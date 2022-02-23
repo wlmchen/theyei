@@ -15,7 +15,7 @@ export default function Speaker() {
                 <img
                   className="object-cover lg:h-full lg:w-full"
                   src="/img/people/speakers/michael-dinerstein.jpg"
-                  alt="Professor Dix-Carneiro"
+                  alt="Michael Dinerstein"
                 />
               </div>
             </div>
@@ -26,8 +26,8 @@ export default function Speaker() {
                 <div className="block lg:hidden pt-14 sm:pt-20">
                   <img
                     className="w-52 sm:w-64 rounded shadow-sm"
-                    src="/img/people/econolyjudges/professor-dix-carneiro.jpg"
-                    alt="Professor Dix-Carneiro"
+                    src="/img/people/speakers/michael-dinerstein.jpg"
+                    alt="Michael Dinerstein"
                   />
                 </div>
                 <div className="mt-6 text-xl text-white">
