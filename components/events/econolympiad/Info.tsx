@@ -148,7 +148,7 @@ export default function Info() {
           <h2>Team Matching: A New Way To Find Members</h2>
           <p>
             Are you looking to join a team or would like some extra members to join yours?
-            Join our
+            Join our{' '}
             <a href="https://discord.gg/RC588cv" target="_blank">
               Discord server
             </a>{' '}
