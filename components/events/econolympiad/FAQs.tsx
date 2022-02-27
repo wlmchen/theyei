@@ -7,17 +7,17 @@ const questions = [
     q: 'Is this a team or individual competition?',
     a: (
       <>
-        This is a team competition. Each team must have 1 to 4 members. If you
-        haven’t found a team yet but would still like to compete, fill out{' '}
+        This is a team competition. Each team must have 3 to 4 members. 
+        If you haven’t found a team yet but would still like to compete, 
+        you can join our grabbag channel within our{' '}
         <a
           target="_blank"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSextfmULazhONEMgtZcJirbHNzBFGFsqIjSYXfTmO2loU1p-g/viewform"
+          href="https://discord.gg/RC588cv"
           className="green-link"
         >
-          this form{' '}
-        </a>
-        for further information. This will enable you to join a channel within
-        our Discord server, specifically for team matching.
+          Discord Server
+        </a>{' '}
+        specifically for team matching.      
       </>
     ),
   },
