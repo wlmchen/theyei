@@ -22,15 +22,15 @@ const questions = [
     ),
   },
   {
-    q: 'Who can participate?',
-    a: 'Anyone in middle or high school can participate. This includes all international students!',
+    q: 'Who is allowed to participate',
+    a: 'Students in middle school or high school, including international students, are eligible to participate!',
   },
   {
-    q: 'Do I actually have to be part of a YEI chapter to compete?',
+    q: 'Do competitors have to be a part of a YEI chapter?',
     a: (
       <>
         No, EconOlympiad is open to everyone! If you would like to become a YEI
-        chapter, you can fill out the{' '}
+        chapter, however (which we highly recommend — there are so many benefits!), you can fill out the{' '}
         <Link href="/clubs/register">
           <a className="green-link">club registration form </a>
         </Link>
