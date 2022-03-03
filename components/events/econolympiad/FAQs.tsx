@@ -39,18 +39,18 @@ const questions = [
     ),
   },
   {
-    q: 'What is the schedule?',
-    a: 'Competitors will meet only on the first and third weeks to take the test and attend the award ceremony. The second week of EconBowl is asynchronous.',
+    q: 'Do all competitors on a team have to be from the same school?',
+    a: 'No, you and your teammates do not have to be from the same school, state, or even country! Given that the competition is completely virtual, interschool and interstate teams are permitted, and even encouraged for EconOlympiad. However, be sure to still list all schools/states/countries in the form, separating each with a slash.',
   },
   {
-    q: 'How are final scores determined?',
+    q: 'How are the final scores determined?',
     a: 'Competitors will have three weeks to work on their video pitch presentation. For top teams, scores from this round will be combined with scores of the debate round to determine the EconOlympiad champions! Otherwise, scores from the presentation round will be used to determine rankings.',
   },
   {
-    q: 'What will I need?',
+    q: 'Are there any materials needed to compete?',
     a: 'You will need a Zoom account to attend the opening ceremony, debate round, and awards ceremony. A device capable of recording is required for creating the presentation.',
   },
-  { q: 'What is the cost?', a: 'EconOlympiad is absolutely free to attend! ' },
+  { q: 'Is there an entry fee to the competition?', a: 'EconOlympiad is absolutely free (the only cost to you is the opportunity cost)!' },
   {
     q: 'Any other questions, concerns, or feedback?',
     a: (
