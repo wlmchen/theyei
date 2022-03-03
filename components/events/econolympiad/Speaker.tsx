@@ -46,6 +46,9 @@ export default function Speaker() {
                     and his work has been published in the American Economic Journal. His research primarily 
                     concentrates on the economics of education, public economics, and industrial organization.
                   </p>
+                  <p className="mt-3">
+                    His talk will specifically examine the economics of teaching, and how reallocating existing teachers across schools within a district can affect student achievement. Find out about policies that can motivate teachers to switch schools when differences in wages are negligible.
+                  </p>
                 </div>
               </div>
             </div>
