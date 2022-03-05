@@ -4,7 +4,7 @@ export default function Speaker() {
   return (
     <div className="bg-white pt-16 lg:py-24">
       <div className="pb-16 bg-yei-secondary-brighter lg:pb-0 lg:z-10 lg:relative">
-        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
+        <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8 py-6">
             <div className="hidden lg:block mx-auto max-w-md py-4 px-4 sm:max-w-4xl sm:px-6 lg:p-0 lg:h-full">
               <div className="rounded-xl shadow-xl overflow-hidden lg:h-full">
                 <img
