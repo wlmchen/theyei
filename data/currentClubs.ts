@@ -386,6 +386,46 @@ const clubs = [
     email: 'allisonh330@gmail.com',
     region: 'SoCal',
   },
+  {
+    name: 'Edward W. Clark High School',
+    email: 'sudipta.rout.lv@gmail.com',
+    region: 'Nevada',
+  },
+  {
+    name: 'Washington International School in Taichung',
+    email: 'linlucas0509@gmail.com',
+    region: 'Taiwan',
+  },
+  {
+    name: 'Polytechnic High School',
+    email: 'dsoatto23@students.polytechnic.org',
+    region: 'NorCal',
+  },
+  {
+    name: 'Whitney High School',
+    email: 'rohil_kadekar@myabcusd.org',
+    region: 'SoCal',
+  },
+  {
+    name: 'North Allegheny Senior High School',
+    email: 'dpark@nastudents.org',
+    region: 'Pennsylvania',
+  },
+  {
+    name: "Land O' Lakes High School",
+    email: 'williamfshelton3@gmail.com',
+    region: 'Florida',
+  },
+  {
+    name: 'Vincent Massey Secondary School',
+    email: 'itzdordor@gmail.com',
+    region: 'Ontario, Canada',
+  },
+  {
+    name: 'Mallya Aditi International School',
+    email: 'ramdas.radhika@gmail.com',
+    region: 'India',
+  },
 ]
 
 export default clubs
