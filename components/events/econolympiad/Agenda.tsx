@@ -1,14 +1,14 @@
 import React from 'react'
 
 const openingSchedule = [
-  { time: '9:00am', title: 'Opening Ceremony' },
-  { time: '9:30am - 10:30 am', title: 'Speaker Presentation' },
+  { time: '9:00 am', title: 'Opening Ceremony' },
+  { time: '9:30 am - 10:30 am', title: 'Speaker Presentation' },
   { time: '11:00 am', title: 'Raffle' },
   { time: '11:15 am', title: 'Prompts Announced' },
 ]
 
 const ceremonySchedule = [
-  { time: '9:00 am - 12:00 am', title: 'Debate Round' },
+  { time: '9:00 am - 12:00 pm', title: 'Debate Round' },
   { time: '4:00 pm - 5:00 pm', title: 'Awards Ceremony' },
 ]
 
