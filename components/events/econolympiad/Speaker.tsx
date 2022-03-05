@@ -10,7 +10,7 @@ export default function Speaker() {
               aria-hidden="true"
               className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"
             />
-            <div className="hidden lg:block mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
+            <div className="hidden lg:block mx-auto max-w-md px-4 sm:max-w-4xl sm:px-6 lg:p-0 lg:h-full">
               <div className="rounded-xl shadow-xl overflow-hidden lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
