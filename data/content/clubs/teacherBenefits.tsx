@@ -1,10 +1,6 @@
 import {
-  faBook,
-  faCalendar,
   faChartBar,
-  faGlobe,
   faMoneyBill,
-  faMoneyCheck,
   faObjectGroup,
   faUsers,
 } from '@fortawesome/free-solid-svg-icons'
