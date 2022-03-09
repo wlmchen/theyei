@@ -20,7 +20,7 @@ export default function Home() {
       <Intro />
       <FeaturedOn />
       <About />
-      <Numbers />
+      <Numbers title="Our Organization in Numbers"/>
       <Featured />
       <Sponsors />
       <CTA />
