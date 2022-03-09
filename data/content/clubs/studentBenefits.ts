@@ -1,7 +1,4 @@
-import { faSpeakerDeck } from '@fortawesome/free-brands-svg-icons'
 import {
-  faBook,
-  faCalendar,
   faGlobe,
   faMicrophone,
   faUsers,
