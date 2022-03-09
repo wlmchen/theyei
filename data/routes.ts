@@ -1,10 +1,16 @@
 const routes = [
-  { href: '/', name: 'Home' },
+  { 
+    href: '/', 
+    name: 'Home' 
+  },
   {
     href: '/clubs',
     name: 'EconClubs',
     dropRoutes: [
-      { href: '/', name: 'Overview' },
+      { 
+        href: '/students', 
+        name: 'Overview',
+      },
       {
         href: '/current-clubs',
         name: 'Current Clubs',
