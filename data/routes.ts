@@ -9,7 +9,11 @@ const routes = [
     dropRoutes: [
       { 
         href: '/students', 
-        name: 'Overview',
+        name: 'For Students',
+      },
+      { 
+        href: '/teachers', 
+        name: 'For Teachers',
       },
       {
         href: '/current-clubs',

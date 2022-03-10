@@ -4,7 +4,7 @@ import { faUsers } from '@fortawesome/free-solid-svg-icons'
 
 export default function Leadership() {
   return (
-    <div className="bg-yei-primary-gray px-16 py-20">
+    <div className="bg-yei-primary-gray px-8 sm:px-16 py-16">
       <div>
         <div>
           <span className="h-12 w-12 rounded-md flex items-center justify-center bg-yei-primary-main">

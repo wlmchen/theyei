@@ -9,7 +9,7 @@ export default function Hero() {
     <div className="bg-yei-primary-gray">
       <div className="max-w-7xl mx-auto md:min-h-screen grid md:grid-cols-2 grid-cols-1 relative overflow-hidden">
         <main className="">
-          <div className="md:pt-10 mb-20 md:mb-40 mx-16 lg:ml-24 lg:mr-20 text-left">
+          <div className="md:pt-10 mb-20 md:mb-40 mx-8 sm:mx-16 lg:ml-24 lg:mr-20 text-left">
             <h1 className="tracking-tight font-bold text-yei-primary-darker text-5xl mt-28 md:mt-48">
               <Link href="/clubs/teachers">
                 <p className="relative inline-flex cursor-pointer text-base font-semibold uppercase tracking-wider">

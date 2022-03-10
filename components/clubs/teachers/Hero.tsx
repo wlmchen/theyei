@@ -14,7 +14,7 @@ export default function Hero() {
           </main>
         </div>
         <main className="">
-          <div className="md:pt-10 mb-20 md:mb-40 mx-16 lg:ml-24 lg:mr-20 text-left md:text-right lg:pr-10">
+          <div className="md:pt-10 mb-20 md:mb-40 mx-8 sm:mx-16 lg:ml-24 lg:mr-20 text-left md:text-right lg:pr-10">
             <h1 className="tracking-tight font-bold text-yei-primary-darker text-5xl mt-28 md:mt-48">
               <Link href="/clubs/students">
                 <p className="relative inline-flex cursor-pointer text-base font-semibold uppercase tracking-wider">

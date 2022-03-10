@@ -12,16 +12,16 @@ export default function CTA() {
           </div>
         </h2>
         <div className="mt-8 lex lg:mt-0 lg:flex-shrink-0">
-          <div className="inline-flex rounded-md shadow">
+          <div className="sm:inline-flex rounded-md shadow">
             <Link href="/clubs/register">
-              <a className="trans-300 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-primary-main hover:bg-yei-primary-darker">
+              <a className="w-full trans-300 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-primary-main hover:bg-yei-primary-darker">
                 Get started
               </a>
             </Link>
           </div>
-          <div className="ml-3 inline-flex rounded-md shadow">
+          <div className="mt-3 sm:mt-0 sm:ml-3 sm:inline-flex rounded-md shadow">
             <Link href="/clubs/current-clubs">
-              <a className="trans-300 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-yei-primary-main bg-white hover:bg-gray-100">
+              <a className="w-full trans-300 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-yei-primary-main bg-white hover:bg-gray-100">
                 View Current Clubs
               </a>
             </Link>

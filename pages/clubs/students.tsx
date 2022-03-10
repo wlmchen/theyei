@@ -8,9 +8,6 @@ import Numbers from '../../components/home/Numbers'
 import Leadership from '../../components/clubs/students/Leadership'
 import Competitions from '../../components/clubs/students/Competitions'
 import Steps from '../../components/clubs/students/Steps'
-/*
-import Enrichment from '../../components/clubs/students/Enrichment'
-*/
 
 export default function students() {
   return (
