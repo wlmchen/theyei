@@ -75,8 +75,6 @@ export default function Hero() {
                   </p>
                   <p className="mt-4">
                     Interested? EconOlympiad is open to ALL middle and high school students!
-                    Register below by{' '}
-                    <strong>3/17/22</strong>.
                   </p>
                   <p className="mt-4">
                     The final deadline to enter the competition is{' '}
