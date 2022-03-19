@@ -78,6 +78,10 @@ export default function Hero() {
                     Register below by{' '}
                     <strong>3/17/22</strong>.
                   </p>
+                  <p className="mt-4">
+                    The final deadline to enter the competition is{' '}
+                    <strong>4/8/22</strong>. Presentation submissions will be accepted on a rolling basis up until then.
+                  </p>
                 </div>
                 <div>
                   <Register />
