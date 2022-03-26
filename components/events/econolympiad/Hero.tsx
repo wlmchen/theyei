@@ -75,8 +75,10 @@ export default function Hero() {
                   </p>
                   <p className="mt-4">
                     Interested? EconOlympiad is open to ALL middle and high school students!
-                    Register below by{' '}
-                    <strong>3/17/22</strong>.
+                  </p>
+                  <p className="mt-4">
+                    The final deadline to enter the competition is{' '}
+                    <strong>4/8/22</strong>. Presentation submissions will be accepted on a rolling basis up until then.
                   </p>
                 </div>
                 <div>

@@ -426,6 +426,10 @@ const clubs = [
     email: 'ramdas.radhika@gmail.com',
     region: 'India',
   },
+    name: 'Westview High School',
+    email: 'vasu.k.dec13@gmail.com',
+    region: 'SoCal',
+  },
 ]
 
 export default clubs
