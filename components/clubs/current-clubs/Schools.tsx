@@ -2,6 +2,10 @@ import React from 'react'
 import Link from 'next/link'
 import currentClubs from '../../../data/currentClubs'
 import Chapter from './Chapter'
+import Map from './Map'
+
+
+
 
 export default function Schools() {
   return (
@@ -20,6 +24,7 @@ export default function Schools() {
             .
           </p>
         </div>
+        <Map />
         <ul className="flex flex-col sm:flex-row flex-wrap">
           {currentClubs.map(
             ({ name, email, founding, primaryFounding, region }) => {
