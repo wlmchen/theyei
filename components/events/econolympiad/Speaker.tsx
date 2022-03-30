@@ -1,3 +1,5 @@
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 export default function Speaker() {
@@ -34,20 +36,39 @@ export default function Speaker() {
                   <h1 className="text-3xl sm:text-4xl tracking-tight font-black">
                     About the Speaker
                   </h1>
+                  <a
+                    href="https://www.youtube.com/watch?v=EiHykw6LsOI"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center mt-3 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 hover:text-green-900 trans-300 text-green-700"
+                  >
+                    <FontAwesomeIcon
+                      icon={faYoutube}
+                      className="h-4 w-4 mr-2"
+                    />
+                    Watch his talk!
+                  </a>
                   <p className="mt-3">
                     Our feature speaker for EconOlympiad is{' '}
                     <b>
-                      Michael Dinerstein, an Assistant Professor in the Kenneth C. Griffin Department
-                      of Economics at the University of Chicago
+                      Michael Dinerstein, an Assistant Professor in the Kenneth
+                      C. Griffin Department of Economics at the University of
+                      Chicago
                     </b>
                   </p>{' '}
                   <p className="mt-3">
-                    Professor Dinerstein completed his Ph.D in economics at Stanford University, 
-                    and his work has been published in the American Economic Journal. His research primarily 
-                    concentrates on the economics of education, public economics, and industrial organization.
+                    Professor Dinerstein completed his Ph.D in economics at
+                    Stanford University, and his work has been published in the
+                    American Economic Journal. His research primarily
+                    concentrates on the economics of education, public
+                    economics, and industrial organization.
                   </p>
                   <p className="mt-3">
-                    His talk will specifically examine the economics of teaching, and how reallocating existing teachers across schools within a district can affect student achievement. Find out about policies that can motivate teachers to switch schools when differences in wages are negligible.
+                    His talk will specifically examine the economics of
+                    teaching, and how reallocating existing teachers across
+                    schools within a district can affect student achievement.
+                    Find out about policies that can motivate teachers to switch
+                    schools when differences in wages are negligible.
                   </p>
                 </div>
               </div>

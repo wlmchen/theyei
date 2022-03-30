@@ -1,3 +1,5 @@
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 /**
@@ -11,8 +13,19 @@ const reasons = [
     title: 'March 19th',
     content: (
       <>
-        <b>Opening ceremony & prompts released (synchronous).</b> Keep an eye out for 
-        the Zoom link, which will be sent via email.
+        <b>Opening ceremony & prompts released (synchronous).</b>
+        <br />
+        <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
+          Don't worry! It's recorded. <a
+            href="https://www.youtube.com/watch?v=1F_XLYxfdhw"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center mt-1 sm:ml-2 sm:mb-1 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 hover:text-green-900 trans-300 text-green-700"
+          >
+            <FontAwesomeIcon icon={faYoutube} className="h-4 w-4 mr-2" />
+            View Ceremony
+          </a>
+        </p>
       </>
     ),
   },
@@ -20,8 +33,9 @@ const reasons = [
     title: 'March 20th - April 8th',
     content: (
       <>
-        <b>Prepare presentations (asynchronous).</b> Groups will have 20 days to research, 
-        collaborate, and record their presentations. Upload your video by 11:59pm PST on April 8th.
+        <b>Prepare presentations (asynchronous).</b> Groups will have 20 days to
+        research, collaborate, and record their presentations. Upload your video
+        by 11:59pm PST on April 8th.
       </>
     ),
   },
@@ -29,7 +43,7 @@ const reasons = [
     title: 'April 16th',
     content: (
       <>
-        <b>Debate round qualifiers announced over social media.</b> 
+        <b>Debate round qualifiers announced over social media.</b>
       </>
     ),
   },
@@ -37,8 +51,9 @@ const reasons = [
     title: 'April 23rd',
     content: (
       <>
-        <b>Debate round {'&'} awards ceremony (synchronous).</b> Qualifying teams will have the 
-        chance to debate each other on a new prompt. See cash prizes below!
+        <b>Debate round {'&'} awards ceremony (synchronous).</b> Qualifying
+        teams will have the chance to debate each other on a new prompt. See
+        cash prizes below!
       </>
     ),
   },
