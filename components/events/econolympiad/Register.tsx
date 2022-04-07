@@ -108,11 +108,23 @@ export default function Register() {
       <a
         href="https://form.jotform.com/220506194073147"
         target="_blank"
-        className="mt-3 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
+        className="mt-3 mr-2 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
       >
         Register
         <FontAwesomeIcon
           icon={faArrowRight}
+          className="-mr-1 ml-3 h-4 w-4 text-gray-200"
+        />
+      </a>
+
+      <a
+        href="https://c3sgn9rfei3.typeform.com/to/BW7WQuZZ"
+        target="_blank"
+        className="mt-3 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
+      >
+        Submit
+        <FontAwesomeIcon
+          icon={faUpload}
           className="-mr-1 ml-3 h-4 w-4 text-gray-200"
         />
       </a>
