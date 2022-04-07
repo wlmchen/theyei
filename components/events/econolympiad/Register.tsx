@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faUpload } from '@fortawesome/free-solid-svg-icons'
 import links from '../../../data/content/econOlympiadRegistration'
 
 export default function Register() {
