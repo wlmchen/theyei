@@ -1,4 +1,4 @@
-import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube, faUpload } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
@@ -36,6 +36,17 @@ const reasons = [
         <b>Prepare presentations (asynchronous).</b> Groups will have 20 days to
         research, collaborate, and record their presentations. Upload your video
         by 11:59pm PST on April 8th.
+
+<a
+            href="https://www.youtube.com/watch?v=1F_XLYxfdhw"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center mt-1 sm:ml-2 sm:mb-1 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 hover:text-green-900 trans-300 text-green-700"
+          >
+            <FontAwesomeIcon icon={faUpload} className="h-4 w-4 mr-2" />
+            Submit Presentation
+          </a>
+
       </>
     ),
   },
