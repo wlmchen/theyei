@@ -24,7 +24,7 @@ export default function Schools() {
             .
           </p>
         </div>
-        <Map />
+        
         <ul className="flex flex-col sm:flex-row flex-wrap">
           {currentClubs.map(
             ({ name, email, founding, primaryFounding, region }) => {
