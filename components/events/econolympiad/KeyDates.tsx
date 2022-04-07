@@ -38,6 +38,7 @@ const reasons = [
         research, collaborate, and record their presentations. Upload your video
         by 11:59pm PST on April 8th.
 <br />
+<br />
 <a
             href="https://c3sgn9rfei3.typeform.com/to/BW7WQuZZ"
             target="_blank"
