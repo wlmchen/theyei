@@ -17,7 +17,7 @@ const reasons = [
         <b>Opening ceremony & prompts released (synchronous).</b>
         <br />
         <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
-          Don't worry! It's recorded. <a
+          <a
             href="https://www.youtube.com/watch?v=1F_XLYxfdhw"
             target="_blank"
             rel="noreferrer"
@@ -38,7 +38,9 @@ const reasons = [
         research, collaborate, and record their presentations. Upload your video
         by 11:59pm PST on April 8th.
 <br />
-<br />
+
+<p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
+
 <a
             href="https://c3sgn9rfei3.typeform.com/to/BW7WQuZZ"
             target="_blank"
@@ -47,7 +49,7 @@ const reasons = [
           >
             <FontAwesomeIcon icon={faUpload} className="h-4 w-4 mr-2" />
             Submit Presentation
-          </a>
+          </a></p>
 
       </>
     ),
