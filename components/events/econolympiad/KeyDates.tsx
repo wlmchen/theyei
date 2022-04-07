@@ -36,9 +36,9 @@ const reasons = [
         <b>Prepare presentations (asynchronous).</b> Groups will have 20 days to
         research, collaborate, and record their presentations. Upload your video
         by 11:59pm PST on April 8th.
-
+<br />
 <a
-            href="https://www.youtube.com/watch?v=1F_XLYxfdhw"
+            href="https://c3sgn9rfei3.typeform.com/to/BW7WQuZZ"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center mt-1 sm:ml-2 sm:mb-1 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 hover:text-green-900 trans-300 text-green-700"
