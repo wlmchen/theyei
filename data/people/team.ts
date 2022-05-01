@@ -32,13 +32,13 @@ const team: Member[] = [
     linkedin: 'https://www.linkedin.com/in/cheryl-wu-ba12801b1/',
   },
   {
-    name: 'Andy Chen',
+    name: 'Kavin Shah',
     positions: ['Executive Board Member', 'VP of Clubs'],
-    linkedin: 'https://www.linkedin.com/in/andy-chen-82ba6b1a9/',
+    linkedin: 'https://www.linkedin.com/in/kavinshah-student/',
   },
   {
     name: 'Faaris Zuberi',
-    positions: ['Executive Board Member', 'Executive Director of FLIP'],
+    positions: ['Executive Board Member', 'VP of FLIP'],
     linkedin: 'https://www.linkedin.com/in/faaris-zuberi-4207a91b0/',
   },
   {
@@ -48,18 +48,18 @@ const team: Member[] = [
   },
   {
     name: 'Sarah Zuo',
-    positions: ['Executive Board Member', 'Director of Multimedia'],
+    positions: ['Executive Board Member', 'VP of Marketing', 'VP of Multimedia'],
     linkedin: 'https://www.linkedin.com/in/sarah-zuo-aa71971ba/',
   },
   {
-    name: 'Neha Basu',
+    name: 'Miriam Trujillo',
     positions: ['Executive Board Member', 'Director of Expansion'],
-    linkedin: 'https://www.linkedin.com/in/nehabasu1/',
+    linkedin: 'https://www.linkedin.com/in/miriam-trujillo-5b6a69204/',
   },
   {
-    name: 'Marcus Kuo',
+    name: 'Saavi Kumar',
     positions: ['Executive Board Member', 'Chief of Staff'],
-    linkedin: 'https://www.linkedin.com/in/marcus-kuo-b9a4281aa/',
+    linkedin: 'https://www.linkedin.com/in/saavi-kumar-59ba43195',
   },
   {
     name: 'Brayden Wright',
@@ -78,11 +78,6 @@ const team: Member[] = [
     positions: ['Podcast Editor', 'Web Developer'],
     linkedin: 'https://www.linkedin.com/in/geonu-park-0904031b8/',
     github: 'github.com/geonupark1',
-  },
-  {
-    name: 'Saavi Kumar',
-    positions: ['Team Ambassador'],
-    linkedin: 'https://www.linkedin.com/in/saavi-kumar-59ba43195',
   },
   {
     name: 'Sudipta Rout',
@@ -218,11 +213,6 @@ const team: Member[] = [
     name: 'Evangeline Lin',
     positions: ['Event Coordinator'],
     linkedin: 'https://www.linkedin.com/in/evangeline-lin-6b1bab224/',
-  },
-  {
-    name: 'Kavin Shah',
-    positions: ['Leadership Associate'],
-    linkedin: 'https://www.linkedin.com/in/kavinshah-student/',
   },
   {
     name: 'Isabell Kossar',
