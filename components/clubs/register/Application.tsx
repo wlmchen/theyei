@@ -159,6 +159,9 @@ export default function Application() {
                 '_cc',
                 'admin@theyei.org,miriam@theyei.org,kavin@theyei.org,ian@theyei.org,expansion@theyei.org,henry@theyei.org'
               )
+              data.append(
+                '_autoresponse',
+                'Hello,\nThank you for submitting the new club application for the YEI. Please schedule a time on my calendly to have an onboarding meeting where I can explain information about the YEI. Please let me know if you have any questions.\nThanks, Kavin.'
               data.append('_replyto', values.email)
               data.append(
                 '_subject',

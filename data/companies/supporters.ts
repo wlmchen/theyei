@@ -20,10 +20,6 @@ const supporters = [
     link: 'https://www.smartandfinal.com/',
   },
   {
-    name: 'Walmart',
-    link: 'https://www.walmart.com/',
-  },
-  {
     name: 'Qualcomm',
     link: 'https://www.qualcomm.com/',
   },
