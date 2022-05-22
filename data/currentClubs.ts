@@ -430,6 +430,21 @@ const clubs = [
     name: 'Westview High School',
     email: 'vasu.k.dec13@gmail.com',
     region: 'SoCal',
+  },
+  {
+    name: 'The Triam Udom Suksa School',
+    email: 'economicsclub.triamudom@gmail.com',
+    region: 'Thailand',
+  },
+  {
+    name: 'Shanghai Livingston American School',
+    email: 'dldpfla1005@outlook.com',
+    region: 'China',
+  },
+  {
+    name: 'GEMS Metropole School',
+    email: 'economicsclub.triamudom@gmail.com',
+    region: 'UAE',
   }
 ]
 
