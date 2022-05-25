@@ -162,7 +162,8 @@ export default function Application() {
               data.append(
                 '_autoresponse',
                 'Hello,\nThank you for submitting the new club application for the YEI. Please schedule a time on my calendly to have an onboarding meeting where I can explain information about the YEI. Please let me know if you have any questions.\nThanks, Kavin.'
-              data.append('_replyto', values.email)
+              )
+data.append('_replyto', values.email)
               data.append(
                 '_subject',
                 `New EconClub Application Submission (${
