@@ -35,14 +35,6 @@ const featured = [
     subtitle: 'YEI Program',
   },
   {
-    title: 'EARN',
-    content:
-      'YEI’s EARN program connects students with research and internship opportunities in finance, economics, and business, through a singular centralized application.',
-    href: '/programs/earn',
-    imgTitle: 'earn',
-    subtitle: 'YEI Program',
-  },
-  {
     title: 'SELC/WELC',
     content:
       'Every Summer and Winter, YEI hosts a leadership conference to help our student leaders and outstanding staff members network, gain valuable leadership experience, and get the up to date information on YEI Programs.',
