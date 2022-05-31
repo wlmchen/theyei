@@ -51,7 +51,6 @@ export default function Footer() {
                   title="Programs"
                   links={[
                     { href: '/flip', name: 'FLIP' },
-                    { href: '/programs/earn', name: 'EARN' },
                     { href: '/resources', name: 'Resources' },
                     { href: '/people/apply', name: 'YEI Hiring' },
                   ]}
