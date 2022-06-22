@@ -432,8 +432,8 @@ const clubs = [
     region: 'SoCal',
   },
   {
-    name: 'The Triam Udom Suksa School',
-    email: 'economicsclub.triamudom@gmail.com',
+    name: 'Triam Udom Suksa School',
+    email: 'info@econclub-ectu.org',
     region: 'Thailand',
   },
   {
