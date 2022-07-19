@@ -80,11 +80,19 @@ function DropdownMenu({ href, name, active }) {
   const navItemStyle = `trans-300 block px-4 py-2 text-lg border-l-4 text-base font-medium ${
     active ? activeStyles : defaultStyles
   }`
-  return (
-    <Link href={href}>
-      <a className={navItemStyle} role="menuitem">
+  if (href.startsWith('https')) {
+    return (
+      <a href={href} target="_blank" rel="noreferrer" className={navItemStyle}>
         {name}
       </a>
-    </Link>
-  )
+    )
+  } else {
+    return (
+      <Link href={href}>
+        <a className={navItemStyle} role="menuitem">
+          {name}
+        </a>
+      </Link>
+    )
+  }
 }

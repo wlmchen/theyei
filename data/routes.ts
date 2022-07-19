@@ -45,20 +45,20 @@ const routes = [
       { href: '/econbowl', name: 'EconBowl' },
       { href: '/econolympiad', name: 'EconOlympiad' },
       { href: '/econtalks', name: 'EconTalks' },
-      { href: '/econbowl-prep', name: 'EconBowl Prep' },
     ],
   },
   {
     href: '/flip',
     name: 'FLIP',
   },
-  { 
-    href: '/resources', 
-    name: 'Resources' 
-  },
   {
-    href: 'https://learn.theyei.org',
-    name: 'Learn',
+    href: '',
+    name: 'Resources',
+    dropRoutes: [
+      { href: '/resources', name: 'Overview' },
+      { href: '/events/econbowl-prep', name: 'EconBowl Prep' },
+      { href: 'https://learn.theyei.org', name: 'Learn', newItem: true },
+    ],
   },
 ]
 

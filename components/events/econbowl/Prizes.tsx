@@ -55,7 +55,7 @@ export default function Prizes() {
                   Champion
                 </span>
               </dt>
-              <dd className="text-7xl lg:text-8xl font-semibold text-green-600">
+              <dd className="text-6xl lg:text-7xl font-semibold text-green-600">
                 $<CountUpOnce number={1000} />
               </dd>
             </div>
@@ -65,7 +65,7 @@ export default function Prizes() {
                   2nd Place
                 </span>
               </dt>
-              <dd className="text-6xl lg:text-7xl font-semibold text-green-700">
+              <dd className="text-5xl lg:text-6xl font-semibold text-green-700">
                 $<CountUpOnce number={750} />
               </dd>
             </div>
@@ -75,7 +75,7 @@ export default function Prizes() {
                   3rd Place
                 </span>
               </dt>
-              <dd className="order-1 text-5xl lg:text-6xl font-semibold text-green-800">
+              <dd className="order-1 text-4xl lg:text-5xl font-semibold text-green-800">
                 $<CountUpOnce number={500} />
               </dd>
             </div>
@@ -96,7 +96,7 @@ export default function Prizes() {
                   Champion
                 </span>
               </dt>
-              <dd className="text-7xl lg:text-8xl font-semibold text-green-600">
+              <dd className="text-6xl lg:text-7xl font-semibold text-green-600">
                 $<CountUpOnce number={250} />
               </dd>
             </div>
@@ -106,7 +106,7 @@ export default function Prizes() {
                   2nd Place
                 </span>
               </dt>
-              <dd className="text-6xl lg:text-7xl font-semibold text-green-700">
+              <dd className="text-5xl lg:text-6xl font-semibold text-green-700">
                 $<CountUpOnce number={175} />
               </dd>
             </div>
@@ -116,7 +116,7 @@ export default function Prizes() {
                   3rd Place
                 </span>
               </dt>
-              <dd className="order-1 text-5xl lg:text-6xl font-semibold text-green-800">
+              <dd className="order-1 text-4xl lg:text-5xl font-semibold text-green-800">
                 $<CountUpOnce number={100} />
               </dd>
             </div>
