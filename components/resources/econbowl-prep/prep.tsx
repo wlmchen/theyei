@@ -7,7 +7,7 @@ export default function Prep() {
     <div className="bg-white relative overflow-hidden pt-16">
       <div className="mx-auto py-8 px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-14">
         <div className="pb-8">
-          <span className="flex text-gray-500 justify-center mb-1 block text-sm font-semibold uppercase tracking-wide sm:text-base lg:text-sm xl:text-base">
+          <span className="flex text-gray-500 justify-center mb-1 text-sm font-semibold uppercase tracking-wide sm:text-base lg:text-sm xl:text-base">
             YEI Prep
           </span>
           <h2 className=" text-center font-extrabold text-5xl mb-4">

@@ -1,5 +1,5 @@
 import React from 'react'
-import EconBowlPrep from '../../components/events/econbowl-prep/prep'
+import EconBowlPrep from '../../components/resources/econbowl-prep/prep'
 import Page from '../../components/utility/Page'
 
 export default function events() {

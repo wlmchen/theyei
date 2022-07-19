@@ -52,11 +52,11 @@ const routes = [
     name: 'FLIP',
   },
   {
-    href: '',
+    href: '/resources',
     name: 'Resources',
     dropRoutes: [
-      { href: '/resources', name: 'Overview' },
-      { href: '/events/econbowl-prep', name: 'EconBowl Prep' },
+      { href: '/', name: 'Overview' },
+      { href: '/econbowl-prep', name: 'EconBowl Prep' },
       { href: 'https://learn.theyei.org', name: 'Learn', newItem: true },
     ],
   },
