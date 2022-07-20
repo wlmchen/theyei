@@ -101,7 +101,7 @@ input {
 }
 
 .mbClubPopup {
-  @apply relative bg-white p-3 rounded-lg w-full shadow-2xl cursor-auto z-[999];
+  @apply relative bg-white p-3 rounded-lg w-full shadow-2xl cursor-auto z-10;
 }
 
 .mbClubPopup::before {
