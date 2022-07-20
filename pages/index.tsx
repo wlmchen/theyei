@@ -15,7 +15,7 @@ export default function Home() {
       fullTitle="Youth Economics Initiative (YEI) | Launchpad for Student Economists"
       desc="Exploring economics. Empowering leaders. Official page for the Youth Economics Intitiative (YEI)."
     >
-      <Hiring />
+      {/* <Hiring /> */}
       <Hero />
       <Intro />
       <FeaturedOn />
