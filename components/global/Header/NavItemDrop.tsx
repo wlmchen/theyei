@@ -57,7 +57,7 @@ export default function NavItemDrop({
           aria-labelledby="options-menu"
         >
           {dropRoutes.map((r) => {
-            let fullHref = href + (r.href == '/' ? '' : r.href)
+            let fullHref = r.href.startsWith("https") ? r.href : href + (r.href == '/' ? '' : r.href);
             return (
               <DropdownMenu
                 key={fullHref}
