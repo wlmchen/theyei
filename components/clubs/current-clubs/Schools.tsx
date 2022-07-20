@@ -9,21 +9,13 @@ import Map from './Map'
 
 export default function Schools() {
   return (
-    <div className="bg-white pt-16">
-      <div className="mx-auto py-8 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-14">
-        <div className="pb-8">
+    <div className="bg-white mt-8 sm:mt-20">
+      <div className="mx-auto py-8 max-w-7xl lg:py-14">
+        {/* <div className="pb-8">
           <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl mb-4">
             YEI Current Clubs
           </h2>
-          <p className="text-xl text-gray-600">
-            View the YEI's {currentClubs.length} clubs. Want to join the list?
-            Learn more at our{' '}
-            <Link href="/clubs">
-              <a className="green-link">EconClubs overview page</a>
-            </Link>
-            .
-          </p>
-        </div>
+        </div> */}
         
         <ul className="flex flex-col sm:flex-row flex-wrap">
           {currentClubs.map(

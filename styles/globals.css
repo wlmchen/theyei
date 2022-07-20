@@ -81,6 +81,42 @@ input {
   }
 }
 
+/* MAP CSS DONT TOUCH */
+
+.mapboxgl-ctrl-attrib-inner {
+  display: flex;
+  font-size: 12px;
+  color: rgb(107, 114, 128);
+}
+
+.mapboxgl-ctrl-attrib-inner a:first-child {
+  margin-right: 10px;
+}
+
+.mapbox-improve-map {
+  text-align: right;
+  /* width: 100%; */
+  text-decoration: underline;
+  flex-grow: 1;
+}
+
+.mbClubPopup {
+  @apply relative bg-white p-3 rounded-lg w-full shadow-2xl cursor-auto z-[999];
+}
+
+.mbClubPopup::before {
+  content: '';
+  @apply bg-white absolute rotate-45 w-3 h-3 left-2/4 -translate-x-2/4 -top-1;
+}
+
+.mbClubPopup button {
+  position: absolute;
+  top: 7px;
+  right: 12px;
+}
+
+/* ------- */
+
 .fixed-center {
   position: fixed;
   top: 50%;
@@ -123,7 +159,7 @@ input {
 .fade-out {
   animation: fadeOut ease-in-out;
   animation-duration: 1s;
-    opacity: 0;
+  opacity: 0;
 }
 
 /*-------------------------------*/
