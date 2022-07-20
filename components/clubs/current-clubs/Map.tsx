@@ -83,7 +83,7 @@ function Map() {
   return (
     <div
       ref={mapContainer}
-      className="hidden sm:block mt-12 w-full h-[500px] shadow-2xl max-w-7xl m-auto"
+      className="hidden sm:block mt-12 w-full h-[500px] shadow-2xl max-w-7xl m-auto cursor-move"
     />
   )
 }
