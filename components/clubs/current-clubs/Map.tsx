@@ -49,7 +49,7 @@ function Map() {
                 <p class="w-full text-ellipsis truncate">Contact: <a
                 class="text-xs whitespace-nowrap underline"
                   target="_blank"
-                  href=${'mailto:' + email}}
+                  href="${'mailto:' + email}"
                 >
                   ${email}
                   
