@@ -4,7 +4,9 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function Profile({
+  key,
   name,
+  type,
   positions,
   imgSrc,
   email,
@@ -12,64 +14,54 @@ export default function Profile({
   github,
 }: ProfileProps) {
   return (
-    <div className="md:w-1/2 xl:w-1/3 p-1">
-      <div className="trans-300 h-full flex items-center rounded-lg border border-gray-200 bg-white px-4 sm:px-6 py-5 shadow-sm hover:shadow">
-        <div className="space-x-2 sm:space-x-4 relative flex items-center space-x-3 ">
+      <div className="h-full flex items-center w-full sm:w-auto border-2 border-gray-200 p-4 rounded-3xl sm:border-0 sm:p-0 sm:rounded-none" key={key}>
+        <div className="relative w-full flex flex-row sm:flex-col items-center sm:w-44 space-x-5 sm:space-x-0">
           <div className="flex-shrink-0">
             <img
-              className="h-20 w-20 sm:h-32 sm:w-32 rounded-full bg-gray-900 object-cover"
+              className="h-28 w-28 sm:h-44 sm:w-44 rounded-2xl bg-gray-900 object-cover"
               src={imgSrc}
               alt={name}
             />
           </div>
-          <div className="flex-1 min-w-0 space-y-2">
-            <span className="" aria-hidden="true" />
-            <p className="text-2xl font-medium text-yei-secondary-main">
+          <div className="w-full flex-grow">
+            <h3 className="text-xl sm:text-lg font-bold text-yei-secondary-main mt-2">
               {name}
-            </p>
-            <div className="-mx-0.5">
-              {positions.map((pos) => (
-                <span
-                  key={pos}
-                  className={`${
-                    pos.length > 23 ? 'text-xs' : 'text-sm'
-                  } whitespace-nowrap mx-0.5 my-0.5 inline-flex items-center px-2.5 py-0.5 rounded-full bg-gray-200 text-yei-secondary-main`}
-                >
-                  {pos}
-                </span>
-              ))}
-            </div>
-            <div>
-              <ul className="flex">
-                {[
-                  { href: linkedin, icon: faLinkedin, sr: 'linkedin' },
-                  { href: 'mailto:' + email, icon: faEnvelope, sr: 'github' },
-                  { href: github, icon: faGithub, sr: 'email' },
-                ].map(({ href, sr, icon }) => (
-                  <div key={sr + href}>
-                    {href && (
-                      <li className="mr-1">
-                        <a
-                          target="_blank"
-                          href={href}
-                          className="flex justify-center items-center p-2 rounded-full inline-block w-7 h-7 hover:bg-gray-300 bg-gray-200 text-yei-secondary-main hover:text-yei-secondary-main"
-                        >
-                          <FontAwesomeIcon icon={icon} className="w-5 h-5" />
-                        </a>
-                      </li>
-                    )}
-                  </div>
-                ))}
-              </ul>
+            </h3>
+            <div className="flex flex-col sm:flex-row justify-between w-full items-start max-w-full sm:max-h-12 h-full">
+              <p className="font-medium text-gray-500 shrink text-xs sm:text-[10px] whitespace-normal pt-0.5">
+                {positions.join(', ')}
+              </p>
+              <div className="flex flex-shrink-0 pt-2 sm:pt-0 sm:pl-1">
+                  {[
+                    { href: linkedin, icon: faLinkedin, sr: 'linkedin' },
+                    { href: 'mailto:' + email, icon: faEnvelope, sr: 'github' },
+                    { href: github, icon: faGithub, sr: 'email' },
+                  ].map(({ href, sr, icon }) => (
+                    <div key={sr + href}>
+                      {href && (
+                        <div className="mr-1">
+                          <a
+                            target="_blank"
+                            href={href}
+                            className="cursor-pointer justify-center items-center p-1 rounded-full inline-block w-5 h-5 bg-yei-primary-faded text-yei-secondary-main hover:text-yei-secondary-main"
+                          >
+                            <FontAwesomeIcon icon={icon} color="#279361" className="w-3 h-3" />
+                          </a>
+                        </div>
+                      )}
+                    </div>
+                  ))}
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   )
 }
 
 type ProfileProps = {
+  key: string
+  type: string
   name: string
   positions: string[]
   imgSrc: string
