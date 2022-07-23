@@ -91,18 +91,18 @@ const team: Member[] = [
 
 
 
-  {
-    name: 'Sudipta Rout',
-    positions: ['Team Ambassador'],
-    linkedin: 'https://www.linkedin.com/in/sudiptar',
-  },
+  // {
+  //   name: 'Sudipta Rout',
+  //   positions: ['Team Ambassador'],
+  //   linkedin: 'https://www.linkedin.com/in/sudiptar',
+  // },
   // {
   //   name: 'Yiqin Huang',
   //   positions: ['Sponsorship and Grant Coordinator'],
   //   linkedin: 'https://www.linkedin.com/in/yiqin-huang-466391202',
   // },
   {
-    name: 'Sruti Elangovan',
+    name: 'Sruthi Elangovan',
     positions: ['Video Editor', 'Graphic Designer'],
     linkedin: 'https://www.linkedin.com/in/sruti-elangovan-51166a202/',
   },
