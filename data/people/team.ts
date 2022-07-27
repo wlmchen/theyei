@@ -101,11 +101,11 @@ const team: Member[] = [
   //   positions: ['Sponsorship and Grant Coordinator'],
   //   linkedin: 'https://www.linkedin.com/in/yiqin-huang-466391202',
   // },
-  {
-    name: 'Sruthi Elangovan',
-    positions: ['Video Editor', 'Graphic Designer'],
-    linkedin: 'https://www.linkedin.com/in/sruti-elangovan-51166a202/',
-  },
+  //{
+   // name: 'Sruthi Elangovan',
+  //  positions: ['Video Editor', 'Graphic Designer'],
+  //  linkedin: 'https://www.linkedin.com/in/sruti-elangovan-51166a202/',
+  //},
   {
     name: 'Snehil Kakani',
     positions: ['Graphic Designer'],
@@ -296,11 +296,6 @@ const team: Member[] = [
     name: 'Ishan Deshpande',
     positions: ['FLIP Partnership Manager'],
     linkedin: 'https://www.linkedin.com/in/ishan-deshpande-1907621b3/'
-  },
-  {
-    name: 'Amaya Mahajan',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'https://www.linkedin.com/in/amaya-mahajan-15229422a'
   }
 ]
 
