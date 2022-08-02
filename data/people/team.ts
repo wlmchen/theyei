@@ -1,7 +1,7 @@
 type Member = {
   name: string,
   positions: string[],
-  linkedin: string,
+  linkedin?: string,
   github?: string,
   email?: string
 }
@@ -13,7 +13,7 @@ const exec: Member[] = [
   {
     name: 'Jessica Cheng',
     positions: ['CEO', 'Co-Chairman'],
-    linkedin: 'https://www.linkedin.com/in/jessica-cheng05',
+    linkedin: 'https://www.linkedin.com/in/jjessicacheng/',
   },
   {
     name: 'Anishka Banerjee',
@@ -88,24 +88,11 @@ const team: Member[] = [
     positions: ['Blog Writer'],
     linkedin: 'https://www.linkedin.com/in/srithanya-s-4494841bb',
   },
-
-
-
-  // {
-  //   name: 'Sudipta Rout',
-  //   positions: ['Team Ambassador'],
-  //   linkedin: 'https://www.linkedin.com/in/sudiptar',
-  // },
-  // {
-  //   name: 'Yiqin Huang',
-  //   positions: ['Sponsorship and Grant Coordinator'],
-  //   linkedin: 'https://www.linkedin.com/in/yiqin-huang-466391202',
-  // },
-  //{
-   // name: 'Sruthi Elangovan',
-  //  positions: ['Video Editor', 'Graphic Designer'],
-  //  linkedin: 'https://www.linkedin.com/in/sruti-elangovan-51166a202/',
-  //},
+  {
+   name: 'Sruti Elangovan',
+   positions: ['Video Editor', 'Graphic Designer'],
+   linkedin: 'https://www.linkedin.com/in/sruti-elangovan-51166a202/',
+  },
   {
     name: 'Snehil Kakani',
     positions: ['Graphic Designer'],
@@ -116,56 +103,61 @@ const team: Member[] = [
     positions: ['Marketing Specialist'],
     linkedin: 'http://linkedin.com/in/amy-zhou-933536181/',
   },
-  // {
-  //   name: 'Soumil Voma',
-  //   positions: ['Marketing Specialist', 'Regional Ambassador'],
-  //   linkedin: 'https://www.linkedin.com/in/soumil-voma-728a871bb/',
-  // },
   {
     name: 'Shreya Jangada',
     positions: ['Marketing Specialist', 'Regional Ambassador'],
     linkedin: 'https://www.linkedin.com/in/shreya-jangada-910651230',
   },
   {
+    name: 'Simrat Oberoi',
+    positions: ['Marketing Specialist'],
+    linkedin: 'http://linkedin.com/in/simrat-oberoi-806939241',
+  },
+  {
+    name: 'Saketh Maramraj',
+    positions: ['Marketing Specialist']
+    // linkedin: 'http://linkedin.com/in/simrat-oberoi-806939241',
+  },
+  {
     name: 'Aditya Karala',
     positions: ['Google Ads Manager'],
     linkedin: 'https://www.linkedin.com/in/aditya-kakarla-9729bb218/',
   },
-  {
-    name: 'Saachi Kumar',
-    positions: ['Curriculum Developer'],
-    linkedin: 'https://www.linkedin.com/in/saachi-kumar/',
-  },
-  {
-    name: 'Francis Chua',
-    positions: ['Senior Curriculum Developer'],
-    linkedin: 'https://www.linkedin.com/in/francis-chua-29b68a1b6/',
-  },
-  {
-    name: 'Sanjit Pingili',
-    positions: ['Curriculum Developer', 'Quality Control'],
-    linkedin: 'http://linkedin.com/in/sanjit-pingili-14b04a1aa/',
-  },
-  {
-    name: 'Ethan Lin',
-    positions: ['Testing Developer', 'Curriculum Developer'],
-    linkedin: 'https://www.linkedin.com/in/ethan-lin-a93ab7172/',
-  },
-  {
-    name: 'Helena Su',
-    positions: ['Testing Developer', 'Curriculum Developer'],
-    linkedin: 'https://www.linkedin.com/in/helena-su-063965193',
-  },
+  // {
+  //   name: 'Saachi Kumar',
+  //   positions: ['Curriculum Developer'],
+  //   linkedin: 'https://www.linkedin.com/in/saachi-kumar/',
+  // },
+  // {
+  //   name: 'Francis Chua',
+  //   positions: ['Senior Curriculum Developer'],
+  //   linkedin: 'https://www.linkedin.com/in/francis-chua-29b68a1b6/',
+  // },
+  // {
+  //   name: 'Sanjit Pingili',
+  //   positions: ['Curriculum Developer', 'Quality Control'],
+  //   linkedin: 'http://linkedin.com/in/sanjit-pingili-14b04a1aa/',
+  // },
+  // {
+  //   name: 'Ethan Lin',
+  //   positions: ['Testing Developer', 'Curriculum Developer'],
+  //   linkedin: 'https://www.linkedin.com/in/ethan-lin-a93ab7172/',
+  // },
+  // {
+  //   name: 'Helena Su',
+  //   positions: ['Testing Developer', 'Curriculum Developer'],
+  //   linkedin: 'https://www.linkedin.com/in/helena-su-063965193',
+  // },
   {
     name: 'Dario Soatto',
     positions: ['Curriculum Developer'],
     linkedin: 'https://www.linkedin.com/in/helena-su-063965193',
   },
-  {
-    name: 'Siddharth Mehta',
-    positions: ['Testing Developer'],
-    linkedin: 'https://www.linkedin.com/in/siddharth-mehta-935b4a1aa/',
-  },
+  // {
+  //   name: 'Siddharth Mehta',
+  //   positions: ['Testing Developer'],
+  //   linkedin: 'https://www.linkedin.com/in/siddharth-mehta-935b4a1aa/',
+  // },
   {
     name: 'Cameron Dolbow',
     positions: ['Testing Developer'],
@@ -177,41 +169,56 @@ const team: Member[] = [
     linkedin: 'https://www.linkedin.com/in/allen-h/',
     email: 'allenho@theyei.org'
   },
+  // {
+  //   name: 'Saad Umar',
+  //   positions: ['IB Curriculum Coordinator'],
+  //   linkedin: 'https://www.linkedin.com/in/saad-umar-78b5201a7/ ',
+  // },
+  // {
+  //   name: 'Vipra Bindal',
+  //   positions: ['FLIP Curriculum Manager'],
+  //   linkedin: 'https://www.linkedin.com/in/vipra-bindal-6849a2204/ ',
+  // },
+  // {
+  //   name: 'Tanish Chheda',
+  //   positions: ['IB Curriculum Developer'],
+  //   linkedin: 'https://www.linkedin.com/in/tanish-chheda/',
+  // },
   {
-    name: 'Saad Umar',
-    positions: ['IB Curriculum Coordinator'],
-    linkedin: 'https://www.linkedin.com/in/saad-umar-78b5201a7/ ',
+    name: 'Jack Gordon',
+    positions: ['Curriculum Developer'],
+    linkedin: 'https://www.linkedin.com/in/vipra-bindal-6849a2204/ ',
   },
-  {
-    name: 'Tanish Chheda',
-    positions: ['IB Curriculum Developer'],
-    linkedin: 'https://www.linkedin.com/in/tanish-chheda/',
-  },
-  {
-    name: 'Fiona Lu',
-    positions: ['Testing Developer', 'Event Coordinator'],
-    linkedin: 'https://www.linkedin.com/in/fiona-lu-5a12201a8',
-  },
+  // {
+  //   name: 'Fiona Lu',
+  //   positions: ['Testing Developer', 'Event Coordinator'],
+  //   linkedin: 'https://www.linkedin.com/in/fiona-lu-5a12201a8',
+  // },
   {
     name: 'Aidan Zhou',
     positions: ['Testing Developer'],
     linkedin: 'https://www.linkedin.com/in/aidan-zhou-828282225/',
   },
   {
-    name: 'Alysa Xu',
-    positions: ['Event Coordinator'],
-    linkedin: 'https://www.linkedin.com/in/alysa-xu-06bba21aa/',
+    name: 'William Shelton',
+    positions: ['Testing Developer'],
+    linkedin: 'https://www.linkedin.com/in/william-shelton-533524241/',
   },
-  {
-    name: 'Deeya Jain',
-    positions: ['Event Coordinator'],
-    linkedin: 'https://www.linkedin.com/in/deeya-jain/',
-  },
-  {
-    name: 'Srushti Patil',
-    positions: ['Event Coordinator'],
-    linkedin: 'https://www.linkedin.com/in/srushti-patil/',
-  },
+  // {
+  //   name: 'Alysa Xu',
+  //   positions: ['Event Coordinator'],
+  //   linkedin: 'https://www.linkedin.com/in/alysa-xu-06bba21aa/',
+  // },
+  // {
+  //   name: 'Deeya Jain',
+  //   positions: ['Event Coordinator'],
+  //   linkedin: 'https://www.linkedin.com/in/deeya-jain/',
+  // },
+  // {
+  //   name: 'Srushti Patil',
+  //   positions: ['Event Coordinator'],
+  //   linkedin: 'https://www.linkedin.com/in/srushti-patil/',
+  // },
   {
     name: 'Audrey Sun',
     positions: ['Event Coordinator'],
@@ -232,55 +239,70 @@ const team: Member[] = [
     positions: ['Accounting Manager', 'Leadership Associate'],
     linkedin: 'https://www.linkedin.com/in/isabell-kossar-09884b212',
   },
+  {
+    name: 'Ranbir Jain',
+    positions: ['Leadership Associate'],
+    linkedin: 'https://www.linkedin.com/in/ranbir-jain-549aa016b/',
+  },
   // {
   //   name: 'Andrew Zhou',
   //   positions: ['Sponsorship and Grant Coordinator'],
   //   linkedin: 'https://www.linkedin.com/in/andrew-zhou-7b34b7207/',
   // },
-  {
-    name: 'Mounica Policharla',
-    positions: ['Regional Ambassador', 'Regional Director'],
-    linkedin: 'https://www.linkedin.com/in/mounica-policharla-3308ab1ab/',
-  },
-  {
-    name: 'Karissa Ning',
-    positions: ['Regional Director'],
-    linkedin: 'https://www.linkedin.com/in/karissa-ning-b743ab1bb/',
-  },
-  {
-    name: 'Sneha Patibandla',
-    positions: ['Regional Ambassador'],
-    linkedin: 'https://www.linkedin.com/in/sneha-patibandla-1529731b1/',
-  },
+  // {
+  //   name: 'Mounica Policharla',
+  //   positions: ['Regional Ambassador', 'Regional Director'],
+  //   linkedin: 'https://www.linkedin.com/in/mounica-policharla-3308ab1ab/',
+  // },
+  // {
+  //   name: 'Karissa Ning',
+  //   positions: ['Regional Director'],
+  //   linkedin: 'https://www.linkedin.com/in/karissa-ning-b743ab1bb/',
+  // },
+  // {
+  //   name: 'Sneha Patibandla',
+  //   positions: ['Regional Ambassador'],
+  //   linkedin: 'https://www.linkedin.com/in/sneha-patibandla-1529731b1/',
+  // },
   {
     name: 'Emma Awoseyi',
     positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
     linkedin: 'https://www.linkedin.com/in/emma-awoseyi',
   },
-  {
-    name: 'Maanya Singh',
-    positions: ['Regional Ambassador'],
-    linkedin: 'https://www.linkedin.com/in/maanya-singh-220b9a22b',
-  },
+  // {
+  //   name: 'Maanya Singh',
+  //   positions: ['Regional Ambassador'],
+  //   linkedin: 'https://www.linkedin.com/in/maanya-singh-220b9a22b',
+  // },
   {
     name: 'Pratyaksha Sharma',
     positions: ['Regional Ambassador'],
     linkedin: 'https://www.linkedin.com/in/pratyaksha-sharma-30a60a23b',
   },
   {
-    name: 'Vipra Bindal',
-    positions: ['FLIP Curriculum Manager'],
-    linkedin: 'https://www.linkedin.com/in/vipra-bindal-6849a2204/ ',
+    name: 'Kirtee Ayitha',
+    positions: ['Team Ambassador'],
+    linkedin: 'https://www.linkedin.com/in/kirtee-ayitha-84a57022a/',
+  },
+  {
+    name: 'Suden Prashar',
+    positions: ['Team Ambassador'],
+    linkedin: 'https://www.linkedin.com/in/suden-prashar-a1b7a7242/',
   },
   {
     name: 'Vaishu Enduri',
     positions: ['FLIP Partnership Manager'],
     linkedin: 'https://www.linkedin.com/in/vaishu-enduri',
   },
+  // {
+  //   name: 'Vanessa Lin',
+  //   positions: ['FLIP Partnership Manager', 'Expansion Associate'],
+  //   linkedin: 'https://www.linkedin.com/in/vanessa-lin-20105/ ',
+  // },
   {
-    name: 'Vanessa Lin',
-    positions: ['FLIP Partnership Manager', 'Expansion Associate'],
-    linkedin: 'https://www.linkedin.com/in/vanessa-lin-20105/ ',
+    name: 'Ting Zhang',
+    positions: ['FLIP Partnership Manager'],
+    linkedin: 'https://www.linkedin.com/in/jiashen-zhang-1496a8207'
   },
   {
     name: 'Amaya Mahajan',
@@ -292,11 +314,11 @@ const team: Member[] = [
     positions: ['FLIP Partnership Manager'],
     linkedin: 'https://www.linkedin.com/in/kabir-mishra-43a588228/'
   },
-  {
-    name: 'Ishan Deshpande',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'https://www.linkedin.com/in/ishan-deshpande-1907621b3/'
-  }
+  // {
+  //   name: 'Ishan Deshpande',
+  //   positions: ['FLIP Partnership Manager'],
+  //   linkedin: 'https://www.linkedin.com/in/ishan-deshpande-1907621b3/'
+  // }
 ]
 
 export {departments, team, exec}
