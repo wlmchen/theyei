@@ -59,7 +59,7 @@ const exec: Member[] = [
   {
     name: 'Lavanya Gupta',
     positions: ['VP of Flip'],
-    linkedin: 'https://www.linkedin.com/in/lavanya-gupta-a8236122'
+    linkedin: 'https://www.linkedin.com/in/lavanya-gupta-b09778247'
   },
   {
     name: 'Miriam Trujillo',
@@ -115,8 +115,8 @@ const team: Member[] = [
   },
   {
     name: 'Saketh Maramraj',
-    positions: ['Marketing Specialist']
-    // linkedin: 'http://linkedin.com/in/simrat-oberoi-806939241',
+    positions: ['Marketing Specialist'],
+    linkedin: 'https://www.linkedin.com/in/sakethram-maramraj-a72b79247/',
   },
   {
     name: 'Aditya Karala',
@@ -220,6 +220,11 @@ const team: Member[] = [
   //   linkedin: 'https://www.linkedin.com/in/srushti-patil/',
   // },
   {
+    name: 'Sambhav Mehta',
+    positions: ['Event Coordinator'],
+    linkedin: 'https://www.linkedin.com/in/sambhav-mehta-862998233/',
+  },
+  {
     name: 'Audrey Sun',
     positions: ['Event Coordinator'],
     linkedin: 'https://www.linkedin.com/in/audrey-sun-a14545129/',
@@ -235,14 +240,29 @@ const team: Member[] = [
     linkedin: 'https://www.linkedin.com/in/lisa-oshiba-12994a218',
   },
   {
+    name: 'Sambhav Mehta',
+    positions: ['Event Coordinator'],
+    linkedin: 'https://www.linkedin.com/in/sambhav-mehta-862998233/',
+  },
+  {
+    name: 'Andrei Hui',
+    positions: ['Event Coordinator'],
+    linkedin: 'https://www.linkedin.com/in/andrei-hui/',
+  },
+  {
     name: 'Isabell Kossar',
-    positions: ['Accounting Manager', 'Leadership Associate'],
+    positions: ['Accounting Manager', 'Club Associate'],
     linkedin: 'https://www.linkedin.com/in/isabell-kossar-09884b212',
   },
   {
     name: 'Ranbir Jain',
-    positions: ['Leadership Associate'],
+    positions: ['Club Associate'],
     linkedin: 'https://www.linkedin.com/in/ranbir-jain-549aa016b/',
+  },
+  {
+    name: 'Yelim Lee',
+    positions: ['Club Associate'],
+    linkedin: 'https://www.linkedin.com/in/yelim-lee-354894239/',
   },
   // {
   //   name: 'Andrew Zhou',
