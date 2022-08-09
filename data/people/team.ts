@@ -141,7 +141,7 @@ const team: Member[] = [
   {
     name: 'Jack Gordon',
     positions: ['Curriculum Developer'],
-    linkedin: '',
+    linkedin: 'jack-gordon-085223210',
   },
   {
     name: 'Aidan Zhou',
