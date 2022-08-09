@@ -119,6 +119,11 @@ const team: Member[] = [
     linkedin: 'https://www.linkedin.com/in/sakethram-maramraj-a72b79247/',
   },
   {
+    name: 'Yamini Venkatesan',
+    positions: ['Marketing Specialist'],
+    linkedin: 'https://www.linkedin.com/in/yamini-venkatesan-48833422a/',
+  },
+  {
     name: 'Aditya Karala',
     positions: ['Google Ads Manager'],
     linkedin: 'https://www.linkedin.com/in/aditya-kakarla-9729bb218/',
