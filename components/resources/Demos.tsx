@@ -3,6 +3,7 @@ import FLIP from './FLIP'
 import IB from './IB'
 import Macro from './Macro'
 import Micro from './Micro'
+import WSO from './WSO'
 
 export default function Demos() {
   return (
@@ -11,6 +12,7 @@ export default function Demos() {
       <Micro />
       <IB />
       <FLIP />
+      <WSO />
     </div>
   )
 }
