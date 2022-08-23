@@ -12,7 +12,7 @@ export default function CTA() {
           <div className="inline-flex rounded-md shadow">
             <a
               target="_blank"
-              href="/files/General-Sponsorship-Prospectus-2021.pdf"
+              href="/files/General-Sponsorship-Prospectus-2022.pdf"
               className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yei-primary-main hover:bg-yei-primary-dark"
             >
               Sponsor Us
