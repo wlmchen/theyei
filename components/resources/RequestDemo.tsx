@@ -162,7 +162,7 @@ export default function RequestDemo() {
                     {submitted ? (
                       <SuccessAlert
                         title="Demo Requested"
-                        desc="Thank you for submitting! We'll get back to you as soon as possible."
+                        desc={<>Thank you for submitting! We'll get back to you as soon as possible. If we do not respond within 24 hours, please send us a follow-up email at <Link href="mailto:admin@theyei.org"><a className="underline text-green-800 font-medium">admin@theyei.org</a></Link>.</>}
                       />
                     ) : (
                       <button
