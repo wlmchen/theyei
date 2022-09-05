@@ -73,6 +73,13 @@ const team: Member[] = [
     github: 'AAkashyap1',
   },
   {
+    name: 'William Chen',
+    positions: ['Web Developer'],
+    linkedin: 'william-chen-506145249',
+    github: 'wlmchen',
+    email: 'williamchen@theyei.org'
+  },
+  {
     name: 'Caroline Wang',
     positions: ['Social Media Manager', 'Graphic Designer'],
     linkedin: 'caroline--wang',
