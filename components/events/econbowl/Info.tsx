@@ -3,21 +3,20 @@ import { CheckIcon } from '@heroicons/react/outline'
 const details = [
   {
     name: 'Date',
-    description: 'November 13th, 2021',
+    description: 'November 12th, 2022',
   },
   {
     name: 'Times',
     description: (
       <ul>
-        <li>9:00am - 12:00pm PST, Team Round, Written</li>
-        <li>1:00pm - 2:30pm PST, Team Round, QuizBowl</li>
-        <li>5:00pm - 7:15pm PST, Individual Round</li>
+        <li>9:00am - 12:00pm PST, Written Round</li>
+        <li>1:00pm - 2:30pm PST, QuizBowl</li>
       </ul>
     ),
   },
   {
     name: 'Location',
-    description: 'Zoom.',
+    description: 'Zoom',
   },
 ]
 
@@ -48,9 +47,10 @@ export default function Info() {
             </div>
           ))}
         </dl>
+        <p className="mt-4 text-gray-400 text-sm">You don’t want to miss this!</p>
         <a
-          href="https://form.jotform.com/212418764280153"
-          className="mt-10 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bg-yei-primary-main cursor-pointer"
+          href="https://form.jotform.com/213135272600140"
+          className="mt-8 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bg-yei-primary-main cursor-pointer"
         >
           Sign Up!
         </a>

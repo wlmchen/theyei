@@ -71,7 +71,7 @@ function Sponsors() {
       </div>
       <div className="flex items-center justify-center flex-col">
         <h1 className="max-w-md mx-auto text-4xl font-extrabold text-gray-900 text-center lg:max-w-xl lg:text-left">
-          EconBowl 2021 Sponsors
+          EconBowl 2022 Sponsors
         </h1>
         <div className="mt-4 sm:mt-0 items-center justify-center flex flex-col sm:flex-row">
           <img

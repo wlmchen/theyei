@@ -9,7 +9,7 @@ export default function Resources() {
         </h2>
         <div className="mt-6 pt-5 text-gray-600 text-xl">
           <p>
-            Take our{' '}
+            To prepare for EconBowl, we recommend that you check out our custom-designed{' '}
             <a
               href="https://docs.google.com/document/d/1ad3zJGWHnOFBCEzOVY3OZL6N3R4I4t79rmFC5PtCoXs/edit?usp=sharing"
               className="green-link"
@@ -17,7 +17,7 @@ export default function Resources() {
             >
               practice tests
             </a>{' '}
-            (3 total practice sets) to prepare for the competition. For more
+            (3 total practice sets). For more
             resources, we’d suggest the YEI curriculum, other AP prep material,
             or{' '}
             <a
@@ -31,7 +31,7 @@ export default function Resources() {
           </p>
           <br />
           <p>
-            If you have any questions, message in the YEI Discord, or email{' '}
+            If you have any questions, message in the <a href="https://discord.gg/3wzGqY8k" className="green-link">YEI Discord</a>, or email{' '}
             <a href="mailto:events@theyei.org" className="green-link">
               events@theyei.org
             </a>

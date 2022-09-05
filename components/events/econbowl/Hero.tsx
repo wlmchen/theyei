@@ -88,22 +88,19 @@ export default function Hero() {
               <div className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 <p>
                   The Youth Economics Initiative is proud to present our
-                  flagship program, EconBowl 2021, in collaboration with the Wen
+                  4th Annual EconBowl, in collaboration with the Wen
                   & Yung Family Foundation!
                 </p>
                 <p className="mt-4">
-                  This competition offers high schoolers the chance to compete
-                  against like-minded individuals and apply real world economics
-                  knowledge in a fast-paced environment. Compete for glory,
-                  represent your high school, and win cash prizes!
+                  One of the only economics competitions during the fall semester, EconBowl offers high schoolers the chance to compete against other like-minded individuals and apply real world economics knowledge in a fast-paced environment. Represent your high school, compete for glory, and win cash prizes! 
                 </p>
                 <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
-                  Registration for both the Team and Individual Track will close
-                  on November 10, 2021 at 11:59 PST (UTC−8). The competition
-                  will be held on November 13, 2021
+                  Registration will close
+                  on November 8, 2021 at 11:59 PST (UTC−8). The competition
+                  will be held on November 12, 2021
                 </p>
                 <a
-                  href="https://form.jotform.com/212418764280153"
+                  href="https://form.jotform.com/213135272600140"
                   className="mt-6 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bg-yei-primary-main cursor-pointer"
                 >
                   Register!
