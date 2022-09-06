@@ -1,5 +1,12 @@
 const advisoryBoard = [
   {
+    name: 'Ian Chen (Chair)',
+    title: 'Co-founder & Former CEO of YEI, Student at New York University',
+    bio: [
+      "Ian Chen is a student at New York University studying Finance and Data Science. He currently serves as Youth Economics Initiative's co-chairman. After co-founding YEI, Ian served as its COO from 2018 to 2021 and its CEO from 2021 to 2022. Alongside his work in the YEI, he chartered one of founding chapters of the YEI at Lynbrook High School.",
+    ],
+  },
+  {
     name: 'Henry Weng (Chair)',
     title: 'Co-founder & Former CEO of YEI, Student at Stanford University',
     bio: [
