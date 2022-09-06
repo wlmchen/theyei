@@ -80,11 +80,11 @@ function Sponsors() {
             src="/img/logos/other/wen-and-yung-family-foundation.png"
             alt="Wen and Yung Family Foundation"
           />
-          <img
+          {/*<img
             className="m-2 sm:m-4 h-8 sm:h-10 opacity-60 grayscale flex-shrink-0 inline"
             src="/img/logos/other/tradingview.png"
             alt="TradingView"
-          />
+          />*/}
         </div>
       </div>
     </div>
