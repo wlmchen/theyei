@@ -3,37 +3,31 @@ import {
   UserGroupIcon,
   QuestionMarkCircleIcon,
   StarIcon,
+  PencilIcon
 } from '@heroicons/react/outline'
 
 const writtenRound = [
   {
     id: 1,
-    name: 'Team Track',
+    name: 'The Exam',
     description:
-      'For the team tracks, competitors will have 1 hour to collaboratively complete 50 questions. Each team will submit only one exam.',
-    icon: UserGroupIcon,
-  },
-  {
-    id: 2,
-    name: 'Individual Track',
-    description:
-      'For the individual track, each competitor will also have 1 hour to finish 50 questions. No discussion or collaboration is permitted, and each person must submit their own test.',
-    icon: UserIcon,
+      'During EconBowl, teams of 3-4 will have 60 minutes to collaboratively complete 50 questions. Each team will work together, and team captains will submit one exam on behalf of the entire team.',
+    icon: PencilIcon,
   },
 ]
 const quizBowl = [
   {
     id: 1,
-    name: 'The top 4 teams',
+    name: 'The top 8 teams',
     description:
-      "It's a battle for the top! The top 4 teams from the previous round will finish off their opponents in a quiz bowl competition.",
+      "We will invite the top 8 teams of the written round to the QuizBowl tournament. There will be 19 questions, split into non-calculation and calculation problems.",
     icon: UserGroupIcon,
   },
   {
     id: 2,
     name: 'Who will win?',
     description:
-      'The team with the most questions correct after 19 questions are exhausted, wins!',
+      'The team with the most questions correct will be champions of this year’s EconBowl!',
     icon: StarIcon,
   },
 ]
@@ -155,9 +149,8 @@ export default function Structure() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                The QuizBowl
+                QuizBowl
               </h3>
-              <p className="mt-2 text-sm text-gray-400 font-bold">(Only for Team Track)</p>
 
               <dl className="mt-10 space-y-10">
                 {quizBowl.map((item) => (
@@ -188,7 +181,7 @@ export default function Structure() {
             </div>
           </div>
         </div>
-        <div className="mt-5 max-w-md mx-auto flex justify-center md:mt-14">
+        {/* <div className="mt-5 max-w-md mx-auto flex justify-center md:mt-14">
                 <div className="rounded-md shadow">
                   <a
                     href="https://docs.google.com/document/d/1PsFf-NWwelRNSfVdKcW2rn-mTQvF39fIOiDQjzzx-kM/edit?usp=sharing"
@@ -198,7 +191,7 @@ export default function Structure() {
                     Contest Details
                   </a>
                 </div>
-              </div>
+              </div> */}
       </div>
     </div>
   )

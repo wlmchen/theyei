@@ -15,36 +15,20 @@ const questions = [
     a: 'Nope! Everyone is welcome.',
   },
   {
-    q: 'Can I compete in both the individual and team track?',
-    a: 'Absolutely'
-  },
-  {
-    q: 'How many people can be on a team?',
-    a: '3 - 4 students'
-  },
-  {
-    q: 'Who is this competition open to?',
-    a: 'Any middle or high school student around the world'
-  },
-  {
     q: 'What is the cost to sign up?',
     a: 'EconBowl is absolutely FREE to compete in. ',
   },
   {
     q: 'When does registration close?',
-    a: 'Registration will close on November 10th at 11:59pm PST. ',
+    a: 'Registration will close on November 8th at 11:59pm PDT. ',
   },
   {
     q: 'Will it be online?',
-    a: 'Under normal circumstances, EconBowl would be in-person. However, it will be online this year due to the pandemic. Please make sure you have a zoom account. You will need to sign up with the email associated with your zoom account. ',
+    a: 'Yes! To make economics as accessible as possible, EconBowl will be held virtually. ',
   },
   {
     q: 'What do I need to compete?',
     a: "You'll need internet connection and Zoom installed on your computer (with a Zoom account). For the QuizBowl round, you'll need headphones/earbuds, and we suggest you also have a second device (e.g. phone).",
-  },
-  {
-    q: 'Do I have to have a zoom account to join?',
-    a: "Yes -- please create one if you don't have one. In the sign up form, it’ll ask you for an email associated with your zoom account. We will be using the email you submit to assign breakout rooms. We will also send information about EconBowl to the same email so make sure it’s one you check often. ",
   },
   {
     q: 'Any other questions, concerns, or feedback?',
