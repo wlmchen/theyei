@@ -14,8 +14,8 @@ export default function Speaker() {
               <div className="rounded-xl shadow-xl overflow-hidden lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
-                  src="/img/people/speakers/pascual-restrepo.jpg"
-                  alt="Pascual Restrepo"
+                  src="/img/people/speakers/lindsey-cameron.jpg"
+                  alt="Lindsey Cameron"
                 />
               </div>
             </div>
@@ -26,8 +26,8 @@ export default function Speaker() {
                 <div className="block lg:hidden pt-14 sm:pt-20">
                   <img
                     className="w-52 sm:w-64 rounded shadow-sm"
-                    src="/img/people/speakers/lawrence-white.jpg"
-                    alt="Lawrence White"
+                    src="/img/people/speakers/lindsey-cameron.jpg"
+                    alt="Lindsey Cameron"
                   />
                 </div>
                 <div className="mt-6 text-xl text-white">
@@ -35,16 +35,15 @@ export default function Speaker() {
                     About the Speaker
                   </h1>
                   <p className="mt-3">
-                    The speaker for our Third Annual EconBowl is{' '}
-                    <b>Professor Pascual Restrepo</b>, 
-                    Assistant Professor of Economics at Boston University.
+                    Our feature speaker for the Fourth Annual EconBowl is{' '}
+                    <b>Lindsey Cameron</b>, 
+                    Assistant Professor of Management in the Wharton School of Business at the University of Pennsylvania.
                   </p>{' '}
                   <p className="mt-3">
-                    Professor Restrepo received his Ph.D in economics from M.I.T., and his work has 
-                    been published in the American Economic Review and Journal of Political Economy, 
-                    among various others. His research focuses on the impact of technology on inequality, 
-                    labor markets, and growth, and his talk will specifically examine the impact of 
-                    automation on employment and the economy.
+                    Dr. Cameron's centers on 1) the future of work, namely how algorithmic management is changing the modern workplace and 2) financial well-being, especially among low and middle wage earners.  Professor Cameron’s interactive talk will discuss how algorithms, motivations, and incentives are shaping work in the largest sector of the gig economy, the ride-hailing industry. She even worked as a driver as part of her research! Find out how about life in the drivers' seat and how more than a million drivers work alongside algorithmic managers. 
+                  </p>
+                  <p className="mt-3">
+                  Professor Cameron received a Ph.D. in management at the University of Michigan and her undergraduate degree in electrical engineering and computer science from Harvard College. Her award-winning work has been published in academic journals such as the Organization Science, Journal of Applied Psychology, and Organizational Behavior and Human Decision Sciences and featured in numerous media outlets such as the Washington Post, Forbes, and Fast Company.
                   </p>
                 </div>
               </div>

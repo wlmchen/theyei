@@ -21,6 +21,7 @@ export default function econbowl() {
       <Hero />
       <Structure />
       <Info />
+      <Speaker />
       <Schedule />
       <Prizes />
       <Resources />
