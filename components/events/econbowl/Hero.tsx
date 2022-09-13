@@ -75,7 +75,7 @@ export default function Hero() {
             </svg>
           </div>
         </div>
-        <div className="py-10 relative pb-8 sm:pb-12">
+        <div className="pt-4 relative pb-12 sm:pb-16">
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
             <div className="text-center">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -85,7 +85,7 @@ export default function Hero() {
                   alt="EconBowl"
                 />
               </h1>
-              <div className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+              <div className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-2xl">
                 <p>
                   The Youth Economics Initiative is proud to present our
                   4th Annual EconBowl, in collaboration with the Wen
@@ -96,8 +96,8 @@ export default function Hero() {
                 </p>
                 <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
                   Registration will close
-                  on November 8, 2021 at 11:59 PST (UTC−8). The competition
-                  will be held on November 12, 2021
+                  on November 8, 2022 at 11:59 PDT (UTC−8). The competition
+                  will be held on November 12, 2022
                 </p>
                 <a
                   href="https://form.jotform.com/213135272600140"
@@ -105,17 +105,6 @@ export default function Hero() {
                 >
                   Register!
                 </a>
-                {/* <p className="mt-4 font-medium">
-                  For contest details, please view the{" "}
-                  <a
-                    href="https://docs.google.com/document/d/1PsFf-NWwelRNSfVdKcW2rn-mTQvF39fIOiDQjzzx-kM/edit?usp=sharing"
-                    target="_blank"
-                    className="text-yei-primary-main"
-                  >
-                    rulebook
-                  </a>
-                  .
-                </p> */}
               </div>
             </div>
           </main>

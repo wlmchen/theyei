@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Speaker() {
   return (
-    <div className="bg-gray-100 pt-16 lg:py-24">
+    <div className="pt-16 lg:py-24">
       <div className="pb-16 bg-yei-secondary-brighter lg:pb-0 lg:z-10 lg:relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
           <div className="relative lg:-my-8">
@@ -30,20 +30,37 @@ export default function Speaker() {
                     alt="Lindsey Cameron"
                   />
                 </div>
-                <div className="mt-6 text-xl text-white">
+                <div className="mt-6 text-base text-white">
                   <h1 className="text-3xl sm:text-4xl tracking-tight font-black">
                     About the Speaker
                   </h1>
-                  <p className="mt-3">
+                  <p className="mt-3 font-light text-gray-300">
                     Our feature speaker for the Fourth Annual EconBowl is{' '}
-                    <b>Lindsey Cameron</b>, 
-                    Assistant Professor of Management in the Wharton School of Business at the University of Pennsylvania.
+                    <b>Lindsey Cameron</b>, Assistant Professor of Management in
+                    the Wharton School of Business at the University of
+                    Pennsylvania.
                   </p>{' '}
-                  <p className="mt-3">
-                    Dr. Cameron's centers on 1) the future of work, namely how algorithmic management is changing the modern workplace and 2) financial well-being, especially among low and middle wage earners.  Professor Cameron’s interactive talk will discuss how algorithms, motivations, and incentives are shaping work in the largest sector of the gig economy, the ride-hailing industry. She even worked as a driver as part of her research! Find out how about life in the drivers' seat and how more than a million drivers work alongside algorithmic managers. 
+                  <p className="mt-3 font-light text-gray-300">
+                    Dr. Cameron's centers on the future of work, namely how
+                    algorithmic management is changing the modern workplace and
+                    financial well-being, especially among low and middle wage
+                    earners. Professor Cameron’s interactive talk will discuss
+                    how algorithms, motivations, and incentives are shaping work
+                    in the largest sector of the gig economy, the ride-hailing
+                    industry. She even worked as a driver as part of her
+                    research! Find out how about life in the drivers' seat and
+                    how more than a million drivers work alongside algorithmic
+                    managers.
                   </p>
-                  <p className="mt-3">
-                  Professor Cameron received a Ph.D. in management at the University of Michigan and her undergraduate degree in electrical engineering and computer science from Harvard College. Her award-winning work has been published in academic journals such as the Organization Science, Journal of Applied Psychology, and Organizational Behavior and Human Decision Sciences and featured in numerous media outlets such as the Washington Post, Forbes, and Fast Company.
+                  <p className="mt-3 font-light text-gray-300">
+                    Professor Cameron received a Ph.D. in management at the
+                    University of Michigan and her undergraduate degree in
+                    electrical engineering and computer science from Harvard
+                    College. Her award-winning work has been published in
+                    academic journals such as the Organization Science, Journal
+                    of Applied Psychology, and Organizational Behavior and Human
+                    Decision Sciences and featured in numerous media outlets
+                    such as the Washington Post, Forbes, and Fast Company.
                   </p>
                 </div>
               </div>

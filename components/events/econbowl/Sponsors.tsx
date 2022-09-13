@@ -75,7 +75,7 @@ function Sponsors() {
         </h1>
         <div className="mt-4 sm:mt-0 items-center justify-center flex flex-col sm:flex-row">
           <img
-            className="m-2 sm:m-4 h-24 sm:h-28 opacity-50 grayscale flex-grow-0 inline"
+            className="m-2 sm:m-4 h-28 sm:h-32 opacity-50 grayscale flex-grow-0 inline"
             style={{ filter: 'invert(1)' }}
             src="/img/logos/other/wen-and-yung-family-foundation.png"
             alt="Wen and Yung Family Foundation"

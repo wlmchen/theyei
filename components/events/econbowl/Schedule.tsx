@@ -32,11 +32,11 @@ const schedule = [
 
 export default function Schedule() {
   return (
-    <div className="max-w-xl w-full m-auto py-16 px-4">
+    <div className="max-w-xl w-full m-auto py-10 px-4">
       <div className="mx-auto text-center">
         <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">Agenda</h2>
       </div>
-      <div className="mt-12 lg:mt-24">
+      <div className="mt-10">
       <h3 className="text-xl font-bold">EconBowl 2022 (11/12)</h3>
       <div className="max-w-xl w-full m-auto flex flex-col mb-10 mt-4">
         <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">

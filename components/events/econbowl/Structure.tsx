@@ -71,12 +71,12 @@ export default function Structure() {
         </svg>
 
         <div className="relative">
-          <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-10 sm:mb-0">
             Competition Structure
           </h2>
         </div>
 
-        <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+        <div className="relative mt-6 lg:mt-8 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
               The Written Round
@@ -145,7 +145,7 @@ export default function Structure() {
           />
         </svg>
 
-        <div className="relative mt-12 sm:mt-16 lg:mt-24">
+        <div className="relative mt-6 lg:mt-8">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
