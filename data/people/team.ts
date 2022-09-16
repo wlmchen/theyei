@@ -9,12 +9,12 @@ type Member = {
 const exec: Member[] = [ 
   {
     name: 'Jessica Cheng',
-    positions: ['CEO', 'Co-Chairman'],
+    positions: ['CEO'],
     linkedin: 'jjessicacheng',
   },
   {
     name: 'Anishka Banerjee',
-    positions: ['COO', 'Co-Chairman'],
+    positions: ['COO'],
     linkedin: 'anishka-banerjee-657775171',
   },
   {
