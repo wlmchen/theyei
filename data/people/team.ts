@@ -80,6 +80,12 @@ const team: Member[] = [
     email: 'williamchen@theyei.org'
   },
   {
+    name: 'Evangeline Lin',
+    positions: ['Web Developer', 'Event Coordinator'],
+    linkedin: 'evangeline-lin-6b1bab224',
+    github: 'belldandyy',
+  },
+  {
     name: 'Caroline Wang',
     positions: ['Social Media Manager', 'Graphic Designer'],
     linkedin: 'caroline--wang',
@@ -164,11 +170,6 @@ const team: Member[] = [
     name: 'Audrey Sun',
     positions: ['Event Coordinator'],
     linkedin: 'audrey-sun-a14545129',
-  },
-  {
-    name: 'Evangeline Lin',
-    positions: ['Event Coordinator'],
-    linkedin: 'evangeline-lin-6b1bab224',
   },
   {
     name: 'Lisa Oshiba',
