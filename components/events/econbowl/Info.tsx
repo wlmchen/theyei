@@ -17,10 +17,10 @@ const details: Detail[] = [
     description: (
       <ul>
         <li>
-          9:45am PST, <b>Written Round</b>
+          9:00am - 12pm PST, <b>Written Round</b>
         </li>
         <li>
-          1:00pm - 2:30pm PST, <b>QuizBowl</b>
+          4:00pm - 5:30pm PST, <b>QuizBowl</b>
         </li>
       </ul>
     ),

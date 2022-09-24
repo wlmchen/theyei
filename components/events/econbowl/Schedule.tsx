@@ -24,7 +24,7 @@ const schedule = [
     description: 'Award Ceremony',
   },
   {
-    time: '1:00 - 2:30 pm',
+    time: '4:00 - 5:30 pm',
     description: 'QuizBowl & Award Ceremony',
   },
 ]
