@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default function Hero() {
   return (
@@ -87,24 +88,27 @@ export default function Hero() {
               </h1>
               <div className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-2xl">
                 <p>
-                  The Youth Economics Initiative is proud to present our
-                  4th Annual EconBowl, in collaboration with the Wen
-                  & Yung Family Foundation!
+                  The Youth Economics Initiative is proud to present our 4th
+                  Annual EconBowl, in collaboration with the Wen & Yung Family
+                  Foundation!
                 </p>
                 <p className="mt-4">
-                  One of the only economics competitions during the fall semester, EconBowl offers high schoolers the chance to compete against other like-minded individuals and apply real world economics knowledge in a fast-paced environment. Represent your high school, compete for glory, and win cash prizes! 
+                  One of the only economics competitions during the fall
+                  semester, EconBowl offers high schoolers the chance to compete
+                  against other like-minded individuals and apply real world
+                  economics knowledge in a fast-paced environment. Represent
+                  your high school, compete for glory, and win cash prizes!
                 </p>
                 <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
-                  Registration will close
-                  on November 9, 2022 at 11:59 PST (UTC−8). The competition
-                  will be held on November 12, 2022
+                  Registration will close on November 9, 2022 at 11:59 PST
+                  (UTC−8). The competition will be held on November 12, 2022
                 </p>
-                <a
-                  href="https://form.jotform.com/213135272600140"
-                  className="mt-6 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bg-yei-primary-main cursor-pointer"
+                <AnchorLink
+                  href="#register"
+                  className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-700 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                 >
-                  Register!
-                </a>
+                  Register
+                </AnchorLink>
               </div>
             </div>
           </main>

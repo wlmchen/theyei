@@ -34,6 +34,7 @@
     "react-dom": "^17.0.2",
     "react-elastic-carousel": "^0.10.0",
     "react-intersection-observer": "^8.31.0",
+    "react-jotform-embed": "^1.1.2",
     "react-leaflet": "^3.2.5",
     "react-simple-maps": "^2.3.0",
     "react-tooltip": "^4.2.21",

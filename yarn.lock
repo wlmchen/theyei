@@ -868,6 +868,11 @@ convert-source-map@1.7.0:
   dependencies:
     safe-buffer "~5.1.1"
 
+core-js@^3.0.0:
+  version "3.25.3"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.3.tgz#cbc2be50b5ddfa7981837bd8c41639f27b166593"
+  integrity sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ==
+
 core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
@@ -2487,6 +2492,13 @@ react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-jotform-embed@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-jotform-embed/-/react-jotform-embed-1.1.2.tgz#10297720fae48ccfd3b6a383a401d06e148aa3ab"
+  integrity sha512-GiWLZ43vZzR9GM8/UMEfaAklDZD3SEBfKpHWlpdEsUnGHz226o5z/XT049cVHtyezUKQ7XoqGvn22Fr3yExB9w==
+  dependencies:
+    core-js "^3.0.0"
 
 react-leaflet@^3.2.5:
   version "3.2.5"

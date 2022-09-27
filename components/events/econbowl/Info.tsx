@@ -45,11 +45,11 @@ export default function Info() {
             Competition Info
           </h2>
         </div>
-        <dl className="w-full max-w-4xl mt-12 space-y-10 space-x-0 sm:space-y-0 sm:space-x-10 flex items-center sm:items-start justify-center flex-col sm:flex-row border-b border-gray-500 pb-8">
+        <dl className="w-full max-w-4xl mt-8 space-y-10 space-x-0 sm:space-y-0 sm:space-x-10 flex items-center sm:items-start justify-center flex-col sm:flex-row">
           {details.map((detail) => (
             <div
               key={detail.name}
-              className="relative max-w-[250px] w-full text-center"
+              className="relative max-w-[280px] w-full text-center"
             >
               <dt className="flex items-center flex-row justify-center">
                 {detail.name === 'Date' ? (
@@ -80,12 +80,6 @@ export default function Info() {
             </div>
           ))}
         </dl>
-        <a
-          href="https://form.jotform.com/213135272600140"
-          className="mt-8 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-bg-yei-primary-main cursor-pointer"
-        >
-          Sign Up!
-        </a>
       </div>
     </div>
   )
