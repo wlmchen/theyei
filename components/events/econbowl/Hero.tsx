@@ -84,8 +84,8 @@ export default function Hero() {
                   src="/img/logos/econbowl.png"
                   alt="EconBowl"
                 />
-              <div className="mt-3 mx-auto text-left md:text-center text-gray-500 text-xl md:mt-5 md:max-w-3xl">
-                <p className="italic max-w-xl text-base text-gray-400 inline-flex w-auto border-y-2 border-gray-300 py-4">
+              <div className="mt-3 mx-auto text-left md:text-center text-gray-500 text-lg md:mt-5 md:max-w-3xl">
+                <p className="italic max-w-xl text-base text-gray-400 inline-flex w-auto border-y-2 border-gray-300 py-3">
                   The Youth Economics Initiative is proud to present our 4th
                   Annual EconBowl, in collaboration with the Wen & Yung Family
                   Foundation!
@@ -103,7 +103,7 @@ export default function Hero() {
                 </p>
                 <AnchorLink
                   href="#register"
-                  className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-700 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
+                  className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-opacity-90 sm:px-8"
                 >
                   Register!
                 </AnchorLink>
