@@ -31,7 +31,7 @@ export default function Speaker() {
                   />
                 </div>
                 <div className="mt-6 text-base text-white">
-                  <h1 className="text-3xl sm:text-4xl tracking-tight font-black">
+                  <h1 className="text-4xl sm:text-5xl tracking-tight font-extrabold">
                     About the Speaker
                   </h1>
                   <p className="mt-3 font-light text-gray-300">

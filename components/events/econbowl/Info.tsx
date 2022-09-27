@@ -41,17 +41,17 @@ export default function Info() {
     <div className="bg-yei-secondary-brighter">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 flex flex-col items-center justify-center">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+          <h2 className="text-center text-4xl leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
             Competition Info
           </h2>
         </div>
-        <dl className="w-full max-w-4xl mt-8 space-y-10 space-x-0 sm:space-y-0 sm:space-x-10 flex items-center sm:items-start justify-center flex-col sm:flex-row">
+        <dl className="w-full max-w-xl  mt-10 flex items-start justify-center flex-col space-y-4">
           {details.map((detail) => (
             <div
               key={detail.name}
-              className="relative max-w-[280px] w-full text-center"
+              className="relative w-full flex flex-col md:flex-row items-start"
             >
-              <dt className="flex items-center flex-row justify-center">
+              <dt className="flex items-center w-48 flex-row">
                 {detail.name === 'Date' ? (
                   <CalendarIcon
                     className="h-6 w-6 text-green-500"
@@ -70,11 +70,11 @@ export default function Info() {
                     />
                   )
                 )}
-                <p className="ml-2 text-lg leading-6 font-medium text-white">
+                <p className="ml-2 text-xl font-medium text-white">
                   {detail.name}
                 </p>
               </dt>
-              <dd className="mt-2 text-base text-gray-400">
+              <dd className="mt-2 md:mt-0 w-full flex-grow text-left text-lg md:text-2xl text-gray-300">
                 {detail.description}
               </dd>
             </div>

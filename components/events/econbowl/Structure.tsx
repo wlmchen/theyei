@@ -35,7 +35,7 @@ const quizBowl = [
 export default function Structure() {
   return (
     <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
-      <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
+      <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-5xl">
         <svg
           className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
           width={404}
@@ -71,7 +71,7 @@ export default function Structure() {
         </svg>
 
         <div className="relative">
-          <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-10 sm:mb-0">
+          <h2 className="text-center text-4xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl mb-10 sm:mb-0">
             Competition Structure
           </h2>
         </div>

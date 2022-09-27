@@ -79,15 +79,13 @@ export default function Hero() {
         <div className="pt-4 relative pb-12 sm:pb-16">
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
             <div className="text-center">
-              <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <img
                   className="w-48 mx-auto"
                   src="/img/logos/econbowl.png"
                   alt="EconBowl"
                 />
-              </h1>
-              <div className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-2xl">
-                <p>
+              <div className="mt-3 mx-auto text-left md:text-center text-gray-500 text-xl md:mt-5 md:max-w-3xl">
+                <p className="italic max-w-xl text-base text-gray-400 inline-flex w-auto border-y-2 border-gray-300 py-4">
                   The Youth Economics Initiative is proud to present our 4th
                   Annual EconBowl, in collaboration with the Wen & Yung Family
                   Foundation!
@@ -100,14 +98,14 @@ export default function Hero() {
                   your high school, compete for glory, and win cash prizes!
                 </p>
                 <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
-                  Registration will close on November 9, 2022 at 11:59 PST
-                  (UTC−8). The competition will be held on November 12, 2022
+                  <b>Registration will close on November 9, 2022 at 11:59 PST
+                  (UTC−8).</b> The competition will be held on November 12, 2022
                 </p>
                 <AnchorLink
                   href="#register"
                   className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-green-700 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                 >
-                  Register
+                  Register!
                 </AnchorLink>
               </div>
             </div>
