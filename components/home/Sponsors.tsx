@@ -18,9 +18,12 @@ export default function Sponsors() {
 function Partners() {
   return (
     <>
-      <h2 className="text-5xl text-center font-bold text-gray-900">Partners</h2>
+      
+      <h2 className="w-full text-2xl mb-5 uppercase text-gray-400 font-black text-center max-w-xs m-auto border-b-2 border-gray-300 pb-5">
+            Partners
+          </h2>
       <div className="flow-root mt-4 md:mt-6 lg:mt-8">
-        <div className="flex flex-wrap sm:flex-row justify-center">
+        <div className="max-w-5xl m-auto flex flex-wrap sm:flex-row justify-center">
           {partners.map((p) => {
             let key = p.name.replace(/[\W_]+/g, '-').toLowerCase()
             return (
@@ -30,7 +33,7 @@ function Partners() {
               >
                 <a href={p.link} target="_blank">
                   <img
-                    className="my-2 sm:my-0 w-36 h-auto lg:w-48 mx-auto"
+                    className="my-2 sm:my-0 w-32 h-auto md:w-40 mx-auto"
                     src={`/img/logos/other/partners/${key}.png`}
                     alt={p.name}
                   />
@@ -47,10 +50,11 @@ function Partners() {
 function Supporters() {
   return (
     <div className="pt-20 pb-4">
-      <h2 className="text-5xl text-center font-bold text-gray-900">
-        Supporters
-      </h2>
-      <div className="flow-root mt-8 md:mt-11 lg:mt-12">
+      
+    <h2 className="w-full text-2xl mb-5 uppercase text-gray-400 font-black text-center max-w-xs m-auto border-b-2 border-gray-300 pb-5">
+          Supporters
+        </h2>
+      <div className="flow-root">
         <div className="flex flex-wrap sm:flex-row justify-center">
           {supporters.map((s) => {
             let key = s.name.replace(/[\W_]+/g, '-').toLowerCase()
