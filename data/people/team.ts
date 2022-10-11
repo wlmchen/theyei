@@ -222,6 +222,11 @@ const team: Member[] = [
     linkedin: 'suden-prashar-a1b7a7242',
   },
   {
+    name: 'Raymond Ma',
+    positions: ['Director of Flip'],
+    linkedin: 'raymondma012'
+  },
+  {
     name: 'Vaishu Enduri',
     positions: ['FLIP Partnership Manager'],
     linkedin: 'vaishu-enduri',

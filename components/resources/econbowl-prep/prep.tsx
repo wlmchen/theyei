@@ -28,7 +28,7 @@ export default function Prep() {
             <div
               key={title}
               className=
-              {title === 'Full 2021 EconBowl Practice QuizBowl' ? 
+              {title === 'Full 2022 EconBowl Practice QuizBowl' ? 
                 "col-span-2 bg-gray-100 relative group p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500" : 
                 "col-span-1 bg-gray-100 relative group p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500" 
               }
