@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Intro() {
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div id="learnmore" className="relative bg-white overflow-hidden">
       <div className="container">
         <div className="relative z-10 pb-8 bg-white sm:pb-16 lg:max-w-2xl lg:w-full lg:pb-24 xl:pb-28">
           <svg
