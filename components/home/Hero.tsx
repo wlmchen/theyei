@@ -42,7 +42,7 @@ export default function Hero() {
                   </a>
                 </AnchorLink></div>
                 <div className="inline-flex">
-                <Link href="/clubs">
+                <Link href="/events/econbowl">
                   <a className="w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-lg font-bold rounded-lg text-white bg-yei-primary-main hover:bg-yei-primary-darker md:py-4 md:text-lg md:px-10 m-2">
                     EconBowl 2022{' '}
                     <ChevronRightIcon className="h-7 w-7 ml-3 -mr-3" />
