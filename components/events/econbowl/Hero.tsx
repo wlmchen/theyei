@@ -103,6 +103,7 @@ export default function Hero() {
                 </p>
                 <AnchorLink
                   href="#register"
+                  offset={100}
                   className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-opacity-90 sm:px-8"
                 >
                   Register!

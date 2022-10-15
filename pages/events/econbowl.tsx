@@ -6,12 +6,11 @@ import Speaker from '../../components/events/econbowl/Speaker'
 import FAQs from '../../components/events/econbowl/FAQs'
 import Page from '../../components/utility/Page'
 import Resources from './../../components/events/econbowl/Resources'
-import WhatsNew from './../../components/events/econbowl/WhatsNew'
 import Structure from './../../components/events/econbowl/Structure'
 import Info from '../../components/events/econbowl/Info'
 import Schedule from '../../components/events/econbowl/Schedule'
 import Sponsors from '../../components/events/econbowl/Sponsors'
-import Jotform from '../../components/events/econbowl/Jotform'
+import Signup from '../../components/events/econbowl/Signup'
 
 export default function econbowl() {
   return (
@@ -27,7 +26,7 @@ export default function econbowl() {
       <Prizes />
       <Resources />
       <Sponsors />
-      <Jotform />
+      <Signup />
       <FAQs />
     </Page>
   )
