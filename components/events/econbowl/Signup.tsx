@@ -136,7 +136,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
           data.append('_replyto', values.team[0].email)
           data.append(
             '_subject',
-            `(THIS IS A TEST FROM THE WEB DEV DEPT. - IGNORE THIS)`
+            `New EconBowl 2022 Signup!`
           )
           console.log(data)
 
