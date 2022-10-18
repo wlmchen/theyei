@@ -4,7 +4,7 @@ import React from 'react'
 function Sponsors() {
   return (
     <div className="bg-white py-20 overflow-hidden px-6">
-      <div className="flex items-start md:items-center justify-center flex-col md:flex-row w-full">
+      <div className="flex items-start lg:items-center justify-center flex-col lg:flex-row w-full">
         <h2 className="text-2xl font-semibold text-gray-700 max-w-xl lg:text-left">
           This season of Econbowl is sponsored by <span className="text-green-700 sm:whitespace-nowrap">The Wen & Yung Family Foundation</span>
         </h2>
