@@ -5,7 +5,7 @@ function Sponsors() {
   return (
     <div className="bg-white py-20 overflow-hidden px-6">
       <div className="flex items-center justify-center flex-col lg:flex-row w-full">
-        <h2 className="text-2xl font-semibold text-gray-700 max-w-xl text-center">
+        <h2 className="text-2xl font-semibold text-gray-700 max-w-xl text-center lg:text-left">
           This season of Econbowl is sponsored by <span className="text-green-700 sm:whitespace-nowrap">The Wen & Yung Family Foundation</span>
         </h2>
         <div className="mt-4 sm:mt-0 items-center justify-center flex flex-row">
