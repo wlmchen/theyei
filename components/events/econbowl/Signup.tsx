@@ -77,10 +77,8 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
         }}
         validationSchema={RegisterSchema}
         onSubmit={(values, { setSubmitting, resetForm }) => {
-          console.log('hi')
           setSubmitted(false)
           setSubmitting(true)
-          console.log(values)
           let data = new FormData()
 
           data.append('Team Name', values.teamName)
@@ -138,7 +136,6 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
             '_subject',
             `New EconBowl 2022 Signup!`
           )
-          console.log(data)
 
           fetch(
             `https://formsubmit.co/ajax/ab3308b6570d4ffe111661f129ec434a `,
@@ -307,7 +304,6 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
               <div className="w-full flex items-left justify-left">
                 <button
                   type="submit"
-                  onClick={() => console.log('hi')}
                   className="w-full mt-8 text-xl bg-yei-primary-main border border-transparent rounded-md shadow-sm py-4 px-4 justify-center font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main flex items-center"
                 >
                   Signup my Team{' '}
