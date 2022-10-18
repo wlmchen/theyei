@@ -141,6 +141,16 @@ const team: Member[] = [
     linkedin: 'helena-su-063965193',
   },
   {
+    name: 'Jack Gordon',
+    positions: ['Curriculum Developer'],
+    linkedin: 'jack-gordon-085223210',
+  },
+  {
+    name: 'Auritro Chakraborty',
+    positions: ['Curriculum Developer'],
+    linkedin: 'auritro-chakraborty-01a4bb245',
+  },
+  {
     name: 'Cameron Dolbow',
     positions: ['Testing Developer'],
     linkedin: 'cameron-dolbow',
@@ -150,11 +160,6 @@ const team: Member[] = [
     positions: ['Testing Developer'],
     linkedin: 'allen-h',
     email: 'allenho@theyei.org'
-  },
-  {
-    name: 'Jack Gordon',
-    positions: ['Curriculum Developer'],
-    linkedin: 'jack-gordon-085223210',
   },
   {
     name: 'Aidan Zhou',
