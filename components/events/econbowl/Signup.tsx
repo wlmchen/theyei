@@ -23,37 +23,6 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
   const [submitted, setSubmitted] = useState(false)
   const [fourth, setFourth] = useState(null)
   const fieldTypes = ['First Name', 'Last Name', 'Email', 'Grade', 'School']
-  const RegisterSchema = Yup.object().shape({
-    teamName: Yup.string()
-      .max(50, 'Name too long.')
-      .required('Team name required.'),
-    team: Yup.array().of(
-      Yup.object().shape({
-        firstName: Yup.string()
-          .max(50, 'Name too long.')
-          .required('First name required.'),
-        lastName: Yup.string()
-          .max(50, 'Name too long.')
-          .required('Last name required.'),
-        email: Yup.string().email('Invalid email.').required('Email required.'),
-        grade: Yup.string().required('Grade is required'),
-        school: Yup.string().required('School name is required.'),
-      })
-    ),
-    fourthFirst: Yup.string()
-      .max(50, 'Name too long.')
-      .required('First name required.'),
-    lastName: Yup.string()
-      .max(50, 'Name too long.')
-      .required('Last name required.'),
-    email: Yup.string().email('Invalid email.').required('Email required.'),
-    grade: Yup.string().required('Grade is required'),
-    school: Yup.string().required('School name is required.'),
-    referral: Yup.array()
-      .min(1, 'Referral field is required.')
-      .of(Yup.string().required())
-      .required('Referral field is required.'),
-  })
 
   return (
     <div className="max-w-3xl w-full m-auto mb-16 px-6" id="register">
@@ -108,10 +77,12 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
         }}
         validationSchema={RegisterSchema}
         onSubmit={(values, { setSubmitting, resetForm }) => {
+          console.log('hi')
           setSubmitted(false)
+          setSubmitting(true)
+          console.log(values)
           let data = new FormData()
 
-          console.log(values)
           data.append('Team Name', values.teamName)
           data.append(
             'Captain FULL NAME',
@@ -178,8 +149,8 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
             }
           )
           resetForm({})
-          setSubmitting(false)
           setSubmitted(true)
+          setSubmitting(false)
         }}
       >
         {({ isSubmitting }) => (
@@ -233,6 +204,19 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                           const fieldKebab = `team[${teamNum}].${camelCase(
                             field
                           )}`
+                          const gradeKebab =
+                            teamNum === 3 ? 'fourthGrade' : fieldKebab
+
+                          const otherKebab =
+                            teamNum === 3
+                              ? field === 'First Name'
+                                ? 'fourthFirstName'
+                                : field === 'Last Name'
+                                ? 'fourthLastName'
+                                : field === 'School'
+                                ? 'fourthSchool'
+                                : 'fourthEmail'
+                              : fieldKebab
                           return (
                             <div
                               key={index}
@@ -247,16 +231,15 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                               }`}
                             >
                               <label
-                                htmlFor={fieldKebab}
+                                htmlFor={field === 'Grade' ? gradeKebab : otherKebab}
                                 className="block text-base font-medium text-gray-700"
                               >
                                 {field}
                               </label>
                               {field === 'Grade' ? (
                                 <Field
-                                  type="text"
-                                  name={fieldKebab}
-                                  id={fieldKebab}
+                                  name={gradeKebab}
+                                  id={gradeKebab}
                                   as="select"
                                   className="mt-1 block w-full rounded-md border-gray-300 py-2 pl-3 pr-10 text-base focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main"
                                 >
@@ -269,9 +252,9 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                                 </Field>
                               ) : (
                                 <Field
-                                  type="text"
-                                  name={fieldKebab}
-                                  id={fieldKebab}
+                                  type={field === 'Email' ? 'email' : 'text'}
+                                  name={otherKebab}
+                                  id={otherKebab}
                                   className={`mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main text-base`}
                                 />
                               )}
@@ -287,7 +270,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                     </div>
                   )
                 })}
-                <div className="">
+                <div>
                   <p className="text-lg font-bold">
                     How did you hear about us?
                   </p>
@@ -298,7 +281,10 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                   >
                     {referralSources.map((source, index) => {
                       return (
-                        <label className="text-gray-700 flex flex-row">
+                        <label
+                          key={index}
+                          className="text-gray-700 flex flex-row"
+                        >
                           <Field
                             type="checkbox"
                             name="referral"
@@ -321,6 +307,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
               <div className="w-full flex items-left justify-left">
                 <button
                   type="submit"
+                  onClick={() => console.log('hi')}
                   className="w-full mt-8 text-xl bg-yei-primary-main border border-transparent rounded-md shadow-sm py-4 px-4 justify-center font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main flex items-center"
                 >
                   Signup my Team{' '}
@@ -336,3 +323,31 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
 }
 
 export default Signup
+
+const RegisterSchema = Yup.object().shape({
+  teamName: Yup.string()
+    .max(50, 'Name too long.')
+    .required('Team name required.'),
+  team: Yup.array().of(
+    Yup.object().shape({
+      firstName: Yup.string()
+        .max(50, 'Name too long.')
+        .required('First name required.'),
+      lastName: Yup.string()
+        .max(50, 'Name too long.')
+        .required('Last name required.'),
+      email: Yup.string().email('Invalid email.').required('Email required.'),
+      grade: Yup.string().required('Grade is required'),
+      school: Yup.string().required('School name is required.'),
+    })
+  ),
+  fourthFirstName: Yup.string().max(50, 'Name too long.'),
+  fourthLastName: Yup.string().max(50, 'Name too long.'),
+  fourthEmail: Yup.string().email('Invalid email.'),
+  fourthGrade: Yup.string(),
+  fourthSchool: Yup.string(),
+
+  referral: Yup.array()
+    .of(Yup.string().required())
+    .required('Referral field is required.'),
+})
