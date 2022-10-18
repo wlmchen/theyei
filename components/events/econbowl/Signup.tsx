@@ -4,7 +4,7 @@ import { useState } from 'react'
 import FocusError from '../../utility/FocusError'
 import * as Yup from 'yup'
 import camelCase from '../../../utils/camelCase'
-import { ArrowRightIcon } from '@heroicons/react/outline'
+import { ArrowRightIcon, XIcon } from '@heroicons/react/outline'
 
 interface Props {}
 
@@ -21,7 +21,40 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
   props: Props
 ) => {
   const [submitted, setSubmitted] = useState(false)
+  const [fourth, setFourth] = useState(null)
   const fieldTypes = ['First Name', 'Last Name', 'Email', 'Grade', 'School']
+  const RegisterSchema = Yup.object().shape({
+    teamName: Yup.string()
+      .max(50, 'Name too long.')
+      .required('Team name required.'),
+    team: Yup.array().of(
+      Yup.object().shape({
+        firstName: Yup.string()
+          .max(50, 'Name too long.')
+          .required('First name required.'),
+        lastName: Yup.string()
+          .max(50, 'Name too long.')
+          .required('Last name required.'),
+        email: Yup.string().email('Invalid email.').required('Email required.'),
+        grade: Yup.string().required('Grade is required'),
+        school: Yup.string().required('School name is required.'),
+      })
+    ),
+    fourthFirst: Yup.string()
+      .max(50, 'Name too long.')
+      .required('First name required.'),
+    lastName: Yup.string()
+      .max(50, 'Name too long.')
+      .required('Last name required.'),
+    email: Yup.string().email('Invalid email.').required('Email required.'),
+    grade: Yup.string().required('Grade is required'),
+    school: Yup.string().required('School name is required.'),
+    referral: Yup.array()
+      .min(1, 'Referral field is required.')
+      .of(Yup.string().required())
+      .required('Referral field is required.'),
+  })
+
   return (
     <div className="max-w-3xl w-full m-auto mb-16 px-6" id="register">
       <div className="space-y-2 text-lg text-gray-600">
@@ -63,8 +96,14 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
             { firstName: '', lastName: '', email: '', grade: '', school: '' },
             { firstName: '', lastName: '', email: '', grade: '', school: '' },
             { firstName: '', lastName: '', email: '', grade: '', school: '' },
-            { firstName: '', lastName: '', email: '', grade: '', school: '' },
           ],
+
+          fourthFirstName: '',
+          fourthLastName: '',
+          fourthEmail: '',
+          fourthGrade: '',
+          fourthSchool: '',
+
           referral: [],
         }}
         validationSchema={RegisterSchema}
@@ -73,23 +112,71 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
           let data = new FormData()
 
           console.log(values)
-          data.append("Team Name", values.teamName);
-          data.append("Team", values.team);
-          data.append("How did you hear about us?", values.referral);
+          data.append('Team Name', values.teamName)
+          data.append(
+            'Captain FULL NAME',
+            values.team[0].firstName + ' ' + values.team[0].lastName
+          )
+          data.append('Captain EMAIL', values.team[0].email)
+          data.append('Captain GRADE', values.team[0].grade)
+          data.append('Captain SCHOOL', values.team[0].school)
+
+          data.append(
+            '2nd Teammate FULL NAME',
+            values.team[1].firstName + ' ' + values.team[1].lastName
+          )
+          data.append('2nd Teammate EMAIL', values.team[1].email)
+          data.append('2nd Teammate GRADE', values.team[1].grade)
+          data.append('2nd Teammate SCHOOL', values.team[1].school)
+
+          data.append(
+            '3rd Teammate FULL NAME',
+            values.team[2].firstName + ' ' + values.team[2].lastName
+          )
+          data.append('3rd Teammate EMAIL', values.team[2].email)
+          data.append('3rd Teammate GRADE', values.team[2].grade)
+          data.append('3rd Teammate SCHOOL', values.team[2].school)
+
+          // Checks if all entries for 4th teammate is blank
+          const combinedFourth =
+            values.fourthFirstName +
+            values.fourthLastName +
+            values.fourthEmail +
+            values.fourthGrade +
+            values.fourthSchool
+
+          // if not blank, include it in the email
+          if (combinedFourth.trim() !== '') {
+            data.append(
+              '4th Teammate FULL NAME',
+              values.fourthFirstName + ' ' + values.fourthLastName
+            )
+            data.append('4th Teammate EMAIL', values.fourthEmail)
+            data.append('4th Teammate GRADE', values.fourthGrade)
+            data.append('4th Teammate SCHOOL', values.fourthSchool)
+          }
+
+          data.append('How did you hear about us?', values.referral.join(', '))
 
           data.append(
             '_cc',
             'admin@theyei.org,miriam@theyei.org,kavin@theyei.org,ian@theyei.org,expansion@theyei.org,henry@theyei.org'
           )
-          data.append("_replyto", values.team[0].email);
-          data.append("_subject", `EconBowl submission (THIS IS A TEST FROM THE WEB DEV DEPT. - IGNORE THIS)`);
-          console.log(data);
+          data.append('_replyto', values.team[0].email)
+          data.append(
+            '_subject',
+            `(THIS IS A TEST FROM THE WEB DEV DEPT. - IGNORE THIS)`
+          )
+          console.log(data)
 
-          fetch(`https://formsubmit.co/ajax/ab3308b6570d4ffe111661f129ec434a `, {
-            method: "POST",
-            mode: "no-cors",
-            body: data,
-          });
+          fetch(
+            `https://formsubmit.co/ajax/ab3308b6570d4ffe111661f129ec434a `,
+            {
+              method: 'POST',
+              mode: 'no-cors',
+              body: data,
+            }
+          )
           resetForm({})
           setSubmitting(false)
           setSubmitted(true)
@@ -123,7 +210,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                   replaced with a number.
                 </p>
               </div>
-              <div className="space-y-8 w-full mt-8">
+              <div className="space-y-12 w-full mt-8">
                 {new Array(4).fill('').map((item, teamNum) => {
                   return (
                     <div key={teamNum} className="w-full">
@@ -132,8 +219,12 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                           ? 'Team Captain'
                           : `Teammate #${teamNum + 1}`}
                         <span className="sm:pl-2 text-gray-500 text-sm font-medium mt-1 mb-2 sm:mt-0 sm:mb-0 italic">
-                          {teamNum === 3 &&
-                            ' (Having a 4th teammate is optional)'}
+                          {teamNum === 3 && (
+                            <span>
+                              (<b>Optional: </b>leave blank if you do not have a
+                              4th teammate)
+                            </span>
+                          )}
                         </span>
                       </p>
 
@@ -196,42 +287,44 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                     </div>
                   )
                 })}
-              </div>
-              <div className="mt-8">
-                <p className="text-lg font-bold">How did you hear about us?</p>
-                <div
-                  role="group"
-                  aria-labelledby="checkbox-group"
-                  className="grid grid-cols-2 gap-4 mt-2"
-                >
-                  {referralSources.map((source, index) => {
-                    return (
-                      <label className="text-gray-700 flex flex-row">
-                        <Field
-                          type="checkbox"
-                          name="referral"
-                          value={source}
-                          className="h-4 w-4 rounded border-gray-300 text-yei-primary-main focus:ring-yei-primary-main focus:border-yei-primary-main text-base mt-1 mr-2"
-                        />
-                        {source}
-                      </label>
-                    )
-                  })}
-
+                <div className="">
+                  <p className="text-lg font-bold">
+                    How did you hear about us?
+                  </p>
+                  <div
+                    role="group"
+                    aria-labelledby="checkbox-group"
+                    className="grid grid-cols-2 gap-4 mt-2"
+                  >
+                    {referralSources.map((source, index) => {
+                      return (
+                        <label className="text-gray-700 flex flex-row">
+                          <Field
+                            type="checkbox"
+                            name="referral"
+                            value={source}
+                            className="h-4 w-4 rounded border-gray-300 text-yei-primary-main focus:ring-yei-primary-main focus:border-yei-primary-main text-base mt-1 mr-2"
+                          />
+                          {source}
+                        </label>
+                      )
+                    })}
+                  </div>
                 </div>
-                  <ErrorMessage
-                    className="formik-error"
-                    component="div"
-                    name="referral"
-                  />
+
+                <ErrorMessage
+                  className="formik-error"
+                  component="div"
+                  name="referral"
+                />
               </div>
               <div className="w-full flex items-left justify-left">
                 <button
                   type="submit"
-                  className="mt-8 text-lg bg-yei-primary-main border border-transparent rounded-md shadow-sm py-2 px-4 inline-flex justify-center font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main flex items-center"
+                  className="w-full mt-8 text-xl bg-yei-primary-main border border-transparent rounded-md shadow-sm py-4 px-4 justify-center font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main flex items-center"
                 >
                   Signup my Team{' '}
-                  <ArrowRightIcon className="ml-2 h-5 w-5 text-white" />
+                  <ArrowRightIcon className="ml-2 h-6 w-6 text-white" />
                 </button>
               </div>
             </div>
@@ -241,25 +334,5 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
     </div>
   )
 }
-
-const RegisterSchema = Yup.object().shape({
-  teamName: Yup.string()
-    .max(50, 'Name too long.')
-    .required('Team name required.'),
-  team: Yup.array().of(
-    Yup.object().shape({
-      firstName: Yup.string()
-        .max(50, 'Name too long.')
-        .required('First name required.'),
-      lastName: Yup.string()
-        .max(50, 'Name too long.')
-        .required('Last name required.'),
-      email: Yup.string().email('Invalid email.').required('Email required.'),
-      grade: Yup.string().required('Grade is required'),
-      school: Yup.string().required('School name is required.'),
-    })
-  ),
-  referral: Yup.array().min(1, 'Referral field is required.').of(Yup.string().required()).required('Referral field is required.'),
-})
 
 export default Signup
