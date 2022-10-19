@@ -4,6 +4,7 @@ import Footer from '../global/Footer/Footer'
 import Head from 'next/head'
 
 import { GA_TRACKING_ID } from './gtag'
+import EconBowlBanner from '../global/Header/EconBowlBanner'
 
 export default function Page({ fullTitle, title, desc, children }: PageProps) {
   let pageTitle = fullTitle
