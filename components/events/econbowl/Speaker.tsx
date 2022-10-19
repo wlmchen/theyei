@@ -35,7 +35,7 @@ export default function Speaker() {
                     About the Speaker
                   </h1>
                   <p className="mt-3 font-light text-gray-300">
-                    Our feature speaker for the Fourth Annual EconBowl is{' '}
+                    Our featured speaker for the Fourth Annual EconBowl is{' '}
                     <b>Lindsey Cameron</b>, Assistant Professor of Management in
                     the Wharton School of Business at the University of
                     Pennsylvania.
