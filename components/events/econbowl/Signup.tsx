@@ -127,27 +127,32 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
 
           data.append('How did you hear about us?', values.referral.join(', '))
 
-          data.append(
-            '_cc',
-            'admin@theyei.org,miriam@theyei.org,kavin@theyei.org,ian@theyei.org,expansion@theyei.org,henry@theyei.org'
-          )
-          data.append('_replyto', values.team[0].email)
-          data.append(
-            '_subject',
-            `New EconBowl 2022 Signup!`
-          )
+          // data.append(
+          //   '_cc',
+          //   'admin@theyei.org,miriam@theyei.org,kavin@theyei.org,ian@theyei.org,expansion@theyei.org,henry@theyei.org'
+          // )
+          // data.append('_replyto', values.team[0].email)
+          // data.append(
+          //   '_subject',
+          //   `New EconBowl 2022 Signup!`
+          // )
+          console.log(data)
 
           fetch(
-            `https://formsubmit.co/ajax/ab3308b6570d4ffe111661f129ec434a `,
+            `/api/econbowlSignup`,
             {
               method: 'POST',
-              mode: 'no-cors',
-              body: data,
+              // mode: 'no-cors',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(Object.fromEntries(data)),
             }
-          )
-          resetForm({})
-          setSubmitted(true)
-          setSubmitting(false)
+          ).then(response => {
+            resetForm({})
+            setSubmitted(true)
+            setSubmitting(false)
+          })
         }}
       >
         {({ isSubmitting }) => (
@@ -310,6 +315,10 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                   <ArrowRightIcon className="ml-2 h-6 w-6 text-white" />
                 </button>
               </div>
+              <span className="text-gray-600 mt-3 text-lg">
+                {isSubmitting && "Submitting..."}
+                {submitted && "Your team was registered successfully!"}
+              </span>
             </div>
           </Form>
         )}
