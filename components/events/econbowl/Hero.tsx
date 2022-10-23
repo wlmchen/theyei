@@ -77,7 +77,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="pt-4 relative pb-12 sm:pb-16">
-          <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
+          <main className="mt-20 mx-auto max-w-7xl px-4 sm:mt-24">
             <div className="text-center">
                 <img
                   className="w-48 mx-auto"
