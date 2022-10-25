@@ -31,7 +31,7 @@ export default function Navbar() {
   const currPath = useRouter().pathname
 
   return (
-    <nav className="z-40 w-screen bg-[#fffe] shadow fixed backdrop-blur-md">
+    <nav className="z-40 w-screen bg-white fixed">
       <EconBowlBanner />
       <div className="container">
         <div className="flex justify-between h-16">
