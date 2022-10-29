@@ -23,10 +23,11 @@ const exec: Member[] = [
     linkedin: 'saavi-kumar-59ba43195',
   },
   {
-    name: 'Brayden Wright',
+    name: 'William Chen',
     positions: ['Director of Tech'],
-    linkedin: 'braydentw',
-    github: 'BraydenTW',
+    linkedin: 'william-chen-506145249',
+    github: 'wlmchen',
+    email: 'williamchen@theyei.org'
   },
   {
     name: 'Satvik Shreesha',
@@ -71,13 +72,6 @@ const team: Member[] = [
     positions: ['Web Developer'],
     linkedin: 'ananth-kashyap-88b996209',
     github: 'AAkashyap1',
-  },
-  {
-    name: 'William Chen',
-    positions: ['Web Developer'],
-    linkedin: 'william-chen-506145249',
-    github: 'wlmchen',
-    email: 'williamchen@theyei.org'
   },
   {
     name: 'Evangeline Lin',
