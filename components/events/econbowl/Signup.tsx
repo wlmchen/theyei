@@ -21,7 +21,7 @@ const referralSources = [
 const Signup: NextComponentType<NextPageContext, {}, Props> = (
   props: Props
 ) => {
-  const [canvas, setCanvas] = useState();
+  const [canvas, setCanvas] = useState(null);
   const [submitted, setSubmitted] = useState(false)
   const [fourth, setFourth] = useState(null)
   const fieldTypes = ['First Name', 'Last Name', 'Email', 'Grade', 'School']
