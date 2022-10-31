@@ -55,9 +55,9 @@ const exec: Member[] = [
     linkedin: 'kavinshah-student',
   },
   {
-    name: 'Lavanya Gupta',
+    name: 'Raymond Ma',
     positions: ['VP of Flip'],
-    linkedin: 'lavanya-gupta-b09778247'
+    linkedin: 'raymondma012'
   },
   {
     name: 'Miriam Trujillo',
@@ -221,9 +221,9 @@ const team: Member[] = [
     linkedin: 'suden-prashar-a1b7a7242',
   },
   {
-    name: 'Raymond Ma',
+    name: 'Lavanya Gupta',
     positions: ['Director of Flip'],
-    linkedin: 'raymondma012'
+    linkedin: 'lavanya-gupta-b09778247'
   },
   {
     name: 'Vaishu Enduri',
