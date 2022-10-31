@@ -5,8 +5,9 @@ import FocusError from '../../utility/FocusError'
 import * as Yup from 'yup'
 import camelCase from '../../../utils/camelCase'
 import { ArrowRightIcon, XIcon } from '@heroicons/react/outline'
+import SignatureCanvas from 'react-signature-canvas'
 
-interface Props {}
+interface Props { }
 
 const referralSources = [
   'Facebook',
@@ -20,6 +21,7 @@ const referralSources = [
 const Signup: NextComponentType<NextPageContext, {}, Props> = (
   props: Props
 ) => {
+  const [canvas, setCanvas] = useState();
   const [submitted, setSubmitted] = useState(false)
   const [fourth, setFourth] = useState(null)
   const fieldTypes = ['First Name', 'Last Name', 'Email', 'Grade', 'School']
@@ -214,23 +216,22 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                               ? field === 'First Name'
                                 ? 'fourthFirstName'
                                 : field === 'Last Name'
-                                ? 'fourthLastName'
-                                : field === 'School'
-                                ? 'fourthSchool'
-                                : 'fourthEmail'
+                                  ? 'fourthLastName'
+                                  : field === 'School'
+                                    ? 'fourthSchool'
+                                    : 'fourthEmail'
                               : fieldKebab
                           return (
                             <div
                               key={index}
-                              className={` ${
-                                field === 'Email'
-                                  ? 'col-span-8'
-                                  : field === 'Grade'
+                              className={` ${field === 'Email'
+                                ? 'col-span-8'
+                                : field === 'Grade'
                                   ? 'col-span-3 sm:col-span-2'
                                   : field === 'School'
-                                  ? 'col-span-5 sm:col-span-6'
-                                  : 'col-span-8 sm:col-span-4'
-                              }`}
+                                    ? 'col-span-5 sm:col-span-6'
+                                    : 'col-span-8 sm:col-span-4'
+                                }`}
                             >
                               <label
                                 htmlFor={field === 'Grade' ? gradeKebab : otherKebab}
@@ -298,6 +299,49 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                       )
                     })}
                   </div>
+                </div>
+
+                <div>
+                  <p className="text-lg font-bold">
+                    Integrity Contract
+                  </p>
+                  <p className="italic text-gray-600 text-sm mt-2 mb-4">
+                    This contract is to help us insure the integrity of the competition. Thank you in advance for adhering to the guidelines below.
+                  </p>
+                  <div>
+                    <p className="mb-2">My teammates and I will not use external resources during the exam. This includes:</p>
+                    <ul className="list-disc space-y-1 ml-7 mb-2">
+                      <li>Searching the internet</li>
+                      <li>Using written notes or textbooks</li>
+                      <li>Communicating with people that are not on your team</li>
+                    </ul>
+
+                    <p className="mb-2">Additionally, There will be proctors cycling through the rooms. For proctoring purposes:</p>
+                      <ul className="list-disc space-y-1 ml-7 mb-2">
+                        <li>Have your camera on through the exam. Your camera should be angled so that the proctors can see your arms and hands</li>
+                        <li>Keep your microphone unmuted</li>
+                        <li>Do not have any notes or other material out</li>
+                        <li>Have you phone face-down in the camera view</li>
+                        <li>There should be no typing</li>
+                        <li>The captains should have their screen share of the test on throughout the exam (Written Exam)</li>
+                        <li>Rules specific for only one portion are marked at the end of each bullet point. All other rules apply to both the QuizBowl and Written Exam.</li>
+                      </ul>
+                    <p className="mb-2">Violation of this contract may result in point deductions or disqualification.</p>
+
+                    <p className="mb-4">If for any reason, you or your teammates are unable to follow these guidelines as stated above, please us know by sending us an email at <a href="emailto:events@theyei.org" className="underline text-green-700">events@theyei.org</a>.</p>
+
+                    <p className="mb-4">By signing below, you are agreeing to this contract on behalf of yourself and your entire team.</p>
+                    <div className="flex flex-col px-3 w-4/5 mx-auto">
+                      <div className="border border-gray-500 rounded inline-block">
+                        <SignatureCanvas ref={(ref) => {setCanvas(ref)}} 
+                          canvasProps={{className: "w-full"}} />
+                      </div>
+                      <div className="flex items-end justify-end">
+                        <button className="text-gray-400 underline text-sm" onClick={(e) => canvas.clear()}>Clear</button>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
 
                 <ErrorMessage
