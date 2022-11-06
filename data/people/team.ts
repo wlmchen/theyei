@@ -221,6 +221,11 @@ const team: Member[] = [
     linkedin: 'suden-prashar-a1b7a7242',
   },
   {
+    name: 'Sudipta Rout',
+    positions: ['Team Ambassador'],
+    linkedin: 'sudiptar'
+  },
+  {
     name: 'Lavanya Gupta',
     positions: ['Director of Flip'],
     linkedin: 'lavanya-gupta-b09778247'
