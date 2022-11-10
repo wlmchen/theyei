@@ -77,13 +77,13 @@ export default function Hero() {
           </div>
         </div>
         <div className="pt-4 relative pb-12 sm:pb-16">
-          <main className="mt-32 mx-auto max-w-7xl px-4 sm:mt-36">
+          <main className="mt-20 mx-auto max-w-7xl px-4 sm:mt-24">
             <div className="text-center">
-                <img
-                  className="w-48 mx-auto"
-                  src="/img/logos/econbowl.png"
-                  alt="EconBowl"
-                />
+              <img
+                className="w-48 mx-auto"
+                src="/img/logos/econbowl.png"
+                alt="EconBowl"
+              />
               <div className="mt-3 mx-auto text-left md:text-center text-gray-500 text-lg md:mt-5 md:max-w-3xl">
                 <p className="italic max-w-xl text-base text-gray-400 inline-flex w-auto border-y-2 border-gray-300 py-3">
                   The Youth Economics Initiative is proud to present our 4th
@@ -98,6 +98,15 @@ export default function Hero() {
                   your high school, compete for glory, and win cash prizes!
                 </p>
                 <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
+                  Registration for EconBowl has closed. Please email <a
+                    className="text-yei-primary-darker font-medium"
+                    href="mailto:events@theyei.org"
+                  >
+                    events@theyei.org
+                  </a>{' '}
+                  for any further questions.
+                </p>
+                {/* <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
                   <b>Registration will close on November 9, 2022 at 11:59 PST
                   (UTC−8).</b> The competition will be held on November 12, 2022
                 </p>
@@ -107,7 +116,7 @@ export default function Hero() {
                   className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-opacity-90 sm:px-8"
                 >
                   Register!
-                </AnchorLink>
+                </AnchorLink> */}
               </div>
             </div>
           </main>
