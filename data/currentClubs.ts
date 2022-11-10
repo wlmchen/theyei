@@ -445,6 +445,26 @@ const clubs = [
     name: 'GEMS Metropole School',
     email: 'economicsclub.triamudom@gmail.com',
     region: 'UAE',
+  },
+  {
+    name: 'Manila Xiamen International School',
+    email: 'alexwongyanki@163.com',
+    region: 'China'
+  },
+  {
+    name: 'Chengdu Foreign Languages School',
+    email: '12120626@qq.com',
+    region: 'China'
+  },
+  {
+    name: 'Beijing Haidian Foreign Language Shiyan School',
+    email: 'edwardqu0822@outlook.com',
+    region: 'China'
+  },
+  {
+    name: 'Hefei Thomas School',
+    email: 'hesy101016@icloud.com',
+    region: 'China'
   }
 ]
 
