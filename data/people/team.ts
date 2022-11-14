@@ -74,6 +74,12 @@ const team: Member[] = [
     github: 'AAkashyap1',
   },
   {
+    name: 'Tarun Eswar',
+    positions: ['Web Developer'],
+    linkedin: 'tarun-eswar-b10150233',
+    github: 'Tarune28',
+  },
+  {
     name: 'Evangeline Lin',
     positions: ['Web Developer', 'Event Coordinator'],
     linkedin: 'evangeline-lin-6b1bab224',
