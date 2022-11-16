@@ -237,24 +237,9 @@ const team: Member[] = [
     linkedin: 'lavanya-gupta-b09778247'
   },
   {
-    name: 'Vaishu Enduri',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'vaishu-enduri',
-  },
-  {
     name: 'Ting Zhang',
     positions: ['FLIP Partnership Manager'],
     linkedin: 'jiashen-zhang-1496a8207'
-  },
-  {
-    name: 'Amaya Mahajan',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'amaya-mahajan-15229422a'
-  },
-  {
-    name: 'Kabir Mishra',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'kabir-mishra-43a588228/'
   }
 ]
 
