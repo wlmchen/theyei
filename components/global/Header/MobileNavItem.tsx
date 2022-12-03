@@ -43,7 +43,7 @@ export default function MobileNavItem({
             return (
               <NestedItem
                 key={fullHref}
-                href={fullHref}
+                href={r.externalLink ? r.href : fullHref}
                 name={r.name}
                 active={fullHref == currPath}
               />
@@ -61,7 +61,7 @@ export default function MobileNavItem({
   )
 }
 
-function NestedItem({ href, name, active }) {
+function NestedItem({ href, name, active}) {
   const activeStyles = 'bg-indigo-50 border-yei-primary-main text-green-900'
   const defaultStyles =
     'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700'
