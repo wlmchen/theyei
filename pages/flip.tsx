@@ -5,6 +5,7 @@ import ContentBlock from '../components/programs/ContentBlock'
 import Link from 'next/link'
 import ApplicationCriteria from '../components/programs/flip/ApplicationCriteria'
 import Curriculum from '../components/programs/flip/Curriculum'
+import Workshop from '../components/programs/flip/Workshop'
 
 export default function flip() {
   return (
@@ -18,8 +19,8 @@ export default function flip() {
         applyLink="https://docs.google.com/forms/d/1bjyw2csfGtJRDt4UFgCU1eyrCIV_nKECSY4LNDfvSH4/viewform"
       />
       <div>
-        
       </div>
+      <Workshop />
       <ContentBlock
         subtitle="YEI FLIP"
         title="Financial Literacy Introduction Program"

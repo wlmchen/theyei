@@ -14,15 +14,21 @@ export default function EconBowlBanner() {
 
 
     return (
-        <div className="z-40 w-screen bg-green-700">
+        <div className="w-screen bg-green-700">
         {/* {currPath !== path &&  */}
             <div className="flex items-center flex-wrap font-medium text-white text-center justify-center space-x-2 px-1 py-2">
                 <div>{data.primary}</div>
                 <div className="sm:block hidden">{data.secondary}</div>
-                <a target="_blank" href="https://www.tinyurl.com/FLIPWorkshop" className="underline font-semibold inline-flex items-center">{data.linkText}<ArrowRightIcon className=" ml-1 h-4 w-4"/></a>
+                <Link href="/flip#workshop"><a className="underline font-semibold inline-flex items-center">{data.linkText}<ArrowRightIcon className=" ml-1 h-4 w-4"/></a></Link>
             </div>
         {/* } */}
         </div>
 
+    )
+}
+
+export function Spacer() {
+    return (
+        <div className="pt-[4rem] sm:pt-10"></div>
     )
 }
