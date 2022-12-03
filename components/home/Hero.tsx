@@ -35,7 +35,7 @@ export default function Hero() {
               <p className="max-w-xl mx-auto text-2xl sm:text-3xl text-white mt-6">
                 The world's largest coalition of high school economics clubs.
               </p>
-              <div className="w-auto inline-block -m-2 flex-col sm:flex-row justify-center sm:items-center mt-6">
+              {/* <div className="w-auto inline-block -m-2 flex-col sm:flex-row justify-center sm:items-center mt-6">
                 <div className="inline-flex"><AnchorLink href="#learnmore" offset={25}>
                   <a className="w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-lg font-medium rounded-lg bg-white text-gray-900 hover:bg-green-100 md:py-4 md:text-lg md:px-10 trans-300 m-2">
                     Learn More
@@ -48,7 +48,7 @@ export default function Hero() {
                     <ChevronRightIcon className="h-7 w-7 ml-3 -mr-3" />
                   </a>
                 </Link></div>
-              </div>
+              </div> */}
             </div>
           </div>
         </main>

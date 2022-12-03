@@ -17,6 +17,9 @@ export default function flip() {
         desc="YEI’s Financial Literacy Introduction Program (FLIP) is the service arm of our organization. Through FLIP, our members are empowered to educate their community on Financial Literacy with our comprehensive curriculum and support network."
         applyLink="https://docs.google.com/forms/d/1bjyw2csfGtJRDt4UFgCU1eyrCIV_nKECSY4LNDfvSH4/viewform"
       />
+      <div>
+        
+      </div>
       <ContentBlock
         subtitle="YEI FLIP"
         title="Financial Literacy Introduction Program"

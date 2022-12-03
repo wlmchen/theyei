@@ -8,7 +8,7 @@ import { faPlus, faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Link from 'next/link'
-import EconBowlBanner from './EconBowlBanner'
+import Banner from './Banner'
 
 export default function Navbar() {
   const mobileMenu = useRef(null)
@@ -32,7 +32,7 @@ export default function Navbar() {
 
   return (
     <nav className="z-40 w-screen bg-white fixed">
-      <EconBowlBanner />
+      <Banner />
       <div className="container">
         <div className="flex justify-between h-16">
           <Link href="/">
