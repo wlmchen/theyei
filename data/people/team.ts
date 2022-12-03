@@ -55,9 +55,9 @@ const exec: Member[] = [
     linkedin: 'kavinshah-student',
   },
   {
-    name: 'Lavanya Gupta',
+    name: 'Raymond Ma',
     positions: ['VP of Flip'],
-    linkedin: 'lavanya-gupta-b09778247'
+    linkedin: 'raymondma012'
   },
   {
     name: 'Miriam Trujillo',
@@ -72,6 +72,12 @@ const team: Member[] = [
     positions: ['Web Developer'],
     linkedin: 'ananth-kashyap-88b996209',
     github: 'AAkashyap1',
+  },
+  {
+    name: 'Tarun Eswar',
+    positions: ['Web Developer'],
+    linkedin: 'tarun-eswar-b10150233',
+    github: 'Tarune28',
   },
   {
     name: 'Evangeline Lin',
@@ -221,29 +227,19 @@ const team: Member[] = [
     linkedin: 'suden-prashar-a1b7a7242',
   },
   {
-    name: 'Raymond Ma',
-    positions: ['Director of Flip'],
-    linkedin: 'raymondma012'
+    name: 'Sudipta Rout',
+    positions: ['Team Ambassador'],
+    linkedin: 'sudiptar'
   },
   {
-    name: 'Vaishu Enduri',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'vaishu-enduri',
+    name: 'Lavanya Gupta',
+    positions: ['Director of Flip'],
+    linkedin: 'lavanya-gupta-b09778247'
   },
   {
     name: 'Ting Zhang',
     positions: ['FLIP Partnership Manager'],
     linkedin: 'jiashen-zhang-1496a8207'
-  },
-  {
-    name: 'Amaya Mahajan',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'amaya-mahajan-15229422a'
-  },
-  {
-    name: 'Kabir Mishra',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'kabir-mishra-43a588228/'
   }
 ]
 
