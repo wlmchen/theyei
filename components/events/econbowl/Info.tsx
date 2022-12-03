@@ -4,7 +4,7 @@ import {
   ClockIcon,
   MapIcon,
   VideoCameraIcon,
-} from '@heroicons/react/outline'
+} from '@heroicons/react/24/outline'
 import { ReactChild } from 'react'
 
 const details: Detail[] = [

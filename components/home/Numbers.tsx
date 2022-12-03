@@ -1,4 +1,4 @@
-import { GlobeIcon, StarIcon, UserGroupIcon, UsersIcon } from '@heroicons/react/outline'
+import { GlobeAltIcon, StarIcon, UserGroupIcon, UsersIcon } from '@heroicons/react/24/outline'
 import React from 'react'
 import currentClubs from '../../data/currentClubs'
 import CountUpOnce from '../utility/CountUp'
@@ -22,7 +22,7 @@ export default function Numbers({ title }) {
             {
               desc: 'Current clubs',
               val: currentClubs.length,
-              icon: <GlobeIcon className="w-10 h-10 ml-2 text-green-200" />,
+              icon: <GlobeAltIcon className="w-10 h-10 ml-2 text-green-200" />,
             },{
               desc: 'Amazing group ​of young economists',
               val: 1,

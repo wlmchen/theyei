@@ -4,7 +4,7 @@ import { useState } from 'react'
 import FocusError from '../../utility/FocusError'
 import * as Yup from 'yup'
 import camelCase from '../../../utils/camelCase'
-import { ArrowRightIcon, XIcon } from '@heroicons/react/outline'
+import { ArrowRightIcon } from '@heroicons/react/24/outline'
 import SignatureCanvas from 'react-signature-canvas'
 
 interface Props { }

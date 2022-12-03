@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { ChevronRightIcon } from '@heroicons/react/solid'
+import { ChevronRightIcon } from '@heroicons/react/24/solid'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default function Hero() {

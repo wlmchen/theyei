@@ -1,4 +1,3 @@
-import { XIcon } from '@heroicons/react/outline'
 import React from 'react'
 
 function Sponsors() {
