@@ -26,12 +26,6 @@ const clubs = [
     founding: true,
   },
   {
-    name: 'Monta Vista High School',
-    email: 'maggieyy7@gmail.com ',
-    region: 'NorCal',
-    founding: true,
-  },
-  {
     name: 'Waubonsie Valley High School',
     email: 'ariondey@gmail.com',
     region: 'Illinois',
