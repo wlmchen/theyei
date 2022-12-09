@@ -412,7 +412,7 @@ const clubs = [
   },
   {
     name: 'Vincent Massey Secondary School',
-    email: 'itzdordor@gmail.com',
+    email: 'masseyeconomicsclub@gmail.com',
     region: 'Ontario, Canada',
   },
   {
