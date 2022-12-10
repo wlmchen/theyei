@@ -35,6 +35,14 @@ const featured = [
     subtitle: 'YEI Program',
   },
   {
+    title: 'Learning Portal',
+    content:
+      'YEI’s Learning Portal provides practice resources for the AP Economics exams, National Economics Challenge, EconBowl, EconOlympiad, and more.',
+    href: 'https://learn.theyei.org',
+    imgTitle: 'learning-portal',
+    subtitle: 'YEI Program',
+  },
+  {
     title: 'SELC/WELC',
     content:
       'Every Summer and Winter, YEI hosts a leadership conference to help our student leaders and outstanding staff members network, gain valuable leadership experience, and get the up to date information on YEI Programs.',
