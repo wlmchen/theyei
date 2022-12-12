@@ -182,16 +182,6 @@ const team: Member[] = [
     linkedin: 'lisa-oshiba-12994a218',
   },
   {
-    name: 'Sambhav Mehta',
-    positions: ['Event Coordinator'],
-    linkedin: 'sambhav-mehta-862998233',
-  },
-  {
-    name: 'Andrei Hui',
-    positions: ['Event Coordinator'],
-    linkedin: 'andrei-hui',
-  },
-  {
     name: 'Isabell Kossar',
     positions: ['Accounting Manager', 'Club Associate'],
     linkedin: 'isabell-kossar-09884b212',
