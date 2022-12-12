@@ -32,7 +32,6 @@ export default function Navbar() {
 
   return (
     <nav className="z-40 w-screen bg-white fixed">
-      <Banner />
       <div className="container">
         <div className="flex justify-between h-16">
           <Link href="/">
