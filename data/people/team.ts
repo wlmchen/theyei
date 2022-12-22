@@ -182,6 +182,16 @@ const team: Member[] = [
     linkedin: 'lisa-oshiba-12994a218',
   },
   {
+    name: 'Cindy Zhu',
+    positions: ['Event Coordinator'],
+    linkedin: 'cindyyzhu',
+  },
+  {
+    name: 'Stephanie Wan',
+    positions: ['Event Coordinator'],
+    linkedin: 'stephanie-wan-b7452a23a',
+  },
+  {
     name: 'Isabell Kossar',
     positions: ['Accounting Manager', 'Club Associate'],
     linkedin: 'isabell-kossar-09884b212',
