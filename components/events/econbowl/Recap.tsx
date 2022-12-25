@@ -8,7 +8,7 @@ export default function Recap() {
         <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-              <span className="xl:inline">EB 2022</span>
+              <span className="xl:inline">EB 2022 {' '}</span>
               <span className="text-yei-primary-main xl:inline">Recap</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 font-medium sm:text-xl md:mt-5  md:max-w-3xl">
