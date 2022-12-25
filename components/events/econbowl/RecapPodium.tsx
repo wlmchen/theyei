@@ -1,23 +1,15 @@
 const team = [
   {
-    name: 'The Eagles',
-    school: 'Enloe High',
-    names: ['Chirag B.', 'Riddhik B.', 'Derek Z.', 'Sam I.'],
+    name: 'Eden Prairie High School Team 1',
   },
   {
-    name: 'Vink',
-    school: 'BASIS Scottsdale',
-    names: ['Emily C.', 'Ritvik R.', 'Tanish G.'],
+    name: 'MV Flex',
   },
   {
-    name: 'Amogus',
-    school: `Land O' Lakes High`,
-    names: ['Allen H.', 'Hannah B.', 'Arossa A.', 'William S.'],
+    name: 'God Squad',
   },
   {
-    name: "Macro Minds",
-    school: 'The Harker School',
-    names: ['Saahas K.', 'Anirudh K.', 'Daniel F.', 'Rohan R.'],
+    name: "ASDAN 2",
   },
 ]
 
@@ -36,7 +28,7 @@ const individual = [
 export default function RecapPodium() {
   return (
     <div className="pt-8 pb-2 mb-4 flex flex-col w-auto h-auto overflow-x-auto overflow-y-visible">
-      <h1 className="mb-3 text-xl font-medium">3rd Annual EconBowl Podium (Team)</h1>
+      <h1 className="mb-3 text-xl font-medium">4th Annual EconBowl Podium (Team)</h1>
       <div className="mb-8">
         <div className="align-middle inline-block">
           <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
@@ -55,7 +47,7 @@ export default function RecapPodium() {
                   >
                     Team Name
                   </th>
-                  <th
+                  {/* <th
                     scope="col"
                     className="px-4 xl:px-6 py-3 text-xs font-medium uppercase tracking-wider"
                   >
@@ -66,7 +58,7 @@ export default function RecapPodium() {
                     className="px-4 xl:px-6 py-3 text-xs font-medium  uppercase tracking-wider"
                   >
                     Members
-                  </th>
+                  </th> */}
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
@@ -81,13 +73,13 @@ export default function RecapPodium() {
                     <td className="px-4 xl:px-6 py-4 whitespace-nowrap text-xs text-gray-900 font-medium">
                       {team.name}
                     </td>
-                    <td className="px-4 xl:px-6 py-4 whitespace-nowrap text-xs text-gray-500">
+                    {/* <td className="px-4 xl:px-6 py-4 whitespace-nowrap text-xs text-gray-500">
                       {team.school}
-                    </td>
-                    <td className="px-4 xl:px-6 py-4 whitespace-nowrap text-xs break-all text-gray-500">
+                    </td> */}
+                    {/* <td className="px-4 xl:px-6 py-4 whitespace-nowrap text-xs break-all text-gray-500">
                       {team.names.slice(0, 2).join(', ')} <br />
                       {team.names.slice(2).join(', ')}
-                    </td>
+                    </td> */}
                   </tr>
                 ))}
               </tbody>
@@ -95,8 +87,8 @@ export default function RecapPodium() {
           </div>
         </div>
       </div>
-      <h1 className="mb-3 text-xl font-medium">3rd Annual EconBowl Podium (Individual)</h1>
-      <div className="">
+      {/* <h1 className="mb-3 text-xl font-medium">3rd Annual EconBowl Podium (Individual)</h1> */}
+      {/* <div className="">
         <div className="align-middle inline-block">
           <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
             <table className="min-w-full divide-y divide-gray-200">
@@ -152,7 +144,7 @@ export default function RecapPodium() {
             </table>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

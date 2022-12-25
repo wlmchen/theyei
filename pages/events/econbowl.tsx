@@ -20,6 +20,7 @@ export default function econbowl() {
     >
       <Hero />
       <Info />
+      <Recap />
       <Structure />
       <Speaker />
       <Schedule />
