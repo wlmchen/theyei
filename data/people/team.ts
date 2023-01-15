@@ -30,9 +30,9 @@ const exec: Member[] = [
     email: 'williamchen@theyei.org'
   },
   {
-    name: 'Satvik Shreesha',
+    name: 'Saketh Maramraj',
     positions: ['VP of Marketing / Multimedia'],
-    linkedin: 'satvik-shreesha-b3815a207',
+    linkedin: 'sakethram-maramraj-a72b79247',
   },
   {
     name: 'Frank Xiao',
@@ -119,11 +119,6 @@ const team: Member[] = [
     name: 'Simrat Oberoi',
     positions: ['Marketing Specialist'],
     linkedin: 'simrat-oberoi-806939241',
-  },
-  {
-    name: 'Saketh Maramraj',
-    positions: ['Marketing Specialist'],
-    linkedin: 'sakethram-maramraj-a72b79247',
   },
   {
     name: 'Yamini Venkatesan',
