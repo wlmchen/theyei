@@ -19,12 +19,10 @@ export default function econbowl() {
       desc="Youth Economics Initiative's (YEI) Fall Competition, students compete in teams of 3 or 4 for a $1600 Prize Pool.  Competition consists of a Written Exam and Quiz Bowl Rounds. Presented with the Wen & Yung Family Foundation."
     >
       <Hero />
-      <Info />
       <Recap />
-      <Structure />
       <Speaker />
-      <Schedule />
       <Prizes />
+      <Structure />
       <Resources />
       <Sponsors />
       {/* <Signup /> */}
