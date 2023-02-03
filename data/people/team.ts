@@ -237,6 +237,11 @@ const team: Member[] = [
     linkedin: 'lavanya-gupta-b09778247'
   },
   {
+    name: 'Chinmayi Chittamuri',
+    positions: ['FLIP Partnership Manager'],
+    linkedin: 'chinmayi-chittamuri-521881229'
+  },
+  {
     name: 'Ting Zhang',
     positions: ['FLIP Partnership Manager'],
     linkedin: 'jiashen-zhang-1496a8207'
