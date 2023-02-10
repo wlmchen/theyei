@@ -11,12 +11,12 @@ import React from 'react'
  */
 const reasons = [
   {
-    title: 'March 19th',
+    title: 'March 4th',
     content: (
       <>
         <b>Opening ceremony & prompts released (synchronous).</b>
         <br />
-        <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
+        {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a
             href="https://www.youtube.com/watch?v=1F_XLYxfdhw"
             target="_blank"
@@ -26,22 +26,23 @@ const reasons = [
             <FontAwesomeIcon icon={faYoutube} className="h-4 w-4 mr-2" />
             View Ceremony
           </a>
-        </p>
+        </p> */}
       </>
     ),
   },
   {
-    title: 'March 20th - April 8th',
+    title: 'March 5th - March 25th',
     content: (
       <>
-        <b>Prepare presentations (asynchronous).</b> Groups will have 20 days to
-        research, collaborate, and record their presentations. Upload your video
-        by 11:59pm PST on April 8th.
-<br />
-
-<p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
-
-<a
+        <b>
+          Prepare presentations (asynchronous).
+          <br />
+        </b>{' '}
+        Groups will have 20 days to research, collaborate, and record their
+        presentations. Upload your video by 11:59pm PST on April 8th.
+        <br />
+        {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
+          <a
             href="https://c3sgn9rfei3.typeform.com/to/BW7WQuZZ"
             target="_blank"
             rel="noreferrer"
@@ -49,16 +50,25 @@ const reasons = [
           >
             <FontAwesomeIcon icon={faUpload} className="h-4 w-4 mr-2" />
             Submit Presentation
-          </a></p>
-
+          </a>
+        </p> */}
       </>
     ),
   },
   {
-    title: 'April 16th',
+    title: 'April 8th',
     content: (
       <>
-        <b>Debate round qualifiers announced over social media.</b>
+        <b>
+          Debate round qualifiers announced over{' '}
+          <a
+            className="underline font-bold text-green-600"
+            href="https://www.instagram.com/the.yei/"
+          >
+            social media
+          </a>
+          .
+        </b>
       </>
     ),
   },
@@ -66,9 +76,12 @@ const reasons = [
     title: 'April 23rd',
     content: (
       <>
-        <b>Debate round {'&'} awards ceremony (synchronous).</b> Qualifying
-        teams will have the chance to debate each other on a new prompt. See
-        cash prizes below!
+        <b>
+          Debate round {'&'} awards ceremony (synchronous).
+          <br />
+        </b>{' '}
+        Qualifying teams will have the chance to debate each other on a new
+        prompt. See cash prizes below!
       </>
     ),
   },
@@ -86,9 +99,8 @@ export default function KeyDates() {
             Key Dates
           </p>
           <p className="mt-4 text-lg text-gray-500">
-            The event spans from March 19th to April 23rd.
-            Scores and feedback for all competitors will be released shortly
-            after the event.
+            The event spans from March 4th to April 23rd. Scores and feedback
+            for all competitors will be released shortly after the event.
           </p>
         </div>
         <div className="mt-12 lg:mt-0 lg:col-span-2">

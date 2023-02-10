@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faUpload } from '@fortawesome/free-solid-svg-icons'
 import links from '../../../data/content/econOlympiadRegistration'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default function Register() {
   const [open, setOpen] = useState(false)
@@ -106,7 +107,7 @@ export default function Register() {
 
       <div className="mt-2" />
       <a
-        href="https://form.jotform.com/220506194073147"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSc1b8eYDfjiOpoRxCJaf_kN6hs5LpsKPBFI11LtGLVXE6xAYw/viewform"
         target="_blank"
         className="mt-3 mr-2 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
       >
@@ -117,7 +118,7 @@ export default function Register() {
         />
       </a>
 
-      <a
+      {/* <a
         href="https://c3sgn9rfei3.typeform.com/to/BW7WQuZZ"
         target="_blank"
         className="mt-3 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
@@ -127,7 +128,7 @@ export default function Register() {
           icon={faUpload}
           className="-mr-1 ml-3 h-4 w-4 text-gray-200"
         />
-      </a>
+      </a> */}
     </div>
   )
 }

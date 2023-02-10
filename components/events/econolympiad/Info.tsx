@@ -133,7 +133,7 @@ export default function Info() {
             judges for both the presentation and debate rounds.
           </p>
 
-          <a
+          {/* <a
             href="https://www.youtube.com/watch?v=XxS0PSG9aro"
             target="_blank"
             rel="noreferrer"
@@ -141,7 +141,7 @@ export default function Info() {
           >
             <FontAwesomeIcon icon={faYoutube} className="h-6 w-6 mr-3" />
             2022 EconOlympiad Prompt & Guidelines
-          </a>
+          </a> */}
         </div>
         <div className="mt-8 prose prose-green prose-lg text-gray-500 mx-auto">
           <h2>Presentation Round</h2>
@@ -159,7 +159,7 @@ export default function Info() {
             previous choices, determining the final EconOlympiad winners.
           </p>
 
-          <h2>Team Matching: A New Way To Find Members</h2>
+          {/* <h2>Team Matching: A New Way To Find Members</h2>
           <p>
             Are you looking to join a team or would like some extra members to
             join yours? Join our{' '}
@@ -170,15 +170,15 @@ export default function Info() {
             channel! Doing this will allow you to join a channel specifically
             for team finding, where you will be able to meet others who are
             looking for teammates as well.{' '}
-          </p>
-          <p>
+          </p> */}
+          {/* <p>
             If you are not able to give yourself the role via the above process
             for some reason, please fill out{' '}
             <a href="http://bit.ly/econolyteamfinder" target="_blank">
               this form
             </a>{' '}
             so we can manually give you the role. Happy team finding!
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

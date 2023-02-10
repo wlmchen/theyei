@@ -7,17 +7,17 @@ export default function Speaker() {
     <div className="bg-white pt-16 lg:py-24">
       <div className="pb-16 bg-yei-secondary-brighter lg:pb-0 lg:z-10 lg:relative">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
-          <div className="relative lg:-my-8">
+          <div className="relative lg:my-28">
             <div
               aria-hidden="true"
               className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"
             />
-            <div className="hidden lg:block mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
+            <div className="hidden lg:block mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 ">
               <div className="rounded-xl shadow-xl overflow-hidden lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
-                  src="/img/people/speakers/michael-dinerstein.jpg"
-                  alt="Michael Dinerstein"
+                  src="/img/people/speakers/sven-beiker.jpg"
+                  alt="Sven Beiker"
                 />
               </div>
             </div>
@@ -28,15 +28,15 @@ export default function Speaker() {
                 <div className="block lg:hidden pt-14 sm:pt-20">
                   <img
                     className="w-52 sm:w-64 rounded shadow-sm"
-                    src="/img/people/speakers/michael-dinerstein.jpg"
-                    alt="Michael Dinerstein"
+                    src="/img/people/speakers/sven-beiker.jpg"
+                    alt="Sven Beiker"
                   />
                 </div>
                 <div className="mt-6 text-xl text-white">
                   <h1 className="text-3xl sm:text-4xl tracking-tight font-black">
                     About the Speaker
                   </h1>
-                  <a
+                  {/* <a
                     href="https://www.youtube.com/watch?v=EiHykw6LsOI"
                     target="_blank"
                     rel="noreferrer"
@@ -47,28 +47,38 @@ export default function Speaker() {
                       className="h-4 w-4 mr-2"
                     />
                     Watch his talk!
-                  </a>
+                  </a> */}
                   <p className="mt-3">
-                    Our feature speaker for EconOlympiad is{' '}
-                    <b>
-                      Michael Dinerstein, an Assistant Professor in the Kenneth
-                      C. Griffin Department of Economics at the University of
-                      Chicago
-                    </b>
+                    <b>Bio:</b>{' '}
+                    Dr. Sven Beiker is a Lecturer in Management at the Stanford
+                    Business School, and the Managing Director of Silicon Valley
+                    Mobility, an independent consulting & advisory firm. He
+                    covers the electrification, automation, connectivity, and
+                    sharing of automobiles through the lens of new technologies
+                    and business models. This is reflected in his teaching at
+                    Stanford as well as in his professional engagements. Prior
+                    to his independent consulting work, he served as an Expert
+                    Consultant for mobility topics at McKinsey & Company for 2.5
+                    years.
                   </p>{' '}
                   <p className="mt-3">
-                    Professor Dinerstein completed his Ph.D in economics at
-                    Stanford University, and his work has been published in the
-                    American Economic Journal. His research primarily
-                    concentrates on the economics of education, public
-                    economics, and industrial organization.
+                    <b>Abstract:</b>{' '}
+                    Mobility Innovation at the Intersection of Business,
+                    Technology, Consumers, and Regulation
                   </p>
                   <p className="mt-3">
-                    His talk will specifically examine the economics of
-                    teaching, and how reallocating existing teachers across
-                    schools within a district can affect student achievement.
-                    Find out about policies that can motivate teachers to switch
-                    schools when differences in wages are negligible.
+                    Mobility in the context of this presentation describes how
+                    people and goods get moved around, whether by car, truck,
+                    bus, two-wheeler, etc. The big trends in this are autonomous
+                    driving, electric vehicles, connected things, and shared
+                    mobility. And as much as there are technical challenges to
+                    overcome, consumer preferences to fulfill, regulatory
+                    requirements to satisfy, in all that arguably the biggest
+                    question is what the business case might be for this future
+                    transportation paradigm. Participants will learn in this
+                    interactive session about the different aspects of future
+                    vehicles and they will get exposed to the decision making
+                    process in the industry.
                   </p>
                 </div>
               </div>

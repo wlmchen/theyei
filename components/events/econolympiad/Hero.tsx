@@ -48,9 +48,7 @@ export default function Hero() {
             />
           </svg>
         </div>
-        <div
-          className="relative pb-16 sm:pb-24 lg:pb-32 pt-12"
-        >
+        <div className="relative pb-16 sm:pb-24 lg:pb-32 pt-12">
           <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
             <div className="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
@@ -65,20 +63,19 @@ export default function Hero() {
                 </h1>
                 <div className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                   <p className="mt-3 ">
-                    Earn prestigious prizes, network with like minded peers, and learn from 
-                    engaging speakers while putting your knowledge of economics to the test.
-                     Cooperate in a team-based competition to unravel solutions to current 
-                     economic issues. 
+                    Earn prestigious prizes, network with like minded peers, and
+                    learn from engaging speakers while putting your knowledge of
+                    economics to the test. Cooperate in a team-based competition
+                    to unravel solutions to current economic issues.
                   </p>
                   <p className="mt-4">
-                    Not convinced? Keep scrolling to learn more about what possibilities await!
+                    Not convinced? Keep scrolling to learn more about what
+                    possibilities await!
                   </p>
                   <p className="mt-4">
-                    Interested? EconOlympiad is open to ALL middle and high school students!
-                  </p>
-                  <p className="mt-4">
-                    The final deadline to enter the competition is{' '}
-                    <strong>4/8/22</strong>. Presentation submissions will be accepted on a rolling basis up until then.
+                    Interested? EconOlympiad is open to ALL middle and high
+                    school students! Register below by{' '}
+                    <strong>February 28th at 11:59pm PST</strong>.
                   </p>
                 </div>
                 <div>
@@ -127,7 +124,7 @@ export default function Hero() {
                     fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)"
                   />
                 </svg>
-                <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
+                {/* <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
                   <button
                     type="button"
                     className="relative block w-full bg-yei-secondary-brighter rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main"
@@ -135,11 +132,6 @@ export default function Hero() {
                     <span className="sr-only">
                       Watch our video to learn more
                     </span>
-                    {/* <img
-                      className="w-full"
-                      src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                      alt=""
-                    /> */}
 
                     <iframe
                       className="w-full h-64 sm:h-72 lg:h-64"
@@ -149,7 +141,7 @@ export default function Hero() {
                       allowFullScreen
                     />
 
-                    {/* <div
+                    <div
                       className="absolute w-full h-full flex items-center justify-center"
                       aria-hidden="true"
                     >
@@ -167,9 +159,9 @@ export default function Hero() {
                         />
                         <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
                       </svg>
-                    </div> */}
+                    </div>
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </main>
