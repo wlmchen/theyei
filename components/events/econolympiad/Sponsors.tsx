@@ -1,5 +1,5 @@
 import React from 'react'
-import sponsors from '../../../data/companies/econbowlSponsrs'
+import sponsors from '../../../data/companies/econbowlSponsors'
 import DoubleGridBg from '../../utility/DoubleGridBg'
 
 export default function Sponsors() {

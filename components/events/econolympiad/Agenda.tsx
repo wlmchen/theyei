@@ -24,13 +24,13 @@ export default function Agenda() {
             <div className="md:w-1/2">
               <ScheduleTable
                 schedule={openingSchedule}
-                title="Opening Ceremony Schedule (3/04/22)"
+                title="Opening Ceremony Schedule (3/04/23)"
               />
             </div>
             <div className="md:w-1/2">
               <ScheduleTable
                 schedule={ceremonySchedule}
-                title="Debate Round & Awards Ceremony (4/15/22 - TBD)"
+                title="Debate Round & Awards Ceremony (4/22/23)"
               />
             </div>
           </div>
