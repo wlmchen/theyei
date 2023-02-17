@@ -39,7 +39,7 @@ const reasons = [
           <br />
         </b>{' '}
         Groups will have 20 days to research, collaborate, and record their
-        presentations. Upload your video by 11:59pm PST on April 8th.
+        presentations. Upload your video by 11:59pm PST on March 25th.
         <br />
         {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a
