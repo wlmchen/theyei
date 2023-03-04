@@ -73,7 +73,7 @@ const reasons = [
     ),
   },
   {
-    title: 'April 23rd',
+    title: 'April 22nd',
     content: (
       <>
         <b>
@@ -99,7 +99,7 @@ export default function KeyDates() {
             Key Dates
           </p>
           <p className="mt-4 text-lg text-gray-500">
-            The event spans from March 4th to April 23rd. Scores and feedback
+            The event spans from March 4th to April 22nd. Scores and feedback
             for all competitors will be released shortly after the event.
           </p>
         </div>
