@@ -146,6 +146,11 @@ const team: Member[] = [
     linkedin: 'auritro-chakraborty-01a4bb245',
   },
   {
+    name: 'Dhruv Nagarajan',
+    positions: ['Curriculum Developer'],
+    linkedin: 'dhruv-nagarajan',
+  },
+  {
     name: 'Cameron Dolbow',
     positions: ['Testing Developer'],
     linkedin: 'cameron-dolbow',
