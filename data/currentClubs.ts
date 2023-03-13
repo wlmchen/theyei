@@ -459,6 +459,21 @@ const clubs = [
     name: 'Hefei Thomas School',
     email: 'hesy101016@icloud.com',
     region: 'China'
+  },
+  {
+    name: 'Seoul Academy',
+    email: 'gunhee060607@gmail.com',
+    region: 'South Korea'
+  },
+  {
+    name: 'Guangdong Country Garden School',
+    email: 'liuhuijiao@brightscholar.com',
+    region: 'China'
+  },
+  {
+    name: 'Beijing Haidian Kaiwen Academy',
+    email: '16671762@qq.com',
+    region: 'China'
   }
 ]
 
