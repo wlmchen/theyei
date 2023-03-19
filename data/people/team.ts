@@ -250,6 +250,10 @@ const team: Member[] = [
     name: 'Ting Zhang',
     positions: ['FLIP Partnership Manager'],
     linkedin: 'jiashen-zhang-1496a8207'
+  },
+  {
+    name: 'Simon Farruqui',
+    positions: ['FLIP Partnership Manager']
   }
 ]
 
