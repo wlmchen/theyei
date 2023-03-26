@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
-import Register from './Register'
+/*import Register from './Register'*/
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faUpload } from '@fortawesome/free-solid-svg-icons'
+/*import { faArrowRight, faUpload } from '@fortawesome/free-solid-svg-icons' idk if yall wanna keep these here so*/
 
 export default function Hero() {
   return (
@@ -71,7 +71,7 @@ export default function Hero() {
                     economics to the test. Cooperate in a team-based competition
                     to unravel solutions to current economic issues.
                   </p>
-                  <p className="mt-4">
+                  {/*<p className="mt-4">
                     Not convinced? Keep scrolling to learn more about what
                     possibilities await!
                   </p>
@@ -101,7 +101,7 @@ export default function Hero() {
                       className="-mr-1 ml-3 h-4 w-4 text-gray-200"
                     />
                     </a>
-                  </AnchorLink></div>
+                   </AnchorLink></div>*/}
                 </div>
               </div>
               <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
