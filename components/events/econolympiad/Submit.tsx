@@ -5,7 +5,7 @@ import { useState } from 'react'
 import * as Yup from 'yup'
 import camelCase from '../../../utils/camelCase'
 
-/*interface Props { }
+interface Props { }
 
 const Submit: NextComponentType<NextPageContext, {}, Props> = (
   props: Props
@@ -159,4 +159,3 @@ const RegisterSchema = Yup.object().shape({
     required('Submission Link Required'),
   questions: Yup.string()
 })
-*/

@@ -9,7 +9,6 @@ import Page from '../../components/utility/Page'
 import Speaker from '../../components/events/econolympiad/Speaker'
 import Sponsors from '../../components/events/econolympiad/Sponsors'
 import Testimonials from '../../components/events/econolympiad/Testimonials'
-import Submit from '../../components/events/econolympiad/Submit'
 
 export default function econolympiad() {
   return (
@@ -24,7 +23,6 @@ export default function econolympiad() {
       <Agenda />
       <Speaker />
       <Testimonials />
-      <Submit />
       <FAQs />
       <Sponsors />
     </Page>
