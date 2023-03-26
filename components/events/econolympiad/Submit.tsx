@@ -5,7 +5,7 @@ import { useState } from 'react'
 import * as Yup from 'yup'
 import camelCase from '../../../utils/camelCase'
 
-interface Props { }
+/*interface Props { }
 
 const Submit: NextComponentType<NextPageContext, {}, Props> = (
   props: Props
@@ -69,7 +69,7 @@ const Submit: NextComponentType<NextPageContext, {}, Props> = (
             <div className="w-full max-w-2xl mx-auto mt-4 flex flex-col items-center justify-center">
               <div className="space-y-12 w-full mt-8">
                 <div className="w-full">
-                  {/*<div className="w-full grid grid-cols-8 gap-4 mt-2">
+                  <div className="w-full grid grid-cols-8 gap-4 mt-2">
                     {fieldTypes.map((field, index) => {
                       const fieldKebab = `${camelCase(
                         field
@@ -109,7 +109,7 @@ const Submit: NextComponentType<NextPageContext, {}, Props> = (
                         </div>
                       )
                     })}
-                  </div>*/}
+                  </div>
                 </div>
 
                 <ErrorMessage
@@ -159,3 +159,4 @@ const RegisterSchema = Yup.object().shape({
     required('Submission Link Required'),
   questions: Yup.string()
 })
+*/
