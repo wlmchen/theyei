@@ -57,6 +57,7 @@ const routes = [
     dropRoutes: [
       { href: '/', name: 'Overview' },
       { href: '/econbowl-prep', name: 'EconBowl Prep' },
+      { href: '/blog', name: 'Blog'},
       { href: 'https://learn.theyei.org', name: 'Learn', newItem: true, externalLink: true },
     ],
   },
