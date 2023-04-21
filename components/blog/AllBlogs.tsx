@@ -22,7 +22,7 @@ export default function AllBlogs() {
     ;
   }
 
-  const mediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@theyei";
+  const mediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sri_yei";
 
   useEffect(() => {
     axios.get(mediumUrl).then((data) => {
