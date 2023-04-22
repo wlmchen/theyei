@@ -253,7 +253,8 @@ const team: Member[] = [
   },
   {
     name: 'Simon Farruqui',
-    positions: ['FLIP Partnership Manager']
+    positions: ['FLIP Partnership Manager'], 
+    linkedin: 'simonfarruqui'
   }
 ]
 

@@ -9,7 +9,6 @@ const openingSchedule = [
 
 const ceremonySchedule = [
   { time: '9:00 am - 12:00 pm', title: 'Debate Round' },
-  { time: '4:00 pm - 5:00 pm', title: 'Awards Ceremony' },
 ]
 
 export default function Agenda() {
@@ -30,7 +29,7 @@ export default function Agenda() {
             <div className="md:w-1/2">
               <ScheduleTable
                 schedule={ceremonySchedule}
-                title="Debate Round & Awards Ceremony (4/22/23)"
+                title="Debate Round (4/22/23)"
               />
             </div>
           </div>
