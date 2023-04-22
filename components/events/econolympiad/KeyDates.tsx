@@ -77,7 +77,7 @@ const reasons = [
     content: (
       <>
         <b>
-          Debate round {'&'} awards ceremony (synchronous).
+          Debate round.
           <br />
         </b>{' '}
         Qualifying teams will have the chance to debate each other on a new
