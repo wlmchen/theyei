@@ -4,7 +4,7 @@ import Footer from '../global/Footer/Footer'
 import Head from 'next/head'
 
 import { GA_TRACKING_ID } from './gtag'
-import EconBowlBanner, { Spacer } from '../global/Header/Banner'
+import Banner, { Spacer } from '../global/Header/Banner'
 
 export default function Page({ fullTitle, title, desc, children }: PageProps) {
   let pageTitle = fullTitle
@@ -91,6 +91,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
         }}
       ></noscript>
       <Navbar />
+      <Spacer />
       {children}
       <Footer />
     </>

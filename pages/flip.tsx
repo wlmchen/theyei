@@ -5,6 +5,7 @@ import ContentBlock from '../components/programs/ContentBlock'
 import Link from 'next/link'
 import ApplicationCriteria from '../components/programs/flip/ApplicationCriteria'
 import Curriculum from '../components/programs/flip/Curriculum'
+import Workshop from '../components/programs/flip/Event'
 
 export default function flip() {
   return (
@@ -19,6 +20,7 @@ export default function flip() {
       />
       <div>
       </div>
+      <Workshop />
       <ContentBlock
         subtitle="YEI FLIP"
         title="Financial Literacy Introduction Program"

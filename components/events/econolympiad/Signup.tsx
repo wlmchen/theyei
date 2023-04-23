@@ -7,7 +7,7 @@ import camelCase from '../../../utils/camelCase'
 import { ArrowRightIcon } from '@heroicons/react/24/outline'
 import SignatureCanvas from 'react-signature-canvas'
 
-interface Props {}
+interface Props { }
 
 const Signup: NextComponentType<NextPageContext, {}, Props> = (
   props: Props

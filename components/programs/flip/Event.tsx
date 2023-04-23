@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { CalendarIcon, InformationCircleIcon, ChevronRightIcon, MegaphoneIcon } from '@heroicons/react/24/outline'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Signup from './Signup'
 
 
 const data = [
@@ -23,19 +24,19 @@ const data = [
 ]
 
 
-export default function Workshop() {
+export default function Event() {
     return (
-        <div className="bg-gray-100 mt-8" id="workshop">
-            <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-                <div className="lg:max-w-none max-w-prose mx-auto">
-                    <div className="mb-6">
-                    <h2 className="text-base text-yei-primary-main font-semibold tracking-wide uppercase">
-            FLIP Event
-          </h2>
-                        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl mt-3">
-                            Financial Literacy Workshop
+        <div className="bg-gray-100 mt-8 pb-8" id="event">
+            <div className="relative max-w-7xl mx-auto py-16 pb-8 px-4 sm:px-6 lg:px-8 ">
+                <div className="max-w-prose mx-auto">
+                    <div className="">
+                        <h2 className="text-base text-yei-primary-main font-semibold tracking-wide uppercase">
+                            FLIP Event
                         </h2>
-                        {data.map((detail) => (
+                        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl mt-3">
+                            Financial Literacy Competition
+                        </h2>
+                        {/* {data.map((detail) => (
                             <dl className="w-full md:max-w-none max-w-xl  mt-10 flex items-start justify-center flex-col space-y-4">
                                 <div
                                     className="relative w-full flex flex-col items-start"
@@ -52,16 +53,17 @@ export default function Workshop() {
                                     </dd>
                                 </div>
                             </dl>
-                        ))}
+                        ))} */}
                     </div>
-                    <div className="">
+                    {/* <div className="">
                         <a target="_blank" href="https://www.tinyurl.com/FLIPWorkshop" className="mx-auto w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-lg font-bold rounded-lg text-white bg-yei-primary-main hover:bg-yei-primary-darker md:text-lg m-2">
                             Sign Up{' '}
                             <ChevronRightIcon className="h-7 w-7 ml-3 -mr-3" />
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
+            <Signup />
         </div>
     )
 }
