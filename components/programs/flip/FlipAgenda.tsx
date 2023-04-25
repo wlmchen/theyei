@@ -25,8 +25,8 @@ const schedule = [
 export default function FlipAgenda() {
   return (
     <div className="max-w-2xl w-full m-auto pt-10 pb-2 px-4">
-      <div className="mx-auto text-center">
-        <h2 className="text-center text-2xl leading-8 font-extrabold tracking-tight sm:text-3xl"></h2>
+      <div className="mx-auto -mx-4">
+        <h2 className="text-left text-2xl leading-8 font-extrabold tracking-tight sm:text-3xl">Agenda</h2>
       </div>
       <div className="mt-10">
       <div className="w-full mx-auto m-auto flex flex-col mb-10 mt-4">
@@ -54,9 +54,7 @@ export default function FlipAgenda() {
                     >
                       Description
                     </th>
-                    <th scope="col" className="relative px-6 py-3">
-                      <span className="sr-only">Edit</span>
-                    </th>
+
                   </tr>
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">

@@ -19,29 +19,10 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
 
     return (
         <div className="max-w-3xl w-full m-auto mb-16 px-6" id="register">
-            {/* <div className="space-y-2 text-lg text-gray-600">
-        <h2 className="text-center text-4xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl mb-8">
-          Interested? Signup!
-        </h2>
-        <p>
-          Please make sure that you and your team meet all eligibility
-          requirements before signing up for EconBowl. If you have already
-          registered, please DO NOT submit this form a second time. Email{' '}
-          <a
-            className="text-yei-primary-darker font-medium"
-            href="mailto:events@theyei.org"
-          >
-            events@theyei.org
-          </a>{' '}
-          if you need to make any changes to information previously submitted
-          (team roster, email address, etc).
-        </p>
+                <h2 className="mx-auto px-5 text-left text-2xl font-extrabold tracking-tight sm:text-3xl">
+                    Interested? Signup!
+                </h2>
 
-        <p>
-          Finished your presentation? Upload as an unlisted video to Youtube and
-          submit below!
-        </p>
-      </div> */}
             <Formik
                 initialValues={{
                     fullName: '',
@@ -161,24 +142,24 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                                 </div>
                             </div>
                             <div className="w-full">
-                                    <label
-                                        htmlFor="contactEmail"
-                                        className="block text-xl font-medium text-gray-700 py-2"
-                                    >
-                                        Email Address{' '}
-                                    </label>
-                                    <Field
-                                        type="text"
-                                        name="contactEmail"
-                                        id="contactEmail"
-                                        className="block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
-                                    />
-                                    <ErrorMessage
-                                        className="formik-error"
-                                        component="div"
-                                        name="contactEmail"
-                                    />
-                                </div>
+                                <label
+                                    htmlFor="contactEmail"
+                                    className="block text-xl font-medium text-gray-700 py-2"
+                                >
+                                    Email Address{' '}
+                                </label>
+                                <Field
+                                    type="text"
+                                    name="contactEmail"
+                                    id="contactEmail"
+                                    className="block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
+                                />
+                                <ErrorMessage
+                                    className="formik-error"
+                                    component="div"
+                                    name="contactEmail"
+                                />
+                            </div>
 
                             <div className="w-full flex items-left justify-left">
                                 <button

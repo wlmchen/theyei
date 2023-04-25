@@ -5,7 +5,7 @@ import {
 import { useRouter } from "next/router";
 
 const data = {
-    primary: "FLIP is hosting a Financial Literacy Competition with awards up to $800!",
+    primary: "FLIP is hosting a Financial Literacy Competition an $800 prize pool!",
     secondary: "",
     linkText: "Register Now",
     link: "/flip#event",
