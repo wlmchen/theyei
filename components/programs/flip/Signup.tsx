@@ -19,7 +19,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
 
     return (
         <div className="max-w-3xl w-full m-auto mb-16 px-6" id="register">
-                <h2 className="mx-auto px-5 text-left text-2xl font-extrabold tracking-tight sm:text-3xl">
+                <h2 className="mb-4 mx-auto px-5 text-left text-2xl font-extrabold tracking-tight sm:text-3xl">
                     Interested? Signup!
                 </h2>
 
