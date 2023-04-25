@@ -3,6 +3,9 @@ import Link from 'next/link'
 import { CalendarIcon, InformationCircleIcon, ChevronRightIcon, MegaphoneIcon } from '@heroicons/react/24/outline'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Signup from './Signup'
+import Schedule from '../../events/econbowl/Schedule'
+import Banner from '../../global/Header/Banner'
+import FlipAgenda from './FlipAgenda'
 
 
 const data = [
@@ -26,7 +29,11 @@ const data = [
 
 export default function Event() {
     return (
+        <>
+        
+        
         <div className="bg-gray-100 mt-8 pb-8" id="event">
+            
             <div className="relative max-w-7xl mx-auto py-16 pb-8 px-4 sm:px-6 lg:px-8 ">
                 <div className="max-w-prose mx-auto">
                     <div className="">
@@ -36,6 +43,7 @@ export default function Event() {
                         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl mt-3">
                             Financial Literacy Competition
                         </h2>
+                        <FlipAgenda />
                         {/* {data.map((detail) => (
                             <dl className="w-full md:max-w-none max-w-xl  mt-10 flex items-start justify-center flex-col space-y-4">
                                 <div
@@ -65,5 +73,6 @@ export default function Event() {
             </div>
             <Signup />
         </div>
+        </>
     )
 }

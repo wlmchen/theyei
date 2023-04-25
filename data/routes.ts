@@ -52,7 +52,7 @@ const routes = [
     name: 'FLIP',
   },
   {
-    href: '/resources',
+    href: '/',
     name: 'Resources',
     dropRoutes: [
       { href: '/', name: 'Overview' },
