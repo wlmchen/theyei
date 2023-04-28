@@ -14,6 +14,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
 ) => {
     const [canvas, setCanvas] = useState(null)
     const [submitted, setSubmitted] = useState(false)
+    const [error, setError] = useState(false)
     const [fourth, setFourth] = useState(null)
     const fieldTypes = ['First Name', 'Last Name', 'Email', 'Grade', 'School']
 
@@ -52,9 +53,13 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                         },
                         body: JSON.stringify(Object.fromEntries(data)),
                     }).then((response) => {
-                        resetForm({})
-                        setSubmitted(true)
-                        setSubmitting(false)
+                        if(response.ok) {
+                            resetForm({})
+                            setSubmitted(true)
+                            setSubmitting(false)
+                        } else {
+                            setError(true)
+                        }
                     })
                 }}
             >
@@ -172,6 +177,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                             </div>
                             <span className="text-gray-600 mt-3 text-lg">
                                 {isSubmitting && 'Submitting...'}
+                                {error && 'An error occured'}
                                 {submitted && 'Registered successfully!'}
                             </span>
                         </div>
