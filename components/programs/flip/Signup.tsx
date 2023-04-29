@@ -42,6 +42,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                     data.append('Contact Email', values.contactEmail)
                     data.append('School', values.school)
                     data.append('City', values.city)
+                    data.append('Grade', values.grade)
 
                     console.log(data)
 
