@@ -30,12 +30,14 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                     grade: '',
                     contactEmail: '',
                     school: '',
-                    city: ''
+                    city: '',
+                    referrer: ''
                 }}
                 validationSchema={RegisterSchema}
                 onSubmit={(values, { setSubmitting, resetForm }) => {
                     setSubmitted(false)
                     setSubmitting(true)
+                    setError(false)
                     let data = new FormData()
 
                     data.append('Full Name', values.fullName)
@@ -43,6 +45,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                     data.append('School', values.school)
                     data.append('City', values.city)
                     data.append('Grade', values.grade)
+                    data.append("Referred", values.referrer)
 
                     console.log(data)
 
@@ -61,6 +64,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                             setSubmitting(false)
                         } else {
                             setError(true)
+                            setSubmitting(false)
                         }
                     })
                 }}
@@ -167,6 +171,25 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                                     name="contactEmail"
                                 />
                             </div>
+                            <div className="w-full">
+                                <label
+                                    htmlFor="contactEmail"
+                                    className="block text-xl font-medium text-gray-700 py-2"
+                                >
+                                    Who Referred You? (Optional){' '}
+                                </label>
+                                <Field
+                                    type="text"
+                                    name="referrer"
+                                    id="referrer"
+                                    className="block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
+                                />
+                                <ErrorMessage
+                                    className="formik-error"
+                                    component="div"
+                                    name="referrer"
+                                />
+                            </div>
 
                             <div className="w-full flex items-left justify-left">
                                 <button
@@ -179,7 +202,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                             </div>
                             <span className="text-gray-600 mt-3 text-lg">
                                 {isSubmitting && 'Submitting...'}
-                                {error && 'An error occured'}
+                                {error && <span className="text-red-500">An error occured</span>}
                                 {submitted && 'Registered successfully!'}
                             </span>
                         </div>
@@ -205,4 +228,5 @@ const RegisterSchema = Yup.object().shape({
     contactEmail: Yup.string()
         .email("Valid Email Required.")
         .required("Email Required."),
+    referrer: Yup.string()
 })
