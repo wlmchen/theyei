@@ -68,6 +68,7 @@ export default function Event() {
                 So be sure to compete and don't miss out on this opportunity to
                 increase your financial skills and hear from an expert in the
                 personal finance field.
+                Note that this competition is an <strong>individual</strong> competition, and not a team competition.
               </p>
               <FlipAgenda />
               {/* {data.map((detail) => (
