@@ -135,14 +135,14 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                                     type="submit"
                                     className="w-full mt-8 text-xl bg-yei-primary-main border border-transparent rounded-md shadow-sm py-4 px-4 justify-center font-medium text-white hover:bg-yei-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yei-primary-main flex items-center"
                                 >
-                                    Signup{' '}
+                                    Submit{' '}
                                     <ArrowRightIcon className="ml-2 h-6 w-6 text-white" />
                                 </button>
                             </div>
                             <span className="text-gray-600 mt-3 text-lg">
                                 {isSubmitting && 'Submitting...'}
                                 {error && <span className="text-red-500">An error occured</span>}
-                                {submitted && 'Registered successfully!'}
+                                {submitted && 'Submitted successfully!'}
                             </span>
                         </div>
                     </Form>
