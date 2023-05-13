@@ -1,16 +1,11 @@
-import React from 'react'
-import Link from 'next/link'
 import {
   CalendarIcon,
   InformationCircleIcon,
-  ChevronRightIcon,
-  MegaphoneIcon,
+  MegaphoneIcon
 } from '@heroicons/react/24/outline'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Signup from './Signup'
-import Schedule from '../../events/econbowl/Schedule'
-import Banner from '../../global/Header/Banner'
 import FlipAgenda from './FlipAgenda'
+import Signup from './Signup'
+import Submit from './Submit'
 
 const data = [
   {
@@ -63,7 +58,7 @@ export default function Event() {
               <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl mt-3">
                 Financial Literacy Competition
               </h2>
-              <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
+              <p className="mt-2 mx-auto text-md text-gray-500 sm:text-lg md:mt-5 ">
                 <strong>Open to all high schoolers around the world</strong>, the top 8 competitors will be awarded prizes in a prize pool of $800!
                 So be sure to compete and don't miss out on this opportunity to
                 increase your financial skills and hear from an expert in the
@@ -71,6 +66,7 @@ export default function Event() {
                 Note that this competition is an <strong>individual</strong> competition, and not a team competition.
               </p>
               <FlipAgenda />
+              <Submit />
               {/* {data.map((detail) => (
                             <dl className="w-full md:max-w-none max-w-xl  mt-10 flex items-start justify-center flex-col space-y-4">
                                 <div
@@ -98,7 +94,7 @@ export default function Event() {
                     </div> */}
           </div>
         </div>
-        <Signup />
+        {/* <Signup /> */}
       </div>
     </>
   )

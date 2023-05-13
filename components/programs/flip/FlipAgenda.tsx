@@ -1,85 +1,79 @@
+import React from 'react'
+
 const schedule = [
-  {
-    time: '5:00 pm',
-    date: 'Friday, May 12th',
-    description: 'Prompt Released',
-  },
-  {
-    time: '5:00 pm',
-    date: 'Sunday, May 14th',
-    description: 'Submission Deadline',
-  },
-  {
-    time: '-',
-    date: 'Monday, May 15th to \n\n Friday, May 19th',
-    description: 'Judging Period',
-  },
-  {
-    time: '5:00 PM',
-    date: 'Saturday, May 20th',
-    description: 'Award Ceremony',
-  },
+  { date: "Friday, May 12th", time: '5:00 pm', title: 'Prompt Released' },
+  { date: "Sunday, May 14th", time: '5:00 pm', title: 'Submission Deadline' },
+  { date: "May 15th - 19th", time: '-', title: 'Judging Period' },
+  { date: "Saturday, May 20th", time: '5:00 pm', title: 'Award Ceremony' },
 ]
 
-
-export default function FlipAgenda() {
+export default function Agenda2() {
   return (
-    <div className="max-w-2xl w-full m-auto pt-10 pb-2 px-4">
-      <div className="mx-auto -mx-4">
-        <h2 className="text-left text-2xl leading-8 font-extrabold tracking-tight sm:text-3xl">Agenda</h2>
-      </div>
-      <div className="mt-10">
-      <div className="w-full mx-auto m-auto flex flex-col mb-10 mt-4">
-        <div className="-my-2 align-middle sm:-mx-8 lg:-mx-22">
-          <div className="py-2 align-middle inline-block min-w-full">
-            <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-              <table className="min-w-full divide-y divide-gray-200">
-                <thead className="bg-gray-100">
-                  <tr>
-                  <th
-                      scope="col"
-                      className="px-6 py-3 text-left text-base font-medium text-gray-500 uppercase tracking-wider"
-                    >
-                     Date
-                    </th>
-                    <th
-                      scope="col"
-                      className="px-6 py-3 text-left text-base font-medium text-gray-500 uppercase tracking-wider"
-                    >
-                      Time (PST)
-                    </th>
-                    <th
-                      scope="col"
-                      className="px-6 py-3 text-left text-base font-medium text-gray-500 uppercase tracking-wider"
-                    >
-                      Description
-                    </th>
-
-                  </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-gray-200">
-                  {schedule.map((person, index) => (
-                    <tr key={index}>
-                      <td className="px-6 py-4 whitespace-nowrap text-lg font-medium text-gray-900">
-                        {person.date}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-lg font-medium text-gray-900">
-                        {person.time}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-xl text-gray-500">
-                        {person.description}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
+    <div className="mt-6">
+      <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        Agenda
+      </h2>
+      <div className="mt-6 pt-5 text-gray-600 text-xl pb-1">
+        <ScheduleTable
+          schedule={schedule}
+        />
+        <p className="text-base mt-4 ml-1 text-gray-500">
+          All listed times are in PDT.
+        </p>
       </div>
     </div>
+  )
+}
 
-      
+function ScheduleTable({ schedule }) {
+  return (
+    <div className="-my-2 overflow-x-auto ">
+      <div className="py-2 align-middle inline-block min-w-full ">
+        <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+          <table className="min-w-full divide-y divide-gray-200">
+            <thead className="bg-yei-secondary-brighter">
+              <tr>
+                <th
+                  scope="col"
+                  className="px-6 py-3 text-left text-xs font-bold text-white uppercase tracking-wider"
+                >
+                  Date
+                </th>
+                <th
+                  scope="col"
+                  className="px-6 py-3 text-left text-xs font-bold text-white uppercase tracking-wider"
+                >
+                  Time
+                </th>
+                <th
+                  scope="col"
+                  className="px-6 py-3 text-left text-xs font-bold text-white uppercase tracking-wider"
+                >
+                  Event
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {schedule.map(({ date, time, title }, index) => (
+                <tr
+                  key={title}
+                  className={index % 2 === 0 ? 'bg-white' : 'bg-gray-100'}
+                >
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    {date}
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    {time}
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    {title}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   )
 }
