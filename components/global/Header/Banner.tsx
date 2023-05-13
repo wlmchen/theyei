@@ -9,7 +9,7 @@ const data = {
     secondary: "",
     linkText: "Register Now",
     link: "/flip#event",
-    enabled: true
+    enabled: false
 }
 
 export default function Banner() {
