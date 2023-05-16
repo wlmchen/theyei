@@ -59,14 +59,14 @@ export default function Event() {
                 Financial Literacy Competition
               </h2>
               <p className="mt-2 mx-auto text-md text-gray-500 sm:text-lg md:mt-5 ">
-                <strong>Open to all high schoolers around the world</strong>, the top 8 competitors will be awarded prizes in a prize pool of $800!
+                <strong>Open to all high schoolers around the world</strong>, the top 6 competitors will be awarded prizes in a prize pool of $800!
                 So be sure to compete and don't miss out on this opportunity to
                 increase your financial skills and hear from an expert in the
                 personal finance field.
                 Note that this competition is an <strong>individual</strong> competition, and not a team competition.
               </p>
               <FlipAgenda />
-              <Submit />
+              {/* <Submit /> */}
               {/* {data.map((detail) => (
                             <dl className="w-full md:max-w-none max-w-xl  mt-10 flex items-start justify-center flex-col space-y-4">
                                 <div
