@@ -58,6 +58,9 @@ export default function Event() {
               <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl mt-3">
                 Financial Literacy Competition
               </h2>
+              <p className="mt-5 mx-auto text-xl font-bold text-gray-500">
+                Event competitiors: Please check your email for the link to today's Awards Ceremony
+              </p>
               <p className="mt-2 mx-auto text-md text-gray-500 sm:text-lg md:mt-5 ">
                 <strong>Open to all high schoolers around the world</strong>, the top 6 competitors will be awarded prizes in a prize pool of $800!
                 So be sure to compete and don't miss out on this opportunity to

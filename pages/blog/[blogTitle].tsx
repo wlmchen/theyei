@@ -38,7 +38,7 @@ export default function blog() {
     return (months[parseInt(month) - 1]) + " " + day + ", " + year;
   }
   
-  const mediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@theyei";
+  const mediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sri_yei";
 
   useEffect(() => {
     if (!blogTitle) { 
