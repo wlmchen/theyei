@@ -1,18 +1,18 @@
 const routes = [
-  { 
-    href: '/', 
-    name: 'Home' 
+  {
+    href: '/',
+    name: 'Home',
   },
   {
     href: '/clubs',
     name: 'EconClubs',
     dropRoutes: [
-      { 
-        href: '/students', 
+      {
+        href: '/students',
         name: 'For Students',
       },
-      { 
-        href: '/teachers', 
+      {
+        href: '/teachers',
         name: 'For Teachers',
       },
       {
@@ -52,13 +52,21 @@ const routes = [
     name: 'FLIP',
   },
   {
+    href: '/blog',
+    name: 'Blog',
+  },
+  {
     href: '/resources',
     name: 'Resources',
     dropRoutes: [
       { href: '/', name: 'Overview' },
       { href: '/econbowl-prep', name: 'EconBowl Prep' },
-      { href: '/../blog', name: 'Blog'},
-      { href: 'https://learn.theyei.org', name: 'Learn', newItem: true, externalLink: true },
+      {
+        href: 'https://learn.theyei.org',
+        name: 'Learn',
+        newItem: true,
+        externalLink: true,
+      },
     ],
   },
 ]
