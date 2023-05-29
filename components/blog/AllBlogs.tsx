@@ -4,7 +4,9 @@ import Link from "next/link"
 
 export default function AllBlogs() {
   const [loaded, setLoaded]= useState(false)
-  const [blogs, setBlogs] = useState([])
+  let [blogs, setBlogs] = useState([])
+  let [newBlogs, setNewBlogs] = useState([])
+  let combinedBlogs = []
 
   function GetDate(date: String) {
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -23,6 +25,7 @@ export default function AllBlogs() {
   }
 
   const mediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sri_yei";
+  const newMediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sakethraj101";
 
   useEffect(() => {
     axios.get(mediumUrl).then((data) => {
@@ -43,8 +46,30 @@ export default function AllBlogs() {
           }
         ]);
       });
+    });
+
+    axios.get(newMediumUrl).then((data) => {
+      data.data.items.forEach((article: any) => {
+        setNewBlogs(prevBlogs => [
+          ...prevBlogs,
+          {
+            account: data.data.feed.link,
+            author: article.author,
+            content: article.content,
+            description: article.description,
+            pubLink: article.link,
+            pubDate: article.pubDate,
+            thumbnail: article.thumbnail,
+            title: article.title,
+            image: data.data.feed.image,
+            blog: `/blog/${StringToSlug(article.title)}`
+          }
+        ]);
+      });
     }).then(() => {
+     // combinedBlogs = [...newBlogs, ...blogs, ];
       setLoaded(true);
+    
     })
   }, [])
 
@@ -113,7 +138,8 @@ export default function AllBlogs() {
             </div>
           </div>
           }
-          {blogs.map((post) => (
+          {[...newBlogs, ...blogs].map((post) => (
+            
             <div key={post.title} className="flex flex-col ">
               <div className="flex-1 bg-white p-6 flex flex-col justify-between rounded-lg border border-gray-200 shadow-md hover:shadow-lg">
                 <div className="flex-1">

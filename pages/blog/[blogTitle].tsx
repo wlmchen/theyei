@@ -39,12 +39,33 @@ export default function blog() {
   }
   
   const mediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sri_yei";
+  const newMediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sakethraj101";
 
   useEffect(() => {
     if (!blogTitle) { 
       return
     };
     axios.get(mediumUrl).then((data) => {
+      data.data.items.forEach((article: any) => {
+        if (StringToSlug(article.title) === blogTitle) {
+          setBlog(
+            {
+              account: data.data.feed.link,
+              author: article.author,
+              content: article.content,
+              description: article.description,
+              pubLink: article.link,
+              pubDate: GetDate(article.pubDate),
+              thumbnail: article.thumbnail,
+              title: article.title,
+              image: data.data.feed.image,
+            }
+          );
+        }
+      });
+    })
+
+    axios.get(newMediumUrl).then((data) => {
       data.data.items.forEach((article: any) => {
         if (StringToSlug(article.title) === blogTitle) {
           setBlog(
