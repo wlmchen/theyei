@@ -22,7 +22,6 @@ export default function flip() {
       />
       <div>
       </div>
-      <Workshop />
       <ContentBlock
         subtitle="YEI FLIP"
         title="Financial Literacy Introduction Program"
