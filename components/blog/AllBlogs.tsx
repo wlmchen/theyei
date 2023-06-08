@@ -6,6 +6,7 @@ export default function AllBlogs() {
   const [loaded, setLoaded]= useState(false)
   let [blogs, setBlogs] = useState([])
   let [newBlogs, setNewBlogs] = useState([])
+  let [newBlogs1, setNewBlogs1] = useState([])
   let combinedBlogs = []
 
   function GetDate(date: String) {
@@ -25,7 +26,8 @@ export default function AllBlogs() {
   }
 
   const mediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sri_yei";
-  const newMediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sakethraj101";
+  const mediumUrl1 = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sakethraj101";
+  const mediumUrl2 = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ntadepalli24";
 
   useEffect(() => {
     axios.get(mediumUrl).then((data) => {
@@ -48,9 +50,29 @@ export default function AllBlogs() {
       });
     });
 
-    axios.get(newMediumUrl).then((data) => {
+    axios.get(mediumUrl1).then((data) => {
       data.data.items.forEach((article: any) => {
         setNewBlogs(prevBlogs => [
+          ...prevBlogs,
+          {
+            account: data.data.feed.link,
+            author: article.author,
+            content: article.content,
+            description: article.description,
+            pubLink: article.link,
+            pubDate: article.pubDate,
+            thumbnail: article.thumbnail,
+            title: article.title,
+            image: data.data.feed.image,
+            blog: `/blog/${StringToSlug(article.title)}`
+          }
+        ]);
+      });
+    });
+
+    axios.get(mediumUrl2).then((data) => {
+      data.data.items.forEach((article: any) => {
+        setNewBlogs1(prevBlogs => [
           ...prevBlogs,
           {
             account: data.data.feed.link,
@@ -71,6 +93,8 @@ export default function AllBlogs() {
       setLoaded(true);
     
     })
+
+
   }, [])
 
   return (
@@ -138,7 +162,7 @@ export default function AllBlogs() {
             </div>
           </div>
           }
-          {[...newBlogs, ...blogs].map((post) => (
+          {[...newBlogs1, ...newBlogs, ...blogs].map((post) => (
             
             <div key={post.title} className="flex flex-col ">
               <div className="flex-1 bg-white p-6 flex flex-col justify-between rounded-lg border border-gray-200 shadow-md hover:shadow-lg">

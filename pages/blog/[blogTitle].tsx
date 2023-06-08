@@ -1,3 +1,4 @@
+
 import Page from "../../components/utility/Page"
 import Link from "next/link"
 import { useRouter } from "next/router"
@@ -39,8 +40,8 @@ export default function blog() {
   }
   
   const mediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sri_yei";
-  const newMediumUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sakethraj101";
-
+  const mediumURL1 = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sakethraj101";
+  const mediumURL2 = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ntadepalli24";
   useEffect(() => {
     if (!blogTitle) { 
       return
@@ -65,7 +66,27 @@ export default function blog() {
       });
     })
 
-    axios.get(newMediumUrl).then((data) => {
+    axios.get(mediumURL1).then((data) => {
+      data.data.items.forEach((article: any) => {
+        if (StringToSlug(article.title) === blogTitle) {
+          setBlog(
+            {
+              account: data.data.feed.link,
+              author: article.author,
+              content: article.content,
+              description: article.description,
+              pubLink: article.link,
+              pubDate: GetDate(article.pubDate),
+              thumbnail: article.thumbnail,
+              title: article.title,
+              image: data.data.feed.image,
+            }
+          );
+        }
+      });
+    })
+
+    axios.get(mediumURL2).then((data) => {
       data.data.items.forEach((article: any) => {
         if (StringToSlug(article.title) === blogTitle) {
           setBlog(
