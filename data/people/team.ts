@@ -18,9 +18,9 @@ const exec: Member[] = [
     linkedin: 'anishka-banerjee-657775171',
   },
   {
-    name: 'Saavi Kumar',
+    name: 'Suden Prashar',
     positions: ['Chief of Staff'],
-    linkedin: 'saavi-kumar-59ba43195',
+    linkedin: 'suden-prashar-a1b7a7242',
   },
   {
     name: 'William Chen',
@@ -35,9 +35,9 @@ const exec: Member[] = [
     linkedin: 'sakethram-maramraj-a72b79247',
   },
   {
-    name: 'Frank Xiao',
-    positions: ['VP of Resources'],
-    linkedin: 'frank-xiao-6a746520b',
+    name: 'Jack Gordon',
+    positions: ['Curriculum Developer'],
+    linkedin: 'jack-gordon-085223210',
   },
   {
     name: 'Ryan Feng',
@@ -55,9 +55,9 @@ const exec: Member[] = [
     linkedin: 'kavinshah-student',
   },
   {
-    name: 'Raymond Ma',
+    name: 'Saqib Saiyed',
     positions: ['VP of Flip'],
-    linkedin: 'raymondma012'
+    linkedin: 'saqib-saiyed-5898a0228'
   },
   {
     name: 'Miriam Trujillo',
@@ -134,11 +134,6 @@ const team: Member[] = [
     name: 'Dario Soatto',
     positions: ['Curriculum Developer'],
     linkedin: 'helena-su-063965193',
-  },
-  {
-    name: 'Jack Gordon',
-    positions: ['Curriculum Developer'],
-    linkedin: 'jack-gordon-085223210',
   },
   {
     name: 'Auritro Chakraborty',
@@ -226,11 +221,6 @@ const team: Member[] = [
     linkedin: 'kirtee-ayitha-84a57022a',
   },
   {
-    name: 'Suden Prashar',
-    positions: ['Team Ambassador'],
-    linkedin: 'suden-prashar-a1b7a7242',
-  },
-  {
     name: 'Sudipta Rout',
     positions: ['Team Ambassador'],
     linkedin: 'sudiptar'
@@ -244,21 +234,6 @@ const team: Member[] = [
     name: 'Chinmayi Chittamuri',
     positions: ['FLIP Partnership Manager'],
     linkedin: 'chinmayi-chittamuri-521881229'
-  },
-  {
-    name: 'Saqib Saiyed',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'saqib-saiyed-5898a0228'
-  },
-  {
-    name: 'Ting Zhang',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'jiashen-zhang-1496a8207'
-  },
-  {
-    name: 'Simon Farruqui',
-    positions: ['FLIP Partnership Manager'], 
-    linkedin: 'simonfarruqui'
   }
 ]
 
