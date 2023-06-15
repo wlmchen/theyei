@@ -105,7 +105,7 @@ const clubs = [
   },
   {
     name: 'Palo Alto High School',
-    email: 'mh33653@pausd.us',
+    email: 'palyeconomics@gmail.com',
     region: 'NorCal',
     founding: true,
   },
