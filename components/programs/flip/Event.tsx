@@ -1,35 +1,35 @@
 import {
   CalendarIcon,
   InformationCircleIcon,
-  MegaphoneIcon
+  MegaphoneIcon,
 } from '@heroicons/react/24/outline'
 import FlipAgenda from './FlipAgenda'
 import Signup from './Signup'
 import Submit from './Submit'
 
 const data = [
-  {
-    name: 'Info',
-    icon: (
-      <InformationCircleIcon
-        className="h-6 w-6 text-green-500"
-        aria-hidden="true"
-      />
-    ),
-    text: (
-      <>
-        FLIP is hosting a <b>College Finances Workshop</b> covering
-        scholarships, student loans, debt, budgeting, and financial strategies
-        to succeed in college and beyond.
-      </>
-    ),
-  },
+  // {
+  //   name: 'Info',
+  //   icon: (
+  //     <InformationCircleIcon
+  //       className="h-6 w-6 text-green-500"
+  //       aria-hidden="true"
+  //     />
+  //   ),
+  //   text: (
+  //     <>
+  //       FLIP is hosting a <b>College Finances Workshop</b> covering
+  //       scholarships, student loans, debt, budgeting, and financial strategies
+  //       to succeed in college and beyond.
+  //     </>
+  //   ),
+  // },
   {
     name: 'Date',
     icon: (
       <CalendarIcon className="h-6 w-6 text-green-500" aria-hidden="true" />
     ),
-    text: 'December 8, 2022 6:30 pm - 8:00 pm EST',
+    text: 'June 27, 7:30 PM EST',
   },
   {
     name: 'Speaker',
@@ -56,38 +56,31 @@ export default function Event() {
                 FLIP Event
               </h2>
               <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl mt-3">
-                Financial Literacy Competition
+                Personal Finances Event
               </h2>
-              <p className="mt-5 mx-auto text-xl font-bold text-gray-500">
-                Event competitiors: Please check your email for the link to today's Awards Ceremony
-              </p>
               <p className="mt-2 mx-auto text-md text-gray-500 sm:text-lg md:mt-5 ">
-                <strong>Open to all high schoolers around the world</strong>, the top 6 competitors will be awarded prizes in a prize pool of $800!
-                So be sure to compete and don't miss out on this opportunity to
-                increase your financial skills and hear from an expert in the
-                personal finance field.
-                Note that this competition is an <strong>individual</strong> competition, and not a team competition.
+                Ms. Anna Sheufelt from Duke University will be giving a talk on
+                personal finances and how beneficial it can be to learn about
+                personal finances at an early stage
               </p>
-              <FlipAgenda />
-              {/* <Submit /> */}
-              {/* {data.map((detail) => (
-                            <dl className="w-full md:max-w-none max-w-xl  mt-10 flex items-start justify-center flex-col space-y-4">
-                                <div
-                                    className="relative w-full flex flex-col items-start"
-                                >
-                                    <dt className="flex items-center flex-row">
-                                        {detail.icon}
-                                        <p className="ml-2 text-xl font-medium font-bold">
-                                            {detail.name}
-                                        </p>
-                                    </dt>
+              {/* <FlipAgenda /> */}
+              {data.map((detail) => (
+                <dl className="w-full md:max-w-none max-w-xl  mt-10 flex items-start justify-center flex-col space-y-4">
+                  <div className="relative w-full flex flex-col items-start">
+                    <dt className="flex items-center flex-row">
+                      {detail.icon}
+                      <p className="ml-2 text-xl font-medium font-bold">
+                        {detail.name}
+                      </p>
+                    </dt>
 
-                                    <dd className="mt-2 w-full flex-grow text-left text-lg text-gray-900">
-                                        {detail.text}
-                                    </dd>
-                                </div>
-                            </dl>
-                        ))} */}
+                    <dd className="mt-2 w-full flex-grow text-left text-lg text-gray-900">
+                      {detail.text}
+                    </dd>
+                  </div>
+                </dl>
+              ))}
+              <Submit />
             </div>
             {/* <div className="">
                         <a target="_blank" href="https://www.tinyurl.com/FLIPWorkshop" className="mx-auto w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-lg font-bold rounded-lg text-white bg-yei-primary-main hover:bg-yei-primary-darker md:text-lg m-2">

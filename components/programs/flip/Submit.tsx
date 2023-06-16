@@ -16,23 +16,14 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
         <div className="max-w-3xl w-full m-auto mb-16 px-6 mt-16" id="submit">
             <div className="space-y-2 text-lg text-gray-600 mb-8">
                 <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-8">
-                    Finished your presentation?
+                    Register Now!
                 </h2>
-                <p className="text-left text-xl">
-                    Submit as a PDF document or YouTube video!
-                </p>
-                <ul className="text-xl list-disc ml-5 leading-8">
-                    <li>Video submission time limit: 8 min</li>
-                    <li>All video submission must be uploaded as an unlisted YouTube video link</li>
-                    <li>No document limits/restrictions (but please use a reasonable amount of writing!)</li>
-                </ul>
             </div>
 
             <Formik
                 initialValues={{
                     fullName: '',
                     contactEmail: '',
-                    submission: ''
                 }}
                 validationSchema={RegisterSchema}
                 onSubmit={(values, { setSubmitting, resetForm }) => {
@@ -43,11 +34,10 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
 
                     data.append('Full Name', values.fullName)
                     data.append('Contact Email', values.contactEmail)
-                    data.append('Submission', values.submission)
 
                     console.log(data)
 
-                    fetch(`/api/flipSubmit`, {
+                    fetch(`/api/flip`, {
                         method: 'POST',
                         // mode: 'no-cors',
                         headers: {
@@ -110,25 +100,6 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                                     name="contactEmail"
                                 />
                             </div>
-                            <div className="w-full">
-                                <label
-                                    htmlFor="submission"
-                                    className="block text-xl font-medium text-gray-700 py-2"
-                                >
-                                    Submission (YouTube/Google Drive link){' '}
-                                </label>
-                                <Field
-                                    type="text"
-                                    name="submission"
-                                    id="submission"
-                                    className="block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yei-primary-main focus:border-yei-primary-main sm:text-lg"
-                                />
-                                <ErrorMessage
-                                    className="formik-error"
-                                    component="div"
-                                    name="submission"
-                                />
-                            </div>
 
                             <div className="w-full flex items-left justify-left">
                                 <button
@@ -160,8 +131,5 @@ const RegisterSchema = Yup.object().shape({
         .required('Full name required.'),
     contactEmail: Yup.string()
         .email("Valid Email Required.")
-        .required("Email Required."),
-    submission: Yup.string()
-        .url("Valid URL Required")
-        .required("Submission Link Required")
+        .required("Email Required.")
 })

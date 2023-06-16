@@ -5,12 +5,11 @@ import ContentBlock from '../components/programs/ContentBlock'
 import Link from 'next/link'
 import ApplicationCriteria from '../components/programs/flip/ApplicationCriteria'
 import Curriculum from '../components/programs/flip/Curriculum'
-import Workshop from '../components/programs/flip/Event'
+import Event from '../components/programs/flip/Event'
 import Banner from '../components/global/Header/Banner'
 
 export default function flip() {
   return (
-  
     <Page
       title="FLIP"
       desc="The Youth Economics Initiative (YEI) offers a number of exclusive supplemental programs for our EconClubs and members created to prepare aspiring leaders through community service and real work experience. Learn more about YEI programs such as FLIP and EARN."
@@ -20,8 +19,8 @@ export default function flip() {
         desc="YEI’s Financial Literacy Introduction Program (FLIP) is the service arm of our organization. Through FLIP, our members are empowered to educate their community on Financial Literacy with our comprehensive curriculum and support network."
         applyLink="https://docs.google.com/forms/d/1bjyw2csfGtJRDt4UFgCU1eyrCIV_nKECSY4LNDfvSH4/viewform"
       />
-      <div>
-      </div>
+      <Event />
+
       <ContentBlock
         subtitle="YEI FLIP"
         title="Financial Literacy Introduction Program"

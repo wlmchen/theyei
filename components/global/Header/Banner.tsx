@@ -5,11 +5,11 @@ import {
 import { useRouter } from "next/router";
 
 const data = {
-    primary: "FLIP is hosting a Financial Literacy Competition with an $800 prize pool!",
+    primary: "",
     secondary: "",
-    linkText: "Register Now",
+    linkText: "Register for our upcoming Personal Finances Event!",
     link: "/flip#event",
-    enabled: false
+    enabled: true
 }
 
 export default function Banner() {
