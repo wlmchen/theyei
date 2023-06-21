@@ -36,7 +36,7 @@ const exec: Member[] = [
   },
   {
     name: 'Jack Gordon',
-    positions: ['Curriculum Developer'],
+    positions: ['VP of Resources'],
     linkedin: 'jack-gordon-085223210',
   },
   {
@@ -50,20 +50,15 @@ const exec: Member[] = [
     linkedin: 'anita-v-2733b5220',
   },
   {
-    name: 'Kavin Shah',
+    name: 'Maria Bueno',
     positions: ['VP of Clubs'],
-    linkedin: 'kavinshah-student',
+    linkedin: '',
   },
   {
     name: 'Saqib Saiyed',
     positions: ['VP of Flip'],
     linkedin: 'saqib-saiyed-5898a0228'
-  },
-  {
-    name: 'Miriam Trujillo',
-    positions: ['Director of Expansion'],
-    linkedin: 'miriam-trujillo-5b6a69204',
-  },
+  }
 ]
 
 const team: Member[] = [
