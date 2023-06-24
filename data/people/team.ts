@@ -13,9 +13,9 @@ const exec: Member[] = [
     linkedin: 'jjessicacheng',
   },
   {
-    name: 'Anishka Banerjee',
+    name: 'Chinmayi Chittamuri',
     positions: ['COO'],
-    linkedin: 'anishka-banerjee-657775171',
+    linkedin: 'chinmayi-chittamuri-521881229'
   },
   {
     name: 'Suden Prashar',
@@ -224,11 +224,6 @@ const team: Member[] = [
     name: 'Lavanya Gupta',
     positions: ['Director of Flip'],
     linkedin: 'lavanya-gupta-b09778247'
-  },
-  {
-    name: 'Chinmayi Chittamuri',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'chinmayi-chittamuri-521881229'
   }
 ]
 
