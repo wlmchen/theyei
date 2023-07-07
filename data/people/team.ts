@@ -8,9 +8,9 @@ type Member = {
 
 const exec: Member[] = [ 
   {
-    name: 'Jessica Cheng',
+    name: 'Anita Vasserman',
     positions: ['CEO'],
-    linkedin: 'jjessicacheng',
+    linkedin: 'anita-v-2733b5220',
   },
   {
     name: 'Chinmayi Chittamuri',
@@ -45,9 +45,9 @@ const exec: Member[] = [
     linkedin: 'ryan-feng-849980207',
   },
   {
-    name: 'Anita Vasserman',
+    name: 'Audrey Sun',
     positions: ['VP of Events'],
-    linkedin: 'anita-v-2733b5220',
+    linkedin: 'audrey-sun-a14545129',
   },
   {
     name: 'Maria Bueno',
@@ -160,11 +160,6 @@ const team: Member[] = [
     name: 'William Shelton',
     positions: ['Testing Developer'],
     linkedin: 'william-shelton-533524241',
-  },
-  {
-    name: 'Audrey Sun',
-    positions: ['Event Coordinator'],
-    linkedin: 'audrey-sun-a14545129',
   },
   {
     name: 'Lisa Oshiba',
