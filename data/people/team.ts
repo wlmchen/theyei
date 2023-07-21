@@ -121,6 +121,11 @@ const team: Member[] = [
     linkedin: 'yamini-venkatesan-48833422a',
   },
   {
+    name: 'Alvina Lin',
+    positions: ['Marketing Specialist'],
+    linkedin: 'alvina-lin-75b5141b2',
+  },
+  {
     name: 'Aditya Karala',
     positions: ['Google Ads Manager'],
     linkedin: 'aditya-kakarla-9729bb218',
@@ -209,6 +214,16 @@ const team: Member[] = [
     name: 'Sean Young',
     positions: ['Regional Ambassador'],
     linkedin: 'sean-young-4504531a2',
+  },
+  {
+    name: 'Samay Sikri',
+    positions: ['Regional Ambassador'],
+    linkedin: 'samaysikri',
+  },
+  {
+    name: 'Tarun Bhuyan',
+    positions: ['Regional Ambassador'],
+    linkedin: 'tarunbhuyan',
   },
   {
     name: 'Kirtee Ayitha',
