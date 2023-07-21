@@ -1,12 +1,12 @@
 type Member = {
-  name: string,
-  positions: string[],
-  linkedin?: string,
-  github?: string,
+  name: string
+  positions: string[]
+  linkedin?: string
+  github?: string
   email?: string
 }
 
-const exec: Member[] = [ 
+const exec: Member[] = [
   {
     name: 'Anita Vasserman',
     positions: ['CEO'],
@@ -15,7 +15,7 @@ const exec: Member[] = [
   {
     name: 'Chinmayi Chittamuri',
     positions: ['COO'],
-    linkedin: 'chinmayi-chittamuri-521881229'
+    linkedin: 'chinmayi-chittamuri-521881229',
   },
   {
     name: 'Suden Prashar',
@@ -27,7 +27,7 @@ const exec: Member[] = [
     positions: ['Director of Tech'],
     linkedin: 'william-chen-506145249',
     github: 'wlmchen',
-    email: 'williamchen@theyei.org'
+    email: 'williamchen@theyei.org',
   },
   {
     name: 'Saketh Maramraj',
@@ -57,8 +57,8 @@ const exec: Member[] = [
   {
     name: 'Saqib Saiyed',
     positions: ['VP of Flip'],
-    linkedin: 'saqib-saiyed-5898a0228'
-  }
+    linkedin: 'saqib-saiyed-5898a0228',
+  },
 ]
 
 const team: Member[] = [
@@ -91,9 +91,9 @@ const team: Member[] = [
     linkedin: 'srithanya-s-4494841bb',
   },
   {
-   name: 'Sruti Elangovan',
-   positions: ['Video Editor', 'Graphic Designer'],
-   linkedin: 'sruti-elangovan-51166a202',
+    name: 'Sruti Elangovan',
+    positions: ['Video Editor', 'Graphic Designer'],
+    linkedin: 'sruti-elangovan-51166a202',
   },
   {
     name: 'Snehil Kakani',
@@ -149,7 +149,7 @@ const team: Member[] = [
     name: 'Allen Ho',
     positions: ['Testing Developer'],
     linkedin: 'allen-h',
-    email: 'allenho@theyei.org'
+    email: 'allenho@theyei.org',
   },
   {
     name: 'Aidan Zhou',
@@ -206,6 +206,11 @@ const team: Member[] = [
     linkedin: 'pratyaksha-sharma-30a60a23b',
   },
   {
+    name: 'Sean Young',
+    positions: ['Regional Ambassador'],
+    linkedin: 'sean-young-4504531a2',
+  },
+  {
     name: 'Kirtee Ayitha',
     positions: ['Team Ambassador'],
     linkedin: 'kirtee-ayitha-84a57022a',
@@ -213,13 +218,13 @@ const team: Member[] = [
   {
     name: 'Sudipta Rout',
     positions: ['Team Ambassador'],
-    linkedin: 'sudiptar'
+    linkedin: 'sudiptar',
   },
   {
     name: 'Lavanya Gupta',
     positions: ['Director of Flip'],
-    linkedin: 'lavanya-gupta-b09778247'
-  }
+    linkedin: 'lavanya-gupta-b09778247',
+  },
 ]
 
-export {team, exec}
+export { team, exec }
