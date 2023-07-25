@@ -126,6 +126,16 @@ const team: Member[] = [
     linkedin: 'alvina-lin-75b5141b2',
   },
   {
+    name: 'Tanush Bhatnagar',
+    positions: ['Marketing Specialist'],
+    linkedin: 'tanush-bhatnagar-49a673273'
+  },
+  {
+    name: "Thananant Sibunruang",
+    positions: ['Marketing Specialist'],
+    linkedin: 'thananant-sibunruang-28080727a'
+  },
+  {
     name: 'Aditya Karala',
     positions: ['Google Ads Manager'],
     linkedin: 'aditya-kakarla-9729bb218',
@@ -229,6 +239,10 @@ const team: Member[] = [
     name: 'Tarun Bhuyan',
     positions: ['Regional Ambassador'],
     linkedin: 'tarunbhuyan',
+  },
+  {
+    name: 'Ayush Sharma',
+    positions: ['Regional Ambassador'],
   },
   {
     name: 'Kirtee Ayitha',
