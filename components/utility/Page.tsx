@@ -13,6 +13,7 @@ export default function Page({ fullTitle, title, desc, children }: PageProps) {
 
   return (
     <>
+      <meta name="google-site-verification" content="eE41udAjkDr-KMAJVKELAq3RFM7rupyPMGVHZ65R4L0" />
       <Head>
         <title>{pageTitle}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
