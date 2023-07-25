@@ -134,6 +134,10 @@ const team: Member[] = [
     name: "Thananant Sibunruang",
     positions: ['Marketing Specialist'],
     linkedin: 'thananant-sibunruang-28080727a'
+  },{
+    name: "Nikhil Tadepalli",
+    positions: ['Marketing Specialist'],
+    linkedin: 'nikhil-tadepalli-b9998a235'
   },
   {
     name: 'Aditya Karala',
