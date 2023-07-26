@@ -140,6 +140,10 @@ const team: Member[] = [
     linkedin: 'nikhil-tadepalli-b9998a235'
   },
   {
+    name: "Santoshi Voma",
+    positions: ['Marketing Specialist']
+  },
+  {
     name: 'Aditya Karala',
     positions: ['Google Ads Manager'],
     linkedin: 'aditya-kakarla-9729bb218',
