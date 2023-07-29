@@ -128,20 +128,21 @@ const team: Member[] = [
   {
     name: 'Tanush Bhatnagar',
     positions: ['Marketing Specialist'],
-    linkedin: 'tanush-bhatnagar-49a673273'
+    linkedin: 'tanush-bhatnagar-49a673273',
   },
   {
-    name: "Thananant Sibunruang",
+    name: 'Thananant Sibunruang',
     positions: ['Marketing Specialist'],
-    linkedin: 'thananant-sibunruang-28080727a'
-  },{
-    name: "Nikhil Tadepalli",
-    positions: ['Marketing Specialist'],
-    linkedin: 'nikhil-tadepalli-b9998a235'
+    linkedin: 'thananant-sibunruang-28080727a',
   },
   {
-    name: "Santoshi Voma",
-    positions: ['Marketing Specialist']
+    name: 'Nikhil Tadepalli',
+    positions: ['Marketing Specialist'],
+    linkedin: 'nikhil-tadepalli-b9998a235',
+  },
+  {
+    name: 'Santoshi Voma',
+    positions: ['Marketing Specialist'],
   },
   {
     name: 'Aditya Karala',
@@ -253,14 +254,8 @@ const team: Member[] = [
     positions: ['Regional Ambassador'],
   },
   {
-    name: 'Kirtee Ayitha',
-    positions: ['Team Ambassador'],
-    linkedin: 'kirtee-ayitha-84a57022a',
-  },
-  {
-    name: 'Sudipta Rout',
-    positions: ['Team Ambassador'],
-    linkedin: 'sudiptar',
+    name: 'Rohith Chadalawada',
+    positions: ['Regional Ambassador'],
   },
   {
     name: 'Lavanya Gupta',
