@@ -255,7 +255,7 @@ const team: Member[] = [
   },
   {
     name: 'Rohith Chadalawada',
-    positions: ['Regional Ambassador'],
+    positions: ['Team Ambassador'],
   },
   {
     name: 'Lavanya Gupta',
