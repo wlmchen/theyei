@@ -235,6 +235,11 @@ const team: Member[] = [
     positions: ['Sponsorship and Grant Coordinator'],
   },
   {
+    name: "Jonathan De Caro",
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'jonathandecaro'
+  },
+  {
     name: 'Pratyaksha Sharma',
     positions: ['Regional Ambassador'],
     linkedin: 'pratyaksha-sharma-30a60a23b',
