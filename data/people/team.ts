@@ -96,6 +96,11 @@ const team: Member[] = [
     linkedin: 'sruti-elangovan-51166a202',
   },
   {
+    name: "Jeffrey Liu",
+    positions: ['Video Editor'],
+    linkedin: 'jeffery-liu-aba437278'
+  },
+  {
     name: 'Snehil Kakani',
     positions: ['Graphic Designer'],
     linkedin: 'snehilkakani',
