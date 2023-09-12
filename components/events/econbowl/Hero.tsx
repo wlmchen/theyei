@@ -86,7 +86,7 @@ export default function Hero() {
               />
               <div className="mt-3 mx-auto text-left md:text-center text-gray-500 text-lg md:mt-5 md:max-w-3xl">
                 <p className="italic max-w-xl text-base text-gray-400 inline-flex w-auto border-y-2 border-gray-300 py-3">
-                  The Youth Economics Initiative is proud to present our 4th
+                  The Youth Economics Initiative is proud to present our 5th
                   Annual EconBowl, in collaboration with the Wen & Yung Family
                   Foundation!
                 </p>
