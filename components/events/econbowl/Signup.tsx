@@ -50,11 +50,23 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
           Each team must consist of{' '}
           <b>3-4 high school or middle school students</b>
           {` `}(U.S. grades 6-12 or equivalent in your country).{' '}
-          <b>ONLY your team captain should be filling out this form.</b> The
-          team captain will also be the one submitting the written exam on the
-          day of the event.
+          
         </p>
-        <p className="text-sm italic text-gray-600">
+        <p><b>ONLY your team captain should be filling out this form.</b> The
+          team captain will also be the one submitting the written exam on the
+          day of the event.</p>
+
+        <h3 className="text-xl font-bold text-black pt-4">The Event</h3>
+        <p>
+        The event will be held online via Zoom on <b>November 11, 2023.</b> The team track of the competition will take place from <b>9:00 am - 12:00 pm PST</b> for the written round, and 4:00 - 5:30 pm PST for the QuizBowl round. All teams will compete for a <b>$1600+</b> prize pool!
+        </p>
+        <p>Registration closes on <b>November 9th, 2023 at 11:59 PM PST.</b> Registration and attendance are 100% free!</p>
+        
+
+
+
+
+        <p className="text-sm italic text-gray-600 pt-4">
           By registering and entering, you and your team members are agreeing to
           receive emails from the Youth Economics Initiatives regarding
           EconBowl, as well as future events and competitions.
