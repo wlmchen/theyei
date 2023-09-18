@@ -25,7 +25,7 @@ export default function econbowl() {
       <Structure />
       <Resources />
       <Sponsors />
-      <Signup />
+      {/* <Signup /> */}
       <FAQs />
     </Page>
   )
