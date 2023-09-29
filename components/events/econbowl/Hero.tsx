@@ -108,7 +108,7 @@ export default function Hero() {
                   for any further questions.
                 </p>
 				*/}
-                {/* <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
+                <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
                   <b>Registration will close on November 9, 2022 at 11:59 PST
                   (UTC−8).</b> The competition will be held on November 12, 2022
                 </p>
@@ -118,7 +118,7 @@ export default function Hero() {
                   className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-opacity-90 sm:px-8"
                 >
                   Register!
-                </AnchorLink> */}
+                </AnchorLink>
               </div>
             </div>
           </main>
