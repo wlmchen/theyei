@@ -109,7 +109,7 @@ export default function Hero() {
                 </p>
 				*/}
                 <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
-                  <b>Registration will close on November 8, 2022 at 11:59 PST
+                  <b>Registration will close on November 8, 2023 at 11:59 PST
                   (UTC−8).</b> The competition will be held on November 11, 2023
                 </p>
                 <AnchorLink
