@@ -14,8 +14,8 @@ export default function Speaker() {
               <div className="rounded-xl shadow-xl overflow-hidden lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
-                  src="/img/people/speakers/lindsey-cameron.jpg"
-                  alt="Lindsey Cameron"
+                  src="/img/people/speakers/michelle-connolly.jpg"
+                  alt="Michelle Connolly"
                 />
               </div>
             </div>
@@ -26,8 +26,8 @@ export default function Speaker() {
                 <div className="block lg:hidden pt-14 sm:pt-20">
                   <img
                     className="w-52 sm:w-64 rounded shadow-sm"
-                    src="/img/people/speakers/lindsey-cameron.jpg"
-                    alt="Lindsey Cameron"
+                    src="/img/people/speakers/michelle-connolly.jpg"
+                    alt="Michelle Connolly"
                   />
                 </div>
                 <div className="mt-6 text-base text-white">
@@ -35,32 +35,25 @@ export default function Speaker() {
                     About the Speaker
                   </h1>
                   <p className="mt-3 font-light text-gray-300">
-                    Our featured speaker for the Fourth Annual EconBowl is{' '}
-                    <b>Lindsey Cameron</b>, Assistant Professor of Management in
-                    the Wharton School of Business at the University of
-                    Pennsylvania.
+                    Our featured speaker for the Fifth Annual EconBowl is{' '}
+                    <b>Michelle Connolly</b>, Professor of the Practice
+                    in the Economics Department at Duke University.
                   </p>{' '}
                   <p className="mt-3 font-light text-gray-300">
-                    Dr. Cameron's centers on the future of work, namely how
-                    algorithmic management is changing the modern workplace and
-                    financial well-being, especially among low and middle wage
-                    earners. Professor Cameron’s interactive talk will discuss
-                    how algorithms, motivations, and incentives are shaping work
-                    in the largest sector of the gig economy, the ride-hailing
-                    industry. She even worked as a driver as part of her
-                    research! Find out how about life in the drivers' seat and
-                    how more than a million drivers work alongside algorithmic
-                    managers.
+                    Professor Connolly previously served as Chief Economist of 
+                    the Federal Communications Commission in 2006-2007 and 
+                    2008-2009, and as an Economist in International Research for
+                    the Federal Reserve Bank of New York from 1996 to 1997. 
+                    Professor Connolly has testified before Congress and 
+                    participated in White House Panels and Roundtables on Spectrum 
+                    Issues and International Trade Policy.Michelle Connolly received 
+                    her B.A. in 1990 and Ph.D. in 1996 in economics from Yale 
+                    University.
                   </p>
                   <p className="mt-3 font-light text-gray-300">
-                    Professor Cameron received a Ph.D. in management at the
-                    University of Michigan and her undergraduate degree in
-                    electrical engineering and computer science from Harvard
-                    College. Her award-winning work has been published in
-                    academic journals such as the Organization Science, Journal
-                    of Applied Psychology, and Organizational Behavior and Human
-                    Decision Sciences and featured in numerous media outlets
-                    such as the Washington Post, Forbes, and Fast Company.
+                    Professor Connolly's current research focuses on 
+                    telecommunications policy, particularly spectrum policy and 
+                    broadband policy.
                   </p>
                 </div>
               </div>

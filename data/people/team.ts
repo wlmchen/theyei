@@ -242,7 +242,12 @@ const team: Member[] = [
   {
     name: "Jonathan De Caro",
     positions: ['Sponsorship and Grant Coordinator'],
-    linkedin: 'jonathandecaro'
+    linkedin: 'jonathandecaro',
+  },
+  {
+    name: "Nikhil Kumarusa",
+    positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
+    linkedin: 'nikhilkumarusa',
   },
   {
     name: 'Pratyaksha Sharma',
