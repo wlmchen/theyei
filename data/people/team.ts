@@ -278,6 +278,11 @@ const team: Member[] = [
     positions: ['Team Ambassador'],
   },
   {
+    name: 'Anish Madireddy',
+    positions: ['Team Ambassador'],
+    linkedin: 'anish-madireddy-205874244',
+  },
+  {
     name: "Effie Lin",
     positions: ["Team Abassador"],
     linkedin: 'effie-lin-572a78282'

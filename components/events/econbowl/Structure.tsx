@@ -11,7 +11,7 @@ const writtenRound = [
     id: 1,
     name: 'The Exam',
     description:
-      'During EconBowl, teams of 3-4 will have 60 minutes to collaboratively complete 50 questions. Each team will work together, and team captains will submit one exam on behalf of the entire team.',
+      'During EconBowl, teams of 3-4 will have 60 minutes to collaboratively complete 60 questions. Each team will work together, and team captains will submit one exam on behalf of the entire team.',
     icon: PencilIcon,
   },
 ]
