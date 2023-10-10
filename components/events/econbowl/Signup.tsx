@@ -340,7 +340,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
                       </li>
                       <li>Keep your microphone unmuted</li>
                       <li>Do not have any notes or other material out</li>
-                      <li>Have you phone face-down in the camera view</li>
+                      <li>Have your phone face-down in the camera view</li>
                       <li>There should be no typing</li>
                       <li>
                         The captains should have their screen share of the test
