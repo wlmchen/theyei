@@ -23,6 +23,7 @@ export default function econbowl() {
       <Speaker />
       <Prizes />
       <Structure />
+      <Schedule />
       <Resources />
       <Sponsors />
       <Signup />

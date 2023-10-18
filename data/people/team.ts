@@ -245,7 +245,7 @@ const team: Member[] = [
     linkedin: 'jonathandecaro',
   },
   {
-    name: "Nikhil Kumarusa",
+    name: "Nikhil Kumar",
     positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
     linkedin: 'nikhilkumarusa',
   },
