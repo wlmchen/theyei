@@ -41,7 +41,7 @@ export default function Schedule() {
         <div className="w-full m-auto flex flex-col mb-10 mt-4">
           <div className="text-gray-600 py-4 px-4">
             The Written Round will be held from 9:00 am to 12:00 pm
-            and quiz bowl round from 4:00 to 5:30 pm.
+            and Quiz Bowl Round from 4:00 to 5:30 pm.
           </div>
           <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
