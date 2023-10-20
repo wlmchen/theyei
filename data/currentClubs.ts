@@ -474,12 +474,12 @@ const clubs = [
     name: 'Beijing Haidian Kaiwen Academy',
     email: '16671762@qq.com',
     region: 'China'
-  }
+  },
   {
     name: 'Presidential School',
     email: 'marufbek@theyei.org',
     region: 'Uzbekistan'
-  }
+  },
   {
     name: 'The SMIC Private School',
     email: 'leoshin717@outlook.com',
