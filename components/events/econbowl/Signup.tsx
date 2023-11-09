@@ -33,7 +33,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
         <h2 className="text-center text-4xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl mb-8">
           Interested? Signup!
         </h2>
-        <p>
+{/*         <p>
           Please make sure that you and your team meet all eligibility
           requirements before signing up for EconBowl. If you have already
           registered, please DO NOT submit this form a second time. Email{' '}
@@ -59,7 +59,7 @@ const Signup: NextComponentType<NextPageContext, {}, Props> = (
           By registering and entering, you and your team members are agreeing to
           receive emails from the Youth Economics Initiatives regarding
           EconBowl, as well as future events and competitions.
-        </p>
+        </p> */}
       </div>
       <Formik
         initialValues={{
