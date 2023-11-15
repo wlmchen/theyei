@@ -479,6 +479,16 @@ const clubs = [
     name: 'The British School Manila',
     email: 'seanty1005@gmail.com',
     region: 'Philippines'
+  },
+  {
+    name: 'Presidential School',
+    email: 'marufbek@theyei.org',
+    region: 'Uzbekistan'
+  },
+  {
+    name: 'The SMIC Private School',
+    email: 'leoshin717@outlook.com',
+    region: 'China'
   }
 ]
 
