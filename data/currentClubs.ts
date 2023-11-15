@@ -474,6 +474,11 @@ const clubs = [
     name: 'Beijing Haidian Kaiwen Academy',
     email: '16671762@qq.com',
     region: 'China'
+  },
+  {
+    name: 'The British School Manila',
+    email: 'seanty1005@gmail.com',
+    region: 'Philippines'
   }
 ]
 
