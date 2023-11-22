@@ -221,6 +221,11 @@ const team: Member[] = [
     linkedin: 'simonfarruqui'
   },
   {
+    name: "Kayla Lin",
+    positions: ['Event Coordinator'],
+    linkedin: 'kayla-lin-22b603238'
+  },
+  {
     name: 'Isabell Kossar',
     positions: ['Accounting Manager', 'Club Associate'],
     linkedin: 'isabell-kossar-09884b212',
