@@ -29,18 +29,18 @@ const exec: Member[] = [
     github: 'wlmchen',
     email: 'williamchen@theyei.org',
   },
-  {
-    name: 'Saketh Maramraj',
-    positions: ['VP of Marketing / Multimedia'],
-    linkedin: 'sakethram-maramraj-a72b79247',
-  },
+  // {
+  //   name: 'Saketh Maramraj',
+  //   positions: ['VP of Marketing / Multimedia'],
+  //   linkedin: 'sakethram-maramraj-a72b79247',
+  // },
   {
     name: 'Jack Gordon',
     positions: ['VP of Resources'],
     linkedin: 'jack-gordon-085223210',
   },
   {
-    name: 'Ryan Feng',
+    name: 'Samuel Chen',
     positions: ['VP of Finance'],
     linkedin: 'ryan-feng-849980207',
   },
@@ -63,37 +63,10 @@ const exec: Member[] = [
 
 const team: Member[] = [
   {
-    name: 'Ananth Kashyap',
-    positions: ['Web Developer'],
-    linkedin: 'ananth-kashyap-88b996209',
-    github: 'AAkashyap1',
-  },
-  {
-    name: 'Tarun Eswar',
-    positions: ['Web Developer'],
-    linkedin: 'tarun-eswar-b10150233',
-    github: 'Tarune28',
-  },
-  {
     name: 'Evangeline Lin',
     positions: ['Web Developer', 'Event Coordinator'],
     linkedin: 'evangeline-lin-6b1bab224',
     github: 'belldandyy',
-  },
-  {
-    name: 'Caroline Wang',
-    positions: ['Social Media Manager', 'Graphic Designer'],
-    linkedin: 'caroline--wang',
-  },
-  {
-    name: 'Srithanya Satish',
-    positions: ['Blog Writer'],
-    linkedin: 'srithanya-s-4494841bb',
-  },
-  {
-    name: 'Sruti Elangovan',
-    positions: ['Video Editor', 'Graphic Designer'],
-    linkedin: 'sruti-elangovan-51166a202',
   },
   {
     name: "Jeffrey Liu",
@@ -104,16 +77,6 @@ const team: Member[] = [
     name: 'Snehil Kakani',
     positions: ['Graphic Designer'],
     linkedin: 'snehilkakani',
-  },
-  {
-    name: 'Amy Zhou',
-    positions: ['Marketing Specialist'],
-    linkedin: 'amy-zhou-933536181',
-  },
-  {
-    name: 'Shreya Jangada',
-    positions: ['Marketing Specialist', 'Regional Ambassador'],
-    linkedin: 'shreya-jangada-910651230',
   },
   {
     name: 'Simrat Oberoi',
@@ -160,11 +123,6 @@ const team: Member[] = [
     linkedin: 'aditya-kakarla-9729bb218',
   },
   {
-    name: 'Dario Soatto',
-    positions: ['Curriculum Developer'],
-    linkedin: 'helena-su-063965193',
-  },
-  {
     name: 'Auritro Chakraborty',
     positions: ['Curriculum Developer'],
     linkedin: 'auritro-chakraborty-01a4bb245',
@@ -180,42 +138,6 @@ const team: Member[] = [
     linkedin: 'wilson-tao-968270242',
   },
   {
-    name: 'Cameron Dolbow',
-    positions: ['Testing Developer'],
-    linkedin: 'cameron-dolbow',
-  },
-  {
-    name: 'Allen Ho',
-    positions: ['Testing Developer'],
-    linkedin: 'allen-h',
-    email: 'allenho@theyei.org',
-  },
-  {
-    name: 'Aidan Zhou',
-    positions: ['Testing Developer'],
-    linkedin: 'aidan-zhou-828282225',
-  },
-  {
-    name: 'William Shelton',
-    positions: ['Testing Developer'],
-    linkedin: 'william-shelton-533524241',
-  },
-  {
-    name: 'Lisa Oshiba',
-    positions: ['Event Coordinator'],
-    linkedin: 'lisa-oshiba-12994a218',
-  },
-  {
-    name: 'Cindy Zhu',
-    positions: ['Event Coordinator'],
-    linkedin: 'cindyyzhu',
-  },
-  {
-    name: 'Stephanie Wan',
-    positions: ['Event Coordinator'],
-    linkedin: 'stephanie-wan-b7452a23a',
-  },
-  {
     name: "Simon Farruqui",
     positions: ['Event Coordinator'],
     linkedin: 'simonfarruqui'
@@ -226,14 +148,9 @@ const team: Member[] = [
     linkedin: 'kayla-lin-22b603238'
   },
   {
-    name: 'Isabell Kossar',
-    positions: ['Accounting Manager', 'Club Associate'],
-    linkedin: 'isabell-kossar-09884b212',
-  },
-  {
-    name: 'Ranbir Jain',
-    positions: ['Club Associate'],
-    linkedin: 'ranbir-jain-549aa016b',
+    name: "Dia Chawla",
+    positions: ['Event Coordinator'],
+    linkedin: 'dia-chawla-ba93a4229'
   },
   {
     name: 'Yelim Lee',
@@ -244,15 +161,6 @@ const team: Member[] = [
     name: 'Emma Awoseyi',
     positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
     linkedin: 'emma-awoseyi',
-  },
-  {
-    name: 'Samuel Chen',
-    positions: ['Sponsorship and Grant Coordinator'],
-  },
-  {
-    name: "Jonathan De Caro",
-    positions: ['Sponsorship and Grant Coordinator'],
-    linkedin: 'jonathandecaro',
   },
   {
     name: "Nikhil Kumar",
