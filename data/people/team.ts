@@ -84,11 +84,6 @@ const team: Member[] = [
     linkedin: 'simrat-oberoi-806939241',
   },
   {
-    name: 'Yamini Venkatesan',
-    positions: ['Marketing Specialist'],
-    linkedin: 'yamini-venkatesan-48833422a',
-  },
-  {
     name: 'Alvina Lin',
     positions: ['Marketing Specialist'],
     linkedin: 'alvina-lin-75b5141b2',
