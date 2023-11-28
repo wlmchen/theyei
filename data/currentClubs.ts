@@ -489,6 +489,11 @@ const clubs = [
     name: 'The SMIC Private School',
     email: 'leoshin717@outlook.com',
     region: 'China'
+  },
+  {
+    name: 'Chinmaya International Residential School',
+    email: 'yash@theyei.org',
+    region: 'India'
   }
 ]
 
