@@ -47,7 +47,7 @@ export default function RequestDemo() {
               data.append('How did you hear about us?', values.hearAboutUs)
               data.append(
                 '_cc',
-                'admin@theyei.org,miriam@theyei.org,kavin@theyei.org,ian@theyei.org,henry@theyei.org,expansion@theyei.org'
+                'admin@theyei.org,miriam@theyei.org,kavin@theyei.org,ian@theyei.org,henry@theyei.org,expansion@theyei.org,williamchen@theyei.org,maria@theyei.org'
               )
               data.append('_replyto', values.email)
               data.append('_subject', 'New Curriculum Demo Request')
