@@ -1,4 +1,5 @@
 import SpeakerSlider from '../../components/home/SpeakerSlider'
+import WorkshopSlider from '../../components/home/WorkshopSlider'
 
 const featured = [
   {
@@ -33,6 +34,7 @@ const featured = [
     href: '/flip',
     imgTitle: 'flip',
     subtitle: 'YEI Program',
+    Component: WorkshopSlider
   },
   {
     title: 'Learning Portal',

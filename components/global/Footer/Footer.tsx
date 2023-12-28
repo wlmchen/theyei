@@ -132,7 +132,7 @@ export default function Footer() {
             ))}
           </div>
           <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            © 2022 Youth Economics Initiative Inc. All Rights Reserved.
+            © 2024 Youth Economics Initiative Inc. All Rights Reserved.
           </p>
         </div>
       </div>
