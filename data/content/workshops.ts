@@ -2,7 +2,7 @@ const workshops = [
     {
       date: 'December 8, 2022',
       name: 'College Finances Workshop',
-      vids: ['https://www.youtube.com/watch?v=EpfXoVANHNA'],
+      vids: ['https://www.youtube.com/watch?v=pe0ob7Q5zYk'],
     },
     {
       date: 'June 27, 2023',
