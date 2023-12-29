@@ -40,7 +40,7 @@ function Arrow({ type, onClick, isEdge }) {
         className={`${
           isEdge
             ? 'text-gray-400 cursor-not-allowed'
-            : 'cursor-pointer text-white'
+            : 'cursor-pointer text-gray-600'
         } block h-8 w-8`}
       />
     ) : (
@@ -49,7 +49,7 @@ function Arrow({ type, onClick, isEdge }) {
         className={`${
           isEdge
             ? 'text-gray-400 cursor-not-allowed'
-            : 'cursor-pointer text-white'
+            : 'cursor-pointer text-gray-600'
         } block h-8 w-6`}
       />
     )
