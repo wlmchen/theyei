@@ -45,9 +45,9 @@ const exec: Member[] = [
     linkedin: 'ryan-feng-849980207',
   },
   {
-    name: 'Audrey Sun',
+    name: "Dia Chawla",
     positions: ['VP of Events'],
-    linkedin: 'audrey-sun-a14545129',
+    linkedin: 'dia-chawla-ba93a4229'
   },
   {
     name: 'Maria Bueno',
@@ -141,11 +141,6 @@ const team: Member[] = [
     name: "Kayla Lin",
     positions: ['Event Coordinator'],
     linkedin: 'kayla-lin-22b603238'
-  },
-  {
-    name: "Dia Chawla",
-    positions: ['Event Coordinator'],
-    linkedin: 'dia-chawla-ba93a4229'
   },
   {
     name: 'Yelim Lee',
