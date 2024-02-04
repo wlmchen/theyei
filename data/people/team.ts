@@ -69,9 +69,9 @@ const team: Member[] = [
     github: 'belldandyy',
   },
   {
-    name: "Jeffrey Liu",
+    name: 'Jeffrey Liu',
     positions: ['Video Editor'],
-    linkedin: 'jeffery-liu-aba437278'
+    linkedin: 'jeffery-liu-aba437278',
   },
   {
     name: 'Snehil Kakani',
@@ -110,7 +110,7 @@ const team: Member[] = [
   {
     name: 'Anant Verma',
     positions: ['Marketing Specialist'],
-    linkedin: 'anant-verma-28950a260'
+    linkedin: 'anant-verma-28950a260',
   },
   {
     name: 'Aditya Karala',
@@ -133,19 +133,19 @@ const team: Member[] = [
     linkedin: 'wilson-tao-968270242',
   },
   {
-    name: "Simon Farruqui",
+    name: 'Simon Farruqui',
     positions: ['Event Coordinator'],
-    linkedin: 'simonfarruqui'
+    linkedin: 'simonfarruqui',
   },
   {
-    name: "Kayla Lin",
+    name: 'Kayla Lin',
     positions: ['Event Coordinator'],
-    linkedin: 'kayla-lin-22b603238'
+    linkedin: 'kayla-lin-22b603238',
   },
   {
-    name: "Dia Chawla",
+    name: 'Dia Chawla',
     positions: ['Event Coordinator'],
-    linkedin: 'dia-chawla-ba93a4229'
+    linkedin: 'dia-chawla-ba93a4229',
   },
   {
     name: 'Yelim Lee',
@@ -158,7 +158,7 @@ const team: Member[] = [
     linkedin: 'emma-awoseyi',
   },
   {
-    name: "Nikhil Kumar",
+    name: 'Nikhil Kumar',
     positions: ['Sponsorship and Grant Coordinator', 'Regional Ambassador'],
     linkedin: 'nikhilkumarusa',
   },
@@ -187,6 +187,10 @@ const team: Member[] = [
     positions: ['Regional Ambassador'],
   },
   {
+    name: 'Alex Melendy',
+    positions: ['Regional Ambassador'],
+  },
+  {
     name: 'Rohith Chadalawada',
     positions: ['Team Ambassador'],
   },
@@ -196,9 +200,9 @@ const team: Member[] = [
     linkedin: 'anish-madireddy-205874244',
   },
   {
-    name: "Effie Lin",
-    positions: ["Team Abassador"],
-    linkedin: 'effie-lin-572a78282'
+    name: 'Effie Lin',
+    positions: ['Team Abassador'],
+    linkedin: 'effie-lin-572a78282',
   },
   {
     name: 'Lavanya Gupta',
