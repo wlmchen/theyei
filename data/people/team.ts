@@ -187,6 +187,11 @@ const team: Member[] = [
 	linkedin: 'alexmelendy'
   },
   {
+    name: 'Dinassyl Smadil',
+    positions: ['Regional Ambassador'],
+    linkedin: 'dinassyl-smadil'
+  },
+  {
     name: 'Rohith Chadalawada',
     positions: ['Team Ambassador'],
   },
