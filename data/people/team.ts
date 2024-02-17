@@ -133,6 +133,10 @@ const team: Member[] = [
     linkedin: 'wilson-tao-968270242',
   },
   {
+    name: "Steven Chen",
+    positions: ['Curriculum Developer']
+  },
+  {
     name: 'Simon Farruqui',
     positions: ['Event Coordinator'],
     linkedin: 'simonfarruqui',
