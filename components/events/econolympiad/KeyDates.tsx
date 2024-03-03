@@ -11,10 +11,10 @@ import React from 'react'
  */
 const reasons = [
   {
-    title: 'March 4th',
+    title: 'March 9th, 2024',
     content: (
       <>
-        <b>Opening ceremony & prompts released (synchronous).</b>
+        <b>Prompts released (synchronous).</b>
         <br />
         {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a
@@ -31,15 +31,15 @@ const reasons = [
     ),
   },
   {
-    title: 'March 5th - March 25th',
+    title: 'March 9th, 2024 - March 39th, 2024',
     content: (
       <>
         <b>
           Prepare presentations (asynchronous).
           <br />
         </b>{' '}
-        Groups will have 20 days to research, collaborate, and record their
-        presentations. Upload your video by 11:59pm PST on March 25th.
+        Groups will have 3 weeks to research, collaborate, and record their
+        presentations. Upload your video by 11:59pm PST on March 30th.
         <br />
         {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a
@@ -56,7 +56,7 @@ const reasons = [
     ),
   },
   {
-    title: 'April 8th',
+    title: 'April 6th, 2024',
     content: (
       <>
         <b>
@@ -73,11 +73,11 @@ const reasons = [
     ),
   },
   {
-    title: 'April 22nd',
+    title: 'April 13/20th, 2024 (TBD)',
     content: (
       <>
         <b>
-          Debate round.
+          Debate round & awards ceremony (synchronous)
           <br />
         </b>{' '}
         Qualifying teams will have the chance to debate each other on a new
@@ -98,10 +98,10 @@ export default function KeyDates() {
           <p className="mt-2 text-3xl font-extrabold text-gray-900">
             Key Dates
           </p>
-          <p className="mt-4 text-lg text-gray-500">
+          {/* <p className="mt-4 text-lg text-gray-500">
             The event spans from March 4th to April 22nd. Scores and feedback
             for all competitors will be released shortly after the event.
-          </p>
+          </p> */}
         </div>
         <div className="mt-12 lg:mt-0 lg:col-span-2">
           <dl className="space-y-10">

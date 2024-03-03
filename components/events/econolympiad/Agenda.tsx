@@ -1,15 +1,13 @@
 import React from 'react'
 
 const openingSchedule = [
-  { time: '9:00 am', title: 'Opening Ceremony' },
-  { time: '9:30 am', title: 'Speaker Presentation' },
-  { time: '10:45 am', title: 'Raffle' },
-  { time: '11:00 am', title: 'Prompts Announced' },
+  { time: '9:00 am - 12:00 am', title: 'Debate Round' },
+  { time: '9:30 am', title: 'Awards Ceremony - Find out how your team did!' },
+  // { time: '10:45 am', title: 'Raffle' },
+  // { time: '11:00 am', title: 'Prompts Announced' },
 ]
 
-const ceremonySchedule = [
-  { time: '9:00 am - 12:00 pm', title: 'Debate Round' },
-]
+const ceremonySchedule = [{ time: '9:00 am - 12:00 pm', title: 'Debate Round' }]
 
 export default function Agenda() {
   return (
@@ -20,22 +18,22 @@ export default function Agenda() {
         </h2>
         <div className="mt-6 pt-5 text-gray-600 text-xl pb-1">
           <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
-            <div className="md:w-1/2">
+            <div className="m-auto">
               <ScheduleTable
                 schedule={openingSchedule}
-                title="Opening Ceremony Schedule (3/04/23)"
+                title="Debate Round & Awards Ceremony (4/13 or 4/20 - TBD)"
               />
+              <p className="text-base mt-4 ml-1 text-gray-500">
+                All listed times are in PDT.
+              </p>
             </div>
-            <div className="md:w-1/2">
+            {/* <div className="md:w-1/2">
               <ScheduleTable
                 schedule={ceremonySchedule}
                 title="Debate Round (4/22/23)"
               />
-            </div>
+            </div> */}
           </div>
-          <p className="text-base mt-4 ml-1 text-gray-500">
-            All listed times are in PDT.
-          </p>
         </div>
       </div>
     </div>

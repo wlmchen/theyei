@@ -119,14 +119,15 @@ export default function Info() {
             </span>
           </h1>
           <p className="mt-8 text-xl text-gray-500 leading-8">
-            EconOlympiad is a two-part competition focused on the application,
-            not merely the knowledge, of economics. The first part is a
-            presentation round in which you and your team will have three weeks
-            to develop and submit a video that responds to one of the two
+            EconOlympiad is a two-part competition focused on not just the
+            knowledge of economics, but also the application. The first part is
+            a presentation round in which you and your team will have three
+            weeks to develop and submit a video that responds to one of two
             provided prompts. The second part is a debate round. After
             completing the presentation, top teams will advance to a debate
             round. A prompt will be released, and teams will have one week to
-            research and prepare. will compose your team’s final score.
+            research and prepare. Results from both rounds will compose your
+            team’s final score.
           </p>
           <p className="mt-6 text-xl text-gray-500 leading-8">
             Professors from the country’s top economics programs will serve as
