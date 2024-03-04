@@ -65,7 +65,7 @@ const team: Member[] = [
   {
     name: 'Evangeline Lin',
     positions: ['Web Developer', 'Event Coordinator'],
-    linkedin: 'evangeline-lin-6b1bab224',
+    linkedin: 'evangeline-lin',
     github: 'belldandyy',
   },
   {

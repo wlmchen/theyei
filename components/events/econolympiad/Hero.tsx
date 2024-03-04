@@ -78,8 +78,8 @@ export default function Hero() {
                   </p>
                   <p className="mt-4">
                     Interested? EconOlympiad is open to ALL middle and high
-                    school students! Register below by{' '}
-                    <strong>February 28th at 11:59pm PST</strong>.
+                    school students! {/*Register below by{' '}
+                    <strong>February 28th at 11:59pm PST</strong>.*/}
                   </p>
                 </div>
                 <div>

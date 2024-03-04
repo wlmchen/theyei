@@ -22,8 +22,12 @@ const questions = [
     ),
   },
   {
-    q: 'Who is allowed to participate',
+    q: 'Who is allowed to participate?',
     a: 'Students in middle school or high school, including international students, are eligible to participate!',
+  },
+  {
+    q: 'How do I register?',
+    a: 'After creating your presentation, upload it onto the submission form and you will automatically be registered as one of our participating teams! ',
   },
   {
     q: 'Do competitors have to be a part of a YEI chapter?',
@@ -50,7 +54,7 @@ const questions = [
     q: 'Are there any materials needed to compete?',
     a: 'You will need a Zoom account to attend the opening ceremony, debate round, and awards ceremony. A device capable of recording is required for creating the presentation.',
   },
-  { q: 'Is there an entry fee to the competition?', a: 'EconOlympiad is absolutely free (the only cost to you is the opportunity cost)!' },
+  { q: 'Is there an entry fee to the competition?', a: 'EconOlympiad is absolutely free (the only cost for you is the opportunity cost)!' },
   {
     q: 'Any other questions, concerns, or feedback?',
     a: (
