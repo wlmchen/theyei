@@ -54,7 +54,7 @@ const questions = [
     q: 'Are there any materials needed to compete?',
     a: 'You will need a Zoom account to attend the opening ceremony, debate round, and awards ceremony. A device capable of recording is required for creating the presentation.',
   },
-  { q: 'Is there an entry fee to the competition?', a: 'EconOlympiad is absolutely free (the only cost for you is the opportunity cost)!' },
+  { q: 'Is there an entry fee to the competition?', a: 'EconOlympiad is absolutely free (the only cost is the opportunity cost of not participating)!' },
   {
     q: 'Any other questions, concerns, or feedback?',
     a: (
