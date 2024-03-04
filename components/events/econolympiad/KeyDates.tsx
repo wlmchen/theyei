@@ -14,7 +14,7 @@ const reasons = [
     title: 'March 9th, 2024',
     content: (
       <>
-        <b>Prompts released (synchronous).</b>
+        <b>Prompts released (asynchronous).</b>
         <br />
         {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a
@@ -31,7 +31,7 @@ const reasons = [
     ),
   },
   {
-    title: 'March 9th, 2024 - March 39th, 2024',
+    title: 'March 9th, 2024 - March 30th, 2024',
     content: (
       <>
         <b>
@@ -39,7 +39,7 @@ const reasons = [
           <br />
         </b>{' '}
         Groups will have 3 weeks to research, collaborate, and record their
-        presentations. Upload your video by 11:59pm PST on March 30th.
+        presentations. Upload and submit your video by 11:59pm PST on March 30th.
         <br />
         {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a
