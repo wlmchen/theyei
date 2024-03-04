@@ -72,10 +72,10 @@ export default function Hero() {
                     team-based competition to unravel solutions to current
                     economic issues.
                   </p>
-                  <p className="mt-4">
+                  {/*<p className="mt-4">
                     Not convinced? Keep scrolling to learn more about what
                     possibilities await!
-                  </p>
+                  </p> */}
                   <p className="mt-4">
                     Interested? EconOlympiad is open to ALL middle and high
                     school students! {/*Register below by{' '}
