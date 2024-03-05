@@ -18,9 +18,9 @@ const exec: Member[] = [
     linkedin: 'chinmayi-chittamuri-521881229',
   },
   {
-    name: 'Suden Prashar',
+    name: 'Rohith Chadalawada',
     positions: ['Chief of Staff'],
-    linkedin: 'suden-prashar-a1b7a7242',
+    linkedin: '',
   },
   {
     name: 'William Chen',
@@ -194,10 +194,6 @@ const team: Member[] = [
     name: 'Dinassyl Smadil',
     positions: ['Regional Ambassador'],
     linkedin: 'dinassyl-smadil'
-  },
-  {
-    name: 'Rohith Chadalawada',
-    positions: ['Team Ambassador'],
   },
   {
     name: 'Anish Madireddy',
