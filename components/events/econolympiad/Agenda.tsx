@@ -1,8 +1,8 @@
 import React from 'react'
 
 const openingSchedule = [
-  { time: '9:00 am - 12:00 am', title: 'Debate Round' },
-  { time: '9:30 am', title: 'Awards Ceremony - Find out how your team did!' },
+  { time: '9:00 am - 11:00 am', title: 'Debate Round' },
+  { time: '12:00 pm', title: 'Awards Ceremony - Find out how your team did!' },
   // { time: '10:45 am', title: 'Raffle' },
   // { time: '11:00 am', title: 'Prompts Announced' },
 ]
@@ -17,11 +17,11 @@ export default function Agenda() {
           Agenda
         </h2>
         <div className="mt-6 pt-5 text-gray-600 text-xl pb-1">
-          <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
-            <div className="m-auto">
+          <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 md:justify-center">
+            <div className="">
               <ScheduleTable
                 schedule={openingSchedule}
-                title="Debate Round & Awards Ceremony (4/13 or 4/20 - TBD)"
+                title="Debate Round & Awards Ceremony (4/20)"
               />
               <p className="text-base mt-4 ml-1 text-gray-500">
                 All listed times are in PDT.
