@@ -10,6 +10,7 @@ import Speaker from '../../components/events/econolympiad/Speaker'
 import Sponsors from '../../components/events/econolympiad/Sponsors'
 import Testimonials from '../../components/events/econolympiad/Testimonials'
 import Submit from '../../components/events/econolympiad/Submit'
+import Prompt from '../../components/events/econolympiad/Prompt'
 
 export default function econolympiad() {
   return (
@@ -22,10 +23,11 @@ export default function econolympiad() {
       <KeyDates />
       {/* <Prizes /> */}
       <Agenda />
+      <Prompt/>
       {/* <Speaker /> */}
-      <Testimonials />
       <Submit />
       <FAQs />
+      <Testimonials />
       <Sponsors />
     </Page>
   )

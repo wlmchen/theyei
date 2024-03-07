@@ -3,7 +3,12 @@ import React, { useState } from 'react'
 /*import Register from './Register'*/
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faUpload } from '@fortawesome/free-solid-svg-icons' 
+import {
+  faArrowRight,
+  faUpload,
+  faPen,
+  faClipboardCheck
+} from '@fortawesome/free-solid-svg-icons'
 
 export default function Hero() {
   return (
@@ -78,31 +83,48 @@ export default function Hero() {
                   </p> */}
                   <p className="mt-4">
                     Interested? EconOlympiad is open to ALL middle and high
-                    school students! {/*Register below by{' '}
+                    school students!{' '}
+                    {/*Register below by{' '}
                     <strong>February 28th at 11:59pm PST</strong>.*/}
                   </p>
+                  Register
                 </div>
                 <div>
-                  {/* <a
-                    href="https://form.jotform.com/230338152625148"
-                    target="_blank"
-                    className="mt-3 mr-2 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
-                  >
-                    Register
-                    <FontAwesomeIcon
-                      icon={faArrowRight}
-                      className="-mr-1 ml-3 h-4 w-4 text-gray-200"
-                    />
-                  </a> */}
-                  <div className="inline-flex"><AnchorLink href="#submit" offset={100}>
-                    <a className="mt-3 mr-2 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300">
-                      Submit
+                  <div className="inline-flex">
+                    <AnchorLink href="#prompt" offset={100}>
+                      <a className="mt-3 mr-2 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300">
+                        Prompt
+                        <FontAwesomeIcon
+                          icon={faPen}
+                          className="-mr-1 ml-3 h-4 w-4 text-gray-200"
+                        />
+                      </a>
+                    </AnchorLink>
+                  </div>
+                  <div className="inline-flex">
+                    <AnchorLink href="#submit" offset={100}>
+                      <a className="mt-3 mr-2 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300">
+                        Submit
+                        <FontAwesomeIcon
+                          icon={faUpload}
+                          className="-mr-1 ml-3 h-4 w-4 text-gray-200"
+                        />
+                      </a>
+                    </AnchorLink>
+                  </div>
+                  <div className="inline-flex">
+                    <a
+                      href="https://docs.google.com/document/d/1bcRQqvsWlHrv8gqD9h-Vpb53PqlpIBwsMVDU-XwDRlE/edit"
+                      target="_blank"
+                      className="mt-3 mr-2 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300"
+                    >
+                      Rubric
                       <FontAwesomeIcon
-                      icon={faUpload}
-                      className="-mr-1 ml-3 h-4 w-4 text-gray-200"
-                    />
+                        icon={faClipboardCheck}
+                        className="-mr-1 ml-3 h-4 w-4 text-gray-200"
+                      />
                     </a>
-                   </AnchorLink></div>
+                  </div>
                 </div>
               </div>
               <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
