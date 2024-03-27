@@ -21,7 +21,7 @@ export default function Agenda() {
             <div className="">
               <ScheduleTable
                 schedule={openingSchedule}
-                title="Debate Round & Awards Ceremony (4/20)"
+                title="Debate Round & Awards Ceremony (4/27)"
               />
               <p className="text-base mt-4 ml-1 text-gray-500">
                 All listed times are in PDT.
