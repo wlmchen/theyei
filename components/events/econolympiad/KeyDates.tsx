@@ -38,8 +38,8 @@ const reasons = [
           Prepare presentations (asynchronous).
           <br />
         </b>{' '}
-        Groups will have 3 weeks to research, collaborate, and record their
-        presentations. Upload and submit your video by 11:59pm PST on March 30th.
+        Groups will have 5 weeks to research, collaborate, and record their
+        presentations. Upload and submit your video by 11:59pm PST on April 13th.
         <br />
         {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a
@@ -81,7 +81,7 @@ const reasons = [
           <br />
         </b>{' '}
         Qualifying teams will have the chance to debate each other on a new
-        prompt. See cash prizes below!
+        prompt. 
       </>
     ),
   },

@@ -20,10 +20,10 @@ export default function econolympiad() {
     >
       <Hero />
       <Info />
+      <Prompt/>
       <KeyDates />
       {/* <Prizes /> */}
       <Agenda />
-      <Prompt/>
       {/* <Speaker /> */}
       <Submit />
       <FAQs />
