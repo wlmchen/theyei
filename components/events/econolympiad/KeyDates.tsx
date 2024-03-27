@@ -31,7 +31,7 @@ const reasons = [
     ),
   },
   {
-    title: 'March 9th, 2024 - March 30th, 2024',
+    title: 'March 9th, 2024 - April 13th, 2024 (extended)',
     content: (
       <>
         <b>
@@ -56,7 +56,7 @@ const reasons = [
     ),
   },
   {
-    title: 'April 6th, 2024',
+    title: 'April 20th, 2024',
     content: (
       <>
         <b>
@@ -73,7 +73,7 @@ const reasons = [
     ),
   },
   {
-    title: 'April 13/20th, 2024 (TBD)',
+    title: 'April 27th, 2024',
     content: (
       <>
         <b>
