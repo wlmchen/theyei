@@ -426,6 +426,11 @@ const clubs = [
     region: 'SoCal',
   },
   {
+    name: 'Classical High School',
+    email: 'simone@punchak.net',
+    region: 'Rhode Island'
+  },
+  {
     name: 'Triam Udom Suksa School',
     email: 'info@econclub-ectu.org',
     region: 'Thailand',
