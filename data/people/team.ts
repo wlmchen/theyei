@@ -29,11 +29,11 @@ const exec: Member[] = [
     github: 'wlmchen',
     email: 'williamchen@theyei.org',
   },
-  // {
-  //   name: 'Saketh Maramraj',
-  //   positions: ['VP of Marketing / Multimedia'],
-  //   linkedin: 'sakethram-maramraj-a72b79247',
-  // },
+  {
+    name: 'Alvina Lin',
+    positions: ['VP of Marketing / Multimedia'],
+    linkedin: 'alvina-lin-75b5141b2',
+  },
   {
     name: 'Jack Gordon',
     positions: ['VP of Resources'],
@@ -82,11 +82,6 @@ const team: Member[] = [
     name: 'Simrat Oberoi',
     positions: ['Marketing Specialist'],
     linkedin: 'simrat-oberoi-806939241',
-  },
-  {
-    name: 'Alvina Lin',
-    positions: ['Marketing Specialist'],
-    linkedin: 'alvina-lin-75b5141b2',
   },
   {
     name: 'Tanush Bhatnagar',
