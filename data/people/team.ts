@@ -205,6 +205,11 @@ const team: Member[] = [
     positions: ['Director of Flip'],
     linkedin: 'lavanya-gupta-b09778247',
   },
+  {
+    name: "Alex Xie",
+    positions: ['FLIP Partnership Manager'],
+    linkedin: 'alex-xie-0a7851284'
+  }
 ]
 
 export { team, exec }
