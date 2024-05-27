@@ -18,9 +18,9 @@ const exec: Member[] = [
     linkedin: 'chinmayi-chittamuri-521881229',
   },
   {
-    name: 'Rohith Chadalawada',
+    name: 'Effie Lin',
     positions: ['Chief of Staff'],
-    linkedin: '',
+    linkedin: 'effie-lin-572a78282',
   },
   {
     name: 'William Chen',
@@ -194,11 +194,6 @@ const team: Member[] = [
     name: 'Anish Madireddy',
     positions: ['Team Ambassador'],
     linkedin: 'anish-madireddy-205874244',
-  },
-  {
-    name: 'Effie Lin',
-    positions: ['Team Abassador'],
-    linkedin: 'effie-lin-572a78282',
   },
   {
     name: 'Lavanya Gupta',
