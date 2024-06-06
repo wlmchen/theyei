@@ -11,6 +11,7 @@ import Sponsors from '../../components/events/econolympiad/Sponsors'
 import Testimonials from '../../components/events/econolympiad/Testimonials'
 import Submit from '../../components/events/econolympiad/Submit'
 import Prompt from '../../components/events/econolympiad/Prompt'
+import Recap from '../../components/events/econolympiad/Recap'
 
 export default function econolympiad() {
   return (
@@ -19,6 +20,7 @@ export default function econolympiad() {
       desc="Youth Economics Initiative's (YEI) Flagship Competition, EconOlympiad, takes place every Spring.  Students compete in small teams to create comprehensive solutions and answer open ended questions. Exclusively available to YEI Members."
     >
       <Hero />
+      <Recap />
       <Info />
       {/* <Prompt/> */}
       <KeyDates />
