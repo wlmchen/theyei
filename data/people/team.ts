@@ -137,6 +137,11 @@ const team: Member[] = [
     linkedin: 'kayla-lin-22b603238',
   },
   {
+    name: 'Gaathri Chakka',
+    positions: ['Event Coordinator'],
+    linkedin: 'www.linkedin.com/in/gaathri-chakka-b20308279'
+  },
+  {
     name: 'Yelim Lee',
     positions: ['Club Associate'],
     linkedin: 'yelim-lee-354894239',
