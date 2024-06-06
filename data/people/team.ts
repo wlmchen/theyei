@@ -30,9 +30,9 @@ const exec: Member[] = [
     email: 'williamchen@theyei.org',
   },
   {
-    name: 'Alvina Lin',
-    positions: ['VP of Marketing / Multimedia'],
-    linkedin: 'alvina-lin-75b5141b2',
+    name: 'Jeffrey Liu',
+    positions: ['VP of Marketing'],
+    linkedin: 'jeffery-liu-aba437278',
   },
   {
     name: 'Jack Gordon',
@@ -55,10 +55,10 @@ const exec: Member[] = [
     linkedin: '',
   },
   {
-    name: 'Saqib Saiyed',
-    positions: ['VP of Flip'],
-    linkedin: 'saqib-saiyed-5898a0228',
-  },
+    name: "Alex Xie",
+    positions: ['VP of FLIP'],
+    linkedin: 'alex-xie-0a7851284'
+  }
 ]
 
 const team: Member[] = [
@@ -67,11 +67,6 @@ const team: Member[] = [
     positions: ['Web Developer', 'Event Coordinator'],
     linkedin: 'evangeline-lin',
     github: 'belldandyy',
-  },
-  {
-    name: 'Jeffrey Liu',
-    positions: ['Video Editor'],
-    linkedin: 'jeffery-liu-aba437278',
   },
   {
     name: 'Snehil Kakani',
@@ -196,14 +191,17 @@ const team: Member[] = [
     linkedin: 'anish-madireddy-205874244',
   },
   {
+    name: 'Rohan Gidvani',
+    positions: ['Team Ambassador']
+  },
+  {
+    name: 'Nikhil Godbole',
+    positions: ['Team Ambassador']
+  },
+  {
     name: 'Lavanya Gupta',
     positions: ['Director of Flip'],
     linkedin: 'lavanya-gupta-b09778247',
-  },
-  {
-    name: "Alex Xie",
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'alex-xie-0a7851284'
   }
 ]
 
