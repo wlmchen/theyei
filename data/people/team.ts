@@ -45,9 +45,9 @@ const exec: Member[] = [
     linkedin: 'ryan-feng-849980207',
   },
   {
-    name: "Dia Chawla",
+    name: 'Kayla Lin',
     positions: ['VP of Events'],
-    linkedin: 'dia-chawla-ba93a4229'
+    linkedin: 'kayla-lin-22b603238',
   },
   {
     name: 'Maria Bueno',
@@ -132,14 +132,14 @@ const team: Member[] = [
     linkedin: 'simonfarruqui',
   },
   {
-    name: 'Kayla Lin',
-    positions: ['Event Coordinator'],
-    linkedin: 'kayla-lin-22b603238',
-  },
-  {
     name: 'Gaathri Chakka',
     positions: ['Event Coordinator'],
     linkedin: 'www.linkedin.com/in/gaathri-chakka-b20308279'
+  },
+  {
+    name: 'Joanna Zhao',
+    positions: ['Event Coordinator'],
+    linkedin: 'joanna-zhao-640891308'
   },
   {
     name: 'Yelim Lee',
