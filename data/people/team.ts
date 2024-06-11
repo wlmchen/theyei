@@ -35,14 +35,14 @@ const exec: Member[] = [
     linkedin: 'jeffery-liu-aba437278',
   },
   {
-    name: 'Jack Gordon',
+    name: 'Dhruv Nagarajan',
     positions: ['VP of Resources'],
-    linkedin: 'jack-gordon-085223210',
+    linkedin: 'dhruv-nagarajan',
   },
   {
-    name: 'Samuel Chen',
+    name: 'Wilson Tao',
     positions: ['VP of Finance'],
-    linkedin: 'ryan-feng-849980207',
+    linkedin: 'wilson-tao-968270242',
   },
   {
     name: 'Kayla Lin',
@@ -112,16 +112,7 @@ const team: Member[] = [
     positions: ['Curriculum Developer'],
     linkedin: 'auritro-chakraborty-01a4bb245',
   },
-  {
-    name: 'Dhruv Nagarajan',
-    positions: ['Curriculum Developer'],
-    linkedin: 'dhruv-nagarajan',
-  },
-  {
-    name: 'Wilson Tao',
-    positions: ['Curriculum Developer'],
-    linkedin: 'wilson-tao-968270242',
-  },
+
   {
     name: "Steven Chen",
     positions: ['Curriculum Developer']
