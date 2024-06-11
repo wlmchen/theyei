@@ -8,14 +8,14 @@ type Member = {
 
 const exec: Member[] = [
   {
-    name: 'Anita Vasserman',
+    name: 'Saqib Saiyed',
     positions: ['CEO'],
     linkedin: 'anita-v-2733b5220',
   },
   {
-    name: 'Chinmayi Chittamuri',
+    name: 'Alvina Lin',
     positions: ['COO'],
-    linkedin: 'chinmayi-chittamuri-521881229',
+    linkedin: 'alvinalin12',
   },
   {
     name: 'Effie Lin',
@@ -198,6 +198,11 @@ const team: Member[] = [
     name: 'Lavanya Gupta',
     positions: ['Director of Flip'],
     linkedin: 'lavanya-gupta-b09778247',
+  },
+  {
+    name: "Michael Zhao",
+    positions: ['FLIP Partnership Manager'],
+    linkedin: 'michael-zhao-bb051b256'
   }
 ]
 
