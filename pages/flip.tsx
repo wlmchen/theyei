@@ -20,6 +20,7 @@ export default function flip() {
         applyLink="https://docs.google.com/forms/d/1bjyw2csfGtJRDt4UFgCU1eyrCIV_nKECSY4LNDfvSH4/viewform"
       />
       {/* <Event /> */}
+      <Curriculum />
 
       <ContentBlock
         subtitle="YEI FLIP"
@@ -52,7 +53,6 @@ export default function flip() {
         </p>
       </ContentBlock>
       <ApplicationCriteria />
-      <Curriculum />
     </Page>
   )
 }
