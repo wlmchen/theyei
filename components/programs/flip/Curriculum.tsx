@@ -33,11 +33,7 @@ export default function Curriculum() {
               approximately 30 hours worth of content and covers topics such as
               budgeting, loans, credit and debit cards, 401(k), retirement,
               interest, savings, investing, and insurance. retirement, interest,
-              savings, investing, and insurance. Learn more on the{' '}
-              <Link href="/resources">
-                <a className="green-link">resources page</a>
-              </Link>
-              .
+              savings, investing, and insurance.
             </p>
           }
         />
