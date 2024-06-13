@@ -133,6 +133,11 @@ const team: Member[] = [
     linkedin: 'joanna-zhao-640891308'
   },
   {
+    name: "Kailash Muthukumar",
+    positions: ['Event Coordinator'],
+    linkedin: 'kailash-m-78b9a3271'
+  },
+  {
     name: 'Yelim Lee',
     positions: ['Club Associate'],
     linkedin: 'yelim-lee-354894239',

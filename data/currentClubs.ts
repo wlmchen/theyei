@@ -45,7 +45,7 @@ const clubs = [
   },
   {
     name: 'American High School',
-    email: 'jcheng3537@gmail.com',
+    email: 'americanhs.econ@gmail.com',
     region: 'NorCal',
     founding: true,
   },
