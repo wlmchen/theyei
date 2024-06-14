@@ -187,9 +187,9 @@ const team: Member[] = [
     linkedin: 'dinassyl-smadil'
   },
   {
-    name: 'Anish Madireddy',
-    positions: ['Team Ambassador'],
-    linkedin: 'anish-madireddy-205874244',
+    name: 'Andre Poghosyan',
+    positions: ['Regional Ambassador'],
+    linkedin: 'andre-poghosyan'
   },
   {
     name: 'Rohan Gidvani',
