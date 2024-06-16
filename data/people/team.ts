@@ -187,17 +187,17 @@ const team: Member[] = [
     linkedin: 'dinassyl-smadil'
   },
   {
-    name: 'Andre Poghosyan',
-    positions: ['Regional Ambassador'],
-    linkedin: 'andre-poghosyan'
-  },
-  {
     name: 'Rohan Gidvani',
     positions: ['Team Ambassador']
   },
   {
     name: 'Nikhil Godbole',
     positions: ['Team Ambassador']
+  },
+  {
+    name: 'Andre Poghosyan',
+    positions: ['Team Ambassador'],
+    linkedin: 'andre-poghosyan'
   },
   {
     name: 'Lavanya Gupta',
