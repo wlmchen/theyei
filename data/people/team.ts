@@ -50,7 +50,7 @@ const exec: Member[] = [
     linkedin: 'kayla-lin-22b603238',
   },
   {
-    name: 'Maria Bueno',
+    name: 'Ashley Sosa',
     positions: ['VP of Clubs'],
     linkedin: '',
   },
