@@ -153,6 +153,11 @@ const team: Member[] = [
     linkedin: 'nikhilkumarusa',
   },
   {
+    name: 'Abhinav Arun',
+    positions: ['Sponsorship and Grant Coordinator'],
+    linkedin: 'abhinav-arun-2577a2285'
+  },
+  {
     name: 'Pratyaksha Sharma',
     positions: ['Regional Ambassador'],
     linkedin: 'pratyaksha-sharma-30a60a23b',
@@ -208,6 +213,11 @@ const team: Member[] = [
     name: "Michael Zhao",
     positions: ['FLIP Partnership Manager'],
     linkedin: 'michael-zhao-bb051b256'
+  },
+  {
+    name: 'Prasanna Chandankhede',
+    positions: ['FLIP Partnership Manager'],
+    linkedin: 'prasanna-chandankhede-328749287'
   }
 ]
 
