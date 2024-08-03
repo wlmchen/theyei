@@ -8,6 +8,24 @@ const speakers = [
     bio: 'Milgrom is best known for his contributions to the theory of auctions and auction design, for which he won the 2020 Nobel Prize in Economics. Much of his work on auction theory is summarized in his book, Putting Auction Theory to Work, published by Cambridge University Press. He is the Shirley and Leonard Ely professor of Humanities and Sciences in the department of economics and professor by courtesy at Stanford Graduate School of Business. He is also a member of the National Academy of Sciences, a fellow of the American Academy of Arts and Sciences, and director of the Market Design program at SIEPR.  ',
   },
   {
+    date: 'November 11, 2023',
+    name: 'Michelle Connolly',
+    occupation: 'Professor of Economics @ Duke University',
+    bio: "Professor Connolly previously served as Chief Economist of the Federal Communications Commission in 2006-2007 and 2008-2009, and as an Economist in International Research for the Federal Reserve Bank of New York from 1996 to 1997. Professor Connolly has testified before Congress and participated in White House Panels and Roundtables on Spectrum Issues and International Trade Policy.Michelle Connolly received her B.A. in 1990 and Ph.D. in 1996 in economics from Yale University. Professor Connolly's current research focuses on telecommunications policy, particularly spectrum policy and broadband policy.",
+  },
+  {
+    date: 'November 11, 2022',
+    name: 'Lindsey Cameron',
+    occupation: 'Professor @ UPenn Wharton',
+    bio: 'Lindsey D. Cameron is an assistant professor of management at the Wharton School, University of Pennsylvania and holds an appointment in the sociology department. She is a fellow (member) at the Institute of Advanced Studies in Princeton and a Faculty Affiliate at the Berkman Klein Center for Internet and Society for the 2023- 2024 academic year. She is a current affiliate and former faculty fellow at the Data and Society Research Institute. Her research focuses on how algorithmic management is changing the modern workplace, with an emphasis on the gig economy. Professor Cameron has an on-going, seven-year ethnography of the largest sector of the gig economy, the ride-hailing industry, examining how algorithms management changes managerial control. She recently completed a study on how the COVID-19 pandemic affected workers on various gig platforms (TaskRabbit, Instacart, AmazonFlex, Uber, Lyft, DoorDash). She is currently working on a project on how the gig economy’s business model adapts in the Global South, with a focus on the implications for management and workers.'
+  },
+  {
+    date: '',
+    name: 'Sven Beiker',
+    occupation: 'Lecturer @ Stanford',
+    bio: 'Dr. Sven Beiker is a Lecturer in Management at the Stanford Business School, and the Managing Director of Silicon Valley Mobility, an independent consulting & advisory firm. He covers the electrification, automation, connectivity, and sharing of automobiles through the lens of new technologies and business models. This is reflected in his teaching at Stanford as well as in his professional engagements. Prior to his independent consulting work, he served as an Expert Consultant for mobility topics at McKinsey & Company for 2.5 years.'
+  },
+  {
     date: 'January 31, 2021',
     name: 'Markus Ibert',
     occupation: 'Federal Reserve Economist',
