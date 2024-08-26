@@ -157,7 +157,7 @@ export default function Application() {
               }
               data.append(
                 '_cc',
-                'admin@theyei.org,miriam@theyei.org,kavin@theyei.org,ian@theyei.org,expansion@theyei.org,henry@theyei.org,maria@theyei.org'
+                'admin@theyei.org,williamchen@theyei.org,ashley@theyei.org,miriam@theyei.org,kavin@theyei.org,ian@theyei.org,expansion@theyei.org,henry@theyei.org,maria@theyei.org'
               )
               data.append(
                 '_autoresponse',
