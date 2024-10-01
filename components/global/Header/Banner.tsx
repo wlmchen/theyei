@@ -5,11 +5,11 @@ import {
 import { useRouter } from "next/router";
 
 const data = {
-    primary: "EconBowl will be held on November 11, 2023!",
+    primary: "EconBowl will be held on November 16, 2024!",
     secondary: "",
     linkText: "Register Now",
     link: "/events/econbowl",
-    enabled: false
+    enabled: true
 }
 
 export default function Banner() {
