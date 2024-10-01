@@ -96,7 +96,7 @@ export default function Hero() {
                   economics knowledge in a fast-paced environment. Represent
                   your high school, compete for glory, and win cash prizes!
                 </p>
-				                <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
+                {/* <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
                   Registration for EconBowl will open mid-September. For questions, please email <a
                     className="text-yei-primary-darker font-medium"
                     href="mailto:events@theyei.org"
@@ -104,19 +104,30 @@ export default function Hero() {
                     events@theyei.org
                   </a>{' '}
                   .
+                </p> */}
+
+                <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
+                  <b>
+                    Registration will close on November 12, 2024 at 11:59 PST
+                    (UTC−8).
+                  </b>{' '}
+                  The competition will be held on November 16, 9:00 AM PST
+                  through Zoom. Written round qualifiers be at 4:00 pm PST for
+                  finalists.
                 </p>
-			
-{/*                 <p className="mt-4 italic text-sm text-gray-400 max-w-xl m-auto">
-                  <b>Registration will close on November 8, 2023 at 11:59 PST
-                  (UTC−8).</b> The competition will be held on November 11, 2023
-                </p>
-                <AnchorLink
+                {/* <AnchorLink
                   href="#register"
                   offset={100}
                   className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-opacity-90 sm:px-8"
                 >
                   Register!
                 </AnchorLink> */}
+                <a
+                  href="https://tinyurl.com/6theconbowl"
+                  className="mt-4 inline-flex w-auto items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-opacity-90 sm:px-8"
+                >
+                  Register!
+                </a>
               </div>
             </div>
           </main>
