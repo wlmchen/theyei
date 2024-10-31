@@ -123,6 +123,11 @@ const team: Member[] = [
     positions: ['Curriculum Developer']
   },
   {
+    name: 'Nicholas Li',
+    positions: ['Curriculum Developer'],
+    linkedin: 'nikolaili'
+  },
+  {
     name: 'Simon Farruqui',
     positions: ['Event Coordinator'],
     linkedin: 'simonfarruqui',
