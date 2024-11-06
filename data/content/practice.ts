@@ -3,7 +3,7 @@ const practice = [
     title: 'Set 1: Questions',
     content:
       'View an official YEI EconBowl individual practice test.',
-    href: 'https://www.flexiquiz.com/SC/N/23971115-4295-4294-93c6-a5ecaeefe179',
+    href: 'https://docs.google.com/document/d/1Dn-0dUjicm0ShdaXIn7zDTJNJihsDFQBq5P9FB-yHvY/edit?usp=sharing',
   },
   {
     title: 'Set 1: Answers',
@@ -15,7 +15,7 @@ const practice = [
     title: 'Set 2: Questions',
     content:
       `View an official YEI EconBowl team practice test to test your team's knowledge.`,
-    href: 'https://www.flexiquiz.com/SC/N/066b8dc1-6948-45b7-a7b6-a0b5a2c5bb78',
+    href: 'https://docs.google.com/document/d/1XtE_8_dvEfgT9Mf6sIZG5LxsXuXy4D4kTDKFNQ-LhCw/edit?usp=sharing',
   },
   {
     title: 'Set 2: Answers',
