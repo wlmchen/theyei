@@ -9,7 +9,7 @@ const data = {
     secondary: "",
     linkText: "Register Now",
     link: "/events/econbowl",
-    enabled: true
+    enabled: false
 }
 
 export default function Banner() {

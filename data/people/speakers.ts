@@ -8,6 +8,12 @@ const speakers = [
     bio: 'Milgrom is best known for his contributions to the theory of auctions and auction design, for which he won the 2020 Nobel Prize in Economics. Much of his work on auction theory is summarized in his book, Putting Auction Theory to Work, published by Cambridge University Press. He is the Shirley and Leonard Ely professor of Humanities and Sciences in the department of economics and professor by courtesy at Stanford Graduate School of Business. He is also a member of the National Academy of Sciences, a fellow of the American Academy of Arts and Sciences, and director of the Market Design program at SIEPR.  ',
   },
   {
+    date: 'November 16, 2024',
+    name: "Lesley Mace",
+    occupation: 'Senior Outreach Advisor at the Federal Reserve Bank of Atlanta’s Birmingham Branch',
+    bio: 'Lesley Mace is a Senior Outreach Advisor at the Federal Reserve Bank of Atlanta’s Birmingham Branch. Prior to joining the Fed in 2010, she was an Instructor of Economics and Director of the Center for Economic Education at Auburn University Montgomery and a high school economics teacher. Lesley has also served as an adjunct faculty member at Florida State College Jacksonville and Daytona State College. A native of Auburn, Alabama, Lesley holds a B.A. in Economics and Foreign Language and a M.S. in Economics from Auburn University.'
+  },
+  {
     date: 'November 11, 2023',
     name: 'Michelle Connolly',
     occupation: 'Professor of Economics @ Duke University',

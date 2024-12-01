@@ -138,11 +138,6 @@ const team: Member[] = [
     linkedin: 'www.linkedin.com/in/gaathri-chakka-b20308279'
   },
   {
-    name: 'Joanna Zhao',
-    positions: ['Event Coordinator'],
-    linkedin: 'joanna-zhao-640891308'
-  },
-  {
     name: "Kailash Muthukumar",
     positions: ['Event Coordinator'],
     linkedin: 'kailash-m-78b9a3271'

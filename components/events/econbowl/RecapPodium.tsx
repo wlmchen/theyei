@@ -1,15 +1,12 @@
 const team = [
   {
-    name: 'Eden Prairie High School Team 1',
+    name: 'Grand Masters (109',
   },
   {
-    name: 'MV Flex',
+    name: 'Brighton Bananas (149)',
   },
   {
-    name: 'God Squad',
-  },
-  {
-    name: "ASDAN 2",
+    name: 'econathletes (18)',
   },
 ]
 
@@ -28,7 +25,7 @@ const individual = [
 export default function RecapPodium() {
   return (
     <div className="pt-8 pb-2 mb-4 flex flex-col w-auto h-auto overflow-x-auto overflow-y-visible">
-      <h1 className="mb-3 text-xl font-medium">4th Annual EconBowl Podium (Team)</h1>
+      <h1 className="mb-3 text-xl font-medium">2024 EconBowl Podium</h1>
       <div className="mb-8">
         <div className="align-middle inline-block">
           <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
