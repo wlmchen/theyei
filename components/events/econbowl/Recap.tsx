@@ -12,10 +12,10 @@ export default function Recap() {
               <span className="text-yei-primary-main xl:inline">Recap</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 font-medium sm:text-xl md:mt-5  md:max-w-3xl">
-              Thank you to our 400+ competitors and proctors!{' '}
+              Thank you to our 500+ competitors and proctors!{' '}
             </p>
             <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
-              On November 13th, 2024, over 400 competitors applied their economic knowledge and competed virtually for the chance to earn cash prizes and become Champions of the 4th Annual Econbowl. It was amazing to see such passion for economics from all across the world. Whether this is your first time hearing about EconBowl, or if you’re already a seasoned competitor, we look forward to seeing you next November!
+              On November 16th, 2024, over 500 competitors applied their economic knowledge and competed virtually for the chance to earn cash prizes and become Champions of the 4th Annual Econbowl. It was amazing to see such passion for economics from all across the world. Whether this is your first time hearing about EconBowl, or if you’re already a seasoned competitor, we look forward to seeing you next November!
             </p>
             {/* <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
               Recordings:{' '}
@@ -68,7 +68,7 @@ export default function Recap() {
         <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
           <img
             className="absolute inset-0 w-full h-full object-cover bg-yei-secondary-main"
-            src="/img/photos/econbowl20-21.png"
+            src="/img/photos/econbowl24.png"
             alt="EconBowl recap"
           />
         </div>
