@@ -17,12 +17,12 @@ export default function Curriculum() {
         in-depth FinLit learning, schools can use our 16-week High School FLIP
         curriculum below."
           slideLink="https://docs.google.com/presentation/d/e/2PACX-1vTGYfIoP4N5xo-WB3wDmGw0ogikHYvEAjJ4GK8096g1XKFJ4ybA6PlA_G1pHTTAn5dx6NFQQkOQxgUs/embed"
-          folderLink='https://drive.google.com/drive/folders/1U2G8m_cr2rwGYTsDKvGPImbmX2jPsUGV'
+          folderLink="https://drive.google.com/drive/folders/1U2G8m_cr2rwGYTsDKvGPImbmX2jPsUGV"
         />
         <CurriculumSection
           title="16-Week High School Curriculum"
           darkerBg={true}
-          folderLink='https://drive.google.com/drive/folders/1LkHpqZE3igG7tkEGAM8XoxozgSuO7CB0'
+          folderLink="https://drive.google.com/drive/folders/1LkHpqZE3igG7tkEGAM8XoxozgSuO7CB0"
           slideLink="https://docs.google.com/presentation/d/e/2PACX-1vRtiO_Jb6KgAQwLIeCIQ8l7tSfrYPv_JpEuB-X0F2dRH02QcJv4mfkdD20W-8zYZoKF5zSLUzV_yu4g/embed"
           content={
             <p>
@@ -36,6 +36,12 @@ export default function Curriculum() {
               savings, investing, and insurance.
             </p>
           }
+        />
+        <CurriculumSection
+          title="FLIP Net Price Calculator"
+          slideLink="https://docs.google.com/presentation/d/1Sem27iYDqh21a8BQMtuoyj97uKdsN4YB6U5UyvSGEmc/embed#slide=id.g4dfce81f19_0_45"
+          content="To further support college-bound students, the Youth Economics Initiative FLIP Department has made a Net Price Calculator Guide to help students with their college financing needs. Created by FLIP Partnership Manager Prasanna Chandankhede, this guide is intended to demystify college financing resources options."
+          caption="Preview of Net Price Calculator"
         />
       </div>
     </div>

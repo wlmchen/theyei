@@ -8,6 +8,7 @@ export default function CurriculumSection({
   ctaBtn,
   darkerBg,
   slideLink,
+  caption,
   folderLink
 }: DemoSectionProps) {
   return (
@@ -35,7 +36,7 @@ export default function CurriculumSection({
             </div>
             <div className="mt-6">
               <h2 className="text-3xl lg:text-4xl font-extrabold tracking-tight text-gray-900">
-                <a className="green-link" href={folderLink} target="_blank">
+                <a className="green-link" href={folderLink ? folderLink : null} target="_blank">
                   {title}
                   <FontAwesomeIcon
                     icon={faExternalLinkAlt}
@@ -56,7 +57,7 @@ export default function CurriculumSection({
               width="100%"
               className="overflow-hidden rounded-xl shadow-xl max-w-2xl h-60 md:h-96 block"
             ></iframe>
-            <div className="w-full md:px-16 lg:px-0 mt-2 text-sm text-gray-600 italic">Preivew of Curriculum</div>
+            <div className="w-full md:px-16 lg:px-0 mt-2 text-sm text-gray-600 italic">{caption ? caption : "Preivew of Curriculum"}</div>
         </div>
       </div>
     </div>
@@ -68,6 +69,7 @@ type DemoSectionProps = {
   content: ReactElement | string
   ctaBtn?: any
   darkerBg?: boolean
+  caption?: string
   slideLink: string
-  folderLink: string
+  folderLink?: string
 }
