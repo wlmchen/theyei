@@ -15,7 +15,7 @@ export default function Recap() {
               Thank you to our 500+ competitors and proctors!{' '}
             </p>
             <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
-              On November 16th, 2024, over 500 competitors applied their economic knowledge and competed virtually for the chance to earn cash prizes and become Champions of the 4th Annual Econbowl. It was amazing to see such passion for economics from all across the world. Whether this is your first time hearing about EconBowl, or if you’re already a seasoned competitor, we look forward to seeing you next November!
+              On November 16th, 2024, over 500 competitors applied their economic knowledge and competed virtually for the chance to earn cash prizes and become Champions of the 6th Annual Econbowl. It was amazing to see such passion for economics from all across the world. Whether this is your first time hearing about EconBowl, or if you’re already a seasoned competitor, we look forward to seeing you next November!
             </p>
             {/* <p className="mt-2 max-w-md mx-auto text-md text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl">
               Recordings:{' '}
