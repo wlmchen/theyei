@@ -202,10 +202,6 @@ const team: Member[] = [
     linkedin: 'dinassyl-smadil'
   },
   {
-    name: 'Rohan Gidvani',
-    positions: ['Team Ambassador']
-  },
-  {
     name: 'Nikhil Godbole',
     positions: ['Team Ambassador']
   },
