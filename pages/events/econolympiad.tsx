@@ -20,14 +20,14 @@ export default function econolympiad() {
       desc="Youth Economics Initiative's (YEI) Flagship Competition, EconOlympiad, takes place every Spring.  Students compete in small teams to create comprehensive solutions and answer open ended questions. Exclusively available to YEI Members."
     >
       <Hero />
-      <Recap />
+      {/* <Recap /> */}
       <Info />
       {/* <Prompt/> */}
       <KeyDates />
       {/* <Prizes /> */}
       {/* <Agenda /> */}
       {/* <Speaker /> */}
-      {/* <Submit /> */}
+      <Submit />
       <FAQs />
       <Testimonials />
       <Sponsors />

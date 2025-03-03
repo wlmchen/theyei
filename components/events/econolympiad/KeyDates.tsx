@@ -11,7 +11,7 @@ import React from 'react'
  */
 const reasons = [
   {
-    title: 'March 9th, 2024',
+    title: 'March 1st, 2025',
     content: (
       <>
         <b>Prompts released (asynchronous).</b>
@@ -31,7 +31,7 @@ const reasons = [
     ),
   },
   {
-    title: 'March 9th, 2024 - April 13th, 2024 (extended)',
+    title: 'March 1st, 2025 - April 24th, 2025',
     content: (
       <>
         <b>
@@ -39,7 +39,7 @@ const reasons = [
           <br />
         </b>{' '}
         Groups will have 5 weeks to research, collaborate, and record their
-        presentations. Upload and submit your video by 11:59pm PST on April 13th.
+        presentations. Upload and submit your video by 11:59pm PST on April 24th.
         <br />
         {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a
@@ -56,7 +56,7 @@ const reasons = [
     ),
   },
   {
-    title: 'May 4th, 2024 (changed)',
+    title: 'May 10th, 2025',
     content: (
       <>
         <b>
@@ -73,7 +73,7 @@ const reasons = [
     ),
   },
   {
-    title: 'May 11th, 2024 (changed)',
+    title: 'May 24th, 2025',
     content: (
       <>
         <b>

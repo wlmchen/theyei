@@ -77,15 +77,15 @@ export default function Hero() {
                     team-based competition to unravel solutions to current
                     economic issues.
                   </p>
-                  <p className="mt-4 text-sm italic">
+                  {/* <p className="mt-4 text-sm italic">
                     EconOlympiad 2024 has concluded, look out for more information next Spring!
-                  </p>
-                  {/* <p className="mt-4">
+                  </p> */}
+                  <p className="mt-4">
                     Interested? EconOlympiad is open to ALL middle and high
                     school students!{' '}
-                    Register below by{' '}
-                    <strong>February 28th at 11:59pm PST</strong>.
-                  </p> */}
+                    Submit your presentation by{' '}
+                    <strong>April 24th at 11:59pm PST</strong>.
+                  </p>
                 </div>
                 <div>
                   <div className="inline-flex">
@@ -99,7 +99,7 @@ export default function Hero() {
                       </a>
                     </AnchorLink>
                   </div>
-                  {/* <div className="inline-flex">
+                  <div className="inline-flex">
                     <AnchorLink href="#submit" offset={100}>
                       <a className="mt-3 mr-2 inline-flex items-center justify-center text-white px-5 py-3 border border-transparent text-md font-medium rounded-md bg-yei-primary-main hover:bg-yei-primary-darker trans-300">
                         Submit
@@ -109,7 +109,7 @@ export default function Hero() {
                         />
                       </a>
                     </AnchorLink>
-                  </div> */}
+                  </div>
                   <div className="inline-flex">
                     <a
                       href="https://docs.google.com/document/d/1bcRQqvsWlHrv8gqD9h-Vpb53PqlpIBwsMVDU-XwDRlE/edit"
