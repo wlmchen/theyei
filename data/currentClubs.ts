@@ -499,6 +499,61 @@ const clubs = [
     name: 'Chinmaya International Residential School',
     email: 'yash@theyei.org',
     region: 'India'
+  },
+  {
+    name: "The International School of Kuala Lumpur",
+    email: 'kizawa26@iskl.edu.my',
+    region: 'Malaysia'
+  },
+  {
+    name: 'Granada Hills Charter School',
+    email: '44491@student.ghctk12.com',
+    region: "SoCal"
+  },
+  {
+    name: "West Forsyth High School",
+    email: 'allenvarghese15@gmail.com',
+    region: 'Georgia'
+  },
+  {
+    name: 'Christopher Columbus High School',
+    email: 'acaram27080@columbushs.com',
+    region: 'Florida'
+  },
+  {
+    name: 'Üsküdar American Academy',
+    email:'ekutlucan27@my.uaa.k12.tr',
+    region: 'Turkey'
+  },
+  {
+    name: "Dwight School Seoul",
+    email: '1900229@dwight.or.kr',
+    region: "South Korea"
+  },
+  {
+    name: 'Georgetown Day School',
+    email: 'dyaveroglu27@gds.org',
+    region: 'Washington, DC'
+  },
+  {
+    name: 'Sage Hill School',
+    email: 'd6nielliu@gmail.com',
+    region: 'SoCal'
+  },
+  {
+    name: 'Jakarta Intercultural School',
+    email: 'mortonwu2009@gmail.com',
+    region: 'Indonesia'
+  },
+  {
+    name: 'Lincoln High School Seattle',
+    email: 'naomi.elsing@gmail.com',
+    region: 'Washington'
+  },
+  {
+    name: 'Renaissance College Hong Kong',
+    email: 'dilaratwo2@gmail.com',
+    region: 'Hong Kong'
   }
 ]
 
