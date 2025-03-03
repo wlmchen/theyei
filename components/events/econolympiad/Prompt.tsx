@@ -9,10 +9,7 @@ export default function Prompt() {
           <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 md:justify-center">
             <div className="">
               <p className="text-xl font-medium mt-4 ml-1 text-gray-700">
-                How should inequities between developed and developing countries
-                be factored into climate change policy? Should countries like
-                India and China be given “carbon space” to pursue
-                industrialization/modernization?
+                Evaluate the motivations and short/long-term political, economic, and social impacts of President Trump’s protectionist policies. Then, propose alternative policy solutions to address their challenges and/or unintended consequences, either as supplements or replacements.
               </p>
             </div>
             {/* <div className="md:w-1/2">

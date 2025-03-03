@@ -22,7 +22,7 @@ export default function econolympiad() {
       <Hero />
       {/* <Recap /> */}
       <Info />
-      {/* <Prompt/> */}
+      <Prompt/>
       <KeyDates />
       {/* <Prizes /> */}
       {/* <Agenda /> */}
