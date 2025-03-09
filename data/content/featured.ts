@@ -45,6 +45,14 @@ const featured = [
     subtitle: 'YEI Program',
   },
   {
+    title: 'WOWS',
+    content:
+      'Women of Wall Street (WOWS) empowers young women in economics, finance, and business. Through mentorship, industry insights, and networking, participants gain the skills and confidence to break barriers and succeed in the business world.',
+    href: '/events/wows',
+    imgTitle: 'wows-white',
+    subtitle: 'YEI Program',
+  },
+  {
     title: 'SELC/WELC',
     content:
       'Every Summer and Winter, YEI hosts a leadership conference to help our student leaders and outstanding staff members network, gain valuable leadership experience, and get the up to date information on YEI Programs.',
