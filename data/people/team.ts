@@ -211,6 +211,11 @@ const team: Member[] = [
     linkedin: 'andre-poghosyan'
   },
   {
+    name: 'Eric Lin',
+    positions: ['Team Ambassador'],
+    linkedin: 'eric-lin-579b3134b'
+  },
+  {
     name: 'Lavanya Gupta',
     positions: ['Director of Flip'],
     linkedin: 'lavanya-gupta-b09778247',
