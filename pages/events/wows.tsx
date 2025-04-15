@@ -1,14 +1,8 @@
-import React from 'react'
-import Hero from '../../components/programs/Hero'
-import Page from '../../components/utility/Page'
 import ContentBlock from '../../components/programs/ContentBlock'
-import Link from 'next/link'
-import ApplicationCriteria from '../../components/programs/flip/ApplicationCriteria'
-import Curriculum from '../../components/programs/flip/Curriculum'
-import Event from '../../components/programs/flip/Event'
-import Banner from '../../components/global/Header/Banner'
+import Curriculum from '../../components/programs/wows/Curriculum'
+import Hero from '../../components/programs/Hero'
 import Facts from '../../components/programs/wows/Facts'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import Page from '../../components/utility/Page'
 
 const FACTS = [
   {
@@ -73,6 +67,7 @@ export default function wows() {
         </p>
       </ContentBlock>
       <Facts facts={FACTS} />
+      <Curriculum />
     </Page>
   )
 }
