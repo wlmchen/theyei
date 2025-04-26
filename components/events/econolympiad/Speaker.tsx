@@ -10,7 +10,7 @@ export default function Speaker() {
               <div>
                 <div className="mt-6 text-xl text-white px-8 pb-16">
                   <h1 className="text-3xl sm:text-4xl tracking-tight font-black pt-8">
-                    About the Speakers
+                    About the Judges
                   </h1>
                   <div className="flex flex-wrap lg:flex-nowrap items-center gap-6 mt-6">
                     <div className="md:flex-[0_0_50%] md:basis-1/2">

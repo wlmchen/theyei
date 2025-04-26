@@ -31,15 +31,15 @@ const reasons = [
     ),
   },
   {
-    title: 'March 1st, 2025 - April 24th, 2025',
+    title: 'March 1st, 2025 - May 1st, 2025',
     content: (
       <>
         <b>
           Prepare presentations (asynchronous).
           <br />
         </b>{' '}
-        Groups will have 5 weeks to research, collaborate, and record their
-        presentations. Upload and submit your video by 11:59pm PST on April 24th.
+        Groups will have 6 weeks to research, collaborate, and record their
+        presentations. Upload and submit your video by 11:59pm PST on May 1st (DEADLINE EXTENDED).
         <br />
         {/* <p className="mt-2 text-sm flex items-start sm:items-center text-left w-full flex-col sm:flex-row">
           <a

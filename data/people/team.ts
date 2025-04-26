@@ -64,7 +64,7 @@ const exec: Member[] = [
 const team: Member[] = [
   {
     name: 'Evangeline Lin',
-    positions: ['Web Developer', 'Event Coordinator'],
+    positions: ['Web Developer'],
     linkedin: 'evangeline-lin',
     github: 'belldandyy',
   },
