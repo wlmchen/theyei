@@ -27,7 +27,6 @@ export default function econolympiad() {
       <Prizes />
       {/* <Agenda /> */}
       <Speaker />
-      <Submit />
       <FAQs />
       <Testimonials />
       <Sponsors />
