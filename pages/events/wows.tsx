@@ -3,6 +3,7 @@ import Curriculum from '../../components/programs/wows/Curriculum'
 import Hero from '../../components/programs/Hero'
 import Facts from '../../components/programs/wows/Facts'
 import Page from '../../components/utility/Page'
+import SpeakerGrid from '../../components/events/wows/SpeakerGrid'
 
 const FACTS = [
   {
@@ -10,8 +11,8 @@ const FACTS = [
       <>
         <b>18%</b> of figures in traditional economics textbooks are women,
         while only <b>7%</b> of economics referenced in leading introductory
-        economics textbooks are female. In short, gender is
-        misrepresented in economics textbooks!
+        economics textbooks are female. In short, gender is misrepresented in
+        economics textbooks!
       </>
     ),
     link: 'https://fordschool.umich.edu/files/stevenson-manuscript-textbooks.pdf',
@@ -42,6 +43,43 @@ export default function wows() {
         applyLink="https://docs.google.com/forms/u/4/d/e/1FAIpQLSc0G3fSrUg4rHwCjThgqnII8pbUrwEKazu3xc3xNZkj5fLeDQ/viewform?usp=header"
       />
       <ContentBlock
+        title="Register now for our first event"
+        subtitle="Event"
+        boa={false}
+        imgSrc="/img/people/wows/yolanda-perez.jpg"
+      >
+        <p>
+          We are excited to announce our first event on June 19th at 6:00 PM
+          EST!
+        </p>
+        <p>
+          Featured Speaker:{' '}
+          <a className="text-yei-primary-main underline" href="#speakers">
+            Yolanda Perez
+          </a>{' '}
+          - Senior VP and International Wealth Advisor at Truist Wealth
+        </p>
+        <p>Eligibility: High school and middle school girls!</p>
+        <p>
+          Bonus: Two lucky attendees will get their college essays reviewed by
+          Stanford admit Saqib Saiyed (former CEO) or UC Berkeley admit Alvina
+          Lin (former COO).
+        </p>
+        <p>
+          <b>Registration Closes on June 15th at 11:59 pm PST</b>. Registration
+          and attendance is 100% free!
+        </p>
+        <a
+          href={
+            'https://docs.google.com/forms/d/e/1FAIpQLSepIxA9OUrKq3H9CYRsx7dZw6X-YGL_03e3IIFNmhO8y3j2og/viewform'
+          }
+          target="_blank"
+          className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yei-primary-main hover:bg-green-700 sm:px-8"
+        >
+          Register
+        </a>
+      </ContentBlock>
+      <ContentBlock
         subtitle="YEI WOWS"
         title="Women of Wall Street"
         imgSrc="/img/photos/programs/flip.jpg"
@@ -68,6 +106,7 @@ export default function wows() {
       </ContentBlock>
       <Facts facts={FACTS} />
       <Curriculum />
+      <SpeakerGrid />
     </Page>
   )
 }
