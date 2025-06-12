@@ -8,57 +8,56 @@ type Member = {
 
 const exec: Member[] = [
   {
-    name: 'Saqib Saiyed',
-    positions: ['CEO'],
-    linkedin: 'saqibsaiyed',
+    name: 'Kayla Lin',
+    positions: ['Chief Executive Officer'],
+    linkedin: 'kayla-l-22b603238',
   },
   {
-    name: 'Alvina Lin',
-    positions: ['COO'],
-    linkedin: 'alvinalin12',
-  },
-  {
-    name: 'Effie Lin',
-    positions: ['Chief of Staff'],
-    linkedin: 'effie-lin-572a78282',
-  },
-  {
-    name: 'William Chen',
-    positions: ['Director of Tech'],
-    linkedin: 'william-chen-506145249',
-    github: 'wlmchen',
-    email: 'williamchen@theyei.org',
-  },
-  {
-    name: 'Jeffrey Liu',
-    positions: ['VP of Marketing'],
+    name: 'Jeffery Liu',
+    positions: ['Chief Operating Officer'],
     linkedin: 'jeffery-liu-aba437278',
   },
   {
-    name: 'Dhruv Nagarajan',
+    name: 'Eric Lin',
+    positions: ['Chief of Staff'],
+    linkedin: 'eric-lin-579b3134b',
+  },
+  {
+    name: 'Sepandar Farhood',
+    positions: ['VP of Tech'],
+    linkedin: 'sepandar-farhood',
+    github: 'flashrun24',
+  },
+  {
+    name: 'Kunyuan Zou',
+    positions: ['VP of Marketing'],
+    linkedin: 'kunyuan-zou-70869924a',
+  },
+  {
+    name: 'Eric Bagg',
     positions: ['VP of Resources'],
-    linkedin: 'dhruv-nagarajan',
+    linkedin: 'eric-bagg-b9180b26a',
   },
   {
-    name: 'Wilson Tao',
+    name: 'Abhinav Arun',
     positions: ['VP of Finance'],
-    linkedin: 'wilson-tao-968270242',
+    linkedin: 'abhinav-a-2577a2285',
   },
   {
-    name: 'Kayla Lin',
+    name: 'Gaathri Chakka',
     positions: ['VP of Events'],
-    linkedin: 'kayla-lin-22b603238',
+    linkedin: 'gaathri-chakka-b20308279',
   },
   {
-    name: 'Ashley Sosa',
+    name: 'Matias Buitrago',
     positions: ['VP of Clubs'],
-    linkedin: '',
+    linkedin: 'matias-buitrago-53129a307',
   },
   {
-    name: "Alex Xie",
+    name: 'Prasanna Chandankhede',
     positions: ['VP of FLIP'],
-    linkedin: 'alex-xie-0a7851284'
-  }
+    linkedin: 'prasanna-chandankhede-328749287',
+  },
 ]
 
 const team: Member[] = [
@@ -103,11 +102,6 @@ const team: Member[] = [
     linkedin: 'anant-verma-28950a260',
   },
   {
-    name: 'Kunyuan Zou',
-    positions: ['Marketing Specialist'],
-    linkedin: 'kunyuan-zou-70869924a'
-  },
-  {
     name: 'Aditya Karala',
     positions: ['Google Ads Manager'],
     linkedin: 'aditya-kakarla-9729bb218',
@@ -119,13 +113,13 @@ const team: Member[] = [
   },
 
   {
-    name: "Steven Chen",
-    positions: ['Curriculum Developer']
+    name: 'Steven Chen',
+    positions: ['Curriculum Developer'],
   },
   {
     name: 'Nicholas Li',
     positions: ['Curriculum Developer'],
-    linkedin: 'nikolaili'
+    linkedin: 'nikolaili',
   },
   {
     name: 'Simon Farruqui',
@@ -133,14 +127,9 @@ const team: Member[] = [
     linkedin: 'simonfarruqui',
   },
   {
-    name: 'Gaathri Chakka',
+    name: 'Kailash Muthukumar',
     positions: ['Event Coordinator'],
-    linkedin: 'www.linkedin.com/in/gaathri-chakka-b20308279'
-  },
-  {
-    name: "Kailash Muthukumar",
-    positions: ['Event Coordinator'],
-    linkedin: 'kailash-m-78b9a3271'
+    linkedin: 'kailash-m-78b9a3271',
   },
   {
     name: 'Yelim Lee',
@@ -158,14 +147,9 @@ const team: Member[] = [
     linkedin: 'nikhilkumarusa',
   },
   {
-    name: 'Abhinav Arun',
-    positions: ['Sponsorship and Grant Coordinator'],
-    linkedin: 'abhinav-arun-2577a2285'
-  },
-  {
     name: 'Peter Yang',
     positions: ['Sponsorship and Grant Coordinator'],
-    linkedin: 'peter-yang26'
+    linkedin: 'peter-yang26',
   },
   {
     name: 'Pratyaksha Sharma',
@@ -194,26 +178,21 @@ const team: Member[] = [
   {
     name: 'Alex Melendy',
     positions: ['Regional Ambassador'],
-	linkedin: 'alexmelendy'
+    linkedin: 'alexmelendy',
   },
   {
     name: 'Dinassyl Smadil',
     positions: ['Regional Ambassador'],
-    linkedin: 'dinassyl-smadil'
+    linkedin: 'dinassyl-smadil',
   },
   {
     name: 'Nikhil Godbole',
-    positions: ['Team Ambassador']
+    positions: ['Team Ambassador'],
   },
   {
     name: 'Andre Poghosyan',
     positions: ['Team Ambassador'],
-    linkedin: 'andre-poghosyan'
-  },
-  {
-    name: 'Eric Lin',
-    positions: ['Team Ambassador'],
-    linkedin: 'eric-lin-579b3134b'
+    linkedin: 'andre-poghosyan',
   },
   {
     name: 'Lavanya Gupta',
@@ -221,15 +200,20 @@ const team: Member[] = [
     linkedin: 'lavanya-gupta-b09778247',
   },
   {
-    name: "Michael Zhao",
+    name: 'Michael Zhao',
     positions: ['FLIP Partnership Manager'],
-    linkedin: 'michael-zhao-bb051b256'
+    linkedin: 'michael-zhao-bb051b256',
   },
   {
-    name: 'Prasanna Chandankhede',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'prasanna-chandankhede-328749287'
-  }
+    name: 'Drona Gaddam',
+    positions: ['Finance Team and Curriculum Developer'],
+    linkedin: 'drona-gaddam-359a07281',
+  },
+  {
+    name: 'Akshat Ranjan',
+    positions: ['Event Coordinator'],
+    linkedin: 'akshat-ranjan-b42416358',
+  },
 ]
 
 export { team, exec }
