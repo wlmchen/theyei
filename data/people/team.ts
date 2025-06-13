@@ -97,11 +97,6 @@ const team: Member[] = [
     positions: ['Marketing Specialist'],
   },
   {
-    name: 'Anant Verma',
-    positions: ['Marketing Specialist'],
-    linkedin: 'anant-verma-28950a260',
-  },
-  {
     name: 'Aditya Karala',
     positions: ['Google Ads Manager'],
     linkedin: 'aditya-kakarla-9729bb218',
@@ -120,11 +115,6 @@ const team: Member[] = [
     name: 'Nicholas Li',
     positions: ['Curriculum Developer'],
     linkedin: 'nikolaili',
-  },
-  {
-    name: 'Simon Farruqui',
-    positions: ['Event Coordinator'],
-    linkedin: 'simonfarruqui',
   },
   {
     name: 'Kailash Muthukumar',
