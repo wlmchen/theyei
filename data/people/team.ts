@@ -21,6 +21,7 @@ const exec: Member[] = [
     name: 'Eric Lin',
     positions: ['Chief of Staff'],
     linkedin: 'eric-lin-579b3134b',
+    email: 'ericlin@theyei.org',
   },
   {
     name: 'Sepandar Farhood',
@@ -203,6 +204,15 @@ const team: Member[] = [
     name: 'Akshat Ranjan',
     positions: ['Event Coordinator'],
     linkedin: 'akshat-ranjan-b42416358',
+  },
+  {
+    name: 'Kioni Chong',
+    positions: ['Sponsorship and Grant Coordinator'],
+  },
+  {
+    name: 'Eli Orbach',
+    positions: ['Event Coordinator'],
+    linkedin: 'eli-orbach-92a0b2341',
   },
 ]
 
