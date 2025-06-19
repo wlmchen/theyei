@@ -148,6 +148,11 @@ const team: Member[] = [
     linkedin: 'pratyaksha-sharma-30a60a23b',
   },
   {
+    name: 'Michael Zhao',
+    positions: ['Director of FLIP'],
+    linkedin: 'michael-zhao-bb051b256',
+  },
+  {
     name: 'Sean Young',
     positions: ['Regional Ambassador'],
     linkedin: 'sean-young-4504531a2',
@@ -184,16 +189,6 @@ const team: Member[] = [
     name: 'Andre Poghosyan',
     positions: ['Team Ambassador'],
     linkedin: 'andre-poghosyan',
-  },
-  {
-    name: 'Lavanya Gupta',
-    positions: ['Director of Flip'],
-    linkedin: 'lavanya-gupta-b09778247',
-  },
-  {
-    name: 'Michael Zhao',
-    positions: ['FLIP Partnership Manager'],
-    linkedin: 'michael-zhao-bb051b256',
   },
   {
     name: 'Drona Gaddam',

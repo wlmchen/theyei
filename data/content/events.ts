@@ -26,8 +26,7 @@ const events = [
   {
     title: 'College Fair',
     content:
-      'On February 13th from 3pm to 4pm PST, the Youth Economics Initiative will be hosting a college fireside chat with admission officers from notable economics and business universities. The panelists will be answering questions about their respective schools and tacking admissions during the unforeseen conditions of the pandemic. To register, please fill out the form!',
-    href: 'http://bit.ly/yeicollegefair',
+      'The Youth Economics Initiative hosted a college fireside chat with admission officers from notable economics and business universities. The panelists answering questions about their respective schools and tackling admissions during the unforeseen conditions of the pandemic.',
   },
   {
     title: 'Career Exploration Conferences',
