@@ -89,6 +89,10 @@ const team: Member[] = [
     linkedin: 'thananant-sibunruang-28080727a',
   },
   {
+    name: 'Jahaanshah Sheikh',
+    positions: ['Director of Tech'],
+  },
+  {
     name: 'Nikhil Tadepalli',
     positions: ['Marketing Specialist'],
     linkedin: 'nikhil-tadepalli-b9998a235',
@@ -116,6 +120,11 @@ const team: Member[] = [
     name: 'Nicholas Li',
     positions: ['Curriculum Developer'],
     linkedin: 'nikolaili',
+  },
+  {
+    name: 'Michael Zhao',
+    positions: ['Director of FLIP'],
+    linkedin: 'michael-zhao-bb051b256',
   },
   {
     name: 'Kailash Muthukumar',
@@ -146,11 +155,6 @@ const team: Member[] = [
     name: 'Pratyaksha Sharma',
     positions: ['Regional Ambassador'],
     linkedin: 'pratyaksha-sharma-30a60a23b',
-  },
-  {
-    name: 'Michael Zhao',
-    positions: ['Director of FLIP'],
-    linkedin: 'michael-zhao-bb051b256',
   },
   {
     name: 'Sean Young',
