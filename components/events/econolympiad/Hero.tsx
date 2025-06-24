@@ -7,7 +7,7 @@ import {
   faArrowRight,
   faUpload,
   faPen,
-  faClipboardCheck
+  faClipboardCheck,
 } from '@fortawesome/free-solid-svg-icons'
 
 export default function Hero() {
@@ -82,8 +82,7 @@ export default function Hero() {
                   </p> */}
                   <p className="mt-4">
                     Interested? EconOlympiad is open to ALL middle and high
-                    school students!{' '}
-                    Submit your presentation by{' '}
+                    school students! Submit your presentation by{' '}
                     <strong>May 1st at 11:59pm PST</strong>.
                   </p>
                 </div>
@@ -167,6 +166,13 @@ export default function Hero() {
                     fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)"
                   />
                 </svg>
+                <div className="relative text-base mx-auto my-auto">
+                  <img
+                    className="rounded-lg shadow-lg object-cover object-center w-100"
+                    src="/img/photos/econolympiad.png"
+                    alt="EconOlympiad Image"
+                  />
+                </div>
                 {/* <div className="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
                   <button
                     type="button"
