@@ -196,7 +196,7 @@ const team: Member[] = [
   },
   {
     name: 'Drona Gaddam',
-    positions: ['Finance Team and Curriculum Developer'],
+    positions: ['Finance Team and Curriculum Developer and YEI Podcast Co-Director'],
     linkedin: 'drona-gaddam-359a07281',
   },
   {
