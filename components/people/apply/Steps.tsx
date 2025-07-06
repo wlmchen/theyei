@@ -28,7 +28,7 @@ export default function Steps() {
             Fill out the{' '}
             <a
               target="_blank"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScuBLgcJLqseYxchYfhy94rr7GMuGDoT4vxaOcbrV7HQ8eDtw/viewform"
+              href="https://forms.gle/XrC4Gu9HH8FrTQiL9"
               className="font-medium text-gray-900"
             >
               leadership application
