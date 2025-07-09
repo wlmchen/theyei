@@ -63,12 +63,6 @@ const exec: Member[] = [
 
 const team: Member[] = [
   {
-    name: 'Evangeline Lin',
-    positions: ['Web Developer'],
-    linkedin: 'evangeline-lin',
-    github: 'belldandyy',
-  },
-  {
     name: 'Snehil Kakani',
     positions: ['Graphic Designer'],
     linkedin: 'snehilkakani',
@@ -130,6 +124,11 @@ const team: Member[] = [
     name: 'Kailash Muthukumar',
     positions: ['Event Coordinator'],
     linkedin: 'kailash-m-78b9a3271',
+  },
+  {
+    name: 'Johan Simon',
+    positions: ['Event Coordinator'],
+    linkedin: 'johan-simon-1b0807302',
   },
   {
     name: 'Yelim Lee',
