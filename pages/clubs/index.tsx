@@ -3,6 +3,7 @@ import Benefits from '../../components/clubs/index/Benefits'
 import CTA from '../../components/clubs/index/CTA'
 import Hero from '../../components/clubs/index/Hero'
 import Intro from '../../components/clubs/index/Intro'
+import Questions from '../../components/clubs/index/Questions'
 import Page from '../../components/utility/Page'
 
 export default function clubs() {
@@ -15,6 +16,7 @@ export default function clubs() {
       <Intro />
       <Benefits />
       <CTA />
+      <Questions/ >
     </Page>
   )
 }
