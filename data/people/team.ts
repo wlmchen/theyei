@@ -63,52 +63,13 @@ const exec: Member[] = [
 
 const team: Member[] = [
   {
-    name: 'Snehil Kakani',
-    positions: ['Graphic Designer'],
-    linkedin: 'snehilkakani',
-  },
-  {
-    name: 'Simrat Oberoi',
-    positions: ['Marketing Specialist'],
-    linkedin: 'simrat-oberoi-806939241',
-  },
-  {
-    name: 'Tanush Bhatnagar',
-    positions: ['Marketing Specialist'],
-    linkedin: 'tanush-bhatnagar-49a673273',
-  },
-  {
-    name: 'Thananant Sibunruang',
-    positions: ['Marketing Specialist'],
-    linkedin: 'thananant-sibunruang-28080727a',
-  },
-  {
     name: 'Jahaanshah Sheikh',
     positions: ['Director of Tech'],
-  },
-  {
-    name: 'Nikhil Tadepalli',
-    positions: ['Marketing Specialist'],
-    linkedin: 'nikhil-tadepalli-b9998a235',
-  },
-  {
-    name: 'Santoshi Voma',
-    positions: ['Marketing Specialist'],
-  },
-  {
-    name: 'Aditya Karala',
-    positions: ['Google Ads Manager'],
-    linkedin: 'aditya-kakarla-9729bb218',
   },
   {
     name: 'Auritro Chakraborty',
     positions: ['Curriculum Developer'],
     linkedin: 'auritro-chakraborty-01a4bb245',
-  },
-
-  {
-    name: 'Steven Chen',
-    positions: ['Curriculum Developer'],
   },
   {
     name: 'Nicholas Li',
