@@ -33,6 +33,11 @@ const events = [
     content:
       'YEI Career Exploration Conferences offer members to connect with professionals and professors to build stronger networks and foster meaningful relationships. Through Career Exploration Conferences, students are able to better understand the professional world and develop a strong idea of the pathways they have to future careers in economics, business, and finance.',
   },
+  {
+    title: 'Alumni Panel',
+    content: 'This Sunday! Join us on July 20th at 2 PM EST for a special virtual event featuring past YEI members now studying at top universities! You’ll get insider tips on college applications, essays, the Common App, extracurriculars, and more from students who’ve successfully navigated the process. Featured Panelists include: Saqib Saiyed from Stanford University, Alvina Lin from UC Berkeley, Sitan Zhan from NYU Stern, Darion Phan from UCLA, and Chinmayi Chittamuri from NYU Stern. Whether you’re starting your college journey or deep in the essay stage, this panel is packed with real advice from real students who’ve done it all.',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSdUPWX8M_OnwIRj1ny9VFbk8mKgdnByBMKRRihIJulOXpkVsg/viewform?usp=header',
+  },
 ]
 
 export default events
